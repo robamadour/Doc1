@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  2 FEB 2016 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  2 FEB 2016 12:50
 entering extended mode
 **puctesis_ejemplo.tex
 (puctesis_ejemplo.tex
@@ -778,7 +778,7 @@ File: latin1.def 2015/03/17 v1.2c Input encoding file
 (puctesis_ejemplo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-)
+ (texs/resumen.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
 LaTeX Font Info:    ... okay on input line 133.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
@@ -877,7 +877,7 @@ LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
 \c__siunitx_mathsf_int=\count196
 \c__siunitx_mathtt_int=\count197
- <logouc_23x30p38mm.pdf, id=205, 614.295pt x 794.97pt>
+ <logouc_23x30p38mm.pdf, id=209, 614.295pt x 794.97pt>
 File: logouc_23x30p38mm.pdf Graphic file (type pdf)
 
 <use logouc_23x30p38mm.pdf>
@@ -1017,9 +1017,9 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-])
+] [6])
 \tf@toc=\write5
- [6] [7]
+ [7]
 INDICE DE FIGURAS
 (puctesis_ejemplo.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -1041,19 +1041,16 @@ LaTeX Info: Redefining \% on input line 1.
 
 ] (texs/resumen.tex
 RESUMEN
-)
-Underfull \hbox (badness 10000) in paragraph at lines 20--291
-
- []
-
-(texs/abstract.tex [10
+) [10
 
 
 
 
-]
+
+] (texs/abstract.tex
 ABSTRACT
 ) [11
+
 
 
 ]
@@ -1089,88 +1086,144 @@ Overfull \hbox (5.28003pt too wide) in paragraph at lines 363--363
  \OT1/ptm/b/n/12 3.[] 
  []
 
-
-LaTeX Warning: Reference `ap:our_list' on page 5 undefined on input line 372.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+[5
 
 
-]
-<Figures/World_vsimple.pdf, id=396, 733.61816pt x 284.02223pt>
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   L
+l.376 L
+       os coeficientes que resultan de estimar la regresión (\ref{eq:model_r...
+] [6pdfTeX warning (ext4): destination with the same identifier (name{equation.
+3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.397 
+      pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.397 
+      ]
+
+LaTeX Warning: Reference `ap:our_list' on page 7 undefined on input line 398.
+
+<Figures/World_vsimple.pdf, id=416, 733.61816pt x 284.02223pt>
 File: Figures/World_vsimple.pdf Graphic file (type pdf)
 
 <use Figures/World_vsimple.pdf>
-Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 377.
+Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 403.
 (pdftex.def)             Requested size: 433.62pt x 167.87936pt.
 
-<Figures/Year_distribution.pdf, id=397, 246.69107pt x 96.31514pt>
+<Figures/Year_distribution.pdf, id=417, 246.69107pt x 96.31514pt>
 File: Figures/Year_distribution.pdf Graphic file (type pdf)
 
 <use Figures/Year_distribution.pdf>
-Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 384.
+Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 410.
 (pdftex.def)             Requested size: 346.89731pt x 135.43985pt.
- [6 <./Figures/World_vsimple.pdf> <./Figures/Year_distribution.pdf
 
-pdfTeX warning: pdflatex.exe (file ./Figures/Year_distribution.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->] [7] <Figures/Figura_BF.pdf, id=456, 614.53233pt x 172.56369pt>
-File: Figures/Figura_BF.pdf Graphic file (type pdf)
 
-<use Figures/Figura_BF.pdf>
-Package pdftex.def Info: Figures/Figura_BF.pdf used on input line 415.
-(pdftex.def)             Requested size: 433.62pt x 121.76799pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./Figures/Figura_BF.pdf>] [9]
+ [7]
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [8 <./Figures/World_vsimple.pdf> <./Figures/Year_distribution.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figures/Year_distribution.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+<Figures/Figura_BF2.pdf, id=486, 614.51427pt x 229.71118pt>
+File: Figures/Figura_BF2.pdf Graphic file (type pdf)
+
+<use Figures/Figura_BF2.pdf>
+Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 444.
+(pdftex.def)             Requested size: 433.62pt x 162.0936pt.
+ [10 <./Figures/Figura_BF2.pdf>] [11]
  4
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 436--436
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 465--465
  \OT1/ptm/b/n/12 4.[] 
  []
 
-[10
+[12
 
 
 ]
  5
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 440--440
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 469--469
  \OT1/ptm/b/n/12 5.[] 
  []
 
-[11
+[13
 
 
 ]
  6
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 446--446
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 475--475
  \OT1/ptm/b/n/12 6.[] 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 452.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 481.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12
+ [14
 
 
 ]
-Overfull \hbox (7.63686pt too wide) in paragraph at lines 474--475
+Overfull \hbox (7.63686pt too wide) in paragraph at lines 503--504
 []\OT1/ptm/m/n/12 El co-man-do []\OT1/pcr/m/n/12 \fullciteA \OT1/ptm/m/n/12 (ta
 m-bi[]en []\OT1/pcr/m/n/12 \citeA\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/12 \shortcite
 A\OT1/ptm/m/n/12 ) es em-plea-do cuan-
  []
 
 
-Overfull \hbox (50.72173pt too wide) in paragraph at lines 476--477
+Overfull \hbox (50.72173pt too wide) in paragraph at lines 505--506
 []\OT1/ptm/m/n/12 El co-man-do []\OT1/pcr/m/n/12 \citeyear \OT1/ptm/m/n/12 ge-n
 e-ra el a[]no del do-cu-men-to en-tre par[]ente-sis. Use []\OT1/pcr/m/n/12 \cit
 eyearNP
@@ -1179,8 +1232,8 @@ eyearNP
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-Overfull \hbox (15.10017pt too wide) in paragraph at lines 483--484
+ [15]
+Overfull \hbox (15.10017pt too wide) in paragraph at lines 512--513
 \OT1/ptm/m/n/12 man-do []\OT1/pcr/m/n/12 \cite[pp. 32--35]{Label}\OT1/ptm/m/n/1
 2 . Por ejem-plo, []\OT1/pcr/m/n/12 \cite[pp. 43--54]{KNU88}
  []
@@ -1188,33 +1241,33 @@ Overfull \hbox (15.10017pt too wide) in paragraph at lines 483--484
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-Overfull \hbox (24.18942pt too wide) in paragraph at lines 529--530
+ [17]
+Overfull \hbox (24.18942pt too wide) in paragraph at lines 558--559
 \OT1/ptm/m/n/12 ce-na-das en los ar-chi-vos []\OT1/pcr/m/n/12 .bib\OT1/ptm/m/n/
 12 , por ejem-plo, []\OT1/pcr/m/n/12 refs1.bib\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/
 12 refs2.bib\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/12 refs3.bib\OT1/ptm/m/n/12 ,
  []
 
-[16]
+[18]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 557.
- [17] [18]
-Overfull \hbox (19.70946pt too wide) in paragraph at lines 664--664
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 586.
+ [19] [20]
+Overfull \hbox (19.70946pt too wide) in paragraph at lines 693--693
 []  \OT1/pcr/m/n/10.95 author =       {D. W. Taylor and P. N. Johnson and W. T.
  Faulkner},[] 
  []
 
 
-Overfull \hbox (13.13947pt too wide) in paragraph at lines 664--664
+Overfull \hbox (13.13947pt too wide) in paragraph at lines 693--693
 []  \OT1/pcr/m/n/10.95 title =        {Local area radio navigation: a tool for 
 GPS-denied[] 
  []
 
 
-Overfull \hbox (6.56947pt too wide) in paragraph at lines 686--686
+Overfull \hbox (6.56947pt too wide) in paragraph at lines 715--715
 []                  \OT1/pcr/m/n/10.95 Rock Quality Parameters in Scandinavian 
 Tunnels},[] 
  []
@@ -1222,42 +1275,33 @@ Tunnels},[]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-Overfull \hbox (13.13947pt too wide) in paragraph at lines 708--708
+ [21]
+Overfull \hbox (13.13947pt too wide) in paragraph at lines 737--737
 []  \OT1/pcr/m/n/10.95 title =        {Control of Nonholonomic Systems with Dri
 ft Terms},[] 
  []
 
-[20]
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-[22]
+ [23]
+[24]
  7
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 795--795
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 824--824
  \OT1/ptm/b/n/12 7.[] 
  []
 
-[23
+[25
 
 
-] [24] [25] [26]
+] [26] [27] [28]
  8
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 880--880
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 909--909
  \OT1/ptm/b/n/12 8.[] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27
-
-
-]
-(puctesis_ejemplo.bbl [28]
-BIBLIOGRAFIA
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1265,15 +1309,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+(puctesis_ejemplo.bbl [30]
+BIBLIOGRAFIA
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [31
 
- [31]
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
 Underfull \hbox (badness 3838) in paragraph at lines 928--948
 $\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]   
 \OT1/ptm/m/n/12 doi: $10 [] .1145 / 1979742 []$
@@ -1282,10 +1335,10 @@ $\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [36]
 Underfull \hbox (badness 2012) in paragraph at lines 1377--1391
 []\OT1/ptm/m/n/12 Marshall, M. G., y Jag-gers, K.  (2012).  Po-lity iv pro-ject
 : Po-li-ti-cal re-gi-me
@@ -1300,7 +1353,7 @@ t/12 On-line (http://www. sys-te-mic-pea-ce.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [37]
 Underfull \hbox (badness 10000) in paragraph at lines 1754--1772
 $\OT1/pcr/m/n/12 ejwl [] .idm [] .oclc [] .org / login [] ?url = http :// searc
 h [] .ebscohost [] .com /$
@@ -1315,12 +1368,12 @@ $\OT1/pcr/m/n/12 login [] .aspx [] ?direct = true{&}db = sih{&}AN = 9208170745{
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [38]
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1889.
 
 )
-[37]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
+[39]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1337,18 +1390,18 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 \hyper@refstepcounter ...tHref }\hyper@anchorend }
                                                   \fi 
 ...
-l.944 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
+l.973 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
                                                  \label{ap:puctesis}
 ANEXO A
 
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 944--944
+Overfull \hbox (5.27931pt too wide) in paragraph at lines 973--973
 \OT1/ptm/b/n/12 ANEXO A.[] 
  []
 
 (LEEME.txt
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38
+ [40
 
 
 ]
@@ -1366,8 +1419,8 @@ porque son
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39])
-[40] (puctesis_plantilla.tex
+ [41])
+[42] (puctesis_plantilla.tex
 Overfull \hbox (10.38pt too wide) in paragraph at lines 26--26
 []\OT1/pcr/m/n/10 % en castellano en vez de acentos LaTeX tradicionales, e.j. \
 'a, \'e, etc. 
@@ -1376,11 +1429,11 @@ Overfull \hbox (10.38pt too wide) in paragraph at lines 26--26
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-[43]
+ [44]
+[45]
 Overfull \hbox (4.38pt too wide) in paragraph at lines 114--114
 []\OT1/pcr/m/n/10 \degree       {Ingeniero Civil de Industrias, con Diploma en 
 Ingenier\'ia
@@ -1395,7 +1448,7 @@ pagina de la
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [46]
 Overfull \hbox (10.38pt too wide) in paragraph at lines 160--160
 []\OT1/pcr/m/n/10 Escriba en un estilo sobrio sus agradecimientos a quienes con
 tribuyeron en
@@ -1410,7 +1463,7 @@ ina en blanco
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [47]
 Overfull \hbox (10.38pt too wide) in paragraph at lines 191--191
 []                 \OT1/pcr/m/n/10 % a la cuenta absoluta), produciendo una pag
 ina en blanco 
@@ -1443,7 +1496,7 @@ l tema de la
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [48]
 Overfull \hbox (10.38pt too wide) in paragraph at lines 224--224
 []\OT1/pcr/m/n/10 The abstract must contain between 100 and 300 words.  The abs
 tract must be
@@ -1470,7 +1523,7 @@ pagina de la
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [49]
 Overfull \hbox (4.38pt too wide) in paragraph at lines 276--276
 []\OT1/pcr/m/n/10 \chapter[SUPUESTOS BASICOS Y RESULTADOS PRELIMINARES]{SUPUEST
 OS BASICOS Y
@@ -1497,7 +1550,7 @@ abajos pioneros
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [50]
 Overfull \hbox (16.38pt too wide) in paragraph at lines 304--304
 []\OT1/pcr/m/n/10 \chapter[IMPLEMENTACION Y PRUEBAS]{IMPLEMENTACION Y METODOLOG
 IA DE PRUEBAS} 
@@ -1506,7 +1559,7 @@ IA DE PRUEBAS}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [51]
 Overfull \hbox (4.38pt too wide) in paragraph at lines 337--337
 []\OT1/pcr/m/n/10 %\nocite{*} % Para hacer que todas la referencias no citadas 
 aparezcan en
@@ -1527,8 +1580,8 @@ pter}{Index}}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50])
-[51] (abbrev.bib
+ [52])
+[53] (abbrev.bib
 Overfull \hbox (31.9803pt too wide) in paragraph at lines 8--8
 []\OT1/pcr/m/n/8 %Applied Mathematics and Optimization. An International Journa
 l with Applications to Stochastics.
@@ -1573,7 +1626,7 @@ Overfull \hbox (27.1803pt too wide) in paragraph at lines 39--39
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [54]
 Overfull \hbox (46.38031pt too wide) in paragraph at lines 54--54
 []\OT1/pcr/m/n/8 %Proceedings of the American Mathematical Society. Amer. Math.
  Soc., Providence, RI. ISSN 0002-9939. 
@@ -1582,14 +1635,8 @@ Overfull \hbox (46.38031pt too wide) in paragraph at lines 54--54
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53])
-[54] (puctesis_refs.bib
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
+ [55])
+[56] (puctesis_refs.bib
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
@@ -1599,6 +1646,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
 Overfull \hbox (36.7803pt too wide) in paragraph at lines 280--280
 []\OT1/pcr/m/n/8 booktitle={Human Capital: A Theoretical and Empirical Analysis
  with Special Reference to Education
@@ -1613,7 +1666,7 @@ e Definitions. The World Bank},
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+ [62]
 Overfull \hbox (12.78029pt too wide) in paragraph at lines 333--333
 []\OT1/pcr/m/n/8 title={Female socialization: how daughters affect their legisl
 ator fathers' voting on women's
@@ -1622,7 +1675,7 @@ ator fathers' voting on women's
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [63]
 Overfull \hbox (12.78029pt too wide) in paragraph at lines 384--384
 []\OT1/pcr/m/n/8 title={The effect of parental transfers and borrowing constrai
 nts on educational attainment}, 
@@ -1643,7 +1696,7 @@ ness from Political Experience},
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [64]
 Overfull \hbox (31.9803pt too wide) in paragraph at lines 422--422
 []\OT1/pcr/m/n/8 title={Human capital: A theoretical and empirical analysis, wi
 th special reference to education}, 
@@ -1664,7 +1717,7 @@ on,political,political behavior,psychology},
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [65]
 Overfull \hbox (12.78029pt too wide) in paragraph at lines 468--468
 []\OT1/pcr/m/n/8 abstract = {An experiment was arranged whereby all three judge
 s independently classified into
@@ -1841,7 +1894,7 @@ ions. Recently, however, a new
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [66]
 Overfull \hbox (17.58029pt too wide) in paragraph at lines 504--504
 []\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
 tos/Papers/Personality/Recurrent
@@ -1923,7 +1976,7 @@ tos/Papers/Personality/Goldberg.Big-Five-FactorsStructure.JPSP.1990.pdf:pdf},
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
+ [67]
 Overfull \hbox (7.98029pt too wide) in paragraph at lines 545--545
 []\OT1/pcr/m/n/8 title={Toward an adequate taxonomy of personality attributes: 
 Replicated factor structure in
@@ -2124,7 +2177,7 @@ tos/Papers/Personality/John{\_}et{\_}al{\_}2008.pdf:pdf},
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [68]
 Overfull \hbox (12.78029pt too wide) in paragraph at lines 569--569
 []\OT1/pcr/m/n/8 title={A comparative study of Zuckerman's three structural mod
 els for personality through the
@@ -2205,7 +2258,7 @@ self-report, acquaintance report,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [69]
 Overfull \hbox (41.5803pt too wide) in paragraph at lines 612--612
 []\OT1/pcr/m/n/8 title={Personality in its natural habitat: manifestations and 
 implicit folk theories of personality
@@ -2388,7 +2441,7 @@ Overfull \hbox (27.1803pt too wide) in paragraph at lines 641--641
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [70]
 Overfull \hbox (12.78029pt too wide) in paragraph at lines 659--659
 []\OT1/pcr/m/n/8 title={Using linguistic cues for the automatic recognition of 
 personality in conversation and
@@ -2400,7 +2453,7 @@ Overfull \hbox (7.98029pt too wide) in paragraph at lines 660--660
 l, Matthias R and Moore, Roger
  []
 
-) [69]pdfTeX warning (ext4): destination with the same identifier (name{chapter
+) [71]pdfTeX warning (ext4): destination with the same identifier (name{chapter
 .2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2417,33 +2470,33 @@ l, Matthias R and Moore, Roger
 \hyper@refstepcounter ...tHref }\hyper@anchorend }
                                                   \fi 
 ...
-l.987 \chapter{RECURSOS EN LA INTERNET}
-                                       
+l.1016 \chapter{RECURSOS EN LA INTERNET}
+                                        
 ANEXO B
 
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 987--987
+Overfull \hbox (5.27931pt too wide) in paragraph at lines 1016--1016
 \OT1/ptm/b/n/12 ANEXO B.[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70
+ [72
 
 
 ]
-[71] (puctesis_ejemplo.aux
+[73] (puctesis_ejemplo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1047.
+ (texs/resumen.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1076.
  ) 
 Here is how much of TeX's memory you used:
- 20803 strings out of 493673
- 374146 string characters out of 3141523
- 442913 words of memory out of 3000000
- 23513 multiletter control sequences out of 15000+200000
- 41477 words of font info for 97 fonts, out of 3000000 for 9000
+ 20824 strings out of 493673
+ 374415 string characters out of 3141523
+ 444894 words of memory out of 3000000
+ 23521 multiletter control sequences out of 15000+200000
+ 41984 words of font info for 98 fonts, out of 3000000 for 9000
  1186 hyphenation exceptions out of 8191
  40i,13n,42p,10387b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2453,15 +2506,16 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on puctesis_ejemplo.pdf (82 pages, 648096 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
+r8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on puctesis_ejemplo.pdf (84 pages, 668674 bytes).
 PDF statistics:
- 1330 PDF objects out of 1440 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 222 named destinations out of 1000 (max. 500000)
+ 457 words of extra memory for PDF output out of 10000 (max. 10000000)
 

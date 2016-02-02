@@ -287,7 +287,7 @@ El Se\~nor se sonri\'o, `Ah, ?`pero es que no ves?' dijo, `Aqu\'i han aprendido 
            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subimport*{texs/}{resumen}
+\include{texs/resumen}
 
 \subimport*{texs/}{abstract}
 
@@ -362,38 +362,67 @@ Numerosos estudios señalan la importancia de variadas características psicológic
            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{METODOLOGÍA Y DATOS}
 \section{Estimando importaciones, exportaciones y FDI}
+El objetivo de la primera etapa es estimar el efecto neto del líder en la variable de interés (importaciones, exportaciones o FDI). Para ello seguiremos la metodología de \citeA{jones2004leaders}. Estos autores estudian el efecto de los líderes en el crecimiento del Producto Interno Bruto (PIB). Su idea es observar el valor crecimiento promedio en los cinco años previos a la salida de un líder (período PRE) y compararlo con el crecimiento promedio en los cinco años posteriores a la salida del líder (período POST). Al estudiar el cambio de crecimiento en un conjunto de transiciones de líderes, \citeA{jones2004leaders} muestran que los líderes tienen un efecto significativo en el crecimiento económico de sus países.
+\subsection{Modelo econométrico}
+Consideramos una muestra de transiciones de líderes nacionales. Cada transición está caracterizada por el año y por el país en que ocurre la salida del líder que deja el cargo. Estas transiciones son indexadas por el sub-índice $z$. 
+
+Denotamos por $Y$ la variable de interés, e $Y_{it}$ el valor que toma para el país $i$ en el año $t$. Además se define un plazo de observación $T$ (en el análisis principal se fijará $T$ igual a 5 años). El objetivo es estimar, para cada transición $z$, el valor promedio de $Y$ en los $T$ años previos a la transición, cantidad que denotamos por $\widehat{PRE}_z$. De igual manera, se quiere estimar el valor promedio de $Y$ en los $T$ años posteriores a la transición, cantidad que denotamos por $\widehat{POST}_z$. Para estimar ambas cantidades usamos el siguiente modelo de regresión:
+\begin{equation}
+\label{eq:model_reg1}
+Y_{it} = \lambda_z^{\text{PRE}}PRE_z + \lambda_z^{\text{POST}}POST_z + \nu_i + \nu_t + \epsilon_{it},
+\end{equation}
+La variable $PRE_z$ es una indicatríz que toma el valor 1 cuando $i$ coincide con el país de la transición $z$ y cuando $t$ está dentro de los $T$ años previos al año de la transición $z$ (el año mismo en que ocurre la transición no es considerado). Análogamente, la variable $POST_z$ es una indicatriz que toma el valor 1 en el país y en los $T$ años posteriores a la transición $z$. La regresión (\ref{eq:model_reg1}) incluye efectos fijos de país y año, denotados por $\nu_i$ y $\nu_t$ respectivamente. El término de error, $\epsilon_{it}$, se asume con distribución normal, de media nula y varianza dependiente del país denotada por $\sigma_{\epsilon i}^2$.
+
+Los coeficientes que resultan de estimar la regresión (\ref{eq:model_reg1}) se usan para estimar $\widehat{PRE}_z$ y $\widehat{POST}_z$ mediante la siguiente ecuación:
+\begin{equation}
+\label{eq:pre_post}
+\begin{aligned}
+\widehat{PRE}_z &:= \lambda_{z}^{\text{PRE}}\\
+\widehat{POST}_z &:= \lambda_{z}^{\text{POST}}.
+\end{aligned}
+\end{equation}
+Por último, definimos la diferencia promedio de la variable de interés como
+\begin{equation}
+\label{eq:delta}
+\Delta Y_z = \widehat{POST}_z - \widehat{PRE}_z.
+\end{equation}
+En nuestro análisis interpretamos $\Delta Y_z$ como el efecto que tiene la transición de líder $z$ sobre la variable $Y$. Específicamente, notamos $\Delta Imports_z$ para referirnos al cambio en el crecimiento de importaciones, $\Delta Exports_z$ para el cambio en el crecimiento de exportaciones y $\Delta FDI_z$ para el cambio en FDI. Observamos que si las acciones de un líder se traducen en un crecimiento de las exportaciones comparativamente mayor con respecto a su sucesor, entonces $\Delta Imports_z$ tendrá signo negativo. 
+
 \section{Líderes en la muestra}
 La estrategia que seguimos en este estudio consta de dos etapas. En la primera etapa estimamos el efecto neto del líder sobre la variable de interés (importaciones, exportaciones o FDI). En la segunda etapa se estudia la relación entre este efecto neto y los Cinco Grandes que describen la personalidad del líder.  
 
 Un aspecto clave de la primera etapa es que el efecto neto del líder se obtiene al comparar el valor promedio de la variable de interés en los periodos antes y después de su salida o transición. Este aspecto plantea la siguiente dificultad metodológica: si el objetivo es estimar el efecto de las transiciones de líderes en el desarrollo de variables macro-económicas, entonces es necesario que estas transiciones no estén relacionadas o influidas por las condiciones económicas en el país. 
 
-Para enfrentar esta dificultad, la idea de \citeA{jones2004leaders} es centrarse en líderes que murieron mientras ocupaban el cargo, ya sea por causas naturales o por accidente. Estos autores sostienen que en tales casos el momento de la transición es efectivamente aleatorio y por lo tanto no está relacionado con las condiciones económicas que había en el país al momento de la transición. Consecuentemente, en este trabajo nos enfocamos en líderes que dejaron su cargo por causa de una grave enfermedad y por muerte, ya sea por causas naturales o por accidente. De aquí en adelante nos referiremos a tales transiciones como transiciones aleatorias. Esta definición coincide con la empleada en \cite{besley2011educated}.
+Para enfrentar esta dificultad, seguimos la idea de \citeA{jones2004leaders} de centrarse en líderes que murieron mientras ocupaban el cargo, ya sea por causas naturales o por accidente. Estos autores sostienen que en tales casos el momento de la transición es efectivamente aleatorio y por lo tanto no está relacionado con las condiciones económicas que había en el país al momento de la transición. Además de los líderes que murieron en el cargo también consideramos aquellos que salieron por causa de una grave enfermedad. Tales salidas inesperadas serán referidas de aqui en adelante como transiciones de líderes aleatorias. Esta definición coincide con la empleada en \cite{besley2011educated}.
 
-Nuestra muestra de transiciones aleatorias se basa en la base de datos Archigos versión 3.0 \cite{goemans2009introducing}, la cual contiene información sobre líderes nacionales de 183 países, entre los años 1875 y 2013. Usamos la información que provee Archigos sobre la manera en que cada líder dejó el cargo para identificar los líderes que tuvieron una salida aleatoria. De esta forma identificamos 239 líderes con transiciones aleatorias. De estos, 23 son descartados pues estuvieron en el cargo por un periodo demasiado breve como para haber producido un impacto significativo y sostenido en la economía del país. Adicionalmente, otros 25 líderes son descartados pues su salida se sitúa demasiado pronto luego de otra transición aleatoria. Nuestra muestra contiene finalmente 191 transiciones aleatorias. De estas, 158 corresponden a líderes que murieron en el cargo (por causas naturales o debido a un accidente fatal) y 33 corresponden a líderes que se vieron forzados a renunciar debido a una grave enfermedad. Para más detalles sobre los criterios de selección de los líderes véase el apéndice \ref{ap:our_list}.
+La muestra de transiciones aleatorias usada en este estudio se construyó a partir de la  base de datos Archigos versión 3.0 \cite{goemans2009introducing}, la cual contiene información sobre líderes nacionales de 183 países, entre los años 1875 y 2013. Usamos la información que provee Archigos sobre la manera en que cada líder dejó el cargo para identificar los líderes que tuvieron una salida aleatoria. De esta forma identificamos 239 líderes con transiciones aleatorias. De estos, 23 son descartados pues estuvieron en el cargo por un periodo demasiado breve como para haber producido un impacto significativo y sostenido en las importaciones o exportaciones del país. Adicionalmente, otros 25 líderes son descartados pues su salida se sitúa demasiado pronto luego de otra transición aleatoria. La muestra contiene finalmente 191 transiciones aleatorias. De estas, 158 corresponden a líderes que murieron en el cargo (por causas naturales o debido a un accidente fatal) y 33 corresponden a líderes que se vieron forzados a renunciar debido a una grave enfermedad. Para más detalles sobre los criterios de selección de los líderes véase el apéndice \ref{ap:our_list}.
 
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{\textwidth}
 		\includegraphics[width=\textwidth]{Figures/World_vsimple.pdf}
-		\caption{Distribution of leaders across countries}
+		\caption{Distribución geográfica de los líderes en la muestra.}
 		\label{fig:world_map}
 	\end{subfigure}
 	\\ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
 	\begin{subfigure}[b]{0.8\textwidth}
 		\includegraphics[width=\textwidth]{Figures/Year_distribution.pdf}
-		\caption{Distribution of leaders in time}
+		\caption{Distribución cronológica de los líderes en la muestra.}
 		\label{fig:timeline}
 	\end{subfigure}
 	%~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
-	\caption{Distribution of leaders with random transitions}
+	\caption{Distribución de los líderes con transiciones aleatorias.Fuente: elaboración propia.}
+	\label{fig:leader_dist}
 	\medskip % induce some separation between caption and explanatory material
 	\begin{minipage}{\textwidth} % choose width suitably
-		{\footnotesize  Notes:  The map above shows the distribution of leaders with random transitions in our sample across countries. The timeline below shows how leaders with random transitions are distributed in time. The earliest random transition is in 1875, the latest in 2012.  \par}
+		{\footnotesize  Notas:  El mapa (A) muestra la distribución geográfica de los líderes con transiciones aleatorias. La coloración del mapa indica el número de líderes provenientes de cada país. La línea de tiempo (B) muestra el número de transiciones aleatorias ocurridas en cada año durante el período comprendido entre 1870 y 2020.  \par}
 	\end{minipage}
 \end{figure}
 
+La Figura \ref{fig:leader_dist} muestra cómo los líderes con salidas aleatorias se distribuyen en los países y en los años que comprende este estudio. 
+Se observa en el mapa que la distriibución geográfico es uniforme y que todos los continentes están representados. De igual manera, la línea de tiempo muestra una distribución cuasi-uniforme de las transiciones aleatorias a lo largo del tiempo, con una frecuencia de transiciones levemente mayor a partir de 1960. 
 
 \section{Midiendo los Cinco Grandes}
 En este estudio se busca establecer una relación entre personalidad y desempeño de líderes nacionales, para lo cual se requiere una base de datos que permita analizar la relación entre estas variables. Sin embargo, a nuestro conocimiento,  no existe una base de datos con información sistemática de la personalidad de líderes nacionales. 
@@ -412,8 +441,8 @@ En uno de los artículos más citados de la literatura, \citeA{Mairesse2007} desar
 \subsection{De discursos políticos a los Cincos Grandes}
 El uso de modelos de predicción de la personalidad a partir de textos se presenta como un método consistente y sistemático para estimar la personalidad de los líderes nacionales en nuestra muestra. En este trabajo adoptamos la metodología de \citeA{Mairesse2007} y \citeA{Ramey2014} para obtener estimadores de los Cinco Grandes a partir de discursos políticos. La Figura \ref{fig:bf_discurso} muestra un esquema de este método.
 \begin{figure}[h]
-	\includegraphics[width=\textwidth]{Figures/Figura_BF.pdf}
-	\caption{Estimando los Cinco Grandes a partir de discursos políticos. Fuente: Elaboración propia.}
+	\includegraphics[width=\textwidth]{Figures/Figura_BF2.pdf}
+	\caption{Estimando los Cinco Grandes a partir de discursos políticos. Fuente: elaboración propia.}
 	\label{fig:bf_discurso}
 \end{figure}
 

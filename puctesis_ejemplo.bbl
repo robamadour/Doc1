@@ -85,62 +85,6 @@ Aluja, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Arnol$'$d%
-, Varchenko%
-\BCBL {}\ \BBA {} Gusein-Zade%
-}{%
-Arnol$'$d%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1982}}%
-}]{%
-ARN85}
-\APACinsertmetastar {%
-ARN85}%
-\begin{APACrefauthors}%
-Arnol$'$d, V\BPBI L.%
-, Varchenko, A\BPBI N.%
-\BCBL {}\ \BBA {} Gusein-Zade, S\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1982}.
-\newblock
-\APACrefbtitle {Singularities of Differentiable Maps} {Singularities of
-  differentiable maps}\ (\PrintOrdinal{Original 1982 edition in Russian,
-  English transl., Birkh\"auser, 1985}\ \BEd, \BVOL~I).
-\newblock
-\APACaddressPublisher{Moscow}{Nauka}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Arnol$'$d%
-, Varchenko%
-\BCBL {}\ \BBA {} Gusein-Zade%
-}{%
-Arnol$'$d%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1984}}%
-}]{%
-ARN88}
-\APACinsertmetastar {%
-ARN88}%
-\begin{APACrefauthors}%
-Arnol$'$d, V\BPBI L.%
-, Varchenko, A\BPBI N.%
-\BCBL {}\ \BBA {} Gusein-Zade, S\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1984}.
-\newblock
-\APACrefbtitle {Singularities of Differentiable Maps} {Singularities of
-  differentiable maps}\ (\PrintOrdinal{Original 1984 edition in Russian,
-  English transl., Birkh\"auser, 1988}\ \BEd, \BVOL~II).
-\newblock
-\APACaddressPublisher{Moscow}{Nauka}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Balz%
 }{%
 Balz%
@@ -405,61 +349,6 @@ Cattell, R\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Cecil%
-}{%
-Cecil%
-}{%
-{\protect \APACyear {1970}}%
-}]{%
-CEC70}
-\APACinsertmetastar {%
-CEC70}%
-\begin{APACrefauthors}%
-Cecil, S\BPBI O.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1970}.
-\unskip\
-\newblock
-\APACrefbtitle {Correlations of Rock Bolt Shotcrete Support and Rock Quality
-  Parameters in Scandinavian Tunnels} {Correlations of rock bolt shotcrete
-  support and rock quality parameters in scandinavian tunnels}\
-  \APACtypeAddressSchool {\BUPhD}{}{}.
-\unskip\
-\newblock
-\APACaddressSchool {U.S.A.}{Departament of Civil Engineering, University of
-  Illinois at Urbana Champaign}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Char%
-\ \protect \BOthers {.}}{%
-Char%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1991}}%
-}]{%
-CHAR91}
-\APACinsertmetastar {%
-CHAR91}%
-\begin{APACrefauthors}%
-Char, B\BPBI W.%
-, Geddes, K\BPBI O.%
-, Gonnet, G\BPBI H.%
-, Leong, B.%
-, Monagan, M\BPBI B.%
-\BCBL {}\ \BBA {} Watt, S\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1991}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Maple {V} Language Reference Manual} {Maple {V} language
-  reference manual}{\BBCQ}\ (\PrintOrdinal{Springer-Verlag}\ \BEd)\
-  [\bibcomputersoftwaremanual].
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Costa%
 \ \BBA {} McCrae%
 }{%
@@ -541,57 +430,6 @@ Cunha, F.%
   {Interpreting the evidence on life cycle skill formation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Handbook of the Economics of Education}{1}{}{697--812}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Cyborg%
-}{%
-Cyborg%
-}{%
-{\protect \APACyear {2012}}%
-}]{%
-CYB12}
-\APACinsertmetastar {%
-CYB12}%
-\begin{APACrefauthors}%
-Cyborg, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{june}{}.
-\newblock
-\APACrefbtitle {{Cybogrs in the {$\alpha$}-quadrant}.} {{Cybogrs in the
-  {$\alpha$}-quadrant}.}
-\newblock
-\begin{APACrefURL} \url{http://www.cyborgforce.org/alpha_quadrant/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Cyborg%
-}{%
-Cyborg%
-}{%
-{\protect \APACyear {3000}}%
-}]{%
-CYB00}
-\APACinsertmetastar {%
-CYB00}%
-\begin{APACrefauthors}%
-Cyborg, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{3000}{December}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Life in {U}nimatrix {O}ne} {The life in {U}nimatrix
-  {O}ne}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {{Proceedings of the} {IEEE Conf. on Decision and
-  Control}} {{Proceedings of the} {IEEE Conf. on Decision and Control}}\
-  (\BVOL~III, \BPGS\ 1001--1005).
-\newblock
-\APACaddressPublisher{Delta Quadrant}{{IEEE Press}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -789,35 +627,6 @@ Gerber, A\BPBI S.%
 \APACjournalVolNumPages{Annual Review of Political Science}{14}{1}{265--287}.
 \newblock
 \begin{APACrefDOI} \doi{10.1146/annurev-polisci-051010-111659} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Godhavn%
-, Balluchi%
-, Crawford%
-\BCBL {}\ \BBA {} Sastry%
-}{%
-Godhavn%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1997}}%
-}]{%
-GOD97}
-\APACinsertmetastar {%
-GOD97}%
-\begin{APACrefauthors}%
-Godhavn, J\BHBI M.%
-, Balluchi, A.%
-, Crawford, L\BPBI S.%
-\BCBL {}\ \BBA {} Sastry, S\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-\APACrefbtitle {Control of Nonholonomic Systems with Drift Terms} {Control of
-  nonholonomic systems with drift terms}\ \APACbVolEdTR {}{Memorandum M97/01}.
-\newblock
-\APACaddressInstitution{}{UC Berkeley-ERL}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1052,29 +861,6 @@ Heston, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Higham%
-}{%
-Higham%
-}{%
-{\protect \APACyear {1998}}%
-}]{%
-HIG98}
-\APACinsertmetastar {%
-HIG98}%
-\begin{APACrefauthors}%
-Higham, N\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1998}.
-\newblock
-\APACrefbtitle {Handbook of Writing for the Mathematical Sciences} {Handbook of
-  writing for the mathematical sciences}\ (\PrintOrdinal{2$^{nd}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Society for Industrial and Applied Mathematics (SIAM)}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 John%
 , Naumann%
 \BCBL {}\ \BBA {} Soto%
@@ -1184,79 +970,6 @@ Keefer, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Knuth%
-}{%
-Knuth%
-}{%
-{\protect \APACyear {1986}}%
-}]{%
-KNU86}
-\APACinsertmetastar {%
-KNU86}%
-\begin{APACrefauthors}%
-Knuth, D\BPBI E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1986}.
-\newblock
-\APACrefbtitle {Computers \& Typesetting, Volume {A}: The {\TeX}book}
-  {Computers \& typesetting, volume {A}: The {\TeX}book}.
-\newblock
-\APACaddressPublisher{}{Addison-Wesley}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Knuth%
-, Larrabee%
-\BCBL {}\ \BBA {} Roberts%
-}{%
-Knuth%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1988}}%
-}]{%
-KNU88}
-\APACinsertmetastar {%
-KNU88}%
-\begin{APACrefauthors}%
-Knuth, D\BPBI E.%
-, Larrabee, T.%
-\BCBL {}\ \BBA {} Roberts, P\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1988}.
-\newblock
-\APACrefbtitle {Mathematical Writing} {Mathematical writing}.
-\newblock
-\APACaddressPublisher{}{The Mathematical Association of America}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Lamport%
-}{%
-Lamport%
-}{%
-{\protect \APACyear {1994}}%
-}]{%
-LAM94}
-\APACinsertmetastar {%
-LAM94}%
-\begin{APACrefauthors}%
-Lamport, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1994}.
-\newblock
-\APACrefbtitle {{\LaTeX{}} -- A Document Preparation System} {{\LaTeX{}} -- a
-  document preparation system}\ (\PrintOrdinal{Updated for {\LaTeX{}}
-  $2_\varepsilon$, $2^{nd}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Addison-Wesley}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Li%
 \ \BBA {} Chignell%
 }{%
@@ -1336,29 +1049,6 @@ Mairesse, F.%
 \newblock
 \APACjournalVolNumPages{Journal of artificial intelligence
   research}{}{}{457--500}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Manski%
-}{%
-Manski%
-}{%
-{\protect \APACyear {1977}}%
-}]{%
-MAN77}
-\APACinsertmetastar {%
-MAN77}%
-\begin{APACrefauthors}%
-Manski, C\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1977}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The structure of random utility models} {The structure
-  of random utility models}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Theory and Decisions}{v. 8}{n. 3}{229--254}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1447,34 +1137,6 @@ Mehl, M\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Meijer%
-}{%
-Meijer%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-MEI05}
-\APACinsertmetastar {%
-MEI05}%
-\begin{APACrefauthors}%
-Meijer, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{June}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The \textsf{apacite} package. {\em Citation and
-  reference list with {\LaTeX{}} and {\textsc{Bib}\TeX{}} according to the
-  rules of the American Psychological Association}} {The \textsf{apacite}
-  package. {\em citation and reference list with {\LaTeX{}} and
-  {\textsc{bib}\TeX{}} according to the rules of the american psychological
-  association}}{\BBCQ}\ [\bibcomputersoftwaremanual].
-\newblock
-\APACaddressPublisher{9700 {AV} {G}roningen, {T}he {N}etherlands, {PO} Box
-  800}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Norman%
 }{%
 Norman%
@@ -1555,30 +1217,6 @@ Ramey, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sabin%
-}{%
-Sabin%
-}{%
-{\protect \APACyear {2004}}%
-}]{%
-SAB04}
-\APACinsertmetastar {%
-SAB04}%
-\begin{APACrefauthors}%
-Sabin, W\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2004}.
-\newblock
-\APACrefbtitle {The {G}regg Reference Manual: A Manual of Style, Grammar,
-  Usage, and Formatting} {The {G}regg reference manual: A manual of style,
-  grammar, usage, and formatting}\ (\PrintOrdinal{$10^{th}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{McGraw-Hill}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Simon%
 \ \BBA {} Uscinski%
 }{%
@@ -1602,140 +1240,6 @@ Simon, A\BPBI M.%
   {Prior experience predicts presidential performance}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Presidential Studies Quarterly}{42}{3}{514--548}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{Sistema de Bibliotecas}%
-}{%
-{Sistema de Bibliotecas}%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-SIBUC05}
-\APACinsertmetastar {%
-SIBUC05}%
-\begin{APACrefauthors}%
-{Sistema de Bibliotecas}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{April}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Normalizaci\'on de las Tesis de Grado o Titulaci\'on}
-  {Normalizaci\'on de las tesis de grado o titulaci\'on}{\BBCQ}\
-  [\bibcomputersoftwaremanual].
-\newblock
-\APACaddressPublisher{Pontificia Universidad Cat\'olica de Chile}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Spivak%
-}{%
-Spivak%
-}{%
-{\protect \APACyear {1990}}%
-}]{%
-SPI90}
-\APACinsertmetastar {%
-SPI90}%
-\begin{APACrefauthors}%
-Spivak, M\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1990}.
-\newblock
-\APACrefbtitle {The Joy of {\TeX}} {The joy of {\TeX}}\
-  (\PrintOrdinal{$2^{nd}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{American Mathematical Society}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Strunk%
-, White%
-\BCBL {}\ \BBA {} Angell%
-}{%
-Strunk%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1999}}%
-}]{%
-STR99}
-\APACinsertmetastar {%
-STR99}%
-\begin{APACrefauthors}%
-Strunk, W.%
-, White, E\BPBI B.%
-\BCBL {}\ \BBA {} Angell, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1999}.
-\newblock
-\APACrefbtitle {The Elements of Style} {The elements of style}\
-  (\PrintOrdinal{$4^{th}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Allyn \& Bacon}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Talluri%
-\ \BBA {} Aggarwal%
-}{%
-Talluri%
-\ \BBA {} Aggarwal%
-}{%
-{\protect \APACyear {1993}}%
-}]{%
-TAL93}
-\APACinsertmetastar {%
-TAL93}%
-\begin{APACrefauthors}%
-Talluri, R.%
-\BCBT {}\ \BBA {} Aggarwal, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1993}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Handbook of Pattern Recognition and Computer Vision}
-  {Handbook of pattern recognition and computer vision}.{\BBCQ}
-\newblock
-\BIn{} P\BPBI S\BPBI P\BPBI W.~C.~H.~Chen L. F.~Pau\ (\BED), (\BCHAPS\
-  Positional estimation techniques for an autonomous mobile robot -- a review).
-\newblock
-\APACaddressPublisher{}{World Scientific Publishing Co.}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Taylor%
-, Johnson%
-\BCBL {}\ \BBA {} Faulkner%
-}{%
-Taylor%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2003}}%
-}]{%
-TAY03}
-\APACinsertmetastar {%
-TAY03}%
-\begin{APACrefauthors}%
-Taylor, D\BPBI W.%
-, Johnson, P\BPBI N.%
-\BCBL {}\ \BBA {} Faulkner, W\BPBI T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Local area radio navigation: a tool for GPS-denied
-  geolocation} {Local area radio navigation: a tool for gps-denied
-  geolocation}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proc. of the SPIE-Aerosense Conference, Orlando,
-  Florida, 24 April 2003} {Proc. of the spie-aerosense conference, orlando,
-  florida, 24 april 2003}\ (\BVOL\ v. 5084 - Location Services and Navigation
-  Technologies, \BPGS\ 125--136).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1768,52 +1272,6 @@ Tupes, E\BPBI C.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1111/j.1467-6494.1992.tb00973.x} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{University of Chicago Press Staff}%
-}{%
-{University of Chicago Press Staff}%
-}{%
-{\protect \APACyear {2003}}%
-}]{%
-UCP03}
-\APACinsertmetastar {%
-UCP03}%
-\begin{APACrefauthors}%
-{University of Chicago Press Staff}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2003}.
-\newblock
-\APACrefbtitle {The Chicago Manual of Style} {The chicago manual of style}\
-  (\PrintOrdinal{$15^{th}$}\ \BEd).
-\newblock
-\APACaddressPublisher{}{University of Chicago Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{van Leunen}%
-}{%
-{van Leunen}%
-}{%
-{\protect \APACyear {1992}}%
-}]{%
-LEU92}
-\APACinsertmetastar {%
-LEU92}%
-\begin{APACrefauthors}%
-{van Leunen}, M\BHBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1992}.
-\newblock
-\APACrefbtitle {A Handbook for Scholars} {A handbook for scholars}\
-  (\PrintOrdinal{revised}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1861,32 +1319,6 @@ Washington, E.%
   \APACbVolEdTR{}{\BTR{}}.
 \newblock
 \APACaddressInstitution{}{National Bureau of Economic Research}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Williams%
-\ \BBA {} Schnier%
-}{%
-Williams%
-\ \BBA {} Schnier%
-}{%
-{\protect \APACyear {1996}}%
-}]{%
-WIL96}
-\APACinsertmetastar {%
-WIL96}%
-\begin{APACrefauthors}%
-Williams, P.%
-\BCBT {}\ \BBA {} Schnier, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The \textsf{Harvard} family of bibliography styles. {\em
-  The \texttt{harvard} package documentation}} {The \textsf{Harvard} family of
-  bibliography styles. {\em the \texttt{harvard} package
-  documentation}}{\BBCQ}\ [\bibcomputersoftwaremanual].
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

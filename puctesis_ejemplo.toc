@@ -1,9 +1,9 @@
 \select@language {spanish}
 \contentsline {chapter}{\tocchapter {}{}{AGRADECIMIENTOS}}{\es@scroman {iv}}{Doc-Start}
-\contentsline {chapter}{\tocchapter {}{}{INDICE DE FIGURAS}}{\es@scroman {viii}}{Doc-Start}
-\contentsline {chapter}{\tocchapter {}{}{INDICE DE TABLAS}}{\es@scroman {ix}}{Doc-Start}
-\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{\es@scroman {x}}{Doc-Start}
-\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{\es@scroman {xi}}{Doc-Start}
+\contentsline {chapter}{\tocchapter {}{}{INDICE DE FIGURAS}}{\es@scroman {vii}}{Doc-Start}
+\contentsline {chapter}{\tocchapter {}{}{INDICE DE TABLAS}}{\es@scroman {viii}}{Doc-Start}
+\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{\es@scroman {ix}}{Doc-Start}
+\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{\es@scroman {x}}{Doc-Start}
 \contentsline {chapter}{\tocchapter {}{1}{INTRODUCCI\'ON}}{1}{chapter.1}
 \contentsline {chapter}{\tocchapter {}{2}{LOS CINCO GRANDES}}{2}{chapter.2}
 \contentsline {section}{\tocsection {}{2.1}{Or\IeC {\'\i }genes y propiedades de los Cinco Grandes}}{2}{section.2.1}
@@ -17,42 +17,21 @@
 \contentsline {subsection}{\tocsubsection {}{2.2.2}{Personalidad y comportamiento en pol\IeC {\'\i }tica}}{4}{subsection.2.2.2}
 \contentsline {subsection}{\tocsubsection {}{2.2.3}{Los Cinco Grandes e intercambio comercial}}{4}{subsection.2.2.3}
 \contentsline {chapter}{\tocchapter {}{3}{METODOLOG\'IA Y DATOS}}{5}{chapter.3}
-\contentsline {section}{\tocsection {}{3.1}{Estimando importaciones, exportaciones y FDI}}{5}{section.3.1}
+\contentsline {section}{\tocsection {}{3.1}{Primera etapa: estimando importaciones, exportaciones y FDI}}{5}{section.3.1}
 \contentsline {subsection}{\tocsubsection {}{3.1.1}{Modelo econom\'etrico}}{5}{subsection.3.1.1}
-\contentsline {section}{\tocsection {}{3.2}{L\IeC {\'\i }deres en la muestra}}{6}{section.3.2}
-\contentsline {section}{\tocsection {}{3.3}{Midiendo los Cinco Grandes}}{8}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1.2}{Datos}}{6}{subsection.3.1.2}
+\contentsline {section}{\tocsection {}{3.2}{L\IeC {\'\i }deres en la muestra}}{7}{section.3.2}
+\contentsline {section}{\tocsection {}{3.3}{Midiendo los Cinco Grandes}}{9}{section.3.3}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{9}{subsection.3.3.1}
 \contentsline {subsection}{\tocsubsection {}{3.3.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{10}{subsection.3.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.3.3}{Resultados y verificaciones}}{11}{subsection.3.3.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.1}{Correlaciones entre los Cinco Grandes}}{11}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.2}{Correlaciones con otras variables}}{11}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.3}{Robustez de los estimadores}}{11}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{11}{subsubsection.3.3.3.4}
-\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{12}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{13}{chapter.5}
-\contentsline {chapter}{\tocchapter {}{6}{REFERENCIAS}}{14}{chapter.6}
-\contentsline {section}{\tocsection {}{6.1}{Estilo de la Referencias}}{14}{section.6.1}
-\contentsline {section}{\tocsection {}{6.2}{Producci\'on de Referencias}}{18}{section.6.2}
-\contentsline {section}{\tocsection {}{6.3}{\textsc {Ejemplos de Referencias Bib}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{}}}{19}{section.6.3}
-\contentsline {subsection}{\tocsubsection {}{6.3.1}{Ejemplo de Referencia de Libro}}{19}{subsection.6.3.1}
-\contentsline {subsection}{\tocsubsection {}{6.3.2}{Ejemplo de Referencia de Art\'iculo en Libro}}{20}{subsection.6.3.2}
-\contentsline {subsection}{\tocsubsection {}{6.3.3}{Ejemplo de Referencia de Art\'iculo en Revista}}{20}{subsection.6.3.3}
-\contentsline {subsection}{\tocsubsection {}{6.3.4}{Ejemplo de Referencia de Art\'iculo de Conferencia}}{21}{subsection.6.3.4}
-\contentsline {subsection}{\tocsubsection {}{6.3.5}{Ejemplo de Referencia de Tesis}}{21}{subsection.6.3.5}
-\contentsline {subsection}{\tocsubsection {}{6.3.6}{Ejemplo de Referencia de Informe T\'ecnico}}{22}{subsection.6.3.6}
-\contentsline {subsection}{\tocsubsection {}{6.3.7}{Ejemplo de Referencia de Documentaci\'on T\'ecnica/Gu\'ia del Usuario}}{22}{subsection.6.3.7}
-\contentsline {subsection}{\tocsubsection {}{6.3.8}{Ejemplo de Referencia a una P\'agina Web}}{22}{subsection.6.3.8}
-\contentsline {subsection}{\tocsubsection {}{6.3.9}{Un Ejemplo Usando Abreviaciones}}{23}{subsection.6.3.9}
-\contentsline {chapter}{\tocchapter {}{7}{CONSEJOS GENERALES PARA LA PREPARACION DE DOCUMENTOS}}{25}{chapter.7}
-\contentsline {section}{\tocsection {}{7.1}{Consejos sobre Figuras y Tablas}}{25}{section.7.1}
-\contentsline {section}{\tocsection {}{7.2}{Consejos sobre Abreviaciones y Acr\'onimos}}{25}{section.7.2}
-\contentsline {section}{\tocsection {}{7.3}{Consejos sobre Ecuaciones y N\'umeros}}{26}{section.7.3}
-\contentsline {section}{\tocsection {}{7.4}{Otras Recomendaciones}}{26}{section.7.4}
-\contentsline {section}{\tocsection {}{7.5}{Consejos sobre Unidades}}{27}{section.7.5}
-\contentsline {section}{\tocsection {}{7.6}{Consejos sobre Redacci\'on y Uso del Lenguaje}}{27}{section.7.6}
-\contentsline {chapter}{\tocchapter {}{8}{INSTALACION Y COMPILACION}}{29}{chapter.8}
-\contentsline {section}{\tocsection {}{8.1}{Instalaci\'on de \TestCount =0\unhbox \voidb@x L\raise .42ex \hbox {$\fam \TestCount \scriptstyle \kern -.3em A$}\kern -.15emT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}}}{29}{section.8.1}
-\contentsline {section}{\tocsection {}{8.2}{Compilaci\'on y Generaci\'on de Archivos PDF}}{30}{section.8.2}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{31}{Item.9}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{40}{chapter.1}
-\contentsline {chapter}{\tocchapter {ANEXO}{B}{RECURSOS EN LA INTERNET}}{72}{chapter.2}
+\contentsline {subsection}{\tocsubsection {}{3.3.3}{Resultados y verificaciones}}{12}{subsection.3.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.1}{Correlaciones entre los Cinco Grandes}}{12}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.2}{Correlaciones con otras variables}}{12}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.3}{Robustez de los estimadores}}{12}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{12}{subsubsection.3.3.3.4}
+\contentsline {section}{\tocsection {}{3.4}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{12}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Nota sobre el signo de los coeficientes}}{12}{subsection.3.4.1}
+\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{14}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{15}{chapter.5}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{16}{chapter.5}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{22}{chapter.1}

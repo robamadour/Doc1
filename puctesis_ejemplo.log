@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  2 FEB 2016 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  2 FEB 2016 16:54
 entering extended mode
 **puctesis_ejemplo.tex
 (puctesis_ejemplo.tex
@@ -778,7 +778,7 @@ File: latin1.def 2015/03/17 v1.2c Input encoding file
 (puctesis_ejemplo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (texs/resumen.aux))
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
 LaTeX Font Info:    ... okay on input line 133.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
@@ -877,7 +877,7 @@ LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
 \c__siunitx_mathsf_int=\count196
 \c__siunitx_mathtt_int=\count197
- <logouc_23x30p38mm.pdf, id=209, 614.295pt x 794.97pt>
+ <logouc_23x30p38mm.pdf, id=125, 614.295pt x 794.97pt>
 File: logouc_23x30p38mm.pdf Graphic file (type pdf)
 
 <use logouc_23x30p38mm.pdf>
@@ -954,11 +954,28 @@ Overfull \hbox (43.67912pt too wide) in paragraph at lines 184--184
 [] [] 
  []
 
+Missing character: There is no ó in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
 
 Overfull \hbox (12.595pt too wide) in paragraph at lines 184--184
 [] [] 
  []
 
+Missing character: There is no í in font ptmr7t!
 
 Overfull \hbox (12.595pt too wide) in paragraph at lines 184--184
 [] [] 
@@ -1017,16 +1034,16 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-] [6])
+])
 \tf@toc=\write5
- [7]
+ [6]
 INDICE DE FIGURAS
 (puctesis_ejemplo.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write6
- [8
+ [7
 
 
 ]
@@ -1036,27 +1053,25 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write7
- [9
+ [8
 
 
-] (texs/resumen.tex
+]
 RESUMEN
-) [10
+[9
 
 
 
 
-
-] (texs/abstract.tex
+]
 ABSTRACT
-) [11
-
+[10
 
 
 ]
  1
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 312--312
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 361--361
  \OT1/ptm/b/n/12 1.[] 
  []
 
@@ -1068,7 +1083,7 @@ Overfull \hbox (5.28003pt too wide) in paragraph at lines 312--312
 ]
  2
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 317--317
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 366--366
  \OT1/ptm/b/n/12 2.[] 
  []
 
@@ -1082,7 +1097,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [3] [4]
  3
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 363--363
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 412--412
  \OT1/ptm/b/n/12 3.[] 
  []
 
@@ -1103,12 +1118,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<to be read again> 
-                   L
-l.376 L
-       os coeficientes que resultan de estimar la regresión (\ref{eq:model_r...
-] [6pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.2}) has been already used, duplicate ignored
+l.424 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1121,7 +1136,7 @@ l.376 L
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.397 
+l.447 
       pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.3.3}) has been already used, duplicate ignored
 
@@ -1136,198 +1151,106 @@ n.3.3}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.397 
+l.447 
       ]
 
-LaTeX Warning: Reference `ap:our_list' on page 7 undefined on input line 398.
-
-<Figures/World_vsimple.pdf, id=416, 733.61816pt x 284.02223pt>
-File: Figures/World_vsimple.pdf Graphic file (type pdf)
-
-<use Figures/World_vsimple.pdf>
-Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 403.
-(pdftex.def)             Requested size: 433.62pt x 167.87936pt.
-
-<Figures/Year_distribution.pdf, id=417, 246.69107pt x 96.31514pt>
-File: Figures/Year_distribution.pdf Graphic file (type pdf)
-
-<use Figures/Year_distribution.pdf>
-Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 410.
-(pdftex.def)             Requested size: 346.89731pt x 135.43985pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `ap:our_list' on page 7 undefined on input line 452.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 2005) has occurred while \output is active []
+<Figures/World_vsimple.pdf, id=316, 733.61816pt x 284.02223pt>
+File: Figures/World_vsimple.pdf Graphic file (type pdf)
+
+<use Figures/World_vsimple.pdf>
+Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 457.
+(pdftex.def)             Requested size: 433.62pt x 167.87936pt.
+
+<Figures/Year_distribution.pdf, id=317, 246.69107pt x 96.31514pt>
+File: Figures/Year_distribution.pdf Graphic file (type pdf)
+
+<use Figures/Year_distribution.pdf>
+Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 464.
+(pdftex.def)             Requested size: 346.89731pt x 135.43985pt.
+
+Underfull \vbox (badness 1521) has occurred while \output is active []
 
  [8 <./Figures/World_vsimple.pdf> <./Figures/Year_distribution.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Year_distribution.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-<Figures/Figura_BF2.pdf, id=486, 614.51427pt x 229.71118pt>
+>] [9] <Figures/Figura_BF2.pdf, id=374, 614.51427pt x 229.71118pt>
 File: Figures/Figura_BF2.pdf Graphic file (type pdf)
 
 <use Figures/Figura_BF2.pdf>
-Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 444.
+Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 498.
 (pdftex.def)             Requested size: 433.62pt x 162.0936pt.
- [10 <./Figures/Figura_BF2.pdf>] [11]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Figures/Figura_BF2.pdf>] [12pdfTeX warning (ext4): destination with the
+ same identifier (name{equation.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...erypar {}\fi \par \vfil \penalty -\@M 
+                                                  
+...
+l.530 \chapter
+              {RESULTADOS}] [13]
  4
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 465--465
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 530--530
  \OT1/ptm/b/n/12 4.[] 
  []
 
-[12
+[14
 
 
 ]
  5
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 469--469
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 534--534
  \OT1/ptm/b/n/12 5.[] 
  []
 
-[13
+(puctesis_ejemplo.bbl [15
 
 
 ]
- 6
-
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 475--475
- \OT1/ptm/b/n/12 6.[] 
- []
-
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 481.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14
-
-
-]
-Overfull \hbox (7.63686pt too wide) in paragraph at lines 503--504
-[]\OT1/ptm/m/n/12 El co-man-do []\OT1/pcr/m/n/12 \fullciteA \OT1/ptm/m/n/12 (ta
-m-bi[]en []\OT1/pcr/m/n/12 \citeA\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/12 \shortcite
-A\OT1/ptm/m/n/12 ) es em-plea-do cuan-
- []
-
-
-Overfull \hbox (50.72173pt too wide) in paragraph at lines 505--506
-[]\OT1/ptm/m/n/12 El co-man-do []\OT1/pcr/m/n/12 \citeyear \OT1/ptm/m/n/12 ge-n
-e-ra el a[]no del do-cu-men-to en-tre par[]ente-sis. Use []\OT1/pcr/m/n/12 \cit
-eyearNP
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Overfull \hbox (15.10017pt too wide) in paragraph at lines 512--513
-\OT1/ptm/m/n/12 man-do []\OT1/pcr/m/n/12 \cite[pp. 32--35]{Label}\OT1/ptm/m/n/1
-2 . Por ejem-plo, []\OT1/pcr/m/n/12 \cite[pp. 43--54]{KNU88}
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Overfull \hbox (24.18942pt too wide) in paragraph at lines 558--559
-\OT1/ptm/m/n/12 ce-na-das en los ar-chi-vos []\OT1/pcr/m/n/12 .bib\OT1/ptm/m/n/
-12 , por ejem-plo, []\OT1/pcr/m/n/12 refs1.bib\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/
-12 refs2.bib\OT1/ptm/m/n/12 , []\OT1/pcr/m/n/12 refs3.bib\OT1/ptm/m/n/12 ,
- []
-
-[18]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 586.
- [19] [20]
-Overfull \hbox (19.70946pt too wide) in paragraph at lines 693--693
-[]  \OT1/pcr/m/n/10.95 author =       {D. W. Taylor and P. N. Johnson and W. T.
- Faulkner},[] 
- []
-
-
-Overfull \hbox (13.13947pt too wide) in paragraph at lines 693--693
-[]  \OT1/pcr/m/n/10.95 title =        {Local area radio navigation: a tool for 
-GPS-denied[] 
- []
-
-
-Overfull \hbox (6.56947pt too wide) in paragraph at lines 715--715
-[]                  \OT1/pcr/m/n/10.95 Rock Quality Parameters in Scandinavian 
-Tunnels},[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-Overfull \hbox (13.13947pt too wide) in paragraph at lines 737--737
-[]  \OT1/pcr/m/n/10.95 title =        {Control of Nonholonomic Systems with Dri
-ft Terms},[] 
- []
-
-[22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-[24]
- 7
-
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 824--824
- \OT1/ptm/b/n/12 7.[] 
- []
-
-[25
-
-
-] [26] [27] [28]
- 8
-
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 909--909
- \OT1/ptm/b/n/12 8.[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29
-
-
-]
-(puctesis_ejemplo.bbl [30]
 BIBLIOGRAFIA
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
+ [16
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \hbox (badness 3838) in paragraph at lines 928--948
+ [18]
+Underfull \hbox (badness 3838) in paragraph at lines 737--757
 $\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]   
 \OT1/ptm/m/n/12 doi: $10 [] .1145 / 1979742 []$
  []
@@ -1335,17 +1258,14 @@ $\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Underfull \hbox (badness 2012) in paragraph at lines 1377--1391
+ [19]
+Underfull \hbox (badness 2012) in paragraph at lines 1067--1081
 []\OT1/ptm/m/n/12 Marshall, M. G., y Jag-gers, K.  (2012).  Po-lity iv pro-ject
 : Po-li-ti-cal re-gi-me
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 1377--1391
+Underfull \hbox (badness 1137) in paragraph at lines 1067--1081
 \OT1/ptm/m/n/12 cha-rac-te-ris-tics and tran-si-tions, 1800-2012.  \OT1/ptm/m/i
 t/12 On-line (http://www. sys-te-mic-pea-ce.
  []
@@ -1353,28 +1273,20 @@ t/12 On-line (http://www. sys-te-mic-pea-ce.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1772
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1276
 $\OT1/pcr/m/n/12 ejwl [] .idm [] .oclc [] .org / login [] ?url = http :// searc
 h [] .ebscohost [] .com /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1772
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1276
 $\OT1/pcr/m/n/12 login [] .aspx [] ?direct = true{&}db = sih{&}AN = 9208170745{
 &}site =$
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1889.
-
-)
-[39]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
-}) has been already used, duplicate ignored
+) [21]pdfTeX warning (ext4): destination with the same identifier (name{chapter
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 \HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
@@ -1390,1113 +1302,33 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 \hyper@refstepcounter ...tHref }\hyper@anchorend }
                                                   \fi 
 ...
-l.973 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
+l.570 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
                                                  \label{ap:puctesis}
 ANEXO A
 
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 973--973
+Overfull \hbox (5.27931pt too wide) in paragraph at lines 570--570
 \OT1/ptm/b/n/12 ANEXO A.[] 
  []
 
-(LEEME.txt
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[22
 
- [40
 
-
-]
-Overfull \hbox (19.38pt too wide) in paragraph at lines 50--50
-[]\OT1/pcr/m/n/10 El uso de estos paquetes no es obligatorio, pero pueden resul
-tar []utiles. 
- []
-
-
-Overfull \hbox (1.38pt too wide) in paragraph at lines 51--51
-[]\OT1/pcr/m/n/10 Estos paquetes se incluyen con la distribuci[]on de puctesis 
-porque son 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41])
-[42] (puctesis_plantilla.tex
-Overfull \hbox (10.38pt too wide) in paragraph at lines 26--26
-[]\OT1/pcr/m/n/10 % en castellano en vez de acentos LaTeX tradicionales, e.j. \
-'a, \'e, etc. 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-[45]
-Overfull \hbox (4.38pt too wide) in paragraph at lines 114--114
-[]\OT1/pcr/m/n/10 \degree       {Ingeniero Civil de Industrias, con Diploma en 
-Ingenier\'ia
- []
-
-
-Overfull \hbox (4.38pt too wide) in paragraph at lines 136--136
-[]\OT1/pcr/m/n/10 \NoChapterPageNumberCentered   % elimina encabezado - pie de 
-pagina de la 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]
-Overfull \hbox (10.38pt too wide) in paragraph at lines 160--160
-[]\OT1/pcr/m/n/10 Escriba en un estilo sobrio sus agradecimientos a quienes con
-tribuyeron en
- []
-
-
-Overfull \hbox (10.38pt too wide) in paragraph at lines 173--173
-[]                 \OT1/pcr/m/n/10 % a la cuenta absoluta), produciendo una pag
-ina en blanco 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Overfull \hbox (10.38pt too wide) in paragraph at lines 191--191
-[]                 \OT1/pcr/m/n/10 % a la cuenta absoluta), produciendo una pag
-ina en blanco 
- []
-
-
-Overfull \hbox (34.38pt too wide) in paragraph at lines 205--205
-[]\OT1/pcr/m/n/10 El resumen debe contener entre 100 y 300 palabras. El resumen
- debe ser escrito
- []
-
-
-Overfull \hbox (4.38pt too wide) in paragraph at lines 205--205
-\OT1/pcr/m/n/10 en ingl\'es y espa\~nol.  En el caso de tesis de doctorado, el 
-formato de
- []
-
-
-Overfull \hbox (40.38pt too wide) in paragraph at lines 205--205
-\OT1/pcr/m/n/10 la p\'agina del resumen es distinta, por favor verifique la pla
-ntilla entregada
- []
-
-
-Overfull \hbox (4.38pt too wide) in paragraph at lines 217--217
-[]  \OT1/pcr/m/n/10 palabras claves relevantes y estr\'ictamente relacionadas a
-l tema de la
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-Overfull \hbox (10.38pt too wide) in paragraph at lines 224--224
-[]\OT1/pcr/m/n/10 The abstract must contain between 100 and 300 words.  The abs
-tract must be
- []
-
-
-Overfull \hbox (16.38pt too wide) in paragraph at lines 224--224
-\OT1/pcr/m/n/10 written in English and Spanish.  In the case of doctoral theses
-, the layout
- []
-
-
-Overfull \hbox (16.38pt too wide) in paragraph at lines 224--224
-\OT1/pcr/m/n/10 of the abstract page is different, so please check the template
- provided by
- []
-
-
-Overfull \hbox (4.38pt too wide) in paragraph at lines 250--250
-[]\OT1/pcr/m/n/10 \NoChapterPageNumber           % elimina encabezado - pie de 
-pagina de la 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
-Overfull \hbox (4.38pt too wide) in paragraph at lines 276--276
-[]\OT1/pcr/m/n/10 \chapter[SUPUESTOS BASICOS Y RESULTADOS PRELIMINARES]{SUPUEST
-OS BASICOS Y
- []
-
-
-Overfull \hbox (70.38pt too wide) in paragraph at lines 281--281
-[]\OT1/pcr/m/n/10 Esta secci\'on introduce algunas nociones preliminares y ante
-cedentes matem\'aticos.
- []
-
-
-Overfull \hbox (16.38pt too wide) in paragraph at lines 281--281
-\OT1/pcr/m/n/10 La siguiente es una cita~\cite{CYB00,CYB12} a dos trabajos de A
-. Cyborg, el
- []
-
-
-Overfull \hbox (34.38pt too wide) in paragraph at lines 281--281
-\OT1/pcr/m/n/10 primero publicado en el a\~no 3000, el segundo es uno de sus tr
-abajos pioneros
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-Overfull \hbox (16.38pt too wide) in paragraph at lines 304--304
-[]\OT1/pcr/m/n/10 \chapter[IMPLEMENTACION Y PRUEBAS]{IMPLEMENTACION Y METODOLOG
-IA DE PRUEBAS} 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Overfull \hbox (4.38pt too wide) in paragraph at lines 337--337
-[]\OT1/pcr/m/n/10 %\nocite{*} % Para hacer que todas la referencias no citadas 
-aparezcan en
- []
-
-
-Overfull \hbox (10.38pt too wide) in paragraph at lines 338--338
-[]            \OT1/pcr/m/n/10 % bibliography.  No debe utilizarse para la versi
-\'on final de
- []
-
-
-Overfull \hbox (10.38pt too wide) in paragraph at lines 366--366
-[]\OT1/pcr/m/n/10 %%%\addcontentsline{toc}{chapter}{\protect\numberline{\thecha
-pter}{Index}} 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52])
-[53] (abbrev.bib
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 8--8
-[]\OT1/pcr/m/n/8 %Applied Mathematics and Optimization. An International Journa
-l with Applications to Stochastics.
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 10--10
-[]\OT1/pcr/m/n/8 %Automatica. A Journal of IFAC, the International Federation o
-f Automatic Control. Pergamon,
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 12--12
-[]\OT1/pcr/m/n/8 %Computer Physics Communications. An International Journal and
- Program Library for Computational
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 15--15
-[]\OT1/pcr/m/n/8 %MAIK ``Nauka/Interperiodika'', Moscow. (Physics section trans
-lated in Dokl. Phys.) ISSN 0869-5652. 
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 25--25
-[]\OT1/pcr/m/n/8 %IMHOTEP. Journal Africain de Mathematiques Pures et Appliqu
-ees. African Journal of Pure and
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 29--29
-[]\OT1/pcr/m/n/8 %Journal of Mathematical Analysis and Applications. Academic P
-ress, Orlando, FL. ISSN 0022-247X. 
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 39--39
-[]\OT1/pcr/m/n/8 %Memoirs of the American Mathematical Society. Amer. Math. Soc
-., Providence, RI. ISSN 0065-9266. 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
-Overfull \hbox (46.38031pt too wide) in paragraph at lines 54--54
-[]\OT1/pcr/m/n/8 %Proceedings of the American Mathematical Society. Amer. Math.
- Soc., Providence, RI. ISSN 0002-9939. 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55])
-[56] (puctesis_refs.bib
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 280--280
-[]\OT1/pcr/m/n/8 booktitle={Human Capital: A Theoretical and Empirical Analysis
- with Special Reference to Education
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 313--313
-[]\OT1/pcr/m/n/8 title={Database of Political Institutions: Changes and Variabl
-e Definitions. The World Bank}, 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 333--333
-[]\OT1/pcr/m/n/8 title={Female socialization: how daughters affect their legisl
-ator fathers' voting on women's
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 384--384
-[]\OT1/pcr/m/n/8 title={The effect of parental transfers and borrowing constrai
-nts on educational attainment}, 
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 392--392
-[]\OT1/pcr/m/n/8 title={Long-term effects of parents' education on children's e
-ducational and occupational success:
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 412--412
-[]\OT1/pcr/m/n/8 title={Ready to Lead on Day One: Predicting Presidential Great
-ness from Political Experience}, 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64]
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 422--422
-[]\OT1/pcr/m/n/8 title={Human capital: A theoretical and empirical analysis, wi
-th special reference to education}, 
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 436--436
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Gerber,
- []
-
-
-Overfull \hbox (75.18033pt too wide) in paragraph at lines 440--440
-[]\OT1/pcr/m/n/8 keywords = {dispositional traits,five-factor model,participati
-on,political,political behavior,psychology}, 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 468--468
-[]\OT1/pcr/m/n/8 abstract = {An experiment was arranged whereby all three judge
-s independently classified into
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 the four selected columns 300 representative words, drawn from t
-he total list according to a
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 principle of representative distribution. The results of this st
-udy may be expressed in percentages
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 of the total number of terms that each pair of judges assigned t
-o identically the same columns.
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 Taking only the instances where all three judges agree, we find 
-141 words or 47 per cent of
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 the list, whereas 6.25 per cent represents the chance expectatio
-n. Examining this average agreement
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 more closely we next determine the peculiarities of each individ
-ual judge when his placements
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 are compared with those of the other two judges. This analysis c
-alls attention to perhaps the
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 principal source of unreliability, namely the tendency of each j
-udge to have a mental set of
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 "leniency" favoring the inclusion of marginal or doubtful terms 
-in one column rather than another.
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 Four outside judges selected 130 of the 300 terms as strange and
- unfamiliar to them. The agreement
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 of the three editors for this group of terms averaged only 45 pe
-r cent, as against 47 per cent
- []
-
-
-Overfull \hbox (51.18031pt too wide) in paragraph at lines 468--468
-\OT1/pcr/m/n/8 for the total list, and 48 per cent for the remaining 170 more f
-amiliar terms. Apparently established
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 472--472
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Trait-Names
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 491--491
-[]\OT1/pcr/m/n/8 title={Consistency of the factorial structures of personality 
-ratings from different sources.}, 
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 501--501
-[]\OT1/pcr/m/n/8 abstract = {This article traces previous studies in the area o
-f personality trait supported
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 by the U.S. Air Force, that led to the pioneering study Recurren
-t Personality Factors Based
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 on Trait ratings by Raymond E. Christal and E. C. Tupes. It was 
-in the 1950s and early 1960s
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 that the Air Force supported an active research program in the a
-reas of motivation, personality,
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 and temperament measurement. Mays (1954) investigated the relati
-onship of length of acquaintance
- []
-
-
-Overfull \hbox (55.98032pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 and the reliability of pooled trait ratings. Tupe (1957) conduct
-ed a study demonstrating a substantial
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 relationship between peer trait ratings and later officer perfor
-mance evaluations of graduates
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 of the Officer Candidate School. Tupes and Christal (1958) inves
-tigated the factorial structure
- []
-
-
-Overfull \hbox (65.58032pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 of personality trait ratings in six samples which varied in term
-s of raters, lengths of acquaintanceship
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 and rating situation. Tupes (1959) conducted a study demonstrati
-ng that the factor structure
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 of peer ratings of personality traits of senior officers closely
- resembles that of the junior
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 officers. By this time it was clear that the five-factor model w
-as a stable representation of
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 the personality domain. It was only after complaints from studen
-ts that they did not like peer
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 501--501
-\OT1/pcr/m/n/8 ratings that the Air Force research program turned to other miss
-ions. Recently, however, a new
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 504--504
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Recurrent
- []
-
-
-Overfull \hbox (103.98035pt too wide) in paragraph at lines 508--508
-[]\OT1/pcr/m/n/8 keywords = {MOTIVATION (Psychology),PERSONALITY,PERSONALITY {\
-&} motivation,PERSONALITY assessment,TEMPERAMENT}, 
- []
-
-
-Overfull \hbox (243.18044pt too wide) in paragraph at lines 514--514
-[]\OT1/pcr/m/n/8 url = {https://ejwl.idm.oclc.org/login?url=http://search.ebsco
-host.com/login.aspx?direct=true{\&}db=sih{\&}AN=9208170745{\&}site=ehost-live},
- 
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 529--529
-[]\OT1/pcr/m/n/8 abstract = {In the 45 years since Cattell used English trait t
-erms to begin the formulation
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 of his "description of personality," a number of investigators h
-ave proposed an alternative
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 structure based on 5 orthogonal factors. The generality of this 
-5-factor model is here demonstrated
- []
-
-
-Overfull \hbox (51.18031pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 across unusually comprehensive sets of trait terms. In the first
- of 3 studies, 1,431 trait adjectives
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 grouped into 75 clusters were analyzed; virtually identical stru
-ctures emerged in 10 replications,
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 each based on a different factor-analytic procedure. A 2nd study
- of 479 common terms grouped
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 into 133 synonym clusters revealed the same structure in 2 sampl
-es of self-ratings and in 2
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 samples of peer ratings. None of the factors beyond the 5th gene
-ralized across the samples.
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 529--529
-\OT1/pcr/m/n/8 In the 3rd study, analyses of 100 clusters derived from 339 trai
-t terms suggest their potential
- []
-
-
-Overfull \hbox (233.58043pt too wide) in paragraph at lines 532--532
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Goldberg.Big-Five-FactorsStructure.JPSP.1990.pdf:pdf}, 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67]
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 545--545
-[]\OT1/pcr/m/n/8 title={Toward an adequate taxonomy of personality attributes: 
-Replicated factor structure in
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 555--555
-[]\OT1/pcr/m/n/8 abstract = {The first version of this chapter (John, 1990) off
-ered a comprehensive and detailed
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 review of most of the available research. This is no longer poss
-ible as we are writing this
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 chapter in 2007. What has happened? Figure 4.1 uses publication 
-trends over the past 25 years
- []
-
-
-Overfull \hbox (60.78032pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 to illustrate how fundamentally the field has changed. Specifica
-lly, we show the number of publications
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 related to the Big Five personality traits for each 5-year inter
-val, beginning in the early
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 1980s, obtained from keyword searches of the PsycINFO database. 
-To provide a comparison, we
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 also show the publication trend for the influential models devel
-oped earlier by Cattell and
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 by Eysenck. Although both were then close to retirement age, the
-ir influence had continued during
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 the 1980s. In fact, both Cattell (1990) and Eysenck (1990) had w
-ritten chapters on personality
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 traits for the first edition of this handbook. What did we expec
-t to find? Our intuitions suggested
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 that publications on the Big Five had increased substantially si
-nce the mid-1980s, with Cattell's
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 and Eysenck's influence decreasing. But we were surprised by the
- data. First, the ascent of
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 the Big Five happened much more gradually than we had expected, 
-and Cattell's and Eysenck's
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 influence held steady much longer. As Figure 4.1 shows, it took 
-until the late 1990s for the
- []
-
-
-Overfull \hbox (46.38031pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 number of Big Five publications to finally overtake the two olde
-r models. Second, whereas references
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 to Cattell and Eysenck models have finally begun to decline in a
-bsolute numbers, their decline
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 has been small compared to the amazing increase in research publ
-ications on the Big Five. By
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 2006, the last year for which we had figures available, the numb
-er of Big Five publications
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 exceeded 300 per year, compared with less than 50 for the two ol
-der models. In the 9 years since
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 the previous version of this chapter (John {\&} Srivastava, 1999
-) was completed, almost 2,000
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 new publications on the Big Five have appeared. As a result, we 
-can now cover only a small fraction
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 of all the relevant work in this chapter. Our main goal remains 
-to provide a general overview
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 and introduction to the field that focuses on the main issues an
-d can serve as a useful reference
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 resource. We therefore refer the reader to more specialized sour
-ces or reviews as needed. We
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 begin our chapter with the history of the Big Five, including th
-e discovery of the five dimensions,
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 research replicating and extending the model, its convergence wi
-th research in the questionnaire
- []
-
-
-Overfull \hbox (17.58029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 tradition, and the development of several instruments to measure
- the Big Five. Then we compare
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 three of the most frequently used instruments and discuss some n
-ew data regarding their reliability
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 and validity. Finally, we address a number of conceptual issues,
- including how the Big Five
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 taxonomy is structured hierarchically, how the five dimensions d
-evelop, whether they predict
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 555--555
-\OT1/pcr/m/n/8 important life outcomes, and whether they are descriptive or exp
-lanatory concepts. (PsycINFO
- []
-
-
-Overfull \hbox (137.58037pt too wide) in paragraph at lines 558--558
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/John{\_}et{\_}al{\_}2008.pdf:pdf}, 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68]
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 569--569
-[]\OT1/pcr/m/n/8 title={A comparative study of Zuckerman's three structural mod
-els for personality through the
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 585--585
-[]\OT1/pcr/m/n/8 abstract = {Can language use reflect personal style? Studies e
-xamines the reliability, factor
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 structure, and validity of written language using a word-based, 
-computerized text analysis program.
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 Daily diaries from 15 substance abuse inpatients, daily writing 
-assignments from 35 student,
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 and journal abstracts from 40 social psychologists demostrated g
-ood internal consistency from
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 over 36 language dimensions. Analyses of the best 15 language di
-mensions from essays by 818
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 students yielded 4 factors that replicated across written sample
-s from another 381 students.
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 Finally, linguistic profiles from writing samples were compared 
-with Thematic Apperception Test
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 coding, self-reports, and behavioral measures from 79 students a
-nd with self-reports of a 5-factor
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 measure and health markers from more that 1,200 students. despit
-e modest effects sizes, the
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 585--585
-\OT1/pcr/m/n/8 data suggest that linguistic styke is an idenpendent and meaning
-ful way of exploring personality.}, 
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 589--589
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Pennebaker,
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 602--602
-[]\OT1/pcr/m/n/8 title={Personality as manifest in word use: correlations with 
-self-report, acquaintance report,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69]
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 612--612
-[]\OT1/pcr/m/n/8 title={Personality in its natural habitat: manifestations and 
-implicit folk theories of personality
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 622--622
-[]\OT1/pcr/m/n/8 abstract = {Social media is a place where users present themse
-lves to the world, revealing personal
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 details and insights into their lives. We are beginning to under
-stand how some of this information
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 can be utilized to improve the users' experiences with interface
-s and with one another. In this
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 paper, we are interested in the personality of users. Personalit
-y has been shown to be relevant
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 to many types of interactions; it has been shown to be useful in
- predicting job satisfaction,
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 professional and romantic relationship success, and even prefere
-nce for different interfaces.
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 Until now, to accurately gauge users' personalities, they needed
- to take a personality test.
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 This made it impractical to use personality analysis in many soc
-ial media domains. In this paper,
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 we present a method by which a user's personality can be accurat
-ely predicted through the publicly
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 available information on their Facebook profile. We will describ
-e the type of data collected,
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 our methods of analysis, and the results of predicting personali
-ty traits through machine learning.
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 622--622
-\OT1/pcr/m/n/8 We then discuss the implications this has for social media desig
-n, interface design, and broader
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 625--625
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Predicting
- []
-
-
-Overfull \hbox (3.18028pt too wide) in paragraph at lines 627--627
-[]\OT1/pcr/m/n/8 journal = {Proceedings of the 2011 annual conference extended 
-abstracts on Human factors in
- []
-
-
-Overfull \hbox (46.38031pt too wide) in paragraph at lines 628--628
-[]\OT1/pcr/m/n/8 keywords = {acm classification keywords,copyright is held by,o
-wner,personality,s,social media,social
- []
-
-
-Overfull \hbox (41.5803pt too wide) in paragraph at lines 636--636
-[]\OT1/pcr/m/n/8 abstract = {Social media is a place where users present themse
-lves to the world, revealing personal
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 details and insights into their lives. We are beginning to under
-stand how some of this information
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 can be utilized to improve the users' experiences with interface
-s and with one another. In this
- []
-
-
-Overfull \hbox (22.3803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 paper, we are interested in the personality of users. Personalit
-y has been shown to be relevant
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 to many types of interactions, it has been shown to be useful in
- predicting job satisfaction,
- []
-
-
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 professional and romantic relationship success, and even prefere
-nce for different interfaces.
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 Until now, to accurately gauge users' personalities, they needed
- to take a personality test.
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 This made it impractical to use personality analysis in many soc
-ial media domains. In this paper,
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 we present a method by which a user's personality can be accurat
-ely predicted through the publicly
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 available information on their Twitter profile. We will describe
- the type of data collected,
- []
-
-
-Overfull \hbox (36.7803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 our methods of analysis, and the machine learning techniques tha
-t allow us to successfully predict
- []
-
-
-Overfull \hbox (31.9803pt too wide) in paragraph at lines 636--636
-\OT1/pcr/m/n/8 personality. We then discuss the implications this has for socia
-l media design, interface design,
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 639--639
-[]\OT1/pcr/m/n/8 file = {:C$\backslash$:/Users/Rob/Google Drive/Memoria/Documen
-tos/Papers/Personality/Golbeck
- []
-
-
-Overfull \hbox (27.1803pt too wide) in paragraph at lines 641--641
-[]\OT1/pcr/m/n/8 journal = {Proceedings - 2011 IEEE International Conference on
- Privacy, Security, Risk and Trust
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70]
-Overfull \hbox (12.78029pt too wide) in paragraph at lines 659--659
-[]\OT1/pcr/m/n/8 title={Using linguistic cues for the automatic recognition of 
-personality in conversation and
- []
-
-
-Overfull \hbox (7.98029pt too wide) in paragraph at lines 660--660
-[]\OT1/pcr/m/n/8 author={Mairesse, Fran{\c{c}}ois and Walker, Marilyn A and Meh
-l, Matthias R and Moore, Roger
- []
-
-) [71]pdfTeX warning (ext4): destination with the same identifier (name{chapter
-.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-\HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
-                                                  \Hy@RestoreLastskip \ifhmo...
-
-\hyper@anchorstart #1->\new@pdflink {#1}
-                                        \Hy@activeanchortrue 
-<argument> \hyper@anchorstart {\@currentHref }
-                                              \hyper@anchorend 
-\Hy@raisedlink #1->\ifvmode #1
-                              \else \Hy@SaveSpaceFactor \penalty \@M \smash ...
-
-\hyper@refstepcounter ...tHref }\hyper@anchorend }
-                                                  \fi 
-...
-l.1016 \chapter{RECURSOS EN LA INTERNET}
-                                        
-ANEXO B
-
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 1016--1016
-\OT1/ptm/b/n/12 ANEXO B.[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72
-
-
-]
-[73] (puctesis_ejemplo.aux
+] (puctesis_ejemplo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (texs/resumen.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1076.
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
+n input line 598.
+
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
  ) 
 Here is how much of TeX's memory you used:
- 20824 strings out of 493673
- 374415 string characters out of 3141523
- 444894 words of memory out of 3000000
- 23521 multiletter control sequences out of 15000+200000
- 41984 words of font info for 98 fonts, out of 3000000 for 9000
+ 20499 strings out of 493673
+ 370783 string characters out of 3141523
+ 440077 words of memory out of 3000000
+ 23330 multiletter control sequences out of 15000+200000
+ 37673 words of font info for 88 fonts, out of 3000000 for 9000
  1186 hyphenation exceptions out of 8191
  40i,13n,42p,10387b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2505,17 +1337,15 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
-w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
-r8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on puctesis_ejemplo.pdf (84 pages, 668674 bytes).
+MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on puctesis_ejemplo.pdf (32 pages, 516838 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 222 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

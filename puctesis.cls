@@ -770,8 +770,7 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
       \noindent
-      Memoria presentada a la Direcci\'on de Pregrado\\
-      como parte de los requisitos para optar al grado de\\
+      Memoria para optar al t\'itulo de\\
       \ifx\@empty\@degree {.........}\else\@degree\fi}%end parbox
       }%end centering
     }
@@ -926,7 +925,7 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{%
       \noindent
-      Miembros del Comit\'e:\\
+      Memoria presentada a la Comisión integrada por los profesores:\\
       {\normalsize
       \ifx\@empty\@advisor {.........}\\\else{\uppercase\@advisor}\\\fi
       \ifx\@empty\@committeememberA {.........}\\\else{\uppercase\@committeememberA}\\\fi
@@ -947,8 +946,7 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
       \noindent
-      Tesis presentada a la Direcci\'on de Pregrado\\
-      como parte de los requisitos para optar al grado de\\
+      Para completar las exigencias del título de\\
       \ifx\@empty\@degree {.........}\else\@degree\fi}%end parbox
       }%end centering
     }

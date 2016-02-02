@@ -1,0 +1,1052 @@
+%======================================================================%
+%        puctesis_ejemplo.tex       04-Apr-2007, modif. 22-June-2007
+%______________________________________________________________________%
+%.......10........20........30........40........50........60........70.%
+%________|_________|_________|_________|_________|_________|_________|_%
+%======================================================================%
+% $Id: puctesis_ejemplo.tex,v 1.3 2007/06/22 20:32:17 mtorrest Exp $
+%
+% WARNING!!! You cannot compile this template with pdflatex unless you:
+%            1. Convert the postscript images into pdf ones.
+%            2. Make the proper changes for bounding boxes in the
+%               \includegraphics commands.
+%            3. Set the "pdftex" option in the documentclass line
+%               as shown in the second line below.
+%
+%\documentclass[12pt,reqno,oneside]{puctesis}         % For dvips
+\documentclass[12pt,reqno,oneside,pdftex]{puctesis} % For pdflatex
+%\documentclass[10pt,reqno,twoside]{puctesis}
+%\draft
+%\doublespacing
+%\usepackage{verbatim}
+%\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{amssymb}
+\usepackage[spanish]{algorithm2e}
+\usepackage{fancybox}
+\usepackage{times}
+
+\usepackage{import}
+
+%figure packages
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+%table packages
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{dcolumn}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[para,online,flushleft]{threeparttable}
+
+% number only referenced equations
+\usepackage{etoolbox}
+\makeatletter
+\appto{\equation}{%
+	\notag
+	\preto{\label}{%
+		\refstepcounter{equation}
+		\tag{\arabic{equation}}%
+	}
+}
+\makeatother
+
+
+
+% --- START: Babel ---
+% Esta seccion es necesaria para quienes desean usar Babel y acentos
+% en castellano en vez de acentos LaTeX tradicionales, e.j. \'a, \'e, etc.
+% Como Babel tiene un manejo distinto al normal para definir los nombres
+% de las partes del documento no basta con usar \renewcommand{\...name}
+% sino que es necesario usar tambi\'en \addto\captionspanish.
+% MTT 2011.11.30
+%\usepackage[spanish, es-tabla]{babel}
+%\usepackage[utf8x]{inputenc}
+
+\usepackage[spanish, es-tabla]{babel}    % Estos paquetes alteran las definiciones
+\usepackage[latin1]{inputenc}  % estandar de los titulos y requieren 
+                               % redefiniciones adicionales
+\addto\captionsspanish{%
+  \renewcommand{\contentsname}{INDICE GENERAL}%
+}
+\addto\captionsspanish{
+ \renewcommand{\listfigurename}{INDICE DE FIGURAS}%
+}
+\addto\captionsspanish{
+ \renewcommand{\listtablename}{INDICE DE TABLAS}%
+}
+\addto\captionsspanish{
+ \renewcommand{\chaptername}{}%CAPITULO}
+}
+\addto\captionsspanish{
+ \renewcommand{\figurename}{Figura}%
+}
+\addto\captionsspanish{
+ \renewcommand{\tablename}{Tabla}%
+}
+\addto\captionsspanish{
+ \renewcommand{\refname}{BIBLIOGRAFIA}%
+}
+\addto\captionsspanish{
+ \renewcommand{\bibname}{}%
+}
+\addto\captionsspanish{
+ \renewcommand{\BOthers}[1]{et al.\hbox{}}%
+}
+% --- END: Babel ---
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   Preambulo                                      %
+           %------------------------------------------------- %
+           %        \newcommand\...{...}                      %
+           %        \newtheorem{}{}[]                         %
+           %        \numberwithin{}{}                         %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%--------- NUEVOS ENTORNOS ---------
+\newtheorem{definicion}{\bf Definici\'on}[chapter]
+\newtheorem{propiedad}{Propiedad}[chapter]
+\newtheorem{afirmacion}{Afirmaci\'on}[chapter]
+\newtheorem{lema}{\bf Lema}[chapter]
+\newtheorem{proposicion}{Proposici\'on}[chapter]
+\newtheorem{teorema}{\noindent \bf Teorema}[chapter]
+\newtheorem{corolario}{\bf Corolario}[chapter]
+\newtheorem{pf}{Demostraci\'on}[chapter]
+\newtheorem{ejemplo}{\bf Ejemplo}[chapter]
+\newtheorem{comentario}{Comentario}[chapter]
+
+%--------- COLOQUE ENTORNOS/DEFINICIONES ADICIONALES AQUI ---------
+
+\newcommand\opgrad{\operatorname{grad}}        
+% ...
+
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+%----------------------------------------------------------------------%
+\begin{document}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %                                                  %
+           %  INICIALIZACIONES : PORTADA                      %
+           %                                                  %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\draft                        %añade nota al pie con fecha del borrador
+\mdate{Marzo 1, 2016}         %fecha de modificacion del manuscrito
+\version{1}                    %numero de version del manuscrito
+
+
+\title[Título de la Memoria]{\bf Título de la Memoria}       
+\author[Roberto Zúñiga Valladares]{Roberto Zúñiga Valladares}           
+%
+\address{Escuela de Ingenier\'ia\\
+	Pontificia Universidad Cat\'olica de Chile\\ 
+	Vicu\~na Mackenna 4860\\
+	Santiago, Chile\\
+	{\it Tel.\/} : 56 (2) 354-2000}
+\email{mailname@ing.puc.cl}
+%
+\facultyto    {la Escuela de Ingenier\'ia}
+%\department   {}%{Departemento de Ingenier\'ia El\'ectrica}
+\faculty      {Facultad de Ingenier\'ia}
+\degree       {Ingeniero Civil de Industrias, con Diploma en Ingenier\'ia Matemática} 
+% or {Ingeniero Civil $\ldots$}
+\advisor      {Nombre del Supervisor}
+\committeememberA {Miembro A del Comit\'e}
+\committeememberB {Miembro B del Comit\'e (Opcional)}
+\guestmemberA {Miembro Invitado A del Comit\'e}
+\guestmemberB {Miembro Invitado B del Comit\'e (Opcional)}
+\ogrsmember   {Representante de la Direcci\'on de Pregrado}
+\subject      {Ingenier\'ia}
+\date         {Marzo 2016}
+\copyrightname{Nombre Completo del Autor}
+\copyrightyear{MMVII}
+\dedication   {A mi familia}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PRELIMINARIDADES                               %
+           %--------------------------------------------------%
+           %      pags. i & ii: segunda pagina                %
+           %      pags. iii: dedicatoria                      %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NoChapterPageNumberCentered   % elimina encabezado - pie de pagina de la
+                               % primera pagina de cada capitulo
+\pagenumbering{roman}
+\maketitle
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   PAGINAS EXTRA                                  %
+           %--------------------------------------------------%
+           %      pags. --: not used                          %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+%\thispagestyle{empty}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      pags. iv: AGRADECIMIENTOS                   %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{AGRADECIMIENTOS}
+%................................
+%................................
+La clase de documento \,\verb+puctesis+\, es posible gracias a {\sl Wendy McKay\/}, de Universit\'e de Montr\'eal, quien proporcion\'o la plantialla original, y a {\sl Benoit Dubuc} y {\sl Peter Whaite}, del Centre for Intelligent Machines de la McGill University, quienes modificaron en Mayo de 1993 la plantilla original para crear la clase de documento \,\verb+cimthesis+\, sobre la cual se basa la presente plantilla.
+\par
+%\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl\footnotesize
+{~\\
+
+El merito de la pintura yace en la exactitud de la reproducci\'on.  La pintura es una ciencia y todas las ciencias se basan en las matem\'aticas.  Ninguna investigaci\'on humana puede llamarse cient\'ifica a menos que siga su curso a trav\'es de la exposici\'on y demostraci\'on matem\'atica.
+
+Ninguna investigaci\'on humana puede llamarse ciencia real si no puede demostrarse matem\'aticamente.
+
+{\em Nessuna humana investigazione si puo dimandare vera scienzia s'essa non passa per le matematiche dimonstrazione.}
+}
+
+\hfill{{\sc ---Leonardo da Vinci}, \rm Tratado sobre Pintura}
+}
+\end{quotation}
+%................................
+
+%\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl\footnotesize
+~\\
+
+{La seriedad, joven hombre, es un accidente del tiempo.  Esta consiste, no me importa confesarte, en sobrevalorar el tiempo... En la eternidad, sin embargo, no existe el tiempo, ves.  La eternidad es simplemente un momento, suficientemente largo para una broma.}
+
+\hfill{{\sc ---Hermann Hesse}, \rm Lobo Estepario (1928)}
+}
+\end{quotation}
+%................................
+
+%\bigskip
+\begin{quotation}
+{\renewcommand{\baselinestretch}{1.0}
+\sl \footnotesize
+~\\
+
+Un hombre habl\'o con el Se\~nor sobre el cielo y el infierno.
+El Se\~nor dijo al hombre, `Ven que te mostrar\'e el infierno'.
+Entraron a una habitaci\'on donde un grupo de gente estaba sentada alrededor de una olla gigante de estofado.
+Todos ten\'ian hambre y estaban desperados.  Cada uno sosten\'ia una cuchara que llegaba a la olla, pero cada cuchara ten\'ia un mango tan largo que no pod\'ia ser empleada para alcanzar la boca de cada persona.  El sufrimiento era terrible.
+
+`Ven, ahora te mostrar\'e el cielo', dijo el Se\~nor despu\'es de un rato.  Entraron a otra habitaci\'on, id\'entica a la primera ---la olla con el estofado, el grupo de gente, la mismas cucharas largas---, pero todos estaban felices y bien alimentados.
+
+ `No entiendo', dijo el hombre, ?`por qu\'e est\'an felices aqu\'i cuando en la otra habitaci\'on todos eran miserables siendo que todo es igual?'
+El Se\~nor se sonri\'o, `Ah, ?`pero es que no ves?' dijo, `Aqu\'i han aprendido a alimentarse el uno al otro'.
+
+\hfill{\sc Autor Desconocido}
+}
+\end{quotation}
+%................................
+
+\cleardoublepage % En la impresion en doble cara, este comando hace que
+                 % la siguiente pagina sea una pagina derecha
+                 % (es decir, un pagina con numero impar con respecto
+                 % a la cuenta absoluta), produciendo una pagina en blanco
+                 % si es necesario.  Agregado por MTT 20.AUG.2002
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      pags. v & up ---                            %
+           %            Indice General                        %
+           %            Lista de Figuras                      %
+           %            Lista de Tablas                       %
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\listoffigures          
+\listoftables           
+\cleardoublepage % En la impresion en doble cara, este comando hace que
+                 % la siguiente pagina sea una pagina derecha
+                 % (es decir, un pagina con numero impar con respecto
+                 % a la cuenta absoluta), produciendo una pagina en blanco
+                 % si es necesario.  Agregado por MTT 20.AUG.2002
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %      pags. x & xi: RESUMEN - ABSTRACT
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subimport*{texs/}{resumen}
+
+\subimport*{texs/}{abstract}
+
+\cleardoublepage % In double-sided printing style makes the next page 
+                 % a right-hand page, (i.e. a truly odd-numbered page 
+                 % with respect to absolut counting), producing a blank
+                 % page if necessary. Added by MTT 20.AUG.2002 
+
+%======================================================================%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   TEXTO DE LA TESIS
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NoChapterPageNumber           % elimina encabezado - pie de pagina de la
+                               % primera pagina de cada capitulo
+\pagenumbering{arabic}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CAPITULO 1 : Introducción
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{INTRODUCCIÓN}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CAPITULO 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{LOS CINCO GRANDES}
+\section{Orígenes y propiedades de los Cinco Grandes}
+El modelo de los Cinco Grandes rasgos de personalidad ha emergido como el más aceptado para comparar medidas de personalidad entre individuos. Los orígenes de este modelo se remontan a los trabajos de \citeA{Allport1936} y \citeA{cattell1943description} quienes estudiaron términos presentes en el lenguaje para explicar diferencias de personalidad. Posteriormente, \citeA{fiske1949consistency} fue el primero en sugerir que con solo cinco factores es posible capturar gran parte de la variabilidad en diferencias de personalidad. El modelo de cinco factores, que incluye extraversión, apertura al cambio, estabilidad emocional, responsabilidad y amabilidad, fue conceptualizado en 1961 por \citeauthor{Tupes1992}. En las décadas posteriores numerosos estudios han mostrado la robustez del modelo para generar medidas de personalidad bajo diferentes muestras, contextos, lenguajes y culturas \cite{costa1992four,Goldberg1990, norman1963toward}[CitarRevisar: [CONGR]Costa and Mccrae, 1992; Goldberg 1990; Norman, 1963; John, Robinson and Pervin, 2010; [TWITTER] [10] [21] [27]; [POLARENA]John et al 2008ª, Yang et al. 1999]. Consecuentemente, este modelo ha alcanzado un alto grado de aceptación por muchos psicólogos[Citar: [43], [34]] y ningún otro modelo es objeto de tantos estudios como el de los Cinco Grandes \cite{John2008}.
+
+Los cinco factores capturan aspectos de la personalidad sustancialmente distintos entre sí \cite{Goldberg1990}. A continuación una breve descripción de cada factor.
+
+\subsection{Extraversión}
+		\textit{
+		\begin{quote}
+		Implica un enfoque enérgico hacia el mundo material y social, e incluye rasgos tales como sociabilidad, asertividad y expresar emociones positivas.	\cite{John2008}.
+		\end{quote}
+	}
+Individuos extrovertidos son percibidos como enérgicos, amigables y asertivos. Orientan sus energías e intereses hacia el mundo exterior de las personas y cosas, a diferencia de los introvertidos que se orientan hacia el mundo interno de la experiencia subjetiva \cite{vandenbos2007apa}.
+\subsection{Amabilidad}
+\textit{
+	\begin{quote}
+		Esta dimensión contrasta una actitud pro-social y comunal con antagonismo hacia otros individuos. Incluye rasgos tales como altruismo, optimismo, confianza y modestia.	\cite{John2008}.
+	\end{quote} 
+}
+\subsection{Responsabilidad}
+\textit{
+	\begin{quote}
+		Describe un control de impulsos que incentiva un comportamiento orientado a tareas y objetivos, tales como pensar antes de actuar, posponer gratificaciones, seguir reglas, además de planear organizar y priorizar tareas.	\cite{John2008}.
+	\end{quote} 
+}
+\subsection{Estabilidad emocional}
+\textit{
+	\begin{quote}
+		Contrasta estabilidad emocional y temperamental con la expresión de emociones negativas, tales como ansiedad, nerviosismo, tensión y tristeza.	\cite{John2008}.
+	\end{quote} 
+}
+\subsection{Apertura al cambio}
+\textit{
+	\begin{quote}
+		Describe la profundidad, originalidad y complejidad de la experiencia mental de un individuo.	\cite{John2008}.
+	\end{quote} 
+}
+\section{Los Cinco Grandes e intercambio comercial}
+\subsection{Los Cinco Grandes como predictores de comportamiento}
+
+\subsection{Personalidad y comportamiento en política}
+Numerosos estudios señalan la importancia de variadas características psicológicas en el comportamiento de políticos. Se ha mostrado la influencia de rasgos psicológicos en la toma de decisiones relativas a relaciones internacionales (Young and Schafer 1998). La capacidad de un líder para confiar en otros se ha relacionado con su voluntad para realizar compromisos internacionales (Herman 1980). A su vez, las motivaciones personales de los líderes, tales como sus ansias de poder o de influencia, se han relacionado con el nivel de agresividad y la toma de riesgos (A REVISAR!!! Winter, 1973, 1993 ;Winter and Sturart, 1977), e incluso con la probabilidad de entrar en guerra (Winter 1987). Tanto Carney et al.(2008) como Gerber et al. (2010c) encuentran correlaciones significativas entre dos de los Cinco Grandes y  orientación política: ser conservador está asociado con mayores niveles de responsabilidad, mientras que ser liberal está positivamente correlacionado con apertura al cambio. 
+\subsection{Los Cinco Grandes e intercambio comercial}
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CAPITULO 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{METODOLOGÍA Y DATOS}
+\section{Estimando importaciones, exportaciones y FDI}
+\section{Líderes en la muestra}
+La estrategia que seguimos en este estudio consta de dos etapas. En la primera etapa estimamos el efecto neto del líder sobre la variable de interés (importaciones, exportaciones o FDI). En la segunda etapa se estudia la relación entre este efecto neto y los Cinco Grandes que describen la personalidad del líder.  
+
+Un aspecto clave de la primera etapa es que el efecto neto del líder se obtiene al comparar el valor promedio de la variable de interés en los periodos antes y después de su salida o transición. Este aspecto plantea la siguiente dificultad metodológica: si el objetivo es estimar el efecto de las transiciones de líderes en el desarrollo de variables macro-económicas, entonces es necesario que estas transiciones no estén relacionadas o influidas por las condiciones económicas en el país. 
+
+Para enfrentar esta dificultad, la idea de \citeA{jones2004leaders} es centrarse en líderes que murieron mientras ocupaban el cargo, ya sea por causas naturales o por accidente. Estos autores sostienen que en tales casos el momento de la transición es efectivamente aleatorio y por lo tanto no está relacionado con las condiciones económicas que había en el país al momento de la transición. Consecuentemente, en este trabajo nos enfocamos en líderes que dejaron su cargo por causa de una grave enfermedad y por muerte, ya sea por causas naturales o por accidente. De aquí en adelante nos referiremos a tales transiciones como transiciones aleatorias. Esta definición coincide con la empleada en \cite{besley2011educated}.
+
+Nuestra muestra de transiciones aleatorias se basa en la base de datos Archigos versión 3.0 \cite{goemans2009introducing}, la cual contiene información sobre líderes nacionales de 183 países, entre los años 1875 y 2013. Usamos la información que provee Archigos sobre la manera en que cada líder dejó el cargo para identificar los líderes que tuvieron una salida aleatoria. De esta forma identificamos 239 líderes con transiciones aleatorias. De estos, 23 son descartados pues estuvieron en el cargo por un periodo demasiado breve como para haber producido un impacto significativo y sostenido en la economía del país. Adicionalmente, otros 25 líderes son descartados pues su salida se sitúa demasiado pronto luego de otra transición aleatoria. Nuestra muestra contiene finalmente 191 transiciones aleatorias. De estas, 158 corresponden a líderes que murieron en el cargo (por causas naturales o debido a un accidente fatal) y 33 corresponden a líderes que se vieron forzados a renunciar debido a una grave enfermedad. Para más detalles sobre los criterios de selección de los líderes véase el apéndice \ref{ap:our_list}.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{\textwidth}
+		\includegraphics[width=\textwidth]{Figures/World_vsimple.pdf}
+		\caption{Distribution of leaders across countries}
+		\label{fig:world_map}
+	\end{subfigure}
+	\\ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+	%(or a blank line to force the subfigure onto a new line)
+	\begin{subfigure}[b]{0.8\textwidth}
+		\includegraphics[width=\textwidth]{Figures/Year_distribution.pdf}
+		\caption{Distribution of leaders in time}
+		\label{fig:timeline}
+	\end{subfigure}
+	%~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+	%(or a blank line to force the subfigure onto a new line)
+	\caption{Distribution of leaders with random transitions}
+	\medskip % induce some separation between caption and explanatory material
+	\begin{minipage}{\textwidth} % choose width suitably
+		{\footnotesize  Notes:  The map above shows the distribution of leaders with random transitions in our sample across countries. The timeline below shows how leaders with random transitions are distributed in time. The earliest random transition is in 1875, the latest in 2012.  \par}
+	\end{minipage}
+\end{figure}
+
+
+\section{Midiendo los Cinco Grandes}
+En este estudio se busca establecer una relación entre personalidad y desempeño de líderes nacionales, para lo cual se requiere una base de datos que permita analizar la relación entre estas variables. Sin embargo, a nuestro conocimiento,  no existe una base de datos con información sistemática de la personalidad de líderes nacionales. 
+
+El método comúnmente empleado en la literatura consiste en realizar tests de personalidad sobre los sujetos del estudio. Tal enfoque no es aplicable en este trabajo pues la muestra se compone en su gran mayoría de líderes que ya han muerto. Por esta razón, es necesario recurrir a métodos que permitan medir la personalidad de forma indirecta. 
+
+¿Cómo medir la personalidad de líderes que ya han muerto? En esta sección se describe un método que permite estimar los Cinco Grandes a partir de los discursos políticos pronunciados por los líderes.
+
+\subsection{Muéstrame cómo escribes y te diré quién eres}
+En un creciente número de artículos se ha establecido una relación entre rasgos de personalidad y las palabras empleadas tanto en el discurso oral como en el escrito. \citeA{Pennebaker1999} estudian el uso de palabras en ensayos escritos por estudiantes sobre variados temas. Las palabras son clasificadas en más de 70 categorías léxicas y luego se estudia la frecuencia de cada categoría en los textos. Encuentran que la manera en que la gente se expresa en palabras es altamente estable en el tiempo y en variadas situaciones. Más aun, encuentran correlaciones significativas entre las frecuencias de ciertas categorías léxicas y los Cinco Grandes rasgos de personalidad. Tales factores se observan en la escritura de un individuo como patrones característicos que emergen independientemente del tema del cual esté escribiendo. Trabajos posteriores \cite{mehl2006personality, fast2008personality} también han reportado correlaciones entre el uso de palabras y los Cinco Grandes.
+
+La existencia de correlaciones entre el uso de palabras y la personalidad ha impulsado el desarrollo de modelos de predicción de la personalidad a partir de textos. Artículos como \cite{Golbeck2011,Golbeck2011a,li2010birds} usan textos extraídos de redes sociales, como \textit{tweets} o entradas de blogs, para entrenar modelos de predicción automática de la personalidad. 
+
+En uno de los artículos más citados de la literatura, \citeA{Mairesse2007} desarrollan un método para generar estimadores de los Cinco Grandes a partir de textos. Ellos usan los datos de \citeA{Pennebaker1999} para entrenar modelos estadísticos de predicción de la personalidad. En un reciente trabajo, \citeA{Ramey2014} usan los modelos de \citeA{Mairesse2007} para estimar la personalidad de miembros del Congreso de Estados Unidos a partir de sus discursos en el Congreso. \citeA{Ramey2014} relacionan de forma significativa las personalidades estimadas con el comportamiento de los legisladores, específicamente en cuanto a las tácticas empleadas para presentar proyectos de leyes.
+
+\subsection{De discursos políticos a los Cincos Grandes}
+El uso de modelos de predicción de la personalidad a partir de textos se presenta como un método consistente y sistemático para estimar la personalidad de los líderes nacionales en nuestra muestra. En este trabajo adoptamos la metodología de \citeA{Mairesse2007} y \citeA{Ramey2014} para obtener estimadores de los Cinco Grandes a partir de discursos políticos. La Figura \ref{fig:bf_discurso} muestra un esquema de este método.
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{Figures/Figura_BF.pdf}
+	\caption{Estimando los Cinco Grandes a partir de discursos políticos. Fuente: Elaboración propia.}
+	\label{fig:bf_discurso}
+\end{figure}
+
+Para cada líder se recolectaron textos de discursos políticos pronunciados ya sea antes, durante o después de sus mandatos. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos.
+
+Luego, se evaluó el contenido de los discursos usando el inventario de palabras Linguistic Inquiry and Word Count (LIWC) \cite{Pennebaker1999}. Esta herramienta genera estadísticas sobre más de 70 categorías léxicas, que a su vez pueden ser  agrupadas en cinco grupos. Estos grupos incluyen Conteos Estándar (conteo de palabras, palabras por oración, palabras de más de 6 letras, etc.), Procesos Psicológicos (procesos afectivos, emociones positivas, emociones negativas, etc.), Relatividad (tiempo, verbos en pasado, espacio, movimiento, etc.), Asuntos Personales (ocupación, ocio, dinero, religión, etc.) y Otras Dimensiones (puntuación, signos de exclamación, palabras obscenas, etc.).
+
+Los puntajes en las categorías LIWC de todos los líderes son procesados mediante el programa \textit{Personality Recognizer} desarrollo por \cite{Mairesse2007}. Esta herramienta normaliza los puntajes para  reducir la ponderación de categorías de palabras escasas o no presentes en discursos políticos (por ejemplo palabras obscenas). Estos puntajes normalizados son los que se muestran en la etapa intermedia de la Figura \ref{fig:bf_discurso}. 
+
+Posteriormente, la herramienta \textit{Personality Recognizer} usa estos puntajes para estimar los Cinco Grandes mediante modelos estadísticos. Específicamente, en este trabajo se utilizó el modelo Support Vector Machines for Regression (SMOreg), pues es el que reporta mejor desempeño en la tarea de estimar la personalidad de individuos en pruebas no orales. Este método entrega como resultado final los cinco estimadores medidos en una escala continua de 1 a 7 (etapa final en la Figura \ref{fig:bf_discurso}).
+
+\subsection{Resultados y verificaciones}
+\subsubsection{Correlaciones entre los Cinco Grandes}
+\subsubsection{Correlaciones con otras variables}
+\subsubsection{Robustez de los estimadores}
+\subsubsection{Indicadores lingüísticos}
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CAPITULO 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{RESULTADOS}
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   CAPITULO 2
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{CONCLUSIONES}
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CAPITULO 7
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[REFERENCIAS]{REFERENCIAS}
+\section{Estilo de la Referencias}
+Las referencias deben emplear la convenci\'on de la American Psychological Association (APA) para citaciones; vea la siguiente direcci\'on URL de la SIBUC:
+\begin{center}
+\verb+http://www.puc.cl/sw_educ/gnosis/citas/citas.htm+
+\end{center}
+Con este fin se emplea la herramienta \textsc{Bib}\TeX{} para composici\'on de bibliograf\'ias junto con el estilo \textsf{apacite} de bibliograf\'ias, el cual require los siguientes archivos:
+\begin{itemize}
+\item \verb+apacite.sty+: debe colocarse donde \TeX{} pueda encontrarlo, por ejemplo, en el directorio que contiene su documento \verb+.tex+.
+\item \verb+apacite.bst+: debe colocarse donde \textsc{Bib}\TeX{} pueda encontrarlo, por ejemplo, en el directorio que contiene su documento \verb+.tex+.
+\item \verb+apacitex.bst+: debe colocarse donde \textsc{Bib}\TeX{} pueda encontrarlo, por ejemplo, en el directorio que contiene su documento \verb+.tex+.
+\end{itemize}
+Estos archivos se incluyen con la distribuci\'on de la clase de documento \verb+puctesis+.  La \'ultima versi\'on de los archivos de \textsf{apacite} pueden obtenerse del sitio de CTAN:
+\begin{center}
+\verb+http://texcatalogue.sarovar.org/entries/apacite.html+
+\end{center}
+
+Existen dos formas principales de escribir una cita en el estilo \textsf{apacite} dependiendo si la referencia es empleada como un sustantivo o entre par\'entesis.  Adem\'as, aquellas referencias con m\'as de dos autores son citadas con todos los autores la primera vez que la cita ocurre y solamente con el nombre del primer autor seguido por `et al.' oportunidades subsiguientes.  El siguiente ejemplo ilustra este punto:
+\begin{quote}
+\renewcommand{\baselinestretch}{1.0}
+\LaTeX{} es un sistema para edici\'on de documentos desarrollado en 1985 por un cient\'ifico de la computaci\'on llamado Leslie~\fullciteA{LAM94}.  \LaTeX{} se basa en otra pieza de software llamada \TeX{}, escrita entre fines de los 70s e inicios de los 80s por Donald E.~\fullciteA{KNU86}, un cient\'ifico de la computaci\'on y matem\'atico de Stanford University muy conocido.  \LaTeX{} se basa en el principio de que los autores deber\'ian concentrarse en el dise\~no l\'ogico en vez del dise\~no visual al momento de escribir sus documentos.
+
+Existen muchos libros de referencia que tratan aspectos t\'ecnicos de la edici\'on de documentos escritos que incluyen asuntos sobre estilo, estructura y diagramaci\'on del texto \cite{HIG98,KNU88,STR99}.  El libro de \citeauthor{HIG98} de \citeyearNP{HIG98} es para los escritores t\'ecnicos como el trabajo de \citeA{STR99} es para los escritores de humanidades. Porciones del libro de~\citeA{KNU88} tambi\'en est\'an disponibles en el informe t\'ecnico STAN-CS-88-1193.
+\end{quote}
+Qué puedo hacer en este momento? nada de nada! no hay nada qué hacer. Me siento aburrido. Tal vez es la música, qué se yo. El punto es que estoy harto de escribir y eso que no he escrito nada el día de hoy! Es increíble. Tal vez debería quedarme en mi casa. Tal vez debería ir a casa. Llego a las 6.30. Dejo mis cosas y luego me voy. Pero qué van a decir! Pero qué importa! Es cierto. Ya es tiempo de partir entonces. Pero no puedo. Obvio que puedes! Ya vete! Vete de aquí!
+
+Cabe destacar los siguientes aspectos del ejemplo anterior:
+\begin{itemize}
+\item El comando \verb+\fullciteA+ (tambi\'en \verb+\citeA+, \verb+\shortciteA+) es empleado cuando la cita es empleada como un sustantivo en la oraci\'on como, por ejemplo, las citas 1, 2, 7 y 8. Este comando es similar al comando \verb+\citeasnoun+ del paquete \textsf{harvard} para referencias bibliogr\'aficas.  Sin embargo, este \'ultimo no permite m\'ultiples citas.
+\item Los comandos \verb+\cite+, \verb+\fullcite+ y \verb+\shortcite+ son empleados para producir referencias entre par\'entesis y permiten crear listas de citas como, por ejemplo, las citas 3, 4 y 5.
+\item El comando \verb+\citeyear+ genera el a\~no del documento entre par\'entesis.  Use \verb+\citeyearNP+ para citar el a\~no sin los par\'entesis, como en la cita 6.  Este \'ultimo es equivalente al comando \verb+\citeyear*+ del paquete \textsf{harvard}.
+\item La primera aparici\'on de una referencia en el texto debe incluir el apellido de todos los autores separados por comas, excepto por el \'ultimo, el cual debe estar conectados por un \&, como en las citas 4 y 5.
+\item En el caso de referencias con dos autores, la segunda y posteriores apariciones de la referencia deben incluir el apellido del primer y segundo autor separados por un \&.
+\item En el caso de referencias con tres o m\'as autores, la segunda y posteriores apariciones de la referencia deben incluir el apellido del primer autor seguido por `et al.', abreviaci\'on de la expresion latina `et alii' (masculino) o `et ali\ae' (femenino) que significa `y otros'.  Vea, por ejemplo, las \'ultimas dos citas (7, 8).
+\item Citas posesivas pueden realizarse empleando la familia de comandos para referencias terminados en \verb+NP+, tales como \verb+\citeNP+, \verb+\citeyearNP+, como se muestra en la cita 6.  Estas versiones de los comandos est\'andar de citaci\'on son \'utiles para construir citas complejas en frases que ya se encuentran entre par\'entesis.  El paquete \textsf{harvard} resuelve este caso empleando el comando \verb+\possessivecite+.
+\end{itemize}
+
+En algunas situaciones puede ser necesario referirse a ciertas p\'aginas en un libro.  Esto puede realizarse empleando la manerar est\'andar de las bibliograf\'ias \LaTeX{} usando el comando \verb+\cite[pp. 32--35]{Label}+.  Por ejemplo, \verb+\cite[pp. 43--54]{KNU88}+ produce: \cite[pp. 43--54]{KNU88}.
+
+La siguiente lista muestra algunos de los comandos principales para generar citas:
+\begin{itemize}
+\item Primera aparici\'on de \verb+\cite{TAY03}+:\\ 
+\cite{TAY03}
+\item Segunda aparici\'on de \verb+\cite{TAY03}+:\\
+\cite{TAY03}
+\item Forzando\hfill que\hfill aparezcan\hfill todos\hfill los\hfill autores\hfill en\hfill la\hfill tercera\hfill aparici\'on\hfill usando\\ \verb+\fullcite{TAY03}+:\\
+ \fullcite{TAY03}
+\item Forzar una cita corta se logra usando \verb+\shortcite{TAY03}+:\\
+\shortcite{TAY03}
+\item Cita\hfill est\'andar\hfill de\hfill los\hfill nombres\hfill de\hfill los\hfill autores\hfill sin\hfill par\'entesis\hfill usando\\ \verb+\citeA{TAY03}+:\\
+\citeA{TAY03}
+\item Cita\hfill completa\hfill de\hfill los\hfill nombres\hfill de\hfill los\hfill autores\hfill sin\hfill par\'entesis\hfill usando\\ \verb+\fullciteA{TAY03}+:\\
+\fullciteA{TAY03}
+\item  Cita\hfill corta\hfill de\hfill los\hfill nombres\hfill de\hfill los\hfill autores\hfill sin\hfill par\'entesis\hfill usando\\ \verb+\shortciteA{TAY03}+:\\
+\shortciteA{TAY03}
+\item Cita est\'andar de los nombres de los autores solamente (sin el a\~no de publicaci\'on) usando \verb+\citeauthor{TAY03}+:\\
+\citeauthor{TAY03}
+\item Cita completa de los nombres de los autores solamente (sin el a\~no de publicaci\'on) usando \verb+\fullciteauthor{TAY03}+:\\ 
+\fullciteauthor{TAY03}
+\item Cita corta de los nombres de los autores solamente (sin el a\~no de publicaci\'on) usando \verb+\shortciteauthor{TAY03}+:\\ 
+\shortciteauthor{TAY03}
+\item Cita del a\~no de publicaci\'on entre par\'entesis usando \verb+\citeyear{TAY03}+:\\
+\citeyear{TAY03}
+\item Cita del a\~no de publicaci\'on sin par\'entesis usando \verb+\citeyearNP{TAY03}+:\\
+\citeyearNP{TAY03}
+\item Cita completa sin par\'entesis usando \verb+\fullciteNP{TAY03}+:\\
+\fullciteNP{TAY03}
+\item Primera\hfill aparici\'on\hfill de\hfill una\hfill referencia\hfill con\hfill dos\hfill autores,\hfill como\hfill por\hfill ejemplo,\\ \verb+\cite{TAL93}+:\\ 
+\cite{TAL93}
+\item Segunda aparici\'on de la referencia previa con dos autores, \verb+\cite{TAL93}+.  Notese que el ampersand (\&) es empleado en vez de `et al.', a difrencia de aquellas citas con tres o m\'as autores:\\
+\cite{TAL93}
+\end{itemize}
+
+Una explicaci\'on completa de las varias opciones que provee el estilo \textsf{apacite} para bibliograf\'ias se encuentra en~\cite{MEI05}.
+
+
+\section{Producci\'on de Referencias}
+La producci\'on de referencias involucra los siguientes pasos:
+\begin{enumerate}
+\item Crear uno o m\'as archivos \verb+.bib+ con los campos \textsc{Bib}\TeX{} para cada referencia.  Vea los ejemplos abajo, la documentaci\'on \textsc{Bib}\TeX{} o las referencias en:
+\begin{center}
+\verb+http://en.wikipedia.org/wiki/BibTeX+
+\end{center}
+\item Incluir las siguientes l\'ineas en el archivo \verb+.tex+ para insertar las referencias almacenadas en los archivos \verb+.bib+, por ejemplo, \verb+refs1.bib+, \verb+refs2.bib+, \verb+refs3.bib+, \ldots:
+\begin{verbatim}
+ \bibliographystyle{apacite} 
+ \bibliography{refs1,refs2,refs3,...}
+\end{verbatim}
+\item Compilar el documento \verb+.tex+ usando el comando:
+\begin{verbatim}
+latex filename
+\end{verbatim}
+\item Compilar con el comando \verb+bibtex+ el archivo \verb+.aux+ generado por el compilador \verb+latex+.  El archivo \verb+.aux+ contiene, entre otra informaci\'on, los datos sobre las colecciones \textsc{Bib}\TeX{} de referencias almacenadas en los archivos \verb+.bib+. Para llevar a cabo este paso, ejecute el siguiente comando:
+\begin{verbatim}
+bibtex filename
+\end{verbatim}
+El compilador \verb+bibtex+ generar\'a unos archivos \verb+.bbl+ y \verb+.blg+, los cuales ser\'an incorporados al documento final, luego de compilar el documento \verb+.tex+ en el pr\'oximo paso.
+\item Execute:
+\begin{verbatim}
+latex filename
+latex filename
+\end{verbatim}
+\item Si el documento tiene un \'indece de t\'erminos o autores, ejecute:
+\begin{verbatim}
+makeindex filename
+latex filename
+latex filename
+\end{verbatim}
+\end{enumerate}
+
+
+\section{\textsc{Ejemplos de Referencias Bib}\TeX{}}
+Uno o m\'as archivos \verb+.bib+ deben crearse con las referencias en el formato que establece la documentaci\'on del paquete \textsc{Bib}\TeX{}.  Las referencias en un archivo \textsc{Bib}\TeX{} no necesitan estar en orden alfab\'etico porque \textsc{Bib}\TeX{} se encargar\'a de ordenarlas autom\'aticamente seg\'un el estilo de bibliograf\'ia empleado.  Las siguientes referencias han sido elegidas para ilustrar la manera de escribir los datos del tipo de referencias m\'as comunes.  Cabe notar que no todos los campos de datos para las distintas referencias son empleados.  Si desea emplear los campos opcionales, deber\'a remover el texto \verb+ALT+ u \verb+OPT+ que precede al identificador del campo.  Use las abreviaciones para los nombres de los journals que se presentan en los \'indices anuales de {\it Mathematical Reviews}:
+\begin{center}
+\texttt{http://www.ams.org/msnhtml/serials.pdf}
+\end{center}
+
+\subsection{Ejemplo de Referencia de Libro}
+Vea la referencia~\cite{STR99}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Book{STR99,
+  author =       {W. Strunk and E. B. White and R. Angell},
+  ALTeditor =    {},
+  title =        {The Elements of Style},
+  publisher =    {Allyn \& Bacon},
+  year =         {1999},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  edition =      {$4^{th}$},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Art\'iculo en Libro}
+Vea la referencia~\cite{TAL93}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InBook{TAL93,
+  author =       {R. Talluri and J. Aggarwal},
+  editor =       {C. H. Chen, L. F. Pau, P. S. P. Wang},
+  title =        {Handbook of Pattern Recognition and Computer 
+                  Vision},
+  chapter =      {Positional estimation techniques for an 
+                  autonomous mobile robot -- a review},
+  publisher =    {World Scientific Publishing Co.},
+  year =         {1993},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTtype =      {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {769--801},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Art\'iculo en Revista}
+Vea la referencia~\cite{MAN77}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Article{MAN77,
+  author =       {C. F. Manski},
+  title =        {The structure of random utility models},
+  journal =      {Theory and Decisions},
+  year =         {1977},
+  OPTkey =       {},
+  volume =       {v. 8},
+  number =       {n. 3},
+  pages =        {229--254},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Art\'iculo de Conferencia}
+Vea la referencia~\cite{TAY03}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InProceedings{TAY03,
+  author =       {D. W. Taylor and P. N. Johnson and W. T. Faulkner},
+  title =        {Local area radio navigation: a tool for GPS-denied 
+                  geolocation},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  booktitle = {Proc. of the SPIE-Aerosense Conference, Orlando, 
+               Florida, 24 April 2003},
+  pages =        {125--136},
+  year =         {2003},
+  OPTeditor =    {},
+  volume =       {v. 5084 - Location Services and Navigation 
+                  Technologies},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Tesis}
+Vea la referencia~\cite{CEC70}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@PhdThesis{CEC70,
+  author =       {S. O. Cecil},
+  title =        {Correlations of Rock Bolt Shotcrete Support and 
+                  Rock Quality Parameters in Scandinavian Tunnels},
+  school =       {Departament of Civil Engineering, University of 
+                  Illinois at Urbana Champaign},
+  year =         {1970},
+  OPTkey =       {},
+  OPTtype =      {},
+  address =      {U.S.A.},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Informe T\'ecnico}
+Vea la referencia~\cite{GOD97}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@TechReport{GOD97,
+  author =       {J.-M. Godhavn and A. Balluchi and L. S. Crawford 
+                  and S. S. Sastry},
+  title =        {Control of Nonholonomic Systems with Drift Terms},
+  institution =  {UC Berkeley-ERL},
+  year =         {1997},
+  OPTkey =       {},
+  type =         {Memorandum M97/01},
+  OPTnumber =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia de Documentaci\'on T\'ecnica/Gu\'ia del Usuario}
+Vea la referencia~\cite{CHAR91}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@Manual{CHAR91,
+  title =        {Maple {V} Language Reference Manual},
+  OPTkey =       {},
+  author =       {B. W. Char and K. O. Geddes and G. H. Gonnet 
+                  and B. Leong and M. B. Monagan and S. M. Watt},
+  OPTorganization = {},
+  OPTaddress =   {},
+  edition =      {Springer-Verlag},
+  OPTmonth =     {},
+  year =         {1991},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+
+\subsection{Ejemplo de Referencia a una P\'agina Web}
+Vea la referencia~\cite{CYB12}:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@MISC{CYB12,
+  author = {Cyborg, A.},
+  title = {{Cybogrs in the {$\alpha$}-quadrant}},
+  month = {june},
+  year = {2012},
+  OPTkey = {ZZ},
+  timestamp = {2011.12.15},
+  url = {http://www.cyborgforce.org/alpha_quadrant/}
+}
+\end{verbatim}
+}
+
+\subsection{Un Ejemplo Usando Abreviaciones}
+El par\'ametro \verb+@String+ de campo \textsc{Bib}\TeX{} provee una manera f\'acil para referirse a textos que son empleados frecuentemente en las referencias, tal como el nombre de las revistas, conferencias, casas editoriales, entre otros.
+
+Considere por ejemplo un archivo \verb+.bib+ con los siguientes campos:
+\begin{verbatim}
+@String{ PROCL = {{Proceedings of the}}}
+@String{ CDC = {{IEEE Conf. on Decision and Control}}}
+@String{ IEEEP = {{Proc. of the IEEE}}}
+\end{verbatim}
+Cabe notar que un par extra de corchetes es utilizado cada vez que se requiere preservar una letra may\'uscula en el texto.  Tambi\'en cabe destacar que los campos \verb+@String+ de \textsc{Bib}\TeX{} son \'utiles para crear comentarios dentro de un archivo \verb+.bib+, ya que \textsc{Bib}\TeX{} no provee comandos para crear comentarios como el comando \% en \LaTeX.
+
+La siguiente referencia~\cite{CYB00} muestra como emplear las abreviaciones reci\'n mencionadas:
+{\renewcommand{\baselinestretch}{1.0}
+\small
+\begin{verbatim}
+@InProceedings{CYB00,
+  author =       {Alfa Cyborg},
+  title =        {The Life in {U}nimatrix {O}ne},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  booktitle =    PROCL # { } # CDC,
+  pages =        {1001--1005},
+  year =         {3000},
+  OPTeditor =    {},
+  volume =       {III},
+  OPTnumber =    {},
+  OPTseries =    {},
+  address =      {Delta Quadrant},
+  month =        {December},
+  OPTorganization = {},
+  publisher = IEEP,
+  OPTnote =      {},
+  OPTannote =    {}
+}
+\end{verbatim}
+}
+Observe que las abreviaciones {\em no se colocan entre par\'entesis}.  Use el signo \# para concatenar textos.  Frecuentemente es necesario insertar un espacio en blanco entre abreviaciones.  Esto puede lograrse insertando \verb+# { } #+ entre abreviaciones.
+
+Vea el Anexo~\ref{ap:puctesis} en la p\'agina~\pageref{ap:puctesis} para mayores detalles sobre la manera de escribir las referencias y citas.
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CAPITULO 8
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[CONSEJOS GENERALES PARA LA PREPARACION DE DOCUMENTOS]{CONSEJOS GENERALES PARA LA PREPARACION DE DOCUMENTOS}
+
+Algunos consejos \'utiles sobre como preparar un mejor documento se explican brevemente en esta secci\'on.
+
+\section{Consejos sobre Figuras y Tablas}
+\begin{itemize}
+\item Procure posicionar figuras y tablas en la parte superior o inferior de las p\'aginas.  Evite colocarlas al medio de una p\'agina.
+%\item Figuras y tablas grandes pueden abarcar ambas columnas.
+\item Recuerde que los t\'itulos de las figuras deben colocarse bajo las mismas.\item Recuerde que los t\'itulos de las tablas deben colocarse sobre las mismas.\item Evite colocar figuras y tablas antes de su primera menci\'on en el texto.
+\item En algunos art\'iculos es posible emplear la abreviaci\'on ``Fig. \#'', incluso al inicio de una oraci\'on.
+\item Los r\'otulos de los ejes de figuras son habitualmente fuente de confusi\'on.  Use palabras en vez de s\'imbolos.  Por ejemplo, escriba ``Magnetizaci\'on'', o ``Magnetizaci\'on (M)'', no simplemente ``M''.
+\item Coloque las unidades entre par\'entesis.  No rotule los ejes solo usando unidades.  Por ejemplo, escriba ``Magnetization [A/m]'' o ``Magnetization [A m$^{-1}$]'', no solamente ``[A/m]'' o ``[A m$^{-1}$]''.
+\item No rotule los ejes con una raz\'on de cantidades y unidades.  Por ejemplo, escriba ``Temperatura [K]'', no ``Temperatura/K''.
+\item Multiplicadores pueden ser bastante confusos.  Escriba ``Magnetizaci\'on (kA/m)'' o ``Magnetizaci\'on ($10^3$ A/m)''.
+\item Los r\'otulos de las figuras deben legibles en el tama\~no correspondiente a 8 puntos.
+\end{itemize}
+
+\section{Consejos sobre Abreviaciones y Acr\'onimos}
+\begin{itemize}
+\item Defina abreviaciones y acr\'onimos la primera vez que son empleados en el texto, incluso si han sido definidos en el resumen ({\em abstract}).
+\item Abbreviaciones tales como IEEE, SI, MKS, CGS, ac, dc, and rms no requieren ser definidas.  No emplee abreviaciones en el t\'itulo a menos que sea inevitable.
+\end{itemize}
+
+\section{Consejos sobre Ecuaciones y N\'umeros}
+\begin{itemize}
+\item N\'umere las ecuaciones de manera consecutiva con n\'umeros de ecuaciones entre par\'entesis alineados con el margen derecho, como en la ecuaci\'on~(\ref{eq:eq1}).
+\item Para escribir sus ecuaciones de manera m\'as compacta, puede emplear el solidus ($/$) y la funci\'on $\exp$, etc.
+\item Escriba en it\'alica n\'umeros romanos y variables, pero no los s\'imbolos griegos.
+\item Use la l\'inea `en' ``--'' en vez del gui\'on ``-'' para los signos menos.
+\item Use par\'entesis para evitar ambig\"uedades en denominadores.
+\item Use comas o puntos al final de la ecuaci\'on cuando estas forman parte de una oraci\'on, como esta
+\begin{eqnarray}
+\frac{e^{ix}}{2}=\frac{\cos x+i\sin x}{2}\Rightarrow \exp(ix)/2 = (\cos x+i\sin x)/2.\label{eq:eq1}
+\end{eqnarray}
+\item S\'imbolos en las ecuaciones deber\'ian ser definidos antes que la ecuaci\'on aparezca o inmediatamente a continuaci\'on.
+\item Cite equaciones usando ``(\ref{eq:eq1}),'' no ``Eq. (\ref{eq:eq1})'' ni ``equation (\ref{eq:eq1})'', excepto al inicio de una oraci\'on, por ejemplo ``Equation (\ref{eq:eq1}) es \ldots''.
+\end{itemize}
+
+\section{Otras Recomendaciones}
+\begin{itemize}
+%The Roman numerals used to number the section headings are optional.
+\item No numere los cap\'itulos de Agradecimientos y Bibliograf\'ia.
+\item Use dos espacios luego del punto al final de una oraci\'on.  Use solo un espacio luego del punto de abreviaciones, de comas, de puntos y comas, y de dos puntos.
+\item Coloque guiones entre modificadores complejos: ``zero-field-cooled magnetization''.
+\item Evite participios que {\em cuelgan sueltos}, por ejemplo, ``Usando (\ref{eq:eq1}), el potencial fue calculado''.  Escriba en vez, ``El potencial fue calculado usando (\ref{eq:eq1})'' o ``Se calcul\'o el potencial usando (\ref{eq:eq1})''.
+\item Use un cero antes del separador de decimales: ``0.25'', no ``.25''.
+\item Use cm$^3$, no ``cc''.
+\item No mezcle nombres deletreados en forma completa con abreviaciones de unidades: ``Wb/m$^2$'' o ``Webers por metro cuadrado'', no ``Webers/m$^2$''.
+\item Deletree las unidades cuando aparecen en el texto: ``unos cuantos Henries'', no ``unos cuantos H''.
+%\item If your native language is not English, try to get a native English-speaking colleague to proofread your work.
+%Do not add page numbers.
+\end{itemize}
+
+\section{Consejos sobre Unidades}
+\begin{itemize}
+\item Use ya sea el SI (MKS) o CGS como sistemas de unidades primarias. (Se recomienda de preferencia usar unidades SI).
+\item Unidades inglesas pueden emplearse como unidades secundarias entre par\'entesis.  Una excepci\'on es el uso de unidades inglesas en el nombre de componentes comerciales, por ejemplo, ``3.5-inch disk drive''.
+\item Evite combinar unidades SI con unidades CGS, como la corriente en Amperes y el campo magn\'etico en Oersteds.  Esto frecuentemente conduce a confusi\'on porque las dimensiones en las ecuaciones no cuadran.  Si necesita emplear unidades de distintos sistemas, indique claramente las unidades para cada cantidad en una ecuaci\'on.
+\end{itemize}
+
+\section{Consejos sobre Redacci\'on y Uso del Lenguaje}
+\begin{itemize}
+%\item The word ``data'' is plural, not singular.
+%\item In British English, periods and commas are outside quotation marks, like ``this comma'', while in American English, periods and commas are within quotation marks, like ``this period.''
+\item A parenthetical statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)  A graph within a graph is an ``inset'', not an insert.
+%\item The word ``alternatively'' is preferred to the word ``alternately'' (unless you mean something that alternates).
+%\item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
+\item Evite ser impreciso y recurrir a frases gen\'ericas que emplean solamente modificadores como: mucho, poco, bastante, numerosos, escasos, aproximado, aproximadamente, generalmente, etc. sin especificar valores, ``se necesitan muchos Watts'', ``el algoritmo es bastante robusto'', ``generalmente funciona bastante bien'', una manera m\'as apropiada ser\'ia, ``se necesitan entre 2 y 3 Watts'', ``el algoritmo tiene una tasa de falla menor al 0.4\%'', ``funciona correctamente el 97\% de las veces'' o ``el tiempo promedio entre fallas es superior a las 16.000 horas''.
+%\item Be aware of the different meanings of the homophones ``affect'' and ``effect'', ``complement'' and ``compliment'', ``discreet'' and ``discrete'', ``principal'' and ``principle''.
+%\item Do not confuse ``imply'' and ``infer''.
+%\item The prefix ``non'' is not a word; it should be joined to the word it modifies, usually without a hyphen.
+\item No existe un punto despues de ``et'' en la abreviaci\'on latina ``et al.''.
+\item La abreviaci\'on ``i.e.'' ({\em id est}) significa ``es decir'', y la abreviaci\'on ``e.g.'' ({\em exempli gratia}) significa ``por ejemplo''. 
+%\item In the acknowledgements try to avoid the stilted expression, ``One of us (R. B. G.) thanks\ldots''.  Instead, try ``R.B.G. thanks\ldots''.
+%\item Put sponsor acknowledgements in the unnumbered footnote on the first page.
+
+\item Un excelente manual de estilo para escritores de documentos t\'ecnicos y cient\'ificos es el libro por M. Young, {\em The Technical Writer's Handbook}, Mill Valley, CA., University Science, 1989.  Consulte tambi\'en los manuales de estilo mencionados en la Bibliograf\'ia.
+\end{itemize}
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %    CAPITULO 9
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter[INSTALACION Y COMPILACION]{INSTALACION Y COMPILACION}
+
+\section{Instalaci\'on de \LaTeX}
+
+Obtenga un compilador \LaTeX{}, tal como MiK\TeX{} para Windows, disponible en:\\
+\verb+http://www.miktex.org/+\\
+Los pasos de instalaci\'on se pueden encontrar en el sitio web de los desarrolladores.  Tambi\'en es posible encontrar varios lugares en Internet con buenos resumenes de todos los pasos necesarios para instalar el sistema y ponerlo en funcionamiento, vea por ejemplo:\\
+\verb+http://www.math.aau.dk/~dethlef/Tips/introduction.html+
+
+Una vez que el sistema \LaTeX{} ha sido instalado, se recomienda la instalaci\'on de un editor de texto como, por ejemplo:
+\begin{itemize}
+\item Emacs-Auc\TeX{}\\
+\verb+http://www.gnu.org/software/emacs/windows/ntemacs.html+,\\
+\verb+http://www.gnu.org/software/auctex/+
+\item LEd\\
+\verb+http://www.latexeditor.org/+
+\item LyX\\
+\verb+http://www.lyx.org/+
+\item EditPlus\\
+\verb+http://www.editplus.com/+
+\item WinEdt\\
+\verb+http://www.winedt.com/+
+\item Kile\\
+\verb+http://kile.sourceforge.net/+
+\item Vi/Vim\\
+\verb+http://www.vim.org/+
+\end{itemize}
+Editores para espec\'ificamente concebidos como interfaz de usuario para \LaTeX{} pueden obtenerse en distintas versiones con variadas caracter\'isticas, por lo que es dif\'icil recomendar alguno en particular.  Algunos no tienen interfaces de comando muy amigables, algunos tienen interfaces de usuario m\'as intuitivas, pero pueden ser bastante m\'as lentos o menos flexibles.  De todos los editores anteriores, tal vez Emacs-Auc\TeX{} es la combinaci\'on m\'as poderosa.  Emacs es un sistema realmente vers\'atil.  Este puede ser un poco tedioso de aprender, pero es muy eficiente, altamente adaptable a las necesidades, y liviano.  Aprender a usarlo traer\'a numerosos beneficios especialmente para quienes escribir documentos cient\'ificos o desarrollar software son parte de sus actividades diarias.
+
+\section{Compilaci\'on y Generaci\'on de Archivos PDF}
+Los pasos b\'asicos para la compilaci\'on de archivos \LaTeX{} y la generaci\'on de archivos PDF son:
+\begin{enumerate}
+\item Generaci\'on de un archivo DVI a partir de un archivo \LaTeX{} (\verb+.tex+$\rightarrow$\verb+.dvi+):\\
+\verb+latex archivo.tex+
+\item Generaci\'on de un archivo PS a partir de un archivo DVI (\verb+.dvi+$\rightarrow$\verb+.ps+):\\
+\verb+dvips -t letter archivo.dvi+
+\item Generaci\'on de un archivo PDF a partir de un archivo PS (\verb+.ps+$\rightarrow$\verb+.pdf+):\\
+Instale Ghostscrip/Ghostview yseleccione la opci\'on \verb+File/Convert+ de la barra de men\'u.  Luego seleccione el dispositivo \verb+pdfwrite+ y la resoluci\'on de archivo de salida.  Presione \verb+Ok+ e ingrese el nombre del archivo con la extensi\'on \verb+.pdf+.  Alternativamente, puede utilizar Acrobat Distiller para convertir archivos PostScript a archivos PDF.
+
+Existen\hfill otros\hfill generadores\hfill de\hfill archivos\hfill PDF,\hfill como\hfill \verb+dvipdfm+,\hfill \verb+pdflatex+,\\ \verb+tex2pdf+.  Sin embargo, algunas caracter\'isticas pueden no ser soportadas por algunos de estos convertidores, los cuales pueden producir resultados inadecuados.
+\end{enumerate}
+
+
+%----------------------------------------------------------------------%
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   REFERENCES 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\nocite{*} % To make all the uncited references to appear in the bibliography.
+\bibliographystyle{apacite} 
+\bibliography{abbrev,puctesis_refs}
+
+%----------------------------------------------------------------------%
+
+
+%----------------------------------------------------------------------%
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   APPENDIX A 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\chapter{DISTRIBUCION DEL PAQUETE DE TESIS}\label{ap:puctesis}
+
+La distribuci\'on del paquete de tesis, \,\verb+{puctesis.zip},+\, consiste de los siguientes archivos:
+
+{\renewcommand{\baselinestretch}{1}
+%\begin{verbatim}
+%      puctesis.cls             % archivo de estilo de tesis PUC
+%      puctesis_plantilla.tex   % archivo plantilla de tesis PUC
+%      puctesis_ejemplo.tex     % archivo de ejemplo AMSLaTeX
+%                               % en el formato de la tesis PUC
+%\end{verbatim}
+\verbinput{LEEME.txt}
+}
+
+El archivo, \,\verb+{puctesis_ejemplo.tex},+\, entrega algunos ejemplos de ecuanciones habituales escritas en el formato \AmSLaTeX. 
+
+El archivo plantilla, \,\verb+{puctesis_plantilla.tex}+\,, provee los comandos b\'asicos para la preparaci\'on de documentos de tesis en el formato correcto.  Este \'ultimo archivo puede ser copiado y modificado de acuerdo a las necesidades de cada autor.  Un listado del c\'odigo de la plantilla se presenta en la secci\'on a continuaci\'on.
+\newpage
+
+{\renewcommand{\baselinestretch}{1}
+\parindent 0em
+\verbinput{puctesis_plantilla.tex} 
+}
+
+\newpage
+Los archivos \,\verb+{abbrev.bib}+\, y  \,\verb+{puctesis_refs.bib}+\ listados a continuaci\'on proveen un ejemplo de como construir archivos \verb+.bib+.
+
+{\renewcommand{\baselinestretch}{.5}
+\parindent 0em
+\verbinputx[\tiny]{abbrev.bib} 
+}
+\newpage
+{\renewcommand{\baselinestretch}{.5}
+\parindent 0em
+\verbinputx[\tiny]{puctesis_refs.bib} 
+}
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   APPENDIX B 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{RECURSOS EN LA INTERNET}
+
+Muchos recursos sobre la escritura de documentos t\'ecnicos y \LaTeX{} pueden encontrarse en can Internet.  Algunos sitios recomendados son:
+\begin{itemize}
+\item \TeX{} Resources on the Web - \TeX{} Users Group\\
+\verb+http://www.tug.org/interest.html+
+\item \LaTeX{} Tutorial\\
+Introducing \LaTeX, by Denise Moore, Department of Computer Science,\\
+Cornell University.\\
+\verb+http://www.cs.cornell.edu/Info/Misc/LaTeX-Tutorial/+\\
+\verb+Introduction.html+
+\item \LaTeX{} Guides and Links to Writing Style Tips\\
+Getting to grips with \LaTeX, by Andrew Roberts, School of Computing,\\ 
+University of Leeds\\
+\verb+http://www.andy-roberts.net/misc/latex/index.html+\\
+\verb+http://www.andy-roberts.net/misc/index.html+
+\item \LaTeX{} Packages\\
+The Comprehensive \TeX Archive Network\\
+\verb+http://www.ctan.org/+
+\item \LaTeX{} Packages\\
+The \TeX{} Catalogue OnLine, by Graham Williams\\
+\verb+http://texcatalogue.sarovar.org/+
+\item \TeX/\LaTeX{} Compiler for Windows\\
+The MiK\TeX{} Project, by Christian Schenk\\
+\verb+http://www.miktex.org/+
+\item The American Mathematical Society \AmS-\LaTeX{} Package and Resources\\
+\verb+http://www.ams.org/authors/+
+\item \TeX{} Frequently Asked Questions\\
+\verb+http://www.dillgroup.ucsf.edu/latex/index.html+
+\item Help on \LaTeX{}\\
+\verb+http://www-hermes.desy.de/latex/LaTeX.html+
+\item Tips on Structuring Thoughts and Communication by Jean-Luc Doumont\\
+\verb+http://www.jlconsulting.be/+\\
+\verb+http://www.principiae.be/+
+\end{itemize}
+
+
+
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+           %   INDEX 
+           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Uncomment the following lines to include an index.
+
+%% INSERT INDEX PAGE # IN TOC
+%%%\addtocounter{chapter}{1}
+%%%\addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}{Index}}
+%%\addcontentsline{toc}{chapter}{\protect\numberline{}{Index}}
+%% NOTE: Insert "\label{IDX}" in '.ind' file after compiling the index
+%% with makeindex.
+%%\index{ @\label{IDX}}
+%% The above NOTE is not really needed as can be achieved by the trick below.
+%\addtocounter{page}{1}
+%\label{IDX}
+%\addtocounter{page}{-1}
+%\printindex
+
+%----------------------------------------------------------------------%
+
+
+\end{document}
+%======================================================================%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Local Variables:
+%% TeX-command-default: "LaTeX"
+%% End:

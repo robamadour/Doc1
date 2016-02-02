@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\caption{Sensivity to the period of observation.}
+\label{tab:results_2}
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+
+\begin{tabular}{ccccccc}
+	\hline \hline
+	& (1) & (2)                                                      & (3)                                                      & (4)                            & (5)                                                              & (6)                                                         \\ \hline
+	Leader list                                                                           & $T$ & \begin{tabular}[c]{@{}c@{}}$J$-\\ statistic\end{tabular} & \begin{tabular}[c]{@{}c@{}}Wald\\ $p$-value\end{tabular} & $\widehat{POST}-\widehat{PRE}$ & \begin{tabular}[c]{@{}c@{}}Welch's test\\ $p$-value\end{tabular} & \begin{tabular}[c]{@{}c@{}}Number of\\ leaders\end{tabular} \\ \hline
+	\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Jones\\ and\\ Olken\\ (2005)\end{tabular}} & 3   & 1.845                                                    & 0.000***                                                 & 0.259                          & 0.746                                                            & 57                                                          \\
+	& 5   & 2.006                                                    & 0.000***                                                 & -0.068                         & 0.915                                                            & 57                                                          \\
+	& 7   & 2.163                                                    & 0.000***                                                 & -0.547                         & 0.337                                                            & 57                                                          \\
+	& \multicolumn{6}{l}{\footnotesize{(Number of observations: 5,619)}}                                                                                                                                                                                                                                                                        \\ \hline
+	\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Besley\\ et al.\\ (2011)\end{tabular}}     & 3   & 2.993                                                    & 0.000***                                                 & -0.383                         & 0.490                                                            & 121                                                         \\
+	& 5   & 3.788                                                    & 0.000***                                                 & -0.189                         & 0.722                                                            & 121                                                         \\
+	& 7   & 4.212                                                    & 0.000***                                                 & -0.622                         & 0.166                                                            & 122                                                         \\
+	& \multicolumn{6}{l}{\footnotesize{(Number of observations: 10,388)}}                                                                                                                                                                                                                                                                        \\ \hline
+	\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Own\\ leader\\ list\end{tabular}}          & 3   & 3.039                                                    & 0.000***                                                 & -0.365                         & 0.558                                                            & 130                                                         \\
+	& 5   & 4.343                                                    & 0.000***                                                 & 0.037                          & 0.952                                                            & 130                                                         \\
+	& 7   & 5.424                                                    & 0.000***                                                 & -0.395                         & 0.487                                                            & 131                                                         \\
+	& \multicolumn{6}{l}{\footnotesize{(Number of observations: 12,160)}}                                                                                                                                                                                                                                                                        \\ \hline \hline
+\end{tabular}
+
+
+\begin{tablenotes}
+	\footnotesize{Notes: (1) $T$ is the number of years over which the PRE and POST dummies are defined. (2) The $J$-statistic is the test statistic described in section \ref{model&tests}. (3) The $p$-value from the chi-squared test. (4) The average change in growth across leader transitions, defined in equation (\ref{eq:pre_hat}). (5) The $p$-value from the $t$ test described in section \ref{sec:test_t}, for the alternative hypothesis $H_a: \mathds{E}(\widehat{POST}-\widehat{PRE} )\neq0$. (6) The number of leaders in each regression. Every regression is estimated via GLS, corrected for country-specific heteroskedasticity and panel-specific AR(1) autocorrelation. Significance at the 10\%, 5\% and 1\% are denoted by *, **  and *** respectively.}
+\end{tablenotes}
+\end{threeparttable}
+}
+\end{table}	

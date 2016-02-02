@@ -1,0 +1,53 @@
+\begin{table}[h!]
+	\centering
+	\caption{Distribution of Background Characteristics}
+	\label{tab:samples_comp}
+	\resizebox{\textwidth}{!}{
+		\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+		\begin{threeparttable}
+\begin{tabular}{llcclccll}
+\\[-1.8ex] \hline \hline
+\\[-1.8ex] 
+\multicolumn{1}{c}{\multirow{2}{*}{Category}} & \multicolumn{1}{c}{\multirow{2}{*}{Variable}} & \multicolumn{2}{c}{Our sample} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Random sample} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\multirow{2}{*}{KS $p-$value}} \\ \cline{3-4} \cline{6-7}
+\multicolumn{1}{c}{}                          & \multicolumn{1}{c}{}                          & Mean                  & Observations                & \multicolumn{1}{c}{} & Mean         & Observations       & \multicolumn{1}{c}{} & \multicolumn{1}{c}{}                              \\[1ex] \hline
+Education                                     & formaled                                      & 0.919                 & 161                         &                      & 1.000        & 36                 &                      & 0.981                                             \\
+                                              & highschool                                    & 0.770                 & 161                         &                      & 0.972        & 36                 &                      & 0.155                                             \\
+                                              & college                                       & 0.509                 & 161                         &                      & 0.778        & 36                 &                      & 0.023**                                           \\
+                                              & graduate                                      & 0.304                 & 161                         &                      & 0.722        & 36                 &                      & 0.000***                                          \\
+\hline Family income                                 & poor                                          & 0.222                 & 171                         &                      & 0.056        & 18                 &                      & 0.699                                             \\
+                                              & moderate                                      & 0.281                 & 171                         &                      & 0.222        & 18                 &                      & 1.000                                             \\
+                                              & rich                                          & 0.497                 & 171                         &                      & 0.722        & 18                 &                      & 0.333                                             \\
+\hline Nobility class                                & Nobility                                      & to do                 & to do                       &                      & to do        & to do              &                      & to do                                             \\
+\hline Religion                                      & religious                                     & 0.894                 & 151                         &                      & 0.913        & 23                 &                      & 1.000                                             \\
+                                              & catholic                                      & 0.298                 & 151                         &                      & 0.652        & 23                 &                      & 0.009***                                          \\
+                                              & islamic                                       & 0.258                 & 151                         &                      & 0.000        & 23                 &                      & 0.114                                             \\
+                                              & jewish                                        & 0.013                 & 151                         &                      & 0.000        & 23                 &                      & 1.000                                             \\
+                                              & buddhist                                      & 0.053                 & 151                         &                      & 0.043        & 23                 &                      & 1.000                                             \\
+                                              & otherrel                                      & 0.159                 & 151                         &                      & 0.000        & 23                 &                      & 0.630                                             \\
+\hline Experience in companies                       & companies                                     & 0.043                 & 186                         &                      & 0.085        & 47                 &                      & 1.000                                             \\
+                                              & senexecut                                     & 0.085                 & 176                         &                      & 0.244        & 41                 &                      & 0.331                                             \\
+                                              \hline Legal record& lawsuits                                      & 0.227                 & 163                         &                      & 0.250        & 36                 &                      & 1.000                                             \\
+\hline Military experience                                 & milofficer                                    & 0.298                 & 188                         &                      & 0.370        & 46                 &                      & 0.983                                             \\
+\hline Political experience                          & executive                                     & 0.508                 & 191                         &                      & 0.745        & 47                 &                      & 0.023**                                           \\
+                                              & legislative                                   & 0.321                 & 187                         &                      & 0.542        & 48                 &                      & 0.040**                                           \\
+                                              & judiciary                                     & 0.059                 & 185                         &                      & 0.063        & 48                 &                      & 1.000                                             \\
+                                              & preoffice                                     & 0.284                 & 191                         &                      & 0.000        & 37                 &                      & 0.010**                                           \\
+                                              & expoverseas                                   & 0.233                 & 191                         &                      & 0.109        & 46                 &                      & 0.563                                             \\
+\hline Party orientation                             & right                                         & 0.292                 & 185                         &                      & 0.375        & 40                 &                      & 0.959                                             \\
+                                              & center                                        & 0.092                 & 185                         &                      & 0.250        & 40                 &                      & 0.339                                             \\
+                                              & left                                          & 0.286                 & 185                         &                      & 0.250        & 40                 &                      & 1.000                                             \\
+                                              & noparty                                       & 0.330                 & 185                         &                      & 0.125        & 40                 &                      & 0.109                                             \\
+\hline Political system                              & presidential                                  & 0.530                 & 185                         &                      & 0.438        & 48                 &                      & 0.867                                             \\
+                                              & assembly                                      & 0.197                 & 173                         &                      & 0.021        & 48                 &                      & 0.170                                             \\
+                                              & parlamentary                                  & 0.350                 & 180                         &                      & 0.542        & 48                 &                      & 0.104                                             \\
+                                              & auto\_dem                                      & 0.604                 & 191                        &                      & 0.265        & 49                 &                      & 0.000***                                          \\ \hline
+                                              Other & fraud                                         & 0.095                 & 63                          &                      & 0.000        & 44                 &                      & 0.948                                             \\
+                                              &Age & to do\\
+                                              &Tenure& to do\\ \hline \hline
+\end{tabular}
+		\begin{tablenotes}
+			\footnotesize{Notes: TO DO.}
+		\end{tablenotes}
+	\end{threeparttable}
+}
+\end{table}

@@ -1,0 +1,32 @@
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
+	\centering
+	\caption{Growth and leader transitions.}
+	\label{tab:growth_transitions}
+	\resizebox{\textwidth}{!}{%
+		\begin{threeparttable}
+		\begin{tabular}{lccccccc}
+			\\[-1.8ex] \hline \hline
+			\\[-1.8ex] 
+			& (1)                                                         & (2)                                                      & (3)                            & (4)                                                              & (5)     &(6)                                                    \\[1ex] \cline{2-7} 
+			\\[-1.8ex]
+			& \begin{tabular}[c]{@{}c@{}}Model\\ specification\end{tabular} & \begin{tabular}[c]{@{}c@{}}Wald\\ $p-$value\end{tabular} &\begin{tabular}[c]{@{}c@{}}POST-PRE\\ ($\widehat{DIF}_z$)\end{tabular} & \begin{tabular}[c]{@{}c@{}}t test\\ $p-$value\end{tabular} & \begin{tabular}[c]{@{}c@{}}Number of\\ leaders\end{tabular} & \begin{tabular}[c]{@{}c@{}}Number of\\ observations\end{tabular}\\ \hline
+			\multicolumn{7}{c}{Panel (a)}                                                                                                                                                                                                                                                                               \\
+			& H                                                           & 0.000\sym{***}                                           & 0.530                          & 0.228                                                            & 115  & 12,160                                                       \\
+			& HA                                                          & 0.000\sym{***}                                           & 0.543                          & 0.220                                                            & 115       &12,160                                                  \\
+			\multicolumn{7}{c}{Panel (b)}   \\
+			& H                                                           & 0.000\sym{***}                                           & 0.523                          & 0.233                                                            &    115         &12,160                                                \\
+			& HA                                                          & 0.000\sym{***}                                           & 0.542                          & 0.222                                                            & 115    &12,160                                                     \\
+			\multicolumn{7}{c}{Panel (c)}
+			\\
+			& JO - HA& 0.000\sym{***} & -0.068 & 0.915 & 57 & 5,619\\
+						 & BMR - HA & 0.000\sym{***} & -0.189 & 0.722 & 121& 10,388 \\ \hline \hline
+			\end{tabular}
+			\begin{tablenotes}
+				\footnotesize{Notes: TO DO.}
+			\end{tablenotes}
+		\end{threeparttable}
+		}
+	\end{table}

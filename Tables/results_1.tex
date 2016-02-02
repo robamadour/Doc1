@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\caption{Leaders and Economic Growth.}
+\label{tab:results_1}
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{ccccccc}
+\hline \hline
+& (1)&(2)&(3)&(4)&(5)&(6) 
+\\ \hline
+Leader list                                                                           & \begin{tabular}[c]{@{}c@{}}Leader set and\\ corrections\end{tabular} & \begin{tabular}[c]{@{}c@{}}$J$-\\ statistic\end{tabular} & \begin{tabular}[c]{@{}c@{}}Wald\\ $p$-value\end{tabular} & $\widehat{POST}-\widehat{PRE}$ & \begin{tabular}[c]{@{}c@{}}Welch's test\\ $p$-value\end{tabular} & \begin{tabular}[c]{@{}c@{}}Number of\\ leaders\end{tabular} \\ \hline 
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}Jones\\ and\\ Olken\\ (2005)\end{tabular}} & S1 - H                                                               & 1.857                                                  & 0.000***                                               & -0.185   & 0.766                                                          & 57                                                          \\
+                                                                                      & S1 - HA                                                              & 2.006                                                  & 0.000***                                               & -0.068   & 0.915                                                          & 57                                                          \\
+                                                                                      & S2 - H                                                              & 1.684                                                  & 0.002***                                               & 0.516    & 0.398                                                          & 46                                                          \\
+                                                                                      & S2 - HA                                                              & 1.816                                                  & 0.000***                                               & 0.601    & 0.332                                                          & 46 \\
+& \multicolumn{6}{l}{\footnotesize{(Number of observations: 5,619)}}                                                                                                                                                 \\ \hline
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}Besley\\ et al.\\ (2011)\end{tabular}}     & S1 - H                                                               & 3.383                                                  & 0.000***                                               & -0.264   & 0.610                                                          & 121                                                         \\
+                                                                                      & S1 - HA                                                              & 3.788                                                  & 0.000***                                               & -0.189   & 0.722                                                          & 121                                                         \\
+                                                                                      & S2 - H                                                               & 2.473                                                  & 0.000***                                               & 0.108    & 0.802                                                          & 108                                                         \\
+                                                                                      & S2 - HA                                                              & 2.911                                                  & 0.000***                                               & 0.221    & 0.625                                                          & 108  \\ & \multicolumn{6}{l}{\footnotesize{(Number of observations: 10,388)}}                                                        \\ \hline
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}Own\\ leader\\ list\end{tabular}}          & S1 - H                                                               & 3.826                                                  & 0.000***                                               & 0.083    & 0.889                                                          & 130                                                         \\
+                                                                                      & S1 - HA                                                              & 4.343                                                  & 0.000***                                               & 0.037    & 0.952                                                          & 130                                                         \\
+                                                                                      & S2 - H                                                               & 2.204                                                  & 0.000***                                               & 0.521    & 0.236                                                          & 115                                                         \\
+                                                                                      & S2 - HA                                                              & 2.525                                                  & 0.000***                                               & 0.530    & 0.232                                                          & 115 \\ & \multicolumn{6}{l}{\footnotesize{(Number of observations: 12,160)}}                                                          \\ \hline
+ \hline                                                                                 
+\end{tabular}
+\begin{tablenotes}
+	\footnotesize{Notes: (1) H, corrected for country-specific heteroskedasticity; A, corrected for panel-specific AR(1) autocorrelation. (2) The $J$-statistic is the test statistic described in section \ref{model&tests}. (3) The $p$-value from the chi-squared test. (4) The average change in growth across leader transitions, defined in equation (\ref{eq:pre_hat}). (5) The $p$-value from the $t$ test described in section \ref{sec:test_t}, for the alternative hypothesis $H_a: \mathds{E}(\widehat{POST}-\widehat{PRE} )\neq0$. (6) The number of leaders in each regression. Every regression is estimated via GLS. Significance at the 10\%, 5\% and 1\% are denoted by *, **  and *** respectively.}
+	\end{tablenotes}
+	\end{threeparttable}
+}
+\end{table}

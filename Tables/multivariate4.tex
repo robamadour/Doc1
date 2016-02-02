@@ -1,0 +1,62 @@
+\begin{table}[h]
+	\centering
+	\caption{Regression explaining Economic Growth}
+	\label{tab:multi_model}
+	\resizebox{\textwidth}{!}{
+		\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+		\begin{threeparttable}
+\begin{tabular}{l*{5}{l}}
+ \\[-1.8ex] \hline \hline
+ \\[-1.8ex] 
+& \multicolumn{5}{c}{Dependent variable: POST-PRE} \\[1ex] \cline{2-6} \\[-1.8ex]
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\[1ex]
+\hline
+\\[-1.8ex]
+Education           &       6.819\sym{***}&       7.361\sym{***}&       7.067\sym{***}&       6.244\sym{***}&       5.975\sym{***}\\
+&     (2.415)         &     (2.203)         &     (2.024)         &     (1.915)         &     (1.891)         \\
+Education-squared               &      -0.608\sym{**} &      -0.658\sym{***}&      -0.627\sym{***}&      -0.563\sym{***}&      -0.540\sym{***}\\
+&     (0.231)         &     (0.209)         &     (0.193)         &     (0.185)         &     (0.183)         \\
+Nobility         &       9.096\sym{***}&       9.501\sym{***}&       9.417\sym{***}&       8.880\sym{***}&       8.656\sym{***}\\
+&     (3.148)         &     (2.723)         &     (2.653)         &     (2.350)         &     (2.173)         \\
+Protestant          &      -2.853         &      -3.912\sym{**} &      -3.992\sym{**} &      -3.802\sym{**} &      -3.806\sym{**} \\
+&     (2.056)         &     (1.860)         &     (1.749)         &     (1.660)         &     (1.571)         \\
+Wealthy                &      -3.135\sym{**} &      -3.000\sym{**} &      -3.038\sym{**} &      -2.519\sym{*}  &      -2.473\sym{**} \\
+&     (1.476)         &     (1.381)         &     (1.352)         &     (1.276)         &     (1.221)         \\
+%age                 &       0.051         &       0.045         &       0.047         &       0.036         &       0.042         \\
+%&     (0.068)         &     (0.057)         &     (0.053)         &     (0.051)         &     (0.049)         \\
+%tenure              &      -0.102         &      -0.104\sym{*}  &      -0.107\sym{*}  &      -0.083         &      -0.086         \\
+%&     (0.069)         &     (0.059)         &     (0.057)         &     (0.054)         &     (0.053)         \\
+%gdp\_5               &      -0.000         &       0.000         &       0.000         &       0.000         &       0.000         \\
+%&     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         &     (0.000)         \\
+%year                &       0.024         &       0.015         &       0.019         &       0.017         &       0.014         \\
+%&     (0.024)         &     (0.022)         &     (0.021)         &     (0.020)         &     (0.019)         \\
+%assembly            &       1.712         &       1.805         &       1.661         &       1.524         &                     \\
+%&     (1.991)         &     (1.794)         &     (1.629)         &     (1.455)         &                     \\
+%auto\_dem            &      -1.565         &      -1.060         &      -1.250         &      -0.786         &                     \\
+%&     (1.834)         &     (1.593)         &     (1.454)         &     (1.400)         &                     \\
+Executive experience           &      -0.660         &      -1.094         &      -1.539         &                     &                     \\
+&     (1.544)         &     (1.378)         &     (1.216)         &                     &                     \\
+Right               &      -1.012         &      -0.950         &      -0.623         &                     &                     \\
+&     (1.543)         &     (1.390)         &     (1.302)         &                     &                     \\
+Previously in office           &      -1.427         &      -0.856         &                     &                     &                     \\
+&     (1.795)         &     (1.555)         &                     &                     &                     \\
+Military officer          &      -1.148         &      -0.610         &                     &                     &                     \\
+&     (1.747)         &     (1.398)         &                     &                     &                     \\
+Legislative experience        &      -0.584         &                     &                     &                     &                     \\
+&     (1.531)         &                     &                     &                     &                     \\
+Lawsuits against           &       0.099         &                     &                     &                     &                     \\
+&     (1.857)         &                     &                     &                     &                     \\
+%Constant            &     -61.625         &     -47.725         &     -55.613         &     -50.351         &     -44.157         \\
+%&    (47.626)         &    (42.829)         &    (40.982)         &    (39.124)         &    (37.709)         \\
+\multirow{1}{*}{\begin{tabular}[c]{@{}l@{}}Political system controls\end{tabular}} & \multicolumn{1}{c}{\text{Yes}}& \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{No}}\\
+Other controls & \multicolumn{1}{c}{\text{Yes}}& \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{Yes}} & \multicolumn{1}{c}{\text{Yes}}\\
+R-squared           &       0.414         &       0.390         &       0.378         &       0.338         &       0.326         \\
+Observations                   &          \multicolumn{1}{c}{68}         &          \multicolumn{1}{c}{75}         &          \multicolumn{1}{c}{76}         &          \multicolumn{1}{c}{80}         &          \multicolumn{1}{c}{80}         \\
+\hline \hline
+\end{tabular}
+		\begin{tablenotes}
+			\footnotesize{Notes: TO DO.}
+		\end{tablenotes}
+	\end{threeparttable}
+}
+\end{table}

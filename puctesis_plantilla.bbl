@@ -1,0 +1,54 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Cyborg%
+}{%
+Cyborg%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+CYB12}
+\APACinsertmetastar {%
+CYB12}%
+\begin{APACrefauthors}%
+Cyborg, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{june}{}.
+\newblock
+\APACrefbtitle {{Cybogrs in the {$\alpha$}-quadrant}.} {{Cybogrs in the
+  {$\alpha$}-quadrant}.}
+\newblock
+\begin{APACrefURL} \url{http://www.cyborgforce.org/alpha_quadrant/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cyborg%
+}{%
+Cyborg%
+}{%
+{\protect \APACyear {3000}}%
+}]{%
+CYB00}
+\APACinsertmetastar {%
+CYB00}%
+\begin{APACrefauthors}%
+Cyborg, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{3000}{December}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Life in {U}nimatrix {O}ne} {The life in {U}nimatrix
+  {O}ne}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the} {IEEE Conf. on Decision and
+  Control}} {{Proceedings of the} {IEEE Conf. on Decision and Control}}\
+  (\BVOL~III, \BPGS\ 1001--1005).
+\newblock
+\APACaddressPublisher{Delta Quadrant}{{IEEE Press}}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

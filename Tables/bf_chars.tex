@@ -1,0 +1,29 @@
+\sisetup{parse-numbers = false,input-symbols=(), table-figures-integer = 3, table-figures-decimal=3, table-number-alignment=center}
+			\begin{table}[h]
+				%\resizebox{\textwidth}{!}{
+					{
+						\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+						\begin{tabular}{lSSSS}
+							\toprule
+							&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Centro}&\multicolumn{1}{c}{Izquierda}\\
+							\midrule
+							Extraversión        &      -0.176         &      -0.120         &      -0.020         &      -0.138         \\
+							&     (0.344)         &     (0.102)         &     (0.058)         &     (0.102)         \\
+							Estabilidad emocional&       0.051         &      -0.107         &       0.043         &       0.070         \\
+							&     (0.240)         &     (0.071)         &     (0.041)         &     (0.072)         \\
+							Amabilidad          &      -0.044         &      -0.003         &       0.102         &      -0.033         \\
+							&     (0.591)         &     (0.169)         &     (0.097)         &     (0.170)         \\
+							Responsabilidad     &       1.125\sym{**} &       0.273\sym{*}  &      -0.025         &      -0.025         \\
+							&     (0.510)         &     (0.149)         &     (0.085)         &     (0.150)         \\
+							Apertura al cambio  &      -0.092         &      -0.203\sym{**} &       0.151\sym{***}&      -0.022         \\
+							&     (0.351)         &     (0.099)         &     (0.057)         &     (0.100)         \\
+							Constant            &       1.690         &       1.028         &      -1.058\sym{*}  &       1.106         \\
+							&     (3.683)         &     (1.084)         &     (0.622)         &     (1.091)         \\
+							\midrule
+							R-squared           &       0.042         &       0.057         &       0.040         &       0.038         \\
+							N                   &         176         &         184         &         184         &         184         \\
+							\bottomrule
+						\end{tabular}
+				%	}
+				}
+			\end{table}

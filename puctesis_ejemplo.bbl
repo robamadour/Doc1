@@ -1052,6 +1052,44 @@ Mairesse, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Malouff%
+, Thorsteinsson%
+, Schutte%
+, Bhullar%
+\BCBL {}\ \BBA {} Rooke%
+}{%
+Malouff%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Malouff2010}
+\APACinsertmetastar {%
+Malouff2010}%
+\begin{APACrefauthors}%
+Malouff, J\BPBI M.%
+, Thorsteinsson, E\BPBI B.%
+, Schutte, N\BPBI S.%
+, Bhullar, N.%
+\BCBL {}\ \BBA {} Rooke, S\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Five-Factor Model of personality and relationship
+  satisfaction of intimate partners: A meta-analysis}} {{The Five-Factor Model
+  of personality and relationship satisfaction of intimate partners: A
+  meta-analysis}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Personality}{44}{1}{124--127}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.jrp.2009.09.004}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jrp.2009.09.004} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Marshall%
 \ \BBA {} Jaggers%
 }{%
@@ -1137,6 +1175,37 @@ Mehl, M\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mezquita%
+, Stewart%
+\BCBL {}\ \BBA {} Ruip{\'{e}}rez%
+}{%
+Mezquita%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Mezquita2010}
+\APACinsertmetastar {%
+Mezquita2010}%
+\begin{APACrefauthors}%
+Mezquita, L.%
+, Stewart, S\BPBI H.%
+\BCBL {}\ \BBA {} Ruip{\'{e}}rez, M\BPBI {\'{A}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Big-five personality domains predict internal drinking
+  motives in young adults}} {{Big-five personality domains predict internal
+  drinking motives in young adults}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personality and Individual
+  Differences}{49}{3}{240--245}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.paid.2010.03.043} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Norman%
 }{%
 Norman%
@@ -1214,6 +1283,35 @@ Ramey, A.%
   Behavior}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Available at SSRN}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rothmann%
+\ \BBA {} Coetzer%
+}{%
+Rothmann%
+\ \BBA {} Coetzer%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Rothmann2003}
+\APACinsertmetastar {%
+Rothmann2003}%
+\begin{APACrefauthors}%
+Rothmann, S.%
+\BCBT {}\ \BBA {} Coetzer, E\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The big five personality dimensions and job
+  performance}} {{The big five personality dimensions and job
+  performance}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of industrial psychology}{29}{1}{68--74}.
+\newblock
+\begin{APACrefDOI} \doi{10.4102/sajip.v29i1.88} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

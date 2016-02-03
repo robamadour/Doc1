@@ -40,7 +40,7 @@
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
 \usepackage{longtable}
-\usepackage{siunitx}
+\usepackage[detect-all]{siunitx}
 \usepackage{dcolumn}
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -510,7 +510,81 @@ Posteriormente, la herramienta \textit{Personality Recognizer} usa estos puntaje
 
 \subsection{Resultados y verificaciones}
 \subsubsection{Correlaciones entre los Cinco Grandes}
-\subsubsection{Correlaciones con otras variables}
+
+\begin{table}[H]\centering \caption{Correlaciones entre los Cinco Grandes\label{corrtable}}
+	\resizebox{\textwidth}{!}{
+		\begin{threeparttable}
+		\begin{tabular}{l  c  c  c  c  c }\hline\hline
+		\multicolumn{1}{c}{Variables} &Extraversión&\begin{tabular}[c]{@{}l@{}}Estabilidad\\ emocional\end{tabular}&Amabilidad&Responsabilidad&\begin{tabular}[c]{@{}l@{}}Apertura\\al cambio\end{tabular}\\ \hline
+		Extraversión&1.000\\
+		&\\
+		Estabilidad emocional&-0.248&1.000\\
+		&(0.001) &\\
+		Amabilidad&0.493&-0.204&1.000\\
+		&(0.000)&(0.004) &\\
+		Responsabilidad&0.657&-0.221&0.557&1.000\\
+		&(0.000)&(0.002)&(0.000) &\\
+		Apertura al cambio&-0.096&-0.239&-0.293&-0.078&1.000\\
+		&(0.185)&(0.001)&(0.000)&(0.279)\\ \hline
+		Observaciones: 193\\
+		\hline \hline 
+	\end{tabular}
+	\begin{tablenotes}
+		\footnotesize{Notas: TO DO.}
+	\end{tablenotes}
+\end{threeparttable}
+	}
+\end{table}
+
+
+\subsubsection{Relación con otras características personales}
+Otra forma de probar el nivel de precisión de los estimadores de los Cinco Grandes es observar como estos se relacionan con otras características personales de los líderes. 
+
+Por una parte, existe una extensa literatura que describe cómo los Cinco Grandes se  relacionan con otros factores y características personales de las personas. El rango de relaciones encontradas va desde aspectos tan diversos como problemas de alcoholismo \cite{Mezquita2010} o satisfacción en la vida en pareja \cite{Malouff2010}, hasta desempeño laboral \cite{Rothmann2003}. 
+
+Por otra parte, contamos con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de investigación paralelo al presente estudio. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, alcance educacional, religión, tendencia política, profesión, etc.
+
+   
+
+
+\sisetup{parse-numbers = false,input-symbols=(), table-figures-integer = 3, table-figures-decimal=3, table-number-alignment=center}
+			\begin{table}[H]
+				%\resizebox{\textwidth}{!}{
+					{	
+						\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+						\begin{threeparttable}
+							\caption{Los Cinco Grandes, educación y tendencia política}
+							\label{fig:cinco_educ_pol}
+						\begin{tabular}{lSSSS}
+							\hline \hline
+							&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Centro}&\multicolumn{1}{c}{Izquierda}\\
+							\midrule
+							Extraversión        &      -0.176         &      -0.120         &      -0.020         &      -0.138         \\
+							&     (0.344)         &     (0.102)         &     (0.058)         &     (0.102)         \\
+							Estabilidad emocional&       0.051         &      -0.107         &       0.043         &       0.070         \\
+							&     (0.240)         &     (0.071)         &     (0.041)         &     (0.072)         \\
+							Amabilidad          &      -0.044         &      -0.003         &       0.102         &      -0.033         \\
+							&     (0.591)         &     (0.169)         &     (0.097)         &     (0.170)         \\
+							Responsabilidad     &       1.125\sym{**} &       0.273\sym{*}  &      -0.025         &      -0.025         \\
+							&     (0.510)         &     (0.149)         &     (0.085)         &     (0.150)         \\
+							Apertura al cambio  &      -0.092         &      -0.203\sym{**} &       0.151\sym{***}&      -0.022         \\
+							&     (0.351)         &     (0.099)         &     (0.057)         &     (0.100)         \\
+							Constante            &       1.690         &       1.028         &      -1.058\sym{*}  &       1.106         \\
+							&     (3.683)         &     (1.084)         &     (0.622)         &     (1.091)         \\
+							\midrule
+							R-squared           &       0.042         &       0.057         &       0.040         &       0.038         \\
+							Observaciones                   &         176         &         184         &         184         &         184         \\
+							\hline \hline
+						\end{tabular}
+					\begin{tablenotes}
+						\footnotesize{Notas: TO DO.}
+					\end{tablenotes}
+				\end{threeparttable}
+				}
+				
+			\end{table}
+		
+
 \subsubsection{Robustez de los estimadores}
 \subsubsection{Indicadores lingüísticos}
 \section{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}
@@ -523,14 +597,20 @@ donde $$\text{CG}_z^{\text{PRE}}=  [Extra_z^{\text{PRE}}, Apert_z^{\text{PRE}}, 
 $Extra$ denota el factor extraversión, $Apert$ denota apertura al cambio, $Amabi$ denota amabilidad, $Respo$ denota responsabilidad y $Estab$ denota estabilidad emocional. El super-índice PRE indica el líder que sale del cargo. $C_z$ denota un vector de variables de control que será especificado en la siguiente sección. 
 
 \subsection{Nota sobre el signo de los coeficientes}
-El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con respecto a su sucesor. Si, por ejemplo, $\Delta Imports_z$ es negativo, entonces el crecimiento de las importaciones fue mayor durante el mandato del líder que dejó el cargo que durante el de su sucesor. Análogamente, si $\Delta Imports_z$ es positivo, entonces las importaciones tuvieron un menor crecimiento promedio durante el mandato del líder saliente que durante el mandato del sucesor. En consecuencia, los factores de personalidad asociados a coeficientes negativos en la regresión (\ref{eq:reg_2}) están relacionados positivamente con un mayor crecimiento de las importaciones. De igual manera, los coeficientes de personalidad con coeficientes de signo positivo están realacionados positivamente con un menor crecimiento de las importaciones. Evidentemente esta observación también es válida para el crecimiento de las exportaciones y para FDI.
+El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con respecto a su sucesor. Si, por ejemplo, $\Delta Imports_z$ es negativo, entonces el crecimiento de las importaciones fue mayor durante el mandato del líder que dejó el cargo que durante el de su sucesor. Análogamente, si $\Delta Imports_z$ es positivo, entonces las importaciones tuvieron un menor crecimiento promedio durante el mandato del líder saliente que durante el mandato del sucesor. En consecuencia, los factores de personalidad asociados a coeficientes negativos en la regresión (\ref{eq:reg_2}) están relacionados positivamente con un mayor crecimiento de las importaciones. De igual manera, los coeficientes de personalidad con coeficientes de signo positivo están realacionados positivamente con un menor crecimiento de las importaciones. Esta observación también es válida para el crecimiento de las exportaciones y para FDI.
            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
            %   CAPITULO 2
            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{RESULTADOS}
-           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-           %   CAPITULO 2
-           %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resultados principales}
+\subsection{Crecimiento de las importaciones}
+\subsection{Crecimiento de las exportaciones}
+\subsection{FDI}
+\section{Discusión}
+\section{Robustez de los resultados}
+\subsection{Variación de los Cinco Grandes}
+\subsection{Usando los sucesores}
+\subsection{Robustez con respecto al plazo de observación}
 \chapter{CONCLUSIONES}
 
            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

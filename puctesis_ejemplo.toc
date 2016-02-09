@@ -31,16 +31,16 @@
 \contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{14}{subsubsection.3.3.3.4}
 \contentsline {section}{\tocsection {}{3.4}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{14}{section.3.4}
 \contentsline {subsection}{\tocsubsection {}{3.4.1}{Nota sobre el signo de los coeficientes}}{14}{subsection.3.4.1}
-\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{15}{chapter.4}
-\contentsline {section}{\tocsection {}{4.1}{Resultados principales}}{15}{section.4.1}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Crecimiento de las importaciones}}{15}{subsection.4.1.1}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Crecimiento de las exportaciones}}{15}{subsection.4.1.2}
-\contentsline {subsection}{\tocsubsection {}{4.1.3}{FDI}}{15}{subsection.4.1.3}
-\contentsline {section}{\tocsection {}{4.2}{Discusi\'on}}{15}{section.4.2}
-\contentsline {section}{\tocsection {}{4.3}{Robustez de los resultados}}{15}{section.4.3}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Variaci\'on de los Cinco Grandes}}{15}{subsection.4.3.1}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Usando los sucesores}}{15}{subsection.4.3.2}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Robustez con respecto al plazo de observaci\'on}}{15}{subsection.4.3.3}
-\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{16}{chapter.5}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{17}{chapter.5}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{24}{chapter.1}
+\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{16}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{Resultados principales}}{16}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Crecimiento de las importaciones}}{16}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Crecimiento de las exportaciones}}{16}{subsection.4.1.2}
+\contentsline {subsection}{\tocsubsection {}{4.1.3}{FDI}}{16}{subsection.4.1.3}
+\contentsline {section}{\tocsection {}{4.2}{Discusi\'on}}{16}{section.4.2}
+\contentsline {section}{\tocsection {}{4.3}{Robustez de los resultados}}{16}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Variaci\'on de los Cinco Grandes}}{16}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Usando los sucesores}}{16}{subsection.4.3.2}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Robustez con respecto al plazo de observaci\'on}}{16}{subsection.4.3.3}
+\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{17}{chapter.5}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{18}{chapter.5}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{26}{chapter.1}

@@ -324,6 +324,39 @@ Carneiro, P\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Carney%
+, Jost%
+, Gosling%
+\BCBL {}\ \BBA {} Potter%
+}{%
+Carney%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Carney2008}
+\APACinsertmetastar {%
+Carney2008}%
+\begin{APACrefauthors}%
+Carney, D\BPBI R.%
+, Jost, J\BPBI T.%
+, Gosling, S\BPBI D.%
+\BCBL {}\ \BBA {} Potter, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The secret lives of liberals and conservatives:
+  Personality profiles, interaction styles, and the things they leave behind}}
+  {{The secret lives of liberals and conservatives: Personality profiles,
+  interaction styles, and the things they leave behind}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Political Psychology}{29}{6}{807--840}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9221.2008.00668.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cattell%
 }{%
 Cattell%
@@ -430,6 +463,33 @@ Cunha, F.%
   {Interpreting the evidence on life cycle skill formation}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Handbook of the Economics of Education}{1}{}{697--812}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Fruyt%
+\ \BBA {} Mervielde%
+}{%
+De~Fruyt%
+\ \BBA {} Mervielde%
+}{%
+{\protect \APACyear {1996}}%
+}]{%
+de1996personality}
+\APACinsertmetastar {%
+de1996personality}%
+\begin{APACrefauthors}%
+De~Fruyt, F.%
+\BCBT {}\ \BBA {} Mervielde, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Personality and interests as predictors of educational
+  streaming and achievement} {Personality and interests as predictors of
+  educational streaming and achievement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European journal of personality}{10}{5}{405--425}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -627,6 +687,45 @@ Gerber, A\BPBI S.%
 \APACjournalVolNumPages{Annual Review of Political Science}{14}{1}{265--287}.
 \newblock
 \begin{APACrefDOI} \doi{10.1146/annurev-polisci-051010-111659} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gerber%
+, Huber%
+, Doherty%
+, Dowling%
+\BCBL {}\ \BBA {} Ha%
+}{%
+Gerber%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Gerber2010}
+\APACinsertmetastar {%
+Gerber2010}%
+\begin{APACrefauthors}%
+Gerber, A\BPBI S.%
+, Huber, G\BPBI a.%
+, Doherty, D.%
+, Dowling, C\BPBI M.%
+\BCBL {}\ \BBA {} Ha, S\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality and Political Attitudes: Relationships
+  across Issue Domains and Political Contexts}} {{Personality and Political
+  Attitudes: Relationships across Issue Domains and Political
+  Contexts}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Political Science Review}{104}{01}{111}.
+\newblock
+\begin{APACrefURL}
+  \url{http://journals.cambridge.org/action/displayFulltext?type=6{\&}fid=7449476{\&}jid=PSR{\&}volumeId=104{\&}issueId=01{\&}aid=7449472{\&}bodyId={\&}membershipNumber={\&}societyETOCSession={\&}fulltextType=RA{\&}fileId=S0003055410000031{\#}rfh1}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1017/S0003055410000031} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1206,6 +1305,40 @@ Mezquita, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Noftle%
+\ \BBA {} Robins%
+}{%
+Noftle%
+\ \BBA {} Robins%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Noftle2007}
+\APACinsertmetastar {%
+Noftle2007}%
+\begin{APACrefauthors}%
+Noftle, E\BPBI E.%
+\BCBT {}\ \BBA {} Robins, R\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality predictors of academic outcomes: Big five
+  correlates of GPA and SAT scores.}} {{Personality predictors of academic
+  outcomes: Big five correlates of GPA and SAT scores.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Personality and Social
+  Psychology}{93}{1}{116--130}.
+\newblock
+\begin{APACrefURL}
+  \url{http://doi.apa.org/getdoi.cfm?doi=10.1037/0022-3514.93.1.116}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0022-3514.93.1.116} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Norman%
 }{%
 Norman%
@@ -1229,6 +1362,34 @@ Norman, W\BPBI T.%
 \newblock
 \APACjournalVolNumPages{The Journal of Abnormal and Social
   Psychology}{66}{6}{574}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+OConnor%
+\ \BBA {} Paunonen%
+}{%
+OConnor%
+\ \BBA {} Paunonen%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+o2007big}
+\APACinsertmetastar {%
+o2007big}%
+\begin{APACrefauthors}%
+OConnor, M\BPBI C.%
+\BCBT {}\ \BBA {} Paunonen, S\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Big Five personality predictors of post-secondary
+  academic performance} {Big five personality predictors of post-secondary
+  academic performance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personality and Individual
+  differences}{43}{5}{971--990}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1312,6 +1473,35 @@ Rothmann, S.%
 \APACjournalVolNumPages{Journal of industrial psychology}{29}{1}{68--74}.
 \newblock
 \begin{APACrefDOI} \doi{10.4102/sajip.v29i1.88} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shiner%
+\ \BBA {} Masten%
+}{%
+Shiner%
+\ \BBA {} Masten%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Shiner2002}
+\APACinsertmetastar {%
+Shiner2002}%
+\begin{APACrefauthors}%
+Shiner, R\BPBI L.%
+\BCBT {}\ \BBA {} Masten, A\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Transactional links between personality and adaptation
+  from childhood through adulthood}} {{Transactional links between personality
+  and adaptation from childhood through adulthood}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Personality}{36}{6}{580--588}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0092-6566(02)00508-1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

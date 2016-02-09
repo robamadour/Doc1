@@ -2,9 +2,13 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: puctesis_ejemplo.aux
 The style file: apacite.bst
 Database file #1: abbrev.bib
 Database file #2: puctesis_refs.bib
+Repeated entry---line 570 of file puctesis_refs.bib
+ : @article{Gerber2011
+ :                    ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in alesina2015old
 Warning--No journal in carneiro2003human
 Warning--No journal in keefer2005database
 Warning--No address in washington2006female
-(There were 4 warnings)
+(There was 1 error message)

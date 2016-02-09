@@ -467,7 +467,7 @@ La muestra de transiciones aleatorias usada en este estudio se construyó a parti
 	\end{subfigure}
 	%~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
-	\caption{Distribución de los líderes con transiciones aleatorias.Fuente: elaboración propia.}
+	\caption{Distribución de los líderes con transiciones aleatorias. Fuente: elaboración propia.}
 	\label{fig:leader_dist}
 	\medskip % induce some separation between caption and explanatory material
 	\begin{minipage}{\textwidth} % choose width suitably
@@ -538,42 +538,42 @@ Posteriormente, la herramienta \textit{Personality Recognizer} usa estos puntaje
 
 
 \subsubsection{Relación con otras características personales}
-Otra forma de probar el nivel de precisión de los estimadores de los Cinco Grandes es observar como estos se relacionan con otras características personales de los líderes. 
+Otra alternativa para comprobar el nivel de precisión de los estimadores de los Cinco Grandes es examinar cómo estos se relacionan con otras características personales de los líderes. 
 
 Por una parte, existe una extensa literatura que describe cómo los Cinco Grandes se  relacionan con otros factores y características personales de las personas. El rango de relaciones encontradas va desde aspectos tan diversos como problemas de alcoholismo \cite{Mezquita2010} o satisfacción en la vida en pareja \cite{Malouff2010}, hasta desempeño laboral \cite{Rothmann2003}. 
 
-Por otra parte, contamos con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de investigación paralelo al presente estudio. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, alcance educacional, religión, tendencia política, profesión, etc.
+Por otra parte, contamos con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de investigación paralelo al presente estudio. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, nivel educacional alcanzado, religión, tendencia política, profesión, etc.
 
-   
-
+La Tabla \ref{fig:cinco_educ_pol} muestra los resultados al usar los Cinco Grandes para explicar otras características personales de los líderes en la muestra. 
 
 \sisetup{parse-numbers = false,input-symbols=(), table-figures-integer = 3, table-figures-decimal=3, table-number-alignment=center}
-			\begin{table}[H]
-				%\resizebox{\textwidth}{!}{
+			\begin{table}[h]
+				\resizebox{\textwidth}{!}{
 					{	
 						\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 						\begin{threeparttable}
-							\caption{Los Cinco Grandes, educación y tendencia política}
+							\caption{Los Cinco Grandes y otras características personales}
 							\label{fig:cinco_educ_pol}
-						\begin{tabular}{lSSSS}
+						\begin{tabular}{lSSSSSS}
 							\hline \hline
-							&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Centro}&\multicolumn{1}{c}{Izquierda}\\
+							&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+							&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Centro}&\multicolumn{1}{c}{Izquierda}&\multicolumn{1}{c}{Casado}&\multicolumn{1}{c}{Demandas}\\
 							\midrule
-							Extraversión        &      -0.176         &      -0.120         &      -0.020         &      -0.138         \\
-							&     (0.344)         &     (0.102)         &     (0.058)         &     (0.102)         \\
-							Estabilidad emocional&       0.051         &      -0.107         &       0.043         &       0.070         \\
-							&     (0.240)         &     (0.071)         &     (0.041)         &     (0.072)         \\
-							Amabilidad          &      -0.044         &      -0.003         &       0.102         &      -0.033         \\
-							&     (0.591)         &     (0.169)         &     (0.097)         &     (0.170)         \\
-							Responsabilidad     &       1.125\sym{**} &       0.273\sym{*}  &      -0.025         &      -0.025         \\
-							&     (0.510)         &     (0.149)         &     (0.085)         &     (0.150)         \\
-							Apertura al cambio  &      -0.092         &      -0.203\sym{**} &       0.151\sym{***}&      -0.022         \\
-							&     (0.351)         &     (0.099)         &     (0.057)         &     (0.100)         \\
-							Constante            &       1.690         &       1.028         &      -1.058\sym{*}  &       1.106         \\
-							&     (3.683)         &     (1.084)         &     (0.622)         &     (1.091)         \\
-							\midrule
-							R-squared           &       0.042         &       0.057         &       0.040         &       0.038         \\
-							Observaciones                   &         176         &         184         &         184         &         184         \\
+						Extraversión        &      -0.176         &      -0.591         &      -0.311         &      -0.669         &       0.545         &       0.254         \\
+						&     (0.344)         &     (0.473)         &     (0.740)         &     (0.477)         &     (0.711)         &     (0.579)         \\
+						Inestabilidad emocional&       0.051         &      -0.490         &       0.533         &       0.320         &      -1.429\sym{***}&       1.461\sym{***}\\
+						&     (0.240)         &     (0.327)         &     (0.561)         &     (0.325)         &     (0.506)         &     (0.425)         \\
+						Amabilidad          &      -0.044         &       0.019         &       1.105         &      -0.159         &      -1.633         &      -0.187         \\
+						&     (0.591)         &     (0.811)         &     (1.061)         &     (0.762)         &     (1.246)         &     (0.905)         \\
+						Responsabilidad     &       1.125\sym{**} &       1.258\sym{*}  &      -0.369         &      -0.078         &       1.052         &      -1.351         \\
+						&     (0.510)         &     (0.710)         &     (1.082)         &     (0.674)         &     (1.096)         &     (0.842)         \\
+						Apertura al cambio  &      -0.092         &      -0.958\sym{**} &       1.849\sym{***}&      -0.115         &       0.244         &       0.454         \\
+						&     (0.351)         &     (0.470)         &     (0.717)         &     (0.454)         &     (0.719)         &     (0.562)         \\
+						%Constante            &       1.690         &       2.576         &     -15.290\sym{**} &       2.951         &       6.806         &      -3.291         \\
+						%&     (3.683)         &     (4.988)         &     (7.565)         &     (4.900)         &     (7.036)         &     (5.849)         \\
+						\midrule
+						R-squared           &       0.042         &       \multicolumn{1}{c}{-}              &         \multicolumn{1}{c}{-}            &           \multicolumn{1}{c}{-}          &            \multicolumn{1}{c}{-}         &           \multicolumn{1}{c}{-}          \\
+						N                   &        \multicolumn{1}{c}{ 176}         &          \multicolumn{1}{c}{184}         &          \multicolumn{1}{c}{184}         &          \multicolumn{1}{c}{184}         &          \multicolumn{1}{c}{178}         &          \multicolumn{1}{c}{175}         \\
 							\hline \hline
 						\end{tabular}
 					\begin{tablenotes}
@@ -581,9 +581,16 @@ Por otra parte, contamos con una base de datos sobre un conjunto de característi
 					\end{tablenotes}
 				\end{threeparttable}
 				}
-				
+			}
 			\end{table}
-		
+
+La columna (1) muestra la relación entre los Cinco Grandes y el nivel educacional alcanzando por los líderes. Se observa que el único factor que tiene un efecto estadísticamente significativo es responsabilidad. Este resultado es consistente con lo que indica la literatura. En efecto, \citeA{o2007big} señalan que el factor responsabilidad en particular es el más fuerte y consistentemente asociado a éxito académico. Además, en múltiples estudios este factor ha sido usado para predecir logros académicos \cite{Noftle2007,de1996personality} y alcance educacional \cite{Shiner2002}.   
+
+Las columnas (2), (3) y (4) muestran la relación entre los Cinco Grandes y la tendencia política del partido de los líderes. Los resultados de la columna (2) muestran que la pertenencia a un partido de derecha se relaciona positivamente con el factor responsabilidad y negativamente con el factor apertura al cambio. Para los otros factores de personalidad no se encontró un efecto estadísticamente significativo. Estos resultados van en la línea de otros trabajos que reportan una asociación entre conservadurismo y responsabilidad y entre liberalismo y apertura al cambio \cite{Carney2008,Gerber2010}. Por un lado, individuos con un alto grado de apertura al cambio tienen respuestas positivas ante nuevos estímulos, por lo que estos individuos responden más favorablemente a políticas sociales liberales. Por otro lado, individuos con alto grado de responsabilidad son más apegados al cumplimiento de las normas sociales, por lo que son más propensos a rechazar políticas sociales liberales \cite{Gerber2011}. 
+
+(3) Por explicar ... y (4) también...
+
+
 
 \subsubsection{Robustez de los estimadores}
 \subsubsection{Indicadores lingüísticos}

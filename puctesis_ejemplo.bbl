@@ -466,6 +466,36 @@ Cunha, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dahlen%
+\ \BBA {} White%
+}{%
+Dahlen%
+\ \BBA {} White%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+Dahlen2006}
+\APACinsertmetastar {%
+Dahlen2006}%
+\begin{APACrefauthors}%
+Dahlen, E\BPBI R.%
+\BCBT {}\ \BBA {} White, R\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Big Five factors, sensation seeking, and driving
+  anger in the prediction of unsafe driving}} {{The Big Five factors, sensation
+  seeking, and driving anger in the prediction of unsafe driving}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personality and Individual
+  Differences}{41}{5}{903--915}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.paid.2006.03.016} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 De~Fruyt%
 \ \BBA {} Mervielde%
 }{%
@@ -517,6 +547,35 @@ Diermeier, D.%
   political economy model of congressional careers}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The American economic review}{95}{1}{347--373}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Donnellan%
+, Conger%
+\BCBL {}\ \BBA {} Bryant%
+}{%
+Donnellan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Donnellan2004}
+\APACinsertmetastar {%
+Donnellan2004}%
+\begin{APACrefauthors}%
+Donnellan, M\BPBI B.%
+, Conger, R\BPBI D.%
+\BCBL {}\ \BBA {} Bryant, C\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Big Five and enduring marriages}} {{The Big Five
+  and enduring marriages}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Personality}{38}{5}{481--504}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jrp.2004.01.001} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -960,6 +1019,36 @@ Heston, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hines%
+\ \BBA {} Saudino%
+}{%
+Hines%
+\ \BBA {} Saudino%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Hines2008}
+\APACinsertmetastar {%
+Hines2008}%
+\begin{APACrefauthors}%
+Hines, D\BPBI A.%
+\BCBT {}\ \BBA {} Saudino, K\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality and intimate partner aggression in dating
+  relationships: The role of the ``big five''}} {{Personality and intimate
+  partner aggression in dating relationships: The role of the ``big
+  five''}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Aggressive Behavior}{34}{6}{593--604}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/ab.20277} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 John%
 , Naumann%
 \BCBL {}\ \BBA {} Soto%
@@ -1015,6 +1104,40 @@ Jones, B\BPBI F.%
   war ii*}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Quarterly journal of economics}{120}{3}{835--864}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karim%
+, Zamzuri%
+\BCBL {}\ \BBA {} Nor%
+}{%
+Karim%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Karim2009}
+\APACinsertmetastar {%
+Karim2009}%
+\begin{APACrefauthors}%
+Karim, N\BPBI S\BPBI A.%
+, Zamzuri, N\BPBI H\BPBI A.%
+\BCBL {}\ \BBA {} Nor, Y\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Exploring the relationship between Internet ethics in
+  university students and the big five model of personality}} {{Exploring the
+  relationship between Internet ethics in university students and the big five
+  model of personality}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers and Education}{53}{1}{86--93}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.compedu.2009.01.001}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.compedu.2009.01.001} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1531,6 +1654,39 @@ Simon, A\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Soldz%
+\ \BBA {} Vaillant%
+}{%
+Soldz%
+\ \BBA {} Vaillant%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Soldz1999}
+\APACinsertmetastar {%
+Soldz1999}%
+\begin{APACrefauthors}%
+Soldz, S.%
+\BCBT {}\ \BBA {} Vaillant, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Big Five Personality Traits and the Life Course: A
+  45-Year Longitudinal Study}} {{The Big Five Personality Traits and the Life
+  Course: A 45-Year Longitudinal Study}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Personality}{33}{2}{208--232}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0092656699922432}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1006/jrpe.1999.2243} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Tupes%
 \ \BBA {} Christal%
 }{%
@@ -1585,6 +1741,37 @@ VandenBos, G\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Voller%
+\ \BBA {} Long%
+}{%
+Voller%
+\ \BBA {} Long%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Voller2010}
+\APACinsertmetastar {%
+Voller2010}%
+\begin{APACrefauthors}%
+Voller, E\BPBI K.%
+\BCBT {}\ \BBA {} Long, P\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sexual Assault and Rape Perpetration by College Men}}
+  {{Sexual Assault and Rape Perpetration by College Men}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Interpersonal Violence}{25}{3}{457--480}.
+\newblock
+\begin{APACrefURL} \url{http://jiv.sagepub.com/content/25/3/457.abstract}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0886260509334390} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Washington%
 }{%
 Washington%
@@ -1607,6 +1794,37 @@ Washington, E.%
   \APACbVolEdTR{}{\BTR{}}.
 \newblock
 \APACaddressInstitution{}{National Bureau of Economic Research}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+White%
+, Hendrick%
+\BCBL {}\ \BBA {} Hendrick%
+}{%
+White%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+White2004}
+\APACinsertmetastar {%
+White2004}%
+\begin{APACrefauthors}%
+White, J\BPBI K.%
+, Hendrick, S\BPBI S.%
+\BCBL {}\ \BBA {} Hendrick, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Big five personality variables and relationship
+  constructs}} {{Big five personality variables and relationship
+  constructs}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personality and Individual
+  Differences}{37}{7}{1519--1530}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.paid.2004.02.019} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

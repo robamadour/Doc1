@@ -27,20 +27,20 @@
 \contentsline {subsection}{\tocsubsection {}{3.3.3}{Resultados y verificaciones}}{12}{subsection.3.3.3}
 \contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.1}{Correlaciones entre los Cinco Grandes}}{12}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{12}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.3}{Robustez de los estimadores}}{14}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{14}{subsubsection.3.3.3.4}
-\contentsline {section}{\tocsection {}{3.4}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{14}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Nota sobre el signo de los coeficientes}}{14}{subsection.3.4.1}
-\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{16}{chapter.4}
-\contentsline {section}{\tocsection {}{4.1}{Resultados principales}}{16}{section.4.1}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Crecimiento de las importaciones}}{16}{subsection.4.1.1}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Crecimiento de las exportaciones}}{16}{subsection.4.1.2}
-\contentsline {subsection}{\tocsubsection {}{4.1.3}{FDI}}{16}{subsection.4.1.3}
-\contentsline {section}{\tocsection {}{4.2}{Discusi\'on}}{16}{section.4.2}
-\contentsline {section}{\tocsection {}{4.3}{Robustez de los resultados}}{16}{section.4.3}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Variaci\'on de los Cinco Grandes}}{16}{subsection.4.3.1}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Usando los sucesores}}{16}{subsection.4.3.2}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Robustez con respecto al plazo de observaci\'on}}{16}{subsection.4.3.3}
-\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{17}{chapter.5}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{18}{chapter.5}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{26}{chapter.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.3}{Robustez de los estimadores}}{15}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{15}{subsubsection.3.3.3.4}
+\contentsline {section}{\tocsection {}{3.4}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{15}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Nota sobre el signo de los coeficientes}}{15}{subsection.3.4.1}
+\contentsline {chapter}{\tocchapter {}{4}{RESULTADOS}}{17}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{Resultados principales}}{17}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Crecimiento de las importaciones}}{17}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Crecimiento de las exportaciones}}{17}{subsection.4.1.2}
+\contentsline {subsection}{\tocsubsection {}{4.1.3}{FDI}}{17}{subsection.4.1.3}
+\contentsline {section}{\tocsection {}{4.2}{Discusi\'on}}{17}{section.4.2}
+\contentsline {section}{\tocsection {}{4.3}{Robustez de los resultados}}{17}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Variaci\'on de los Cinco Grandes}}{17}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Usando los sucesores}}{17}{subsection.4.3.2}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Robustez con respecto al plazo de observaci\'on}}{17}{subsection.4.3.3}
+\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{18}{chapter.5}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{19}{chapter.5}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{DISTRIBUCION DEL PAQUETE DE TESIS}}{28}{chapter.1}

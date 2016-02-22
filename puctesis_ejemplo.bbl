@@ -85,6 +85,68 @@ Aluja, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Baier%
+\ \BBA {} Bergstrand%
+}{%
+Baier%
+\ \BBA {} Bergstrand%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Baier2007}
+\APACinsertmetastar {%
+Baier2007}%
+\begin{APACrefauthors}%
+Baier, S\BPBI L.%
+\BCBT {}\ \BBA {} Bergstrand, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Do free trade agreements actually increase members'
+  international trade?}} {{Do free trade agreements actually increase members'
+  international trade?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of International Economics}{71}{1}{72--95}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jinteco.2006.02.005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Baier%
+\ \BBA {} Bergstrand%
+}{%
+Baier%
+\ \BBA {} Bergstrand%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+Baier2009}
+\APACinsertmetastar {%
+Baier2009}%
+\begin{APACrefauthors}%
+Baier, S\BPBI L.%
+\BCBT {}\ \BBA {} Bergstrand, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Estimating the effects of free trade agreements on
+  international trade flows using matching econometrics}} {{Estimating the
+  effects of free trade agreements on international trade flows using matching
+  econometrics}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of International Economics}{77}{1}{63--76}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.jinteco.2008.09.006}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jinteco.2008.09.006} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Balz%
 }{%
 Balz%
@@ -437,6 +499,36 @@ Costa, P\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Crichlow%
+}{%
+Crichlow%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Crichlow2002}
+\APACinsertmetastar {%
+Crichlow2002}%
+\begin{APACrefauthors}%
+Crichlow, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Legislators' Personality Traits and Congressional
+  Support for Free Trade}} {{Legislators' Personality Traits and Congressional
+  Support for Free Trade}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Conflict Resolution}{46}{5}{693--711}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.voxeurop.eu/nl/content/article/4015361-vrijhandelszone-de-voors-en-tegens}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/002200202236170} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cunha%
 , Heckman%
 , Lochner%
@@ -607,6 +699,31 @@ Dubow, E\BPBI F.%
 \newblock
 \APACjournalVolNumPages{Merrill-Palmer quarterly (Wayne State University.
   Press)}{55}{3}{224}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Etheredge%
+}{%
+Etheredge%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+Etheredge}
+\APACinsertmetastar {%
+Etheredge}%
+\begin{APACrefauthors}%
+Etheredge, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality Effects on American Foreign Policy,
+  1898-1968: A Test of Interpersonal Generalization Theory}} {{Personality
+  Effects on American Foreign Policy, 1898-1968: A Test of Interpersonal
+  Generalization Theory}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Political Science Review}{72}{02}{434--451}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

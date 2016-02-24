@@ -334,6 +334,35 @@ Brollo, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+B{\"{u}}the%
+\ \BBA {} Milner%
+}{%
+B{\"{u}}the%
+\ \BBA {} Milner%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Buthe2015}
+\APACinsertmetastar {%
+Buthe2015}%
+\begin{APACrefauthors}%
+B{\"{u}}the, T.%
+\BCBT {}\ \BBA {} Milner, H\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Politics of Foreign Direct Investment into
+  Developing Countries : Increasing FDI through International Trade Agreements
+  ?}} {{The Politics of Foreign Direct Investment into Developing Countries :
+  Increasing FDI through International Trade Agreements ?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Journal of Political
+  Science}{52}{4}{741--762}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 P.~Carneiro%
 \ \BBA {} Heckman%
 }{%
@@ -529,6 +558,36 @@ Crichlow, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Crichlow%
+}{%
+Crichlow%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Crichlow2005}
+\APACinsertmetastar {%
+Crichlow2005}%
+\begin{APACrefauthors}%
+Crichlow, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Psychological Influences on the Policy Choices of
+  Secretaries of State and Foreign Ministers}} {{Psychological Influences on
+  the Policy Choices of Secretaries of State and Foreign Ministers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cooperation and Conflict}{40}{2}{179--205}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-30444454539{\&}partnerID=tZOtx3y1}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0010836705047583} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cunha%
 , Heckman%
 , Lochner%
@@ -612,6 +671,40 @@ De~Fruyt, F.%
   educational streaming and achievement}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{European journal of personality}{10}{5}{405--425}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DeYoung%
+\ \protect \BOthers {.}}{%
+DeYoung%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+DeYoung2010}
+\APACinsertmetastar {%
+DeYoung2010}%
+\begin{APACrefauthors}%
+DeYoung, C\BPBI G.%
+, Hirsh, J\BPBI B.%
+, Shane, M\BPBI S.%
+, Papademetris, X.%
+, Rajeevan, N.%
+\BCBL {}\ \BBA {} Gray, J\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Testing predictions from personality neuroscience.
+  Brain structure and the big five}} {{Testing predictions from personality
+  neuroscience. Brain structure and the big five}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychol Sci}{21}{6}{820--828}.
+\newblock
+\begin{APACrefURL} \url{http://www.ncbi.nlm.nih.gov/pubmed/20435951}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0956797610370159} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1058,6 +1151,38 @@ Goldberg, L\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Grossman%
+\ \BBA {} Krueger%
+}{%
+Grossman%
+\ \BBA {} Krueger%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+Grossman1991}
+\APACinsertmetastar {%
+Grossman1991}%
+\begin{APACrefauthors}%
+Grossman, G\BPBI M.%
+\BCBT {}\ \BBA {} Krueger, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Environmental Impacts of a North American Free Trade
+  Agreement}} {{Environmental Impacts of a North American Free Trade
+  Agreement}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{National Bureau of Economic Research Working Paper
+  Series}{No. 3914}{3914}{1--57}.
+\newblock
+\begin{APACrefURL} \url{http://www.nber.org/papers/w3914} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3386/w3914} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Haveman%
 \ \BBA {} Wolfe%
 }{%
@@ -1105,6 +1230,35 @@ Heckman, J\BPBI J.%
   synapses}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Economic inquiry}{46}{3}{289--324}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hermann%
+}{%
+Hermann%
+}{%
+{\protect \APACyear {1980}}%
+}]{%
+Hermann1980}
+\APACinsertmetastar {%
+Hermann1980}%
+\begin{APACrefauthors}%
+Hermann, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1980}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Explaining Foreign Policy Behavior Using the Personal
+  Characteristics of Political Leaders}} {{Explaining Foreign Policy Behavior
+  Using the Personal Characteristics of Political Leaders}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Studies Quarterly}{24}{1}{7--46}.
+\newblock
+\begin{APACrefURL} \url{http://www.jstor.org/stable/2600126?origin=crossref}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.2307/2600126} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1633,6 +1787,40 @@ OConnor, M\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pearce-McCall%
+\ \BBA {} Newman%
+}{%
+Pearce-McCall%
+\ \BBA {} Newman%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+Pearce-McCall1986}
+\APACinsertmetastar {%
+Pearce-McCall1986}%
+\begin{APACrefauthors}%
+Pearce-McCall, D.%
+\BCBT {}\ \BBA {} Newman, J\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Expectation of success following noncontingent
+  punishment in introverts and extraverts.}} {{Expectation of success following
+  noncontingent punishment in introverts and extraverts.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Personality and Social
+  Psychology}{50}{2}{439--446}.
+\newblock
+\begin{APACrefURL}
+  \url{10.1037/0022-3514.50.2.439$\backslash$nhttp://proxy.cityu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true{\&}db=psyh{\&}AN=1986-14512-001{\&}site=ehost-live}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0022-3514.50.2.439} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Pennebaker%
 \ \BBA {} King%
 }{%
@@ -1713,6 +1901,40 @@ Rothmann, S.%
 \APACjournalVolNumPages{Journal of industrial psychology}{29}{1}{68--74}.
 \newblock
 \begin{APACrefDOI} \doi{10.4102/sajip.v29i1.88} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sharpe%
+, Martin%
+\BCBL {}\ \BBA {} Roth%
+}{%
+Sharpe%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Sharpe2011}
+\APACinsertmetastar {%
+Sharpe2011}%
+\begin{APACrefauthors}%
+Sharpe, J\BPBI P.%
+, Martin, N\BPBI R.%
+\BCBL {}\ \BBA {} Roth, K\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Optimism and the Big Five factors of personality:
+  Beyond Neuroticism and Extraversion}} {{Optimism and the Big Five factors of
+  personality: Beyond Neuroticism and Extraversion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Personality and Individual
+  Differences}{51}{8}{946--951}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.paid.2011.07.033}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.paid.2011.07.033} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

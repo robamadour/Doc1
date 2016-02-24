@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.11)  24 FEB 2016 10:24
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  24 FEB 2016 10:26
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  24 FEB 2016 12:22
 entering extended mode
 **puctesis_ejemplo.tex
 (puctesis_ejemplo.tex
@@ -905,12 +901,7 @@ LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
 \c__siunitx_mathsf_int=\count196
 \c__siunitx_mathtt_int=\count197
-<<<<<<< HEAD
-
-<logouc_23x30p38mm.pdf, id=181, 614.295pt x 794.97pt>
-=======
- <logouc_23x30p38mm.pdf, id=177, 614.295pt x 794.97pt>
->>>>>>> origin/master
+ <logouc_23x30p38mm.pdf, id=181, 614.295pt x 794.97pt>
 File: logouc_23x30p38mm.pdf Graphic file (type pdf)
 
 <use logouc_23x30p38mm.pdf>
@@ -1134,11 +1125,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [5]
  3
 
-<<<<<<< HEAD
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 435--435
-=======
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 422--422
->>>>>>> origin/master
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 439--439
  \OT1/ptm/b/n/12 3.[] 
  []
 
@@ -1159,11 +1146,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<<<<<<< HEAD
-l.447 
-=======
-l.434 
->>>>>>> origin/master
+l.451 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1181,11 +1164,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<<<<<<< HEAD
-l.470 
-=======
-l.457 
->>>>>>> origin/master
+l.474 
       pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.3.3}) has been already used, duplicate ignored
 
@@ -1200,49 +1179,27 @@ n.3.3}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-<<<<<<< HEAD
-l.470 
+l.474 
       ]
 
-LaTeX Warning: Reference `ap:our_list' on page 8 undefined on input line 475.
-=======
-l.457 
-      ]
-
-LaTeX Warning: Reference `ap:our_list' on page 8 undefined on input line 462.
->>>>>>> origin/master
+LaTeX Warning: Reference `ap:our_list' on page 8 undefined on input line 479.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-<<<<<<< HEAD
-<Figures/World_vsimple.pdf, id=445, 733.61816pt x 284.02223pt>
+<Figures/World_vsimple.pdf, id=451, 733.61816pt x 284.02223pt>
 File: Figures/World_vsimple.pdf Graphic file (type pdf)
 
 <use Figures/World_vsimple.pdf>
-Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 480.
+Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 484.
 (pdftex.def)             Requested size: 433.62pt x 167.87936pt.
 
-<Figures/Year_distribution.pdf, id=446, 246.69107pt x 96.31514pt>
+<Figures/Year_distribution.pdf, id=452, 246.69107pt x 96.31514pt>
 File: Figures/Year_distribution.pdf Graphic file (type pdf)
 
 <use Figures/Year_distribution.pdf>
-Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 487.
-=======
-<Figures/World_vsimple.pdf, id=423, 733.61816pt x 284.02223pt>
-File: Figures/World_vsimple.pdf Graphic file (type pdf)
-
-<use Figures/World_vsimple.pdf>
-Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 467.
-(pdftex.def)             Requested size: 433.62pt x 167.87936pt.
-
-<Figures/Year_distribution.pdf, id=424, 246.69107pt x 96.31514pt>
-File: Figures/Year_distribution.pdf Graphic file (type pdf)
-
-<use Figures/Year_distribution.pdf>
-Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 474.
->>>>>>> origin/master
+Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 491.
 (pdftex.def)             Requested size: 346.89731pt x 135.43985pt.
 
 Underfull \vbox (badness 1521) has occurred while \output is active []
@@ -1251,19 +1208,11 @@ Underfull \vbox (badness 1521) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Year_distribution.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
-<<<<<<< HEAD
->] [10] <Figures/Figura_BF2.pdf, id=503, 614.51427pt x 229.71118pt>
+>] [10] <Figures/Figura_BF2.pdf, id=509, 614.51427pt x 229.71118pt>
 File: Figures/Figura_BF2.pdf Graphic file (type pdf)
 
 <use Figures/Figura_BF2.pdf>
-Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 521.
-=======
->] [10] <Figures/Figura_BF2.pdf, id=481, 614.51427pt x 229.71118pt>
-File: Figures/Figura_BF2.pdf Graphic file (type pdf)
-
-<use Figures/Figura_BF2.pdf>
-Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 508.
->>>>>>> origin/master
+Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 525.
 (pdftex.def)             Requested size: 433.62pt x 162.0936pt.
 
 
@@ -1275,275 +1224,154 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12 <./Figures/Figura_BF2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
  [13]
 [14]
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
- [12 <./Figures/Figura_BF2.pdf>] [13]
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 344)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 473)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 477)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 711)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 579)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 615
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 429[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 615
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 461[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 240)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 327)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 325)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 506)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 425)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 591)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 811)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 762)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 246)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 905)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 615
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 125[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 615
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 258[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 510)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 710)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 674)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 096)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 842)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 615
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 958[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 351)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 470)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 454)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 719)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 615
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 594
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 619
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 562)$ 
  []
 
@@ -1572,928 +1400,516 @@ ion.3.4}) has been already used, duplicate ignored
 \newpage ...erypar {}\fi \par \vfil \penalty -\@M 
                                                   
 ...
-<<<<<<< HEAD
-l.672 \chapter
+l.676 \chapter
               {RESULTADOS}]
  4
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 672--672
-=======
-l.651 \chapter
-              {RESULTADOS}]
- 4
-
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 651--651
->>>>>>> origin/master
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 676--676
  \OT1/ptm/b/n/12 4.[] 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 708
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 708
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 077[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 708
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 065[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 708
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 066[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 708
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 873[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 708
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 909[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 022)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 023)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 954)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 035)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 708
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 387[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 708
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 345[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 708
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (3.45842pt too wide) detected at line 708
-=======
-Overfull \hbox (3.45842pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (3.45842pt too wide) detected at line 712
 $ \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 27$
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 157)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 189)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 113)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 651)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 759)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 708
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 687
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 712
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 823)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 744
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 744
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 106[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 744
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 068[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 744
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 072[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 033)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 244)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 287)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 744
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 532[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 744
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 346[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (3.45842pt too wide) detected at line 744
-=======
-Overfull \hbox (3.45842pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (3.45842pt too wide) detected at line 748
 $ \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 13$
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 191)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 162)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 148)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 717)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 011)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 744
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 723
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 748
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 210)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 780
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 171[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 780
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 164[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 067)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 063)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 298)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 780
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 782[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 311)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 316)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 247)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 849)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 766)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 780
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 759
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 784
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
@@ -2501,272 +1917,152 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 816
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 800[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 816
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 742[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 141)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 298)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 002)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 816
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 151[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 201)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 400)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 150)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 850)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 482)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 816
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 795
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 820
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 343)$ 
  []
 
@@ -2774,542 +2070,302 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 343)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 083[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 860
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 086[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 216[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 284[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 334)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 424)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 029)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 886)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 966)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 113)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 088)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 441)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 631)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 860
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 147[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 769)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 864)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 722[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 665[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 052)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 369)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 497)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 095)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 002)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 860
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 069[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 860
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 382[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 598)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 461)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 448)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 901)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 492)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 860
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 839
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 864
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 845)$ 
  []
 
@@ -3317,524 +2373,292 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 845)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 171[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 067)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 964
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 070[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 057)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 036)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 072)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 093[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 081)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 964
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 101[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 127[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 150[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 116[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 116[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 143[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 058)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 964
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 964
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 964
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 089[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 059)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 052)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 964
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 943
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 968
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
@@ -3842,452 +2666,252 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1030
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 083[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (13.25018pt too wide) detected at line 1030
-=======
-Overfull \hbox (13.25018pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (13.25018pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 065[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 022)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 023)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1030
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 068[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1030
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 026)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 028)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 059)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 063)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 035)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 076[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 047)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 047)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1030
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1009
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1034
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
@@ -4295,470 +2919,262 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1096
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 216[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 873[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 334)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 954)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 886)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 844)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 441)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 147[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 769)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 244)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1096
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 722[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1096
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 800[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 369)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 141)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 095)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 096)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.75006pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.75006pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.75006pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 846[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 477)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 960)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 918)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 559)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 249)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 429)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1096
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 808[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (9.00012pt too wide) detected at line 1096
-=======
-Overfull \hbox (9.00012pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (9.00012pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 910[]$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 437)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 192)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 105)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 101)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 094)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 309)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 248)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 269)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 326)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 355)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 193)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 292)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 234)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 331)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 275)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 266)$ 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (4.5694pt too wide) detected at line 1096
-=======
-Overfull \hbox (4.5694pt too wide) detected at line 1075
->>>>>>> origin/master
+Overfull \hbox (4.5694pt too wide) detected at line 1100
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 192)$ 
  []
 
@@ -4782,11 +3198,7 @@ Overfull \vbox (126.73863pt too high) has occurred while \output is active []
 [21] [22] [23] [24]
  5
 
-<<<<<<< HEAD
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 1103--1103
-=======
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 1082--1082
->>>>>>> origin/master
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 1107--1107
  \OT1/ptm/b/n/12 5.[] 
  []
 
@@ -4890,23 +3302,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
  [32]
-Underfull \hbox (badness 2012) in paragraph at lines 1598--1612
-=======
- [30]
-Underfull \hbox (badness 2012) in paragraph at lines 1473--1487
->>>>>>> origin/master
+Underfull \hbox (badness 2012) in paragraph at lines 1623--1637
 []\OT1/ptm/m/n/12 Marshall, M. G., y Jag-gers, K.  (2012).  Po-lity iv pro-ject
 : Po-li-ti-cal re-gi-me
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 1137) in paragraph at lines 1598--1612
-=======
-Underfull \hbox (badness 1137) in paragraph at lines 1473--1487
->>>>>>> origin/master
+Underfull \hbox (badness 1137) in paragraph at lines 1623--1637
 \OT1/ptm/m/n/12 cha-rac-te-ris-tics and tran-si-tions, 1800-2012.  \OT1/ptm/m/i
 t/12 On-line (http://www. sys-te-mic-pea-ce.
  []
@@ -4915,19 +3318,19 @@ t/12 On-line (http://www. sys-te-mic-pea-ce.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Underfull \hbox (badness 1152) in paragraph at lines 1802--1822
+Underfull \hbox (badness 1152) in paragraph at lines 1827--1847
 \OT1/ptm/m/n/12 non-con-tin-gent pu-nish-ment in in-tro-verts and ex-tra-verts.
   \OT1/ptm/m/it/12 Jour-nal of Per-so-na-lity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1822
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1847
 $\OT1/pcr/m/n/12 .50 [] .2 [] .439$ \ delimiter"026E30F$nhttp :// proxy [] .cit
 yu [] .edu /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1822
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1847
 $\OT1/pcr/m/n/12 login [] ?url = http :// search [] .ebscohost [] .com / login 
 [] .aspx [] ?direct =$
  []
@@ -4935,43 +3338,29 @@ $\OT1/pcr/m/n/12 login [] ?url = http :// search [] .ebscohost [] .com / login
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
  [34]
-Underfull \hbox (badness 2478) in paragraph at lines 2008--2027
-=======
- [32]
-Underfull \hbox (badness 2478) in paragraph at lines 1815--1834
->>>>>>> origin/master
+Underfull \hbox (badness 2478) in paragraph at lines 2059--2078
 \OT1/ptm/m/n/12 208--232.  Des-car-ga-do de [][]$\OT1/pcr/m/n/12 http :// www [
 ] .sciencedirect [] .com / science /$
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2059
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1866
->>>>>>> origin/master
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \hbox (badness 10000) in paragraph at lines 2092--2110
 $\OT1/pcr/m/n/12 ejwl [] .idm [] .oclc [] .org / login [] ?url = http :// searc
 h [] .ebscohost [] .com /$
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2059
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1866
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 2092--2110
 $\OT1/pcr/m/n/12 login [] .aspx [] ?direct = true{&}db = sih{&}AN = 9208170745{
 &}site =$
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35])
-[36]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
-}) has been already used, duplicate ignored
+) [36]pdfTeX warning (ext4): destination with the same identifier (name{chapter
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 \HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
@@ -4987,19 +3376,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \hyper@refstepcounter ...tHref }\hyper@anchorend }
                                                   \fi 
 ...
-<<<<<<< HEAD
-l.1139 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
+l.1143 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
                                                   \label{ap:puctesis}
 ANEXO A
 
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 1139--1139
-=======
-l.1118 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
-                                                  \label{ap:puctesis}
-ANEXO A
-
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 1118--1118
->>>>>>> origin/master
+Overfull \hbox (5.27931pt too wide) in paragraph at lines 1143--1143
 \OT1/ptm/b/n/12 ANEXO A.[] 
  []
 
@@ -5012,46 +3393,15 @@ LaTeX Info: Redefining \% on input line 23.
 )
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
-<<<<<<< HEAD
-n input line 1167.
+n input line 1171.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1171.
  ) 
 Here is how much of TeX's memory you used:
- 20762 strings out of 493673
- 370639 string characters out of 3143966
- 616109 words of memory out of 3000000
- 23512 multiletter control sequences out of 15000+200000
- 37673 words of font info for 88 fonts, out of 3000000 for 9000
- 1186 hyphenation exceptions out of 8191
- 40i,17n,48p,10387b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on puctesis_ejemplo.pdf (47 pages, 609330 bytes).
-PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-n input line 1146.
-
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1146.
- ) 
-Here is how much of TeX's memory you used:
- 20728 strings out of 493673
- 374367 string characters out of 3141523
- 614564 words of memory out of 3000000
- 23488 multiletter control sequences out of 15000+200000
+ 20781 strings out of 493673
+ 375250 string characters out of 3141523
+ 615330 words of memory out of 3000000
+ 23529 multiletter control sequences out of 15000+200000
  37673 words of font info for 88 fonts, out of 3000000 for 9000
  1186 hyphenation exceptions out of 8191
  40i,17n,48p,10387b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5068,10 +3418,9 @@ MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on puctesis_ejemplo.pdf (45 pages, 594364 bytes).
+Output written on puctesis_ejemplo.pdf (47 pages, 610842 bytes).
 PDF statistics:
- 1070 PDF objects out of 1200 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 393 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
+ 1128 PDF objects out of 1200 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 

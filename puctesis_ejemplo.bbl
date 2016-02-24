@@ -1351,6 +1351,31 @@ John, O\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Johnston%
+}{%
+Johnston%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Johnston2013}
+\APACinsertmetastar {%
+Johnston2013}%
+\begin{APACrefauthors}%
+Johnston, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Dispositional sources of economic protectionism}}
+  {{Dispositional sources of economic protectionism}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Public Opinion Quarterly}{77}{2}{574--585}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/poq/nft004} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Jones%
 \ \BBA {} Olken%
 }{%
@@ -1901,6 +1926,32 @@ Rothmann, S.%
 \APACjournalVolNumPages{Journal of industrial psychology}{29}{1}{68--74}.
 \newblock
 \begin{APACrefDOI} \doi{10.4102/sajip.v29i1.88} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schoen%
+}{%
+Schoen%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Schoen2007}
+\APACinsertmetastar {%
+Schoen2007}%
+\begin{APACrefauthors}%
+Schoen, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality Traits and Foreign Policy Attitudes in
+  German Public Opinion}} {{Personality Traits and Foreign Policy Attitudes in
+  German Public Opinion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Conflict Resolution}{51}{3}{408--431}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0022002707300180} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

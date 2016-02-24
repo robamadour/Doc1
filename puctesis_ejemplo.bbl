@@ -1108,6 +1108,35 @@ Heckman, J\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hermann%
+}{%
+Hermann%
+}{%
+{\protect \APACyear {1980}}%
+}]{%
+Hermann1980}
+\APACinsertmetastar {%
+Hermann1980}%
+\begin{APACrefauthors}%
+Hermann, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1980}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Explaining Foreign Policy Behavior Using the Personal
+  Characteristics of Political Leaders}} {{Explaining Foreign Policy Behavior
+  Using the Personal Characteristics of Political Leaders}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Studies Quarterly}{24}{1}{7--46}.
+\newblock
+\begin{APACrefURL} \url{http://www.jstor.org/stable/2600126?origin=crossref}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.2307/2600126} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Heston%
 , Summers%
 \BCBL {}\ \BBA {} Aten%

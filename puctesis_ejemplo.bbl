@@ -2227,6 +2227,36 @@ Ramey, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rodriguez%
+\ \BBA {} Rodrik%
+}{%
+Rodriguez%
+\ \BBA {} Rodrik%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Rodriguez2001}
+\APACinsertmetastar {%
+Rodriguez2001}%
+\begin{APACrefauthors}%
+Rodriguez, F.%
+\BCBT {}\ \BBA {} Rodrik, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {{Trade Policy and Economic Growth: A Skeptic's Guide to the
+  Cross-National Evidence}} {{Trade Policy and Economic Growth: A Skeptic's
+  Guide to the Cross-National Evidence}}\ (\BVOL~15)\ (\BNUM\ January).
+\newblock
+\begin{APACrefURL} \url{http://ideas.repec.org/h/nbr/nberch/11058.html}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{doi:10.1086/654419} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rothmann%
 \ \BBA {} Coetzer%
 }{%
@@ -2549,6 +2579,34 @@ Voller, E\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Wacziarg%
+\ \BBA {} Welch%
+}{%
+Wacziarg%
+\ \BBA {} Welch%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Wacziarg2008}
+\APACinsertmetastar {%
+Wacziarg2008}%
+\begin{APACrefauthors}%
+Wacziarg, R.%
+\BCBT {}\ \BBA {} Welch, K\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Trade liberalization and growth: New evidence}} {{Trade
+  liberalization and growth: New evidence}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{World Bank Economic Review}{22}{2}{187--231}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/wber/lhn007} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Washington%
 }{%
 Washington%
@@ -2602,6 +2660,32 @@ White, J\BPBI K.%
   Differences}{37}{7}{1519--1530}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.paid.2004.02.019} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yanikkaya%
+}{%
+Yanikkaya%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Yanikkaya2003}
+\APACinsertmetastar {%
+Yanikkaya2003}%
+\begin{APACrefauthors}%
+Yanikkaya, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Trade openness and economic growth: A cross-country
+  empirical investigation}} {{Trade openness and economic growth: A
+  cross-country empirical investigation}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Development Economics}{72}{1}{57--89}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0304-3878(03)00068-3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

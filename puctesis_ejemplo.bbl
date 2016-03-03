@@ -92,6 +92,37 @@ Allport, G\BPBI W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Almlund%
+, Duckworth%
+, Heckman%
+\BCBL {}\ \BBA {} Kautz%
+}{%
+Almlund%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Almlund2011}
+\APACinsertmetastar {%
+Almlund2011}%
+\begin{APACrefauthors}%
+Almlund, M.%
+, Duckworth, A\BPBI L.%
+, Heckman, J\BPBI J.%
+\BCBL {}\ \BBA {} Kautz, T\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Personality psychology and economics}} {{Personality
+  psychology and economics}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{National Bureau of Economic Research}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/B978-0-444-53444-6.00001-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Aluja%
 , Garcia%
 \BCBL {}\ \BBA {} Garcia%
@@ -120,6 +151,38 @@ Aluja, A.%
 \newblock
 \APACjournalVolNumPages{Personality and Individual
   Differences}{33}{5}{713--725}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Anderson%
+\ \BBA {} Burks%
+}{%
+Anderson%
+\ \BBA {} Burks%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Anderson2011}
+\APACinsertmetastar {%
+Anderson2011}%
+\begin{APACrefauthors}%
+Anderson, J.%
+\BCBT {}\ \BBA {} Burks, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Toward the integration of personality theory and
+  decision theory in the explanation of economic behavior}} {{Toward the
+  integration of personality theory and decision theory in the explanation of
+  economic behavior}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Working Paper}{2}{}{1--46}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.cogsci.umn.edu/colloquia/colloquia{\_}S11/Aldo
+  Rustichini.pdf} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -946,6 +1009,29 @@ De~Fruyt, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+De~Rivera%
+}{%
+De~Rivera%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+de1968psychological}
+\APACinsertmetastar {%
+de1968psychological}%
+\begin{APACrefauthors}%
+De~Rivera, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1968}.
+\newblock
+\APACrefbtitle {The psychological dimension of foreign policy} {The
+  psychological dimension of foreign policy}.
+\newblock
+\APACaddressPublisher{}{CE Merrill Pub. Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 DeYoung%
 \ \protect \BOthers {.}}{%
 DeYoung%
@@ -1097,6 +1183,46 @@ Donnellan, M\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dreher%
+, Lamla%
+, Lein%
+\BCBL {}\ \BBA {} Somogyi%
+}{%
+Dreher%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Dreher2009169}
+\APACinsertmetastar {%
+Dreher2009169}%
+\begin{APACrefauthors}%
+Dreher, A.%
+, Lamla, M\BPBI J.%
+, Lein, S\BPBI M.%
+\BCBL {}\ \BBA {} Somogyi, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The impact of political leaders' profession and
+  education on reforms} {The impact of political leaders' profession and
+  education on reforms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Comparative Economics}{37}{1}{169 - 193}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0147596708000693}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Symposium: Labor Regulation In Developing CountriesSymposium:
+  Labor Regulation In Developing Countries}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.jce.2008.08.005}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dubow%
 , Boxer%
 \BCBL {}\ \BBA {} Huesmann%
@@ -1162,6 +1288,42 @@ Dudley, N\BPBI M.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1037/0021-9010.91.1.40} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Easterly%
+, Kremer%
+, Pritchett%
+\BCBL {}\ \BBA {} Summers%
+}{%
+Easterly%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+Easterly1993}
+\APACinsertmetastar {%
+Easterly1993}%
+\begin{APACrefauthors}%
+Easterly, W.%
+, Kremer, M.%
+, Pritchett, L.%
+\BCBL {}\ \BBA {} Summers, L\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Good policy or good luck?} {Good policy or good
+  luck?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Monetary Economics}{32}{3}{459 - 483}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/030439329390026C}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/0304-3932(93)90026-C}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2592,6 +2754,38 @@ Shiner, R\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Silvester%
+, Wyatt%
+\BCBL {}\ \BBA {} Randall%
+}{%
+Silvester%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Silvester2014}
+\APACinsertmetastar {%
+Silvester2014}%
+\begin{APACrefauthors}%
+Silvester, J.%
+, Wyatt, M.%
+\BCBL {}\ \BBA {} Randall, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Politician personality, Machiavellianism, and political
+  skill as predictors of performance ratings in political roles}} {{Politician
+  personality, Machiavellianism, and political skill as predictors of
+  performance ratings in political roles}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Occupational and Organizational
+  Psychology}{87}{2}{258--279}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/joop.12038} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Simon%
 \ \BBA {} Uscinski%
 }{%
@@ -2847,6 +3041,34 @@ White, J\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Winter%
+}{%
+Winter%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Winter1987}
+\APACinsertmetastar {%
+Winter1987}%
+\begin{APACrefauthors}%
+Winter, D\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Leader appeal, leader performance, and the motive
+  profiles of leaders and followers: A study of American presidents and
+  elections.}} {{Leader appeal, leader performance, and the motive profiles of
+  leaders and followers: A study of American presidents and elections.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Personality and Social
+  Psychology}{52}{1}{196--202}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0022-3514.52.1.196} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Yanikkaya%
 }{%
 Yanikkaya%
@@ -2870,6 +3092,39 @@ Yanikkaya, H.%
 \APACjournalVolNumPages{Journal of Development Economics}{72}{1}{57--89}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/S0304-3878(03)00068-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Young%
+\ \BBA {} Schafer%
+}{%
+Young%
+\ \BBA {} Schafer%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+Young1998}
+\APACinsertmetastar {%
+Young1998}%
+\begin{APACrefauthors}%
+Young, M\BPBI D.%
+\BCBT {}\ \BBA {} Schafer, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Is There Method in Our Madness? Ways of Assessing
+  Cognition in International Relations}} {{Is There Method in Our Madness? Ways
+  of Assessing Cognition in International Relations}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mershon International Studies Review}{42}{1}{63--96}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.jstor.org/stable/254444$\backslash$nhttp://www.jstor.org.ubproxy.ub.uni-frankfurt.de/stable/pdfplus/254444.pdf?acceptTC=true}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.2307/254444} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

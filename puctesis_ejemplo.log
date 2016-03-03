@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  1 MAR 2016 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.17)  3 MAR 2016 00:07
 entering extended mode
 **puctesis_ejemplo.tex
 (puctesis_ejemplo.tex
@@ -901,7 +901,7 @@ LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
 \c__siunitx_mathsf_int=\count196
 \c__siunitx_mathtt_int=\count197
- <logouc_23x30p38mm.pdf, id=185, 614.295pt x 794.97pt>
+ <logouc_23x30p38mm.pdf, id=205, 614.295pt x 794.97pt>
 File: logouc_23x30p38mm.pdf Graphic file (type pdf)
 
 <use logouc_23x30p38mm.pdf>
@@ -1060,14 +1060,18 @@ LaTeX Info: Redefining \% on input line 1.
 
 ])
 \tf@toc=\write5
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [6]
+[7]
 INDICE DE FIGURAS
 (puctesis_ejemplo.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write6
- [7
+ [8
 
 
 ]
@@ -1077,19 +1081,19 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write7
- [8
+ [9
 
 
 ]
 RESUMEN
-[9
+[10
 
 
 
 
 ]
 ABSTRACT
-[10
+[11
 
 
 ]
@@ -1111,35 +1115,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-[3]
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [3]
+[4]
+Overfull \hbox (1.68808pt too wide) in paragraph at lines 415--416
+\OT1/ptm/m/n/12 Ran-dall[][], [][]2014[][]), pre-fe-ren-cias pol[]ti-cas (e.g.
+ con-ser-va-dor vs. li-be-ral) [][][]Gerber, Hu-ber, Doherty,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6]
  2
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 397--397
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 424--424
  \OT1/ptm/b/n/12 2.[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4
+ [7
 
 
-]
-[5]
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
- [6]
-[7] [8]
- 3
-
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 481--481
- \OT1/ptm/b/n/12 3.[] 
- []
-
-[9
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1153,27 +1155,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.493 
-      ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<output> ...specialoutput \else \@makecol \@opcol 
-                                                  \@startcolumn \@whilesw \i...
-l.516 
-      pdfTeX warning (ext4): destination with the same identifier (name{equatio
-n.3.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \global 
+...
+l.450 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1186,211 +1173,400 @@ n.3.3}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.516 
-      ]
+<to be read again> 
+                   \global 
+...
+l.450 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.2}) has been already used, duplicate ignored
 
-LaTeX Warning: Reference `ap:our_list' on page 11 undefined on input line 521.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
 
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.450 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.3}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.450 \end{equation}
+                    ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-<Figures/World_vsimple.pdf, id=553, 733.61816pt x 284.02223pt>
+ [8pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.477 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.477 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.477 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.477 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<to be read again> 
+                   \global 
+...
+l.477 \end{equation}
+                    ] [9pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.2.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<everypar> 
+           \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
+...
+l.495 \cite{besley2011educated}
+                                usan la variable \textit{annual growth rate ...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<everypar> 
+           \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
+...
+l.495 \cite{besley2011educated}
+                                usan la variable \textit{annual growth rate ...
+]
+
+LaTeX Warning: Reference `ap:our_list' on page 10 undefined on input line 505.
+
+[10] <Figures/World_vsimple.pdf, id=568, 733.61816pt x 284.02223pt>
 File: Figures/World_vsimple.pdf Graphic file (type pdf)
 
 <use Figures/World_vsimple.pdf>
-Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 526.
+Package pdftex.def Info: Figures/World_vsimple.pdf used on input line 510.
 (pdftex.def)             Requested size: 433.62pt x 167.87936pt.
 
-<Figures/Year_distribution.pdf, id=554, 246.69107pt x 96.31514pt>
+<Figures/Year_distribution.pdf, id=569, 246.69107pt x 96.31514pt>
 File: Figures/Year_distribution.pdf Graphic file (type pdf)
 
 <use Figures/Year_distribution.pdf>
-Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 533.
+Package pdftex.def Info: Figures/Year_distribution.pdf used on input line 517.
 (pdftex.def)             Requested size: 346.89731pt x 135.43985pt.
 
-Underfull \vbox (badness 1521) has occurred while \output is active []
 
- [12 <./Figures/World_vsimple.pdf> <./Figures/Year_distribution.pdf
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12 <./Figures/World_vsimple.pdf> <./Figures/Year_distribution.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Year_distribution.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [13] <Figures/Figura_BF2.pdf, id=610, 614.51427pt x 229.71118pt>
+>]
+ 3
+
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 533--533
+ \OT1/ptm/b/n/12 3.[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
+
+
+]
+[14]
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [15]
+[16] [17] <Figures/Figura_BF2.pdf, id=743, 614.51427pt x 229.71118pt>
 File: Figures/Figura_BF2.pdf Graphic file (type pdf)
 
 <use Figures/Figura_BF2.pdf>
-Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 567.
+Package pdftex.def Info: Figures/Figura_BF2.pdf used on input line 636.
 (pdftex.def)             Requested size: 433.62pt x 162.0936pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./Figures/Figura_BF2.pdf>]
+ [18]
+[19 <./Figures/Figura_BF2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-[17]
-Overfull \hbox (4.5694pt too wide) detected at line 661
+ [20]
+[21]
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 344)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 473)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 477)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 711)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 579)$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 661
+Overfull \hbox (13.25018pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 429[]$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 661
+Overfull \hbox (13.25018pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 461[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 240)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 327)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 325)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 506)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 425)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 591)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 811)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 762)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 246)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 905)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 661
+Overfull \hbox (9.00012pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 125[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 661
+Overfull \hbox (4.75006pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 258[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 510)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 710)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 674)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 096)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 842)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 661
+Overfull \hbox (9.00012pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 958[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 351)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 470)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 454)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 719)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 661
+Overfull \hbox (4.5694pt too wide) detected at line 730
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 562)$ 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-[20] [21pdfTeX warning (ext4): destination with the same identifier (name{equat
-ion.3.4}) has been already used, duplicate ignored
+ [23]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+ [24]
+[25pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1407,516 +1583,516 @@ ion.3.4}) has been already used, duplicate ignored
 \newpage ...erypar {}\fi \par \vfil \penalty -\@M 
                                                   
 ...
-l.718 \chapter
+l.787 \chapter
               {RESULTADOS}]
  4
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 718--718
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 787--787
  \OT1/ptm/b/n/12 4.[] 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 754
+Overfull \hbox (9.00012pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 754
+Overfull \hbox (9.00012pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 077[]$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 754
+Overfull \hbox (13.25018pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 065[]$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 754
+Overfull \hbox (13.25018pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 066[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 754
+Overfull \hbox (4.75006pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 873[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 754
+Overfull \hbox (4.75006pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 909[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 022)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 023)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 954)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 035)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 754
+Overfull \hbox (9.00012pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 387[]$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 754
+Overfull \hbox (13.25018pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 345[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 754
+Overfull \hbox (4.75006pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045[]$ 
  []
 
 
-Overfull \hbox (3.45842pt too wide) detected at line 754
+Overfull \hbox (3.45842pt too wide) detected at line 823
 $ \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 27$
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 157)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 189)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 113)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 651)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 759)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 754
+Overfull \hbox (4.5694pt too wide) detected at line 823
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 823)$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 790
+Overfull \hbox (13.25018pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 790
+Overfull \hbox (9.00012pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 106[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 790
+Overfull \hbox (9.00012pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 068[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 790
+Overfull \hbox (9.00012pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 072[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 033)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 244)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 287)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 790
+Overfull \hbox (13.25018pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 532[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 790
+Overfull \hbox (9.00012pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 346[]$ 
  []
 
 
-Overfull \hbox (3.45842pt too wide) detected at line 790
+Overfull \hbox (3.45842pt too wide) detected at line 859
 $ \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 13$
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 191)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 162)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 148)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 717)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 011)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 790
+Overfull \hbox (4.5694pt too wide) detected at line 859
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 210)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 826
+Overfull \hbox (9.00012pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 171[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 826
+Overfull \hbox (9.00012pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 164[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 067)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 063)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 298)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 826
+Overfull \hbox (9.00012pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 782[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 311)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 316)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 247)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 849)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 766)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 826
+Overfull \hbox (4.5694pt too wide) detected at line 895
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
@@ -1924,152 +2100,152 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 862
+Overfull \hbox (9.00012pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 800[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 862
+Overfull \hbox (9.00012pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 742[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 141)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 298)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 002)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 862
+Overfull \hbox (9.00012pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 151[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 201)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 400)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 150)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 850)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 482)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 862
+Overfull \hbox (4.5694pt too wide) detected at line 931
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 343)$ 
  []
 
@@ -2077,302 +2253,302 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 343)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 083[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 906
+Overfull \hbox (4.75006pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 086[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 216[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 284[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 334)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 424)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 029)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 886)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 966)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 113)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 088)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 441)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 631)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 906
+Overfull \hbox (4.75006pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 147[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 769)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 864)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 722[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 665[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 052)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 369)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 497)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 095)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 002)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 037)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 001)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 906
+Overfull \hbox (4.75006pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 069[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 906
+Overfull \hbox (9.00012pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 382[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 598)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 461)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 448)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 901)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 492)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 906
+Overfull \hbox (4.5694pt too wide) detected at line 975
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 845)$ 
  []
 
@@ -2380,292 +2556,292 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 845)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 078[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 171[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 067)$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 1010
+Overfull \hbox (13.25018pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 070[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 057)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 034)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 036)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 072)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 093[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 081)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 004)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1010
+Overfull \hbox (4.75006pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 101[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 127[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 150[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 116[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 116[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 143[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 058)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 051)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 055)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1010
+Overfull \hbox (9.00012pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 112[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1010
+Overfull \hbox (4.75006pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1010
+Overfull \hbox (4.75006pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 089[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 059)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 054)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 052)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1010
+Overfull \hbox (4.5694pt too wide) detected at line 1079
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
@@ -2673,252 +2849,252 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1076
+Overfull \hbox (9.00012pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 083[]$ 
  []
 
 
-Overfull \hbox (13.25018pt too wide) detected at line 1076
+Overfull \hbox (13.25018pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 065[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 022)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 023)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 074)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 053)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1076
+Overfull \hbox (9.00012pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 068[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 056)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 038)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1076
+Overfull \hbox (4.75006pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1076
+Overfull \hbox (9.00012pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 060[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 026)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 028)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 025)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 059)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 063)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 035)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 039)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 003)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1076
+Overfull \hbox (4.75006pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 076[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 040)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 045)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 043)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 047)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 041)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 047)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 042)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1076
+Overfull \hbox (4.5694pt too wide) detected at line 1145
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$ 
  []
 
@@ -2926,269 +3102,269 @@ $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 044)$
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1142
+Overfull \hbox (9.00012pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 216[]$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1142
+Overfull \hbox (4.75006pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 873[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 334)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 954)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 886)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 844)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 441)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 104)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1142
+Overfull \hbox (4.75006pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 147[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 769)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 244)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1142
+Overfull \hbox (9.00012pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 722[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1142
+Overfull \hbox (9.00012pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 800[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 369)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 141)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 095)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 097)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 096)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 098)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 091)$ 
  []
 
 
-Overfull \hbox (4.75006pt too wide) detected at line 1142
+Overfull \hbox (4.75006pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 846[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 477)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 080)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 960)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 918)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 559)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 249)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 031)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 429)$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1142
+Overfull \hbox (9.00012pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 808[]$ 
  []
 
 
-Overfull \hbox (9.00012pt too wide) detected at line 1142
+Overfull \hbox (9.00012pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 910[]$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 437)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 192)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 103)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 105)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 101)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 102)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 094)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 309)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 248)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 269)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 326)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 355)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 193)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 292)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 234)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 331)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 275)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 266)$ 
  []
 
 
-Overfull \hbox (4.5694pt too wide) detected at line 1142
+Overfull \hbox (4.5694pt too wide) detected at line 1211
 $\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 192)$ 
  []
 
 
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
- [22
+ [26
 
 
 ]
@@ -3198,18 +3374,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [27]
 Overfull \vbox (126.73863pt too high) has occurred while \output is active []
 
 
-[24] [25] [26] [27]
+[28] [29] [30] [31]
  5
 
-Overfull \hbox (5.28003pt too wide) in paragraph at lines 1149--1149
+Overfull \hbox (5.28003pt too wide) in paragraph at lines 1218--1218
  \OT1/ptm/b/n/12 5.[] 
  []
 
-(puctesis_ejemplo.bbl [28
+(puctesis_ejemplo.bbl [32
 
 
 ]
@@ -3221,7 +3397,13 @@ $\OT1/pcr/m/n/12 .com / science / article / pii / S1574068405010063$[][]   \OT1
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 138--157
+Underfull \hbox (badness 1975) in paragraph at lines 169--187
+\OT1/ptm/m/n/12 and de-ci-sion theory in the ex-pla-na-tion of eco-no-mic beha-
+vior.  \OT1/ptm/m/it/12 Wor-king Pa-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 201--220
 []\OT1/ptm/m/n/12 Azman-Saini, W. N. W., Law, S. H., y Ah-mad, A. H.  (2010).  
 FDI and
  []
@@ -3229,102 +3411,57 @@ FDI and
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [33
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-Underfull \hbox (badness 10000) in paragraph at lines 751--769
+ [35]
+Underfull \hbox (badness 10000) in paragraph at lines 814--832
 []\OT1/ptm/m/n/12 Crichlow, S.  (2002).  Le-gis-la-tors' Per-so-na-lity Traits 
 and Con-gres-sio-
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 751--769
+Underfull \hbox (badness 4353) in paragraph at lines 814--832
 \OT1/ptm/m/n/12 nal Sup-port for Free Tra-de.  \OT1/ptm/m/it/12 Jour-nal of Con
 -flict Re-so-lu-tion\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 46\OT1/ptm/m/n/12 (5), 6
 93--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--769
+Underfull \hbox (badness 10000) in paragraph at lines 814--832
 \OT1/ptm/m/n/12 711.  Des-car-ga-do de [][]$\OT1/pcr/m/n/12 http :// www [] .vo
 xeurop [] .eu / nl / content /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--769
+Underfull \hbox (badness 10000) in paragraph at lines 814--832
 $\OT1/pcr/m/n/12 article / 4015361 [] -vrijhandelszone [] -de [] -voors [] -en 
 [] -tegens$[][]   \OT1/ptm/m/n/12 doi:
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 781--799
+Underfull \hbox (badness 1122) in paragraph at lines 844--862
 []\OT1/ptm/m/n/12 Crichlow, S.  (2005).  Psy-cho-lo-gi-cal In-fluen-ces on the 
 Po-licy Choi-ces of Se-
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 781--799
+Underfull \hbox (badness 3058) in paragraph at lines 844--862
 \OT1/ptm/m/n/12 cre-ta-ries of Sta-te and Fo-reign Mi-nis-ters.  \OT1/ptm/m/it/
 12 Coope-ra-tion and Con-flict\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 40\OT1/ptm/m/n
 /12 (2),
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 781--799
+Underfull \hbox (badness 3128) in paragraph at lines 844--862
 $\OT1/pcr/m/n/12 ?eid = 2 [] -s2 [] .0 [] -30444454539{&}partnerID = tZOtx3y1$[
 ][]   \OT1/ptm/m/n/12 doi: $10 [] .1177 /$
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-Underfull \hbox (badness 2035) in paragraph at lines 1022--1041
-$\OT1/pcr/m/n/12 .com / science / article / pii / S0304393202002064$[][]   \OT1
-/ptm/m/n/12 doi: $http :// dx [] .doi []$
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1395
-$\OT1/pcr/m/n/12 journals [] .cambridge [] .org / action / displayFulltext [] ?
-type =$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1395
-$\OT1/pcr/m/n/12 6{&}fid = 7449476{&}jid = PSR{&}volumeId = 104{&}issueId =$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1395
-$\OT1/pcr/m/n/12 01{&}aid = 7449472{&}bodyId = {&}membershipNumber =$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1395
-$\OT1/pcr/m/n/12 {&}societyETOCSession = {&}fulltextType = RA{&}fileId =$
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-Underfull \hbox (badness 3838) in paragraph at lines 1501--1521
-$\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]   
-\OT1/ptm/m/n/12 doi: $10 [] .1145 / 1979742 []$
  []
 
 
@@ -3334,13 +3471,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-Underfull \hbox (badness 2012) in paragraph at lines 2076--2090
+Underfull \hbox (badness 2035) in paragraph at lines 1108--1127
+$\OT1/pcr/m/n/12 .com / science / article / pii / S0304393202002064$[][]   \OT1
+/ptm/m/n/12 doi: $http :// dx [] .doi []$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1557
+$\OT1/pcr/m/n/12 journals [] .cambridge [] .org / action / displayFulltext [] ?
+type =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1557
+$\OT1/pcr/m/n/12 6{&}fid = 7449476{&}jid = PSR{&}volumeId = 104{&}issueId =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1557
+$\OT1/pcr/m/n/12 01{&}aid = 7449472{&}bodyId = {&}membershipNumber =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1557
+$\OT1/pcr/m/n/12 {&}societyETOCSession = {&}fulltextType = RA{&}fileId =$
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 1663--1683
+$\OT1/pcr/m/n/12 .org / citation [] .cfm [] ?doid = 1979742 [] .1979614$[][]   
+\OT1/ptm/m/n/12 doi: $10 [] .1145 / 1979742 []$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \hbox (badness 2012) in paragraph at lines 2238--2252
 []\OT1/ptm/m/n/12 Marshall, M. G., y Jag-gers, K.  (2012).  Po-lity iv pro-ject
 : Po-li-ti-cal re-gi-me
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 2076--2090
+Underfull \hbox (badness 1137) in paragraph at lines 2238--2252
 \OT1/ptm/m/n/12 cha-rac-te-ris-tics and tran-si-tions, 1800-2012.  \OT1/ptm/m/i
 t/12 On-line (http://www. sys-te-mic-pea-ce.
  []
@@ -3348,20 +3533,20 @@ t/12 On-line (http://www. sys-te-mic-pea-ce.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Underfull \hbox (badness 1152) in paragraph at lines 2280--2300
+ [43]
+Underfull \hbox (badness 1152) in paragraph at lines 2442--2462
 \OT1/ptm/m/n/12 non-con-tin-gent pu-nish-ment in in-tro-verts and ex-tra-verts.
   \OT1/ptm/m/it/12 Jour-nal of Per-so-na-lity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2280--2300
+Underfull \hbox (badness 10000) in paragraph at lines 2442--2462
 $\OT1/pcr/m/n/12 .50 [] .2 [] .439$ \ delimiter"026E30F$nhttp :// proxy [] .cit
 yu [] .edu /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2280--2300
+Underfull \hbox (badness 10000) in paragraph at lines 2442--2462
 $\OT1/pcr/m/n/12 login [] ?url = http :// search [] .ebscohost [] .com / login 
 [] .aspx [] ?direct =$
  []
@@ -3369,32 +3554,29 @@ $\OT1/pcr/m/n/12 login [] ?url = http :// search [] .ebscohost [] .com / login
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Underfull \hbox (badness 2119) in paragraph at lines 2485--2504
+ [44]
+Underfull \hbox (badness 2119) in paragraph at lines 2647--2666
 []\OT1/ptm/m/n/12 Schneider, F., y Frey, B. S.  (1985, feb).  Eco-no-mic and po
 -li-ti-cal de-ter-mi-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 2660--2679
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \hbox (badness 2478) in paragraph at lines 2854--2873
 \OT1/ptm/m/n/12 208--232.  Des-car-ga-do de [][]$\OT1/pcr/m/n/12 http :// www [
 ] .sciencedirect [] .com / science /$
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Underfull \hbox (badness 10000) in paragraph at lines 2693--2711
+Underfull \hbox (badness 10000) in paragraph at lines 2887--2905
 $\OT1/pcr/m/n/12 ejwl [] .idm [] .oclc [] .org / login [] ?url = http :// searc
 h [] .ebscohost [] .com /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2693--2711
+Underfull \hbox (badness 10000) in paragraph at lines 2887--2905
 $\OT1/pcr/m/n/12 login [] .aspx [] ?direct = true{&}db = sih{&}AN = 9208170745{
 &}site =$
  []
@@ -3402,9 +3584,23 @@ $\OT1/pcr/m/n/12 login [] .aspx [] ?direct = true{&}db = sih{&}AN = 9208170745{
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42])
-[43]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
-}) has been already used, duplicate ignored
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \hbox (badness 10000) in paragraph at lines 3110--3129
+$\OT1/pcr/m/n/12 delimiter"026E30F$nhttp :// www [] .jstor [] .org [] .ubproxy 
+[] .ub [] .uni []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3110--3129
+$\OT1/pcr/m/n/12 -frankfurt [] .de / stable / pdfplus / 254444 [] .pdf [] ?acce
+ptTC = true$[][]
+ []
+
+) [48]pdfTeX warning (ext4): destination with the same identifier (name{chapter
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 \HyWrap@new@pdflink ... \Hy@pstringDest \@pdfview 
@@ -3420,15 +3616,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \hyper@refstepcounter ...tHref }\hyper@anchorend }
                                                   \fi 
 ...
-l.1185 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
+l.1254 \chapter{DISTRIBUCION DEL PAQUETE DE TESIS}
                                                   \label{ap:puctesis}
 ANEXO A
 
-Overfull \hbox (5.27931pt too wide) in paragraph at lines 1185--1185
+Overfull \hbox (5.27931pt too wide) in paragraph at lines 1254--1254
 \OT1/ptm/b/n/12 ANEXO A.[] 
  []
 
-[44
+[49
 
 
 ] (puctesis_ejemplo.aux
@@ -3437,34 +3633,76 @@ LaTeX Info: Redefining \% on input line 23.
 )
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
-n input line 1213.
+n input line 1282.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1282.
  ) 
 Here is how much of TeX's memory you used:
- 20926 strings out of 493673
- 377734 string characters out of 3141523
- 617564 words of memory out of 3000000
- 23643 multiletter control sequences out of 15000+200000
- 37673 words of font info for 88 fonts, out of 3000000 for 9000
+ 21019 strings out of 493673
+ 379153 string characters out of 3141523
+ 618599 words of memory out of 3000000
+ 23698 multiletter control sequences out of 15000+200000
+ 36512 words of font info for 87 fonts, out of 3000000 for 9000
  1186 hyphenation exceptions out of 8191
  40i,17n,48p,10387b,1035s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
-s/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on puctesis_ejemplo.pdf (54 pages, 647793 bytes).
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on puctesis_ejemplo.pdf (60 pages, 703806 bytes).
 PDF statistics:
- 1272 PDF objects out of 1440 (max. 8388607)
- 229 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1430 PDF objects out of 1440 (max. 8388607)
+ 269 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 

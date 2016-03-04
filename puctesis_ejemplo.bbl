@@ -746,6 +746,30 @@ Cattell, R\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cattell%
+}{%
+Cattell%
+}{%
+{\protect \APACyear {1947}}%
+}]{%
+cattell1947confirmation}
+\APACinsertmetastar {%
+cattell1947confirmation}%
+\begin{APACrefauthors}%
+Cattell, R\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1947}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Confirmation and clarification of primary personality
+  factors} {Confirmation and clarification of primary personality
+  factors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychometrika}{12}{3}{197--220}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Costa%
 \ \BBA {} McCrae%
 }{%
@@ -2278,6 +2302,35 @@ McAdams, D\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+McDougall%
+}{%
+McDougall%
+}{%
+{\protect \APACyear {1932}}%
+}]{%
+McDOUGALL1932}
+\APACinsertmetastar {%
+McDOUGALL1932}%
+\begin{APACrefauthors}%
+McDougall, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1932}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Of the Words Character and Personality}} {{Of the Words
+  Character and Personality}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Personality}{1}{}{3--16}.
+\newblock
+\begin{APACrefURL}
+  \url{http://doi.wiley.com/10.1111/j.1467-6494.1932.tb02209.x}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-6494.1932.tb02209.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mehl%
 , Gosling%
 \BCBL {}\ \BBA {} Pennebaker%
@@ -2629,6 +2682,30 @@ Sachs, J.%
   Development}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of African Economies}{6}{3}{335--376}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saucier%
+}{%
+Saucier%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Saucier1994}
+\APACinsertmetastar {%
+Saucier1994}%
+\begin{APACrefauthors}%
+Saucier, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Mini-Markers: A Brief Version of Goldberg's Unipolar
+  Big-Five Markers}} {{Mini-Markers: A Brief Version of Goldberg's Unipolar
+  Big-Five Markers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Peronality Assessment}{63}{3}{506--516}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

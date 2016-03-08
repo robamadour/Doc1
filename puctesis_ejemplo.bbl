@@ -549,6 +549,36 @@ Borensztein, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Borghans%
+\ \protect \BOthers {.}}{%
+Borghans%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Borghans2009}
+\APACinsertmetastar {%
+Borghans2009}%
+\begin{APACrefauthors}%
+Borghans, L.%
+, Golsteyn, B\BPBI H\BPBI H.%
+, Heckman, J\BPBI J.%
+, Meijers, H.%
+, Golsteyn, B\BPBI H\BPBI H.%
+\BCBL {}\ \BBA {} Heckman, J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Gender Differences in Risk Aversion and Ambiguity
+  Aversion}} {{Gender Differences in Risk Aversion and Ambiguity
+  Aversion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the European Economic
+  Association}{7}{2}{649--658}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Brollo%
 \ \BBA {} Troiano%
 }{%
@@ -1899,6 +1929,30 @@ Hines, D\BPBI A.%
 \APACjournalVolNumPages{Aggressive Behavior}{34}{6}{593--604}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/ab.20277} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Howse%
+}{%
+Howse%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Howse2000}
+\APACinsertmetastar {%
+Howse2000}%
+\begin{APACrefauthors}%
+Howse, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Democracy, science, and free trade: Risk regulation on
+  trial at the World Trade Organization}} {{Democracy, science, and free trade:
+  Risk regulation on trial at the World Trade Organization}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Michigan Law Review}{98}{7}{2329}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

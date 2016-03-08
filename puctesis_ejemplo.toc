@@ -22,29 +22,29 @@
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Extraversi\'on}}{17}{subsection.3.1.2}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Responsabilidad}}{18}{subsection.3.1.2}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Amabilidad}}{18}{subsection.3.1.2}
-\contentsline {section}{\tocsection {}{3.2}{Comercio internacional y personalidad}}{18}{section.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.1}{Extraversi\'on}}{18}{subsection.3.2.1}
-\contentsline {subsection}{\tocsubsection {}{3.2.2}{Los Cinco Grandes como predictores de comportamiento}}{19}{subsection.3.2.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.3}{Los Cinco Grandes e intercambio comercial}}{19}{subsection.3.2.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.2.3.1}{Extraversi\'on}}{19}{subsubsection.3.2.3.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.2.3.2}{Responsabilidad}}{20}{subsubsection.3.2.3.2}
-\contentsline {section}{\tocsection {}{3.3}{Midiendo los Cinco Grandes}}{20}{section.3.3}
+\contentsline {section}{\tocsection {}{3.2}{Comercio internacional y personalidad}}{19}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.1}{Extraversi\'on}}{19}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.2}{Los Cinco Grandes como predictores de comportamiento}}{20}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.3}{Los Cinco Grandes e intercambio comercial}}{20}{subsection.3.2.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.3.1}{Extraversi\'on}}{20}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.3.2}{Responsabilidad}}{21}{subsubsection.3.2.3.2}
+\contentsline {section}{\tocsection {}{3.3}{Midiendo los Cinco Grandes}}{21}{section.3.3}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{21}{subsection.3.3.1}
 \contentsline {subsection}{\tocsubsection {}{3.3.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{22}{subsection.3.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.3.3}{Dos posibles objeciones al m\'etodo}}{23}{subsection.3.3.3}
-\contentsline {section}{\tocsection {}{3.4}{Resultados y verificaciones}}{24}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Correlaciones entre los Cinco Grandes}}{24}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{3.3.3}{Dos posibles objeciones al m\'etodo}}{24}{subsection.3.3.3}
+\contentsline {section}{\tocsection {}{3.4}{Resultados y verificaciones}}{25}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Correlaciones entre los Cinco Grandes}}{25}{subsection.3.4.1}
 \contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{25}{subsection.3.4.2}
-\contentsline {subsection}{\tocsubsection {}{3.4.3}{Robustez de los estimadores}}{27}{subsection.3.4.3}
-\contentsline {subsection}{\tocsubsection {}{3.4.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{27}{subsection.3.4.4}
-\contentsline {section}{\tocsection {}{3.5}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{27}{section.3.5}
-\contentsline {subsection}{\tocsubsection {}{3.5.1}{Nota sobre el signo de los coeficientes}}{28}{subsection.3.5.1}
-\contentsline {section}{\tocsection {}{3.6}{Resultados}}{29}{section.3.6}
+\contentsline {subsection}{\tocsubsection {}{3.4.3}{Robustez de los estimadores}}{28}{subsection.3.4.3}
+\contentsline {subsection}{\tocsubsection {}{3.4.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{28}{subsection.3.4.4}
+\contentsline {section}{\tocsection {}{3.5}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{29}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.5.1}{Nota sobre el signo de los coeficientes}}{29}{subsection.3.5.1}
+\contentsline {section}{\tocsection {}{3.6}{Resultados}}{30}{section.3.6}
 \contentsline {section}{\tocsection {}{3.7}{Discusi\'on}}{30}{section.3.7}
 \contentsline {section}{\tocsection {}{3.8}{Robustez de los resultados}}{30}{section.3.8}
 \contentsline {subsection}{\tocsubsection {}{3.8.1}{Variaci\'on de los Cinco Grandes}}{30}{subsection.3.8.1}
 \contentsline {subsection}{\tocsubsection {}{3.8.2}{Usando los sucesores}}{30}{subsection.3.8.2}
 \contentsline {subsection}{\tocsubsection {}{3.8.3}{Robustez con respecto al plazo de observaci\'on}}{30}{subsection.3.8.3}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{33}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{34}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{50}{chapter.1}
+\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{34}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{35}{chapter.4}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{52}{chapter.1}

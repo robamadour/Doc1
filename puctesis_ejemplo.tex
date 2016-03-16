@@ -902,7 +902,7 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
         
 \section{Resultados} \label{sec:resultados}
 
-\begin{table}[h]
+\begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 		{
 			\begin{threeparttable}
@@ -944,7 +944,7 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 	}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 	{
 		\begin{threeparttable}
@@ -986,7 +986,7 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 	}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 	{
 		\begin{threeparttable}
@@ -1028,12 +1028,12 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 	}
 \end{table}
 
-
-\begin{table}[h]
+\iffalse
+\begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 	{
 		\begin{threeparttable}
-			\caption{Amabilidad y comercio internacional}
+			\caption{Los Cinco Grandes y comercio internacional}
 			\label{fig:amabilidad}
 			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 			\begin{tabular}{llSlSlSlS}
@@ -1078,8 +1078,112 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 		%}
 	}
 \end{table}
+\fi
+
+\clearpage
+\subsection{¿Cuál es el factor más importante?}
+
+Salvo pequeñas diferencias en magnitud, se observa un efecto bastante similar de cada uno de los tres factores analizados (extraversión, responsabilidad y amabilidad) sobre el crecimiento del comercio internacional. Sin embargo, este resultado no debería resultar sorprendente si se toma en consideración que los tres factores están altamente correlacionados. Los diagramas de dispersión en la figura \ref{fig:disper} muestran que líderes con un alto valor en una medida de personalidad tienden a tener valores altos también en las otras dos. 
+
+\begin{figure}[htpb]
+	\includegraphics[width=\textwidth]{Figures/bf_corr3.pdf}
+	\caption{Diagramas de dispersión entre extraverión, responsabilidad y amabilidad\label{fig:disper}}
+\end{figure}
+
+La tabla \ref{tab:corr_pcs} muestra  que, para los 97 líderes con salidas aleatorias para los cuales se disponen datos, la correlación es igual a 70\% entre extraversión y responsabilidad, 53\% entre extraversión y amabilidad, y 62\% entre responsabilidad y amabilidad. 
+Como referencia, las correlaciones entre estos factores en una muestra no sesgada son: 29\%  entre extraversión y responsabilidad, 26\% entre extraversión y amabilidad y 43\% entre responsabilidad y amabilidad \cite{van2010general}. 
+Las altas correlaciones observadas en nuestros resultados podrían ser explicadas en parte por el sesgo de la muestra. Posiblemente, y como lo sugiere la figura \ref{fig:disper}, quienes alcanzaron la posición de líder nacional tienden a ser más extravertidos que introvertidos, más responsables que negligentes y más amables que fríos o antipáticos. Estas características, al ser valoradas positivamente por la ciudadanía, aumentan las posibilidades de ser electo como mandatario.
+
+Por otro lado, la herramienta empleada para estimar los Cinco Grandes a partir de textos se basa en correlaciones entre los rasgos de personalidad y ciertas categorías de palabras. Por ejemplo, tanto extraversión como amabilidad se relacionan positivamente con el uso de palabras de emociones positivas (e.g. alegría, afecto). Si solo un número reducido de categorías de palabras aparece en los textos de discursos políticos, entonces es posible que las estimaciones de personalidad obtenidas estén sesgadas. 
+
+\begin{table}[htpb]	
+	\centering 	
+	\caption{Correlaciones entre los  factores de personalidad y sus componentes principales\label{tab:corr_pcs}}
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{l  c  c  c  c  c  c }\toprule\toprule
+		\multicolumn{1}{c}{Variables} &Extraversión&Responsabilidad&Amabilidad&\begin{tabular}[c]{@{}c@{}}CP-\\extraversión\end{tabular}&\begin{tabular}[c]{@{}c@{}}CP-\\amabilidad\end{tabular}&\begin{tabular}[c]{@{}c@{}}CP-\\responsabilidad\end{tabular}\\ \midrule
+		Extraversión&1.000\\
+		Responsabilidad&0.706&1.000\\
+		Amabilidad&0.525&0.620&1.000\\
+		CP-extraversión&0.911&0.370&0.230&1.000\\
+		CP-amabilidad&0.239&0.316&0.934&0.000&1.000\\
+		CP-responsabilidad&0.336&0.874&0.275&0.000&0.000&1.000\\
+		\midrule
+		Observaciones: 97\\
+		\bottomrule\bottomrule
+	\end{tabular}
+}
+\end{table}
+
+El hecho de que los tres factores estén altamente correlacionados dificulta el análisis de los resultados. Esto pues no existe suficiente variación independiente entre estos factores como para distinguir sus efectos sobre el crecimiento del comercio internacional. Esto se observa en los resultados para el modelo 1 en la tabla \ref{tab:pcs}; al estimar el efecto de los tres factores simultáneamente, se diluye la significancia estadística que se obtenía en los modelos donde solo un factor era incluido. 
+
+Con los datos disponibles no es posible analizar sistemáticamente qué ocurre, por ejemplo, cuando un líder tiene un alto valor en extraversión y bajo en responsabilidad. Sin embargo, la correlación entre los tres factores no es perfecta, por lo que es posible distinguir factores predominantes en cada líder. En otras palabras, si bien es cierto que líderes más extrovertidos son también más responsables, esto no quita la posibilidad de que para cada líder exista un factor más relevante que los otros. Esto nos otorga un grado de libertad para analizar el efecto de líderes cuya personalidad es predominantemente extravertida, responsable o amable.
+
+Para realizar este análisis buscamos expresar los tres factores de personalidad usando tres nuevas dimensiones que permitan magnificar las diferencias entre los factores originales. Estas tres nuevas dimensiones deben  cumplir dos requisitos fundamentales. Primero, deben ser altamente independientes entre sí para solucionar el problema que se tiene con los factores originales. Y segundo, deben estar dominadas por uno de los factores originales para que sea posible interpretar los resultados obtenidos. 
+
+Hacemos un Análisis de Componentes Principales mediante el cual obtenemos tres dimensiones independientes entre sí: PC1, PC2 y PC3. La tabla \ref{tab:corr_pcs} muestra que 
 
 
+\begin{table}[htpb]
+	%\resizebox{\textwidth}{!}{
+	{
+		\begin{threeparttable}
+			\caption{Efecto conjunto de los factores}
+			\label{tab:pcs}
+			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+			\begin{tabular}{llSlS}
+				\toprule\toprule
+			                    &&\multicolumn{3}{c}{Crecimiento del comercio internacional}\\
+			                    &&\multicolumn{1}{c}{Modelo 1}&&\multicolumn{1}{c}{Modelo 2}\\
+			                    \midrule                                  
+			                    Extraversión        &&      -0.068         &&                     \\
+			                    &&     (0.041)         &&                     \\
+			                    Responsabilidad     &&       0.032         &&                     \\
+			                    &&     (0.060)         &&                     \\
+			                    Amabilidad          &&      -0.106         &&                     \\
+			                    &&     (0.063)         &&                     \\
+			                     CP-extraversión                &&                     &&      -0.037\sym{**} \\
+			                     &&                     &&     (0.015)         \\
+			                     CP-amabilidad                 &&                     &&      -0.031\sym{**} \\
+			                     &&                     &&     (0.014)         \\
+			                     CP-responsabilidad                 &&                     &&      -0.010         \\
+			                     &&                     &&     (0.012)         \\
+			                    PIB                 &&      -0.002         &&      -0.002         \\
+			                    &&     (0.003)         &&     (0.003)         \\
+			                    Derecha             &&      -0.202\sym{***}&&      -0.202\sym{***}\\
+			                    &&     (0.050)         &&     (0.050)         \\
+			                    Izquierda           &&      -0.181\sym{***}&&      -0.181\sym{***}\\
+			                    &&     (0.047)         &&     (0.047)         \\
+			                    Edad                &&       0.000         &&       0.000         \\
+			                    &&     (0.001)         &&     (0.001)         \\
+			                    Duración            &&      -0.003\sym{**} &&      -0.003\sym{**} \\
+			                    &&     (0.001)         &&     (0.001)         \\
+			                    Año                &&      -0.001         &&      -0.001         \\
+			                    &&     (0.001)         &&     (0.001)         \\
+			                    Educación           &&       0.009         &&       0.009         \\
+			                    &&     (0.010)         &&     (0.010)         \\
+			                    Constante           & &       3.399\sym{*}  &&       2.740         \\
+			                    &&     (1.769)         &&     (1.679)         \\
+			                    \midrule                                 
+			                    R-squared           &&       0.616         &&       0.616         \\
+			                    N                   &&          31         &&          31         \\
+				\bottomrule\bottomrule
+			\end{tabular}
+			\begin{tablenotes}
+				\footnotesize{Notas: TO DO.}
+			\end{tablenotes}
+		\end{threeparttable}
+		%}
+	}
+\end{table}
+
+
+
+
+\begin{figure}[htpb]
+	\includegraphics[width=\textwidth]{Figures/pcs_horizontal2.pdf}
+	\caption{Gráfico de las componentes principales para los factores extraversión, amabilidad y responsabilidad\label{fig:pca}}
+\end{figure}
 
 \section{Discusión}
 \section{Robustez de los resultados}
@@ -1129,12 +1233,12 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 \begin{center}
 	\begin{longtable}{ccccccc}
 		\caption{Lista de líderes con transiciones aleatorias en la muestra} \label{tab:our_list} \\
-		\toprule \toprule \multicolumn{1}{c}{\textbf{Country}} & \multicolumn{1}{c}{\textbf{Leader}} & \multicolumn{1}{c}{\textbf{Year}} & \multicolumn{1}{c}{\textbf{Reason}} & \multicolumn{1}{c}{\textbf{Cause of death or illness}} & \multicolumn{1}{c}{\textbf{JO}} & \multicolumn{1}{c}{\textbf{B}}\\ \midrule 
+		\toprule \toprule \multicolumn{1}{c}{\textbf{País}} & \multicolumn{1}{c}{\textbf{Líder}} & \multicolumn{1}{c}{\textbf{Año}} & \multicolumn{1}{c}{\textbf{Razón}} & \multicolumn{1}{c}{\textbf{Detalles}} & \multicolumn{1}{c}{\textbf{JO}} & \multicolumn{1}{c}{\textbf{B}}\\ \midrule 
 		\endfirsthead
 		
 		\multicolumn{7}{c}%
 		{{\bfseries \tablename\ \thetable{} (continuación)}} \\
-		\toprule\toprule \multicolumn{1}{c}{\textbf{Country}} & \multicolumn{1}{c}{\textbf{Leader}} & \multicolumn{1}{c}{\textbf{Year}} & \multicolumn{1}{c}{\textbf{Reason}} & \multicolumn{1}{c}{\textbf{Cause of death or illness}} & \multicolumn{1}{c}{\textbf{JO}} & \multicolumn{1}{c}{\textbf{B}}\\ \midrule
+		\toprule\toprule \multicolumn{1}{c}{\textbf{País}} & \multicolumn{1}{c}{\textbf{Líder}} & \multicolumn{1}{c}{\textbf{Año}} & \multicolumn{1}{c}{\textbf{Razón}} & \multicolumn{1}{c}{\textbf{Detalles}} & \multicolumn{1}{c}{\textbf{JO}} & \multicolumn{1}{c}{\textbf{B}}\\ \midrule
 		\endhead
 		
 		\bottomrule \bottomrule \multicolumn{7}{r}{{Continúa en la siguiente página}} \\ 

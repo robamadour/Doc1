@@ -3057,6 +3057,35 @@ VandenBos, G\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Van~der Linden%
+, te Nijenhuis%
+\BCBL {}\ \BBA {} Bakker%
+}{%
+Van~der Linden%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+van2010general}
+\APACinsertmetastar {%
+van2010general}%
+\begin{APACrefauthors}%
+Van~der Linden, D.%
+, te Nijenhuis, J.%
+\BCBL {}\ \BBA {} Bakker, A\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The general factor of personality: A meta-analysis of
+  Big Five intercorrelations and a criterion-related validity study} {The
+  general factor of personality: A meta-analysis of big five intercorrelations
+  and a criterion-related validity study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of research in personality}{44}{3}{315--327}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Voller%
 \ \BBA {} Long%
 }{%

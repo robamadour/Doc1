@@ -491,7 +491,7 @@ donde $\nu_i$ y $\nu_t$ son efectos fijos de país y año respectivamente. Se asum
 \overline{POST}_z - \overline{POST}_z \approx \lambda^{PRE}_z - \lambda^{PRE}_z,
 \end{equation}
 
-La varianza del término de error estimada se obtiene al estimar modelo (\ref{eq:model}) bajo la hipótesis nula (i.e. cuando $\theta = 0$) mediante el método de mínimos cuadrados generalizado. 
+La varianza del término de error por país se obtiene al estimar modelo (\ref{eq:model}) bajo la hipótesis nula (i.e. cuando $\theta = 0$) mediante el método de mínimos cuadrados generalizado. 
 
 \section{Datos} \label{sec:datos}
 \subsection{Crecimiento del comercio internacional}
@@ -513,7 +513,7 @@ En total se obtienen 6,711 observaciones de crecimiento correspondientes a 179 p
 	}
 \end{table}
 
-\section{Líderes en la muestra}
+\subsection{Líderes en la muestra}
 
 Un aspecto clave a considerar es que los volúmenes de importaciones y exportaciones en un año dependen en cierta medida de las condiciones económicas (domésticas e internacionales) por las que atraviesa el país. A su vez, las condiciones económicas pueden precipitar la salida de un gobernante (considérese el caso de un mandatario que pierde la reelección por sus malos resultados económicos). Este aspecto plantea la siguiente dificultad metodológica: si el objetivo establecer que las transiciones de líderes causan variaciones en el crecimiento del comercio internacional, entonces es necesario que estas transiciones no estén relacionadas o influidas por las condiciones económicas en el país. De lo contrario se podría dar el caso en que las condiciones económicas influyen tanto en la transición del líder como en el cambio del crecimiento del comercio internacional.
 
@@ -599,7 +599,7 @@ Para aproximar el  nivel de proteccionismo o librecambismo se usa el efecto prom
 
 Para estudiar el efecto de los rasgos de personalidad se adopta el modelo de personalidad de los Cinco Grandes. Las medidas para cada una de las cinco dimensiones --extraversión, responsabilidad, amabilidad, apertura al cambio e inestabilidad emocional-- son estimadas a partir de textos de discursos pronunciados por los líderes. Se plantea y prueba la hipótesis de que niveles más altos de extraversión, responsabilidad y amabilidad se relacionan positivamente con preferencias librecambistas, y por lo tanto con un mayor crecimiento en el comercio internacional.   
 
-La organización de este capítulo es la siguiente. En la sección \ref{sec:BIG_FIVE} se hace una introducción al modelo de los Cinco Grandes. En la sección \ref{sec:hyp_BF} se exponen las hipótesis sobre el efecto de las características de personalidad en el crecimiento del comercio internacional. Posteriormente, en la sección \ref{sec:speeches} se describe la metodología empleada para estimar los Cinco Grandes a partir de textos de discursos. Finalmente, los resultados y el análisis se muestran en la sección \ref{sec:resultados}.
+La organización de este capítulo es la siguiente. En la sección \ref{sec:BIG_FIVE} se hace una introducción al modelo de los Cinco Grandes y se exponen las hipótesis sobre el efecto de las características de personalidad en el crecimiento del comercio internacional. Posteriormente, en la sección \ref{sec:speeches} se describe la metodología empleada para estimar los Cinco Grandes a partir de textos de discursos. Los resultados y el análisis se presentan en la sección \ref{sec:resultados}. Finalmente, en la sección \ref{sec:robust} se realiza un análisis de robustez de los resultados.
 
 \section{Los Cinco Grandes}\label{sec:BIG_FIVE} 
 \subsection{Introducción}
@@ -624,7 +624,7 @@ El modelo de los Cinco Grandes rasgos de personalidad ha emergido como el más ac
 	}
 \end{table}
 
-\subsection{Los Cinco Grandes y el comercio internacional}
+\subsection{Los Cinco Grandes y el comercio internacional} \label{sec:hyp}
 
 Las medidas de personalidad, y en particular el modelo de los Cinco Grandes, permiten predecir una gran variedad de resultados que tanto economistas como cientistas políticos estudian. Por ejemplo, en el ámbito político, se han establecido relaciones entre los Cinco Grandes y preferencias conservadoras y liberales, tanto en la dimensión social  como en la económica \cite{Gerber2010,Gerber2011}. También se ha encontrado que los Cinco Grandes y otros rasgos de personalidad influyen en las decisiones y disposiciones de líderes políticos en temas relativos a la política exterior, tales como cooperación e integración \cite{Etheredge,Schoen2007}, resolución de conflictos \cite{Winter1987} y comercio internacional \cite{Crichlow2002,Johnston2013}. En el ámbito económico, se han encontrado vínculos entre medidas de personalidad y parámetros de preferencias tradicionalmente empleados en modelos de decisión, por ejemplo: descuento de utilidades en el tiempo, aversión al riesgo, preferencias sobre consumo y ocio, altruismo, etc. Estos parámetros permiten, a su vez, predecir el comportamiento de individuos en juegos económicos. Para una revisión de estos resultados véase \cite{Almlund2011}.
 
@@ -712,7 +712,7 @@ En base a los resultados experimentales expuestos, el uso de modelos de predicci
 	\label{fig:bf_discurso}
 \end{figure}
 
-Para cada líder se recolectaron textos de discursos políticos pronunciados ya sea antes, durante o después de sus mandatos. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos.
+Para cada líder con salida aleatoria y su respectivo sucesor se recolectaron textos de discursos pronunciados ya sea antes, durante o después de sus mandatos. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos.
 
 Luego, se evaluó el contenido de los discursos usando el inventario de palabras Linguistic Inquiry and Word Count (LIWC) \cite{Pennebaker1999}. Esta herramienta genera estadísticas sobre más de 70 categorías léxicas, que a su vez pueden ser  agrupadas en cinco grupos. Estos grupos incluyen Conteos Estándar (conteo de palabras, palabras por oración, palabras de más de 6 letras, etc.), Procesos Psicológicos (procesos afectivos, emociones positivas, emociones negativas, etc.), Relatividad (tiempo, verbos en pasado, espacio, movimiento, etc.), Asuntos Personales (ocupación, ocio, dinero, religión, etc.) y Otras Dimensiones (puntuación, signos de exclamación, palabras obscenas, etc.).
 
@@ -726,135 +726,129 @@ Se debe reconocer que la estrategia de usar discursos políticos para medir la pe
 Por otro lado, es razonable suponer que existen indicios lingüísticos relacionados con los rasgos de personalidad que son desconocidos a los líderes, pero que pueden ser capturados por un algoritmo de medición de la personalidad, tal como el que ha sido descrito en la sección previa. La aparición de estos indicios lingüísticos en los discursos debería presentar gran variabilidad a través de los líderes, precisamente pues los líderes no son conscientes de su relación con los tipos de personalidad.
 En consecuencia, aun si los políticos intentan sistemáticamente proyectar una personalidad adulterada a través de sus discursos, los estimadores de personalidad obtenidos presentarán una variación que refleja la variación inherente a los verdaderos rasgos de personalidad de los líderes \cite{Ramey2014}.
  
+\subsection{Estadísticas de resumen}
+En la tabla \ref{tab:resumen} se presentan estadísticas de resumen de las medidas de personalidad estimadas. En el panel (a) se muestran los resultados para los líderes en la muestra de este estudio. De las 193 observaciones disponibles, 96 corresponden a líderes que dejaron el cargo de forma inesperada y 97 corresponden a sucesores de líderes que salieron inesperadamente. Las estimaciones de personalidad de los sucesores serán empleados en un análisis de robustez de los resultados principales. 
 
-\section{Estadísticas descriptivas y verificaciones}
-\subsection{Estadísticas descriptivas}
+Los cuatro primeros factores de personalidad tienen una media cercana a 4.7, mientras que el factor inestabilidad emocional está centrado aproximadamente en 4.0. Por otro lado, todos los factores presentan un nivel de dispersión similar, con desviaciones estándar entre 0.3 y 0.5. 
+Cabe recordar que el rango teórico de los resultados es entre 1 y 7, donde 1 indica el nivel más bajo posible en la variable correspondiente y 7 el más alto. Los valores mínimos y máximos en la tabla indican que las medidas de personalidad estimadas se encuentran en el rango 2.6--6.6, lo cual está dentro de lo esperado.
+
+Una de las principales incertidumbres asociadas a la metodología es si acaso existe un sesgo asociado al uso exclusivo de discursos políticos, pues sin duda el contexto de un discurso delimita el uso del lenguaje. Por este motivo resulta útil comparar los Cinco Grandes obtenidos con los que se obtendrían al usar fuentes de texto alternativas. En el panel (b) de la tabla \ref{tab:resumen} se muestran las estadísticas de resumen de los Cinco Grandes estimados usando el corpus de \cite{Pennebaker1999}, el cual está compuesto por 2,468 ensayos escritos por estudiantes de psicología,  a quienes se le solicitó escribir sobre cualquier tema durante 20 minutos. Por lo demás, este corpus forma parte de los datos usados por \cite{Mairesse2007} para entrenar los modelos de predicción de la personalidad que se emplean en este estudio. 
+
+Las medias de los Cinco Grandes que se reportan en el panel (b) son idénticas a las obtenidas sobre la muestra de líderes. Las desviaciones estándar también son comparables aunque no idénticas. Estos resultados sugieren que los Cinco Grandes de ambas muestras siguen la misma distribución y no indican evidencia de que existe algún sesgo asociado al uso de discursos políticos.
+
+
+\begin{table}[H]\centering \caption{Estadísticas de resumen de los Cinco Grandes}\label{tab:resumen}
+	\resizebox{\textwidth}{!}{
+		\begin{threeparttable}
+			\begin{tabular}{lccccc}
+				\toprule \toprule
+				Variable & Media & \begin{tabular}[c]{@{}c@{}}Desviación\\ Estándar\end{tabular} & Mínimo & Máximo & Observaciones \\ \midrule
+				\textbf{Panel (a): muestra de líderes}\\
+				Extraversión & 4.771 & 0.474 & 3.837 & 6.571 & 193 \\
+				Responsabilidad & 4.768 & 0.341 & 3.746 & 5.572 & 193 \\
+				Amabilidad & 4.643 & 0.270 & 3.342 & 5.601 & 193 \\
+				Apertura al cambio & 4.683 & 0.391 & 3.554 & 6.148 & 193 \\
+				Inestabilidad emocional & 3.973 & 0.538 & 2.631 & 5.627 & 193 \\
+				\textbf{Panel (b): corpus de \citeA{Pennebaker1999}}\\
+				Extraversión & 4.781 & 0.359 & 2.833 & 6.441 & 2468 \\
+				Responsabilidad & 4.768 & 0.322 & 3.030 & 6.178 & 2468 \\
+				Amabilidad & 4.644 & 0.293 & 2.818 & 6.084 & 2468 \\
+				Apertura al cambio & 4.681 & 0.419 & 3.016 & 6.568 & 2468 \\
+				Inestabilidad emocional & 3.967 & 0.421 & 2.062 & 5.838 & 2468 \\
+				 \bottomrule \bottomrule
+			\end{tabular}%
+			\begin{tablenotes}
+				\footnotesize{Notas: To do}.
+			\end{tablenotes}
+		\end{threeparttable}
+	}
+\end{table}
+
+En la tabla \ref{corrtable} se muestra la matriz de correlación entre los Cinco Grandes. En el panel (a) se presentan las correlaciones calculadas a partir de los 193 líderes en la muestra. Se observa que existe una alta correlación entre los tres factores de personalidad de interés en este estudio (extraversión, responsabilidad y amabilidad). Específicamente, se observa una correlación igual a 66\% entre extraversión y responsabilidad, 49\% entre extraversión y amabilidad, y 56\% entre responsabilidad y amabilidad. 
+Como referencia, las correlaciones reportadas en la literatura \cite{van2010general} son aproximadamente iguales a: 29\%  entre extraversión y responsabilidad, 26\% entre extraversión y amabilidad y 43\% entre responsabilidad y amabilidad. 
+
+En el panel (b) se presentan las correlaciones calculadas a partir del corpus de \citeA{Pennebaker1999}. Se observa que las correlaciones tienen el mismo signo que las reportadas en el panel (a)\footnote{Aparentemente el signo de la correlación entre extraversión e inestabilidad emocional no es el mismo en los paneles (a) y (b). Sin embargo se debe observar que el valor reportado en el panel (b) es estadísticamente igual a 0.}, aunque son menores en magnitud y más próximas a las que se reportan en la literatura.  
 
 \begin{table}[H]\centering \caption{Correlaciones entre los Cinco Grandes\label{corrtable}}
 	\resizebox{\textwidth}{!}{
 		\begin{threeparttable}
-		\begin{tabular}{l  c  c  c  c  c }\hline\hline
-		\multicolumn{1}{c}{Variables} &Extraversión&\begin{tabular}[c]{@{}l@{}}Inestabilidad\\ emocional\end{tabular}&Amabilidad&Responsabilidad&\begin{tabular}[c]{@{}l@{}}Apertura\\al cambio\end{tabular}\\ \hline
-		Extraversión&1.000\\
-		&\\
-		Estabilidad emocional&-0.248&1.000\\
-		&(0.001) &\\
-		Amabilidad&0.493&-0.204&1.000\\
-		&(0.000)&(0.004) &\\
-		Responsabilidad&0.657&-0.221&0.557&1.000\\
-		&(0.000)&(0.002)&(0.000) &\\
-		Apertura al cambio&-0.096&-0.239&-0.293&-0.078&1.000\\
-		&(0.185)&(0.001)&(0.000)&(0.279)\\ \hline
-		Observaciones: 193\\
-		\hline \hline 
-	\end{tabular}
-	\begin{tablenotes}
-		\footnotesize{Notas: TO DO.}
-	\end{tablenotes}
-\end{threeparttable}
+			\begin{tabular}{l  c  c  c  c  c }\toprule\toprule
+				\multicolumn{1}{c}{Variables} &Extraversión&\begin{tabular}[c]{@{}c@{}}Inestabilidad\\ emocional\end{tabular}&Amabilidad&Responsabilidad&\begin{tabular}[c]{@{}l@{}}Apertura\\al cambio\end{tabular}\\ \midrule
+				\textbf{Panel (a): muestra de líderes}\\
+				Extraversión&1.000\\
+				Inestabilidad emocional&-0.248&1.000\\
+				Amabilidad&0.493&-0.204&1.000\\
+				Responsabilidad&0.657&-0.221&0.557&1.000\\
+				Apertura al cambio&-0.096&-0.239&-0.293&-0.078&1.000\\
+				Observaciones: 193\\
+				\textbf{Panel (b): corpus de \citeA{Pennebaker1999}}\\
+				Extraversión&1.000\\
+				Inestabilidad emocional&0.036&1.000\\
+				Amabilidad&0.332&-0.135&1.000\\
+				Responsabilidad&0.394&-0.142&0.433&1.000\\
+				Apertura al cambio&-0.291&-0.343&-0.304&-0.439&1.000\\
+				Observaciones: 2468\\
+				\bottomrule\bottomrule
+			\end{tabular}
+			\begin{tablenotes}
+				\footnotesize{Notas: TO DO.}
+			\end{tablenotes}
+		\end{threeparttable}
 	}
 \end{table}
 
+\iffalse
+\begin{table}[H]\centering \caption{Correlaciones entre los Cinco Grandes\label{corrtable}}
+	\resizebox{\textwidth}{!}{
+		\begin{threeparttable}
+			\begin{tabular}{l  c  c  c  c  c }\hline\hline
+				\multicolumn{1}{c}{Variables} &Extraversión&\begin{tabular}[c]{@{}l@{}}Inestabilidad\\ emocional\end{tabular}&Amabilidad&Responsabilidad&\begin{tabular}[c]{@{}l@{}}Apertura\\al cambio\end{tabular}\\ \hline
+				Extraversión&1.000\\
+				&\\
+				Instabilidad emocional&-0.248&1.000\\
+				&(0.001) &\\
+				Amabilidad&0.493&-0.204&1.000\\
+				&(0.000)&(0.004) &\\
+				Responsabilidad&0.657&-0.221&0.557&1.000\\
+				&(0.000)&(0.002)&(0.000) &\\
+				Apertura al cambio&-0.096&-0.239&-0.293&-0.078&1.000\\
+				&(0.185)&(0.001)&(0.000)&(0.279)\\ \hline
+				Observaciones: 193\\
+				\hline \hline 
+			\end{tabular}
+			\begin{tablenotes}
+				\footnotesize{Notas: TO DO.}
+			\end{tablenotes}
+		\end{threeparttable}
+	}
+\end{table}
+\fi
 
-\subsection{Relación con otras características personales}
-Otra alternativa para comprobar el nivel de precisión de los estimadores de los Cinco Grandes es examinar cómo estos se relacionan con otras características personales de los líderes. 
-
-Por una parte, existe una extensa literatura que describe cómo los Cinco Grandes se  relacionan con otros factores y características personales de las personas. El rango de relaciones encontradas va desde aspectos tan diversos como problemas de alcoholismo \cite{Mezquita2010} o satisfacción en la vida en pareja \cite{Malouff2010}, hasta desempeño laboral \cite{Rothmann2003}. 
-
-Por otra parte, contamos con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de investigación paralelo al presente estudio. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, nivel educacional alcanzado, religión, tendencia política, profesión, etc.
-
-La Tabla \ref{fig:cinco_educ_pol} muestra los resultados al usar los Cinco Grandes para explicar otras características personales de los líderes en la muestra. 
-
-			\begin{table}[h]
-				\resizebox{\textwidth}{!}{
-					{	
-						\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-						\begin{threeparttable}
-							\caption{Los Cinco Grandes y otras características personales}
-							\label{fig:cinco_educ_pol}
-						\begin{tabular}{lSSSSS}
-							\hline \hline
-							&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
-							&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Izquierda}&\multicolumn{1}{c}{Casado}&\multicolumn{1}{c}{Demandas}\\
-							\midrule
-						Extraversión        &      -0.176         &      -0.591         &      -0.669         &       0.545         &       0.254         \\
-						&     (0.344)         &     (0.473)         &     (0.477)         &     (0.711)         &     (0.579)         \\
-						Inestabilidad emocional&       0.051         &      -0.490         &       0.320         &      -1.429\sym{***}&       1.461\sym{***}\\
-						&     (0.240)         &     (0.327)         &     (0.325)         &     (0.506)         &     (0.425)         \\
-						Amabilidad          &      -0.044         &       0.019         &      -0.159         &      -1.633         &      -0.187         \\
-						&     (0.591)         &     (0.811)         &     (0.762)         &     (1.246)         &     (0.905)         \\
-						Responsabilidad     &       1.125\sym{**} &       1.258\sym{*}  &      -0.078         &       1.052         &      -1.351         \\
-						&     (0.510)         &     (0.710)         &     (0.674)         &     (1.096)         &     (0.842)         \\
-						Apertura al cambio  &      -0.092         &      -0.958\sym{**} &      -0.115         &       0.244         &       0.454         \\
-						&     (0.351)         &     (0.470)         &     (0.454)         &     (0.719)         &     (0.562)         \\
-						%Constant            &       1.690         &       2.576         &       2.951         &       6.806         &      -3.291         \\
-						%&     (3.683)         &     (4.988)         &     (4.900)         &     (7.036)         &     (5.849)         \\
-						\midrule
-						R-squared           &       0.042         &                     &                     &                     &                     \\
-						N                   &         \multicolumn{1}{c}{176}         &         \multicolumn{1}{c}{184}         &         \multicolumn{1}{c}{184}         &         \multicolumn{1}{c}{178}         &         \multicolumn{1}{c}{175}         \\
-							\hline \hline
-						\end{tabular}
-					\begin{tablenotes}
-						\footnotesize{Notas: TO DO.}
-					\end{tablenotes}
-				\end{threeparttable}
-				}
-			}
-			\end{table}
-
-La columna (1) muestra la relación entre los Cinco Grandes y el nivel educacional alcanzando por los líderes. Se observa que el único factor que tiene un efecto estadísticamente significativo es responsabilidad. Este resultado es consistente con lo que indica la literatura. En efecto, \citeA{o2007big} señalan que el factor responsabilidad en particular es el más fuerte y consistentemente asociado a éxito académico. Además, en múltiples estudios este factor ha sido usado para predecir logros académicos \cite{Noftle2007,de1996personality} y alcance educacional \cite{Shiner2002}.   
-
-Las columnas (2) y (3) muestran la relación entre los Cinco Grandes y la tendencia política del partido de los líderes. Los resultados de la columna (2) muestran que la pertenencia a un partido de derecha se relaciona positivamente con el factor responsabilidad y negativamente con el factor apertura al cambio. Para los otros factores de personalidad no se encontró un efecto estadísticamente significativo. Estos resultados van en la línea de otros trabajos que reportan una asociación entre conservadurismo y responsabilidad y entre liberalismo y apertura al cambio \cite{Carney2008,Gerber2010}. Por un lado, individuos con un alto grado de apertura al cambio tienen respuestas positivas ante nuevos estímulos, por lo que estos individuos responden más favorablemente a políticas sociales liberales. Por otro lado, individuos con alto grado de responsabilidad son más apegados al cumplimiento de las normas sociales, por lo que son más propensos a rechazar políticas sociales liberales \cite{Gerber2011}. Sin embargo, como se muestra en la columna (3), no se encontró una relación estadísticamente significativa entre los Cinco Grandes y el pertenecer a un partido de izquierda. 
-
-La columna (4) muestra la relación obtenida entre los Cinco Grandes y el estatus de estar casado. El factor inestabilidad emocional resulta ser el único con un efecto estadísticamente significativo. Este efecto negativo es consistente con estudios que analizan la relación entre los Cinco Grandes y la calidad de las relaciones en pareja \cite{Soldz1999,White2004,Donnellan2004}. Estos trabajos reportan que individuos más emocionalmente inestables llevan matrimonios menos satisfactorios y por lo tanto serían más propensos a divorciarse.
-
-Por último, la columna (5) reporta la relación entre los Cinco Grandes y la variable `demandas'. Esta variable indica si el individuo fue objeto de alguna acción legal en su contra. El factor inestabilidad emocional es altamente significativo, mientras que responsabilidad está muy cerca de serlo (valor $p=0.108$). 
-La probabilidad de haber sido objeto de alguna acción legal es mayor para aquellos individuos de la muestra que son más emocionalmente inestables y menos responsables. Ambos factores han sido reportados como influyentes en la propensión a tener conductas agresivas, irresponsables o delictuales tales como comportamiento poco ético entre estudiantes (plagio, falsificación, etc.) \cite{Karim2009}, conducción irresponsable \cite{Dahlen2006}, agresión de la pareja \cite{Hines2008} y acoso sexual y violación \cite{Voller2010}.
-
-Se observa en general que la relación entre los Cinco Grandes y otras características personales es consistente con lo que se reporta en la literatura. No solo se obtuvieron relaciones estadísticamente significativas, sino que además estas relaciones van en la dirección esperada. Estos resultados entregan mayor confiabilidad a los estimadores obtenidos.
-
-\subsection{Robustez de los estimadores}
-
-\subsection{Indicadores lingüísticos}
-
-En la Figura \ref{fig:extractos} se muestran dos extractos de discursos recolectados. 
- 
- \begin{figure}[h]
- 	\centering
- 	
- 	\fbox{\begin{minipage}{0.9\textwidth}
- 			\textbf{Extrovertido y agradable}
- 			
- 			\textit{Mr Secretary; I am personally grateful, and I am sure I speak also for the other members of my United Front delegation, and for all sections of Sierra Leone whom we represent, for the encouraging words with which you have welcomed us and opened this Conference on further constitutional advance for Sierra Leone. We are proud of the tribute you have paid us.  I believe that I can safely say that we from Sierra Leone have come to this conference with a record of cordial and peaceful relations with Her Majesty's Government and with the People of the United Kingdom which can hardly be surpassed or even matched by any other Colonial or previously Colonial, territory.}\begin{flushright}
- 				Sir Milton Margai, 1960
- 			\end{flushright}
- 			
- 			\textbf{No abierto al cambio, pero agradable}
- 			
- 			\textit{The whole morning of that memorable day. Aug. 23, while coming here, I prayed much and read your first letter over and over again. The nearer the moment of our meeting, the greater the peace that reigned in my heart.
- 				N. came in with a kind, brave smile, and asked simply when I would order him to go. I answered in the same manner that he could remain for two days; then we discussed the questions connected with military operations, some of the generals and so forth, and that was all.
- 				The following day at lunch and dinner he was very talkative and in a very good mood, such as we have not seen him in for many months. Pet. too; but the expression on his adjutant's face was of the gloomiest - it was quite amusing
- 				.}\begin{flushright}
- 				Nichollas II, 1915
- 			\end{flushright}
- 		\end{minipage}}
- 		\caption{Dos extractos de discursos}
- 		\label{fig:extractos}
- 	\end{figure}
-
-\section{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}
-Para estimar el efecto de la personalidad del líder saliente en la variabe de interés, realizamos la siguiente regresión:
-\begin{equation}
-\label{eq:reg_2}
-\Delta Y_z = \alpha \cdot \text{CG}_z^{\text{PRE}} +\beta \cdot C_z + \epsilon_z,
-\end{equation}
-donde $$\text{CG}_z^{\text{PRE}}=  [Extra_z^{\text{PRE}}, Apert_z^{\text{PRE}}, Amabi_z^{\text{PRE}},  Respo_z^{\text{PRE}}, Estab_z^{\text{PRE}} ]^T.$$
-$Extra$ denota el factor extraversión, $Apert$ denota apertura al cambio, $Amabi$ denota amabilidad, $Respo$ denota responsabilidad y $Estab$ denota estabilidad emocional. El super-índice PRE indica el líder que sale del cargo. $C_z$ denota un vector de variables de control que será especificado en la siguiente sección. 
-
-\subsection{Nota sobre el signo de los coeficientes}
-El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con respecto a su sucesor. Si, por ejemplo, $\Delta Imports_z$ es negativo, entonces el crecimiento de las importaciones fue mayor durante el mandato del líder que dejó el cargo que durante el de su sucesor. Análogamente, si $\Delta Imports_z$ es positivo, entonces las importaciones tuvieron un menor crecimiento promedio durante el mandato del líder saliente que durante el mandato del sucesor. En consecuencia, los factores de personalidad asociados a coeficientes negativos en la regresión (\ref{eq:reg_2}) están relacionados positivamente con un mayor crecimiento de las importaciones. De igual manera, los coeficientes de personalidad con coeficientes de signo positivo están realacionados positivamente con un menor crecimiento de las importaciones. Esta observación también es válida para el crecimiento de las exportaciones y para FDI.
+Estos resultados sugieren que las medidas de personalidad de los líderes están sobre-correlacionadas, posiblemente debido a que los textos usados provienen exclusivamente de discursos políticos. Esto pues, la herramienta empleada para estimar los Cinco Grandes a partir de textos se basa en correlaciones entre los rasgos de personalidad y ciertas categorías de palabras. Por ejemplo, tanto extraversión como amabilidad se relacionan positivamente con el uso de palabras de emociones positivas (e.g. alegría, afecto). Por lo tanto, si solo un número reducido de categorías de palabras aparece en los textos de discursos políticos, entonces es posible que las estimaciones de personalidad obtenidas estén sesgadas. 
         
 \section{Resultados} \label{sec:resultados}
+
+En esta sección se presentan los resultados principales de este estudio. 
+
+Para estimar el efecto de la personalidad los líderes en el crecimiento se realiza la siguiente regresión:
+\begin{equation}
+\label{eq:reg_bf}
+\overline{POST}_z -\overline{PRE}_z = \alpha X_z +\beta C_z + \epsilon_z,
+\end{equation}
+donde $\overline{PRE}_z$ y $\overline{PRE}_z$ son los coeficientes estimados en el capítulo \ref{ch:com_importan} donde se estudió el efecto de los líderes en el crecimiento del comercio internacional. La diferencia $\overline{POST}_z -\overline{PRE}_z $ captura el efecto neto en el crecimiento del comercio internacional producido durante la salida del líder $z$. La variable $X_z$ es una medida de personalidad del líder, es decir, puede corresponder a extraversión, responsabilidad o amabilidad. Por último $C_z$ es un conjunto de variables de control. Las controles incluidos son:
+\begin{itemize}
+	\item \textbf{PIB.} Producto Interno bruto del país de líder en el año de la transición. 
+	\item \textbf{Derecha.} Variable que toma el valor 1 si el líder perteneció a un partido de derecha y 0 si no.
+	\item \textbf{Izquierda.} Variable que toma el valor 1 si el líder perteneció a un partido de izquierda y 0 si no.
+	\item \textbf{Edad.} Edad del líder en el año de la transición.
+	\item \textbf{Duración.} Número de años que el líder estuvo en el poder.
+	\item \textbf{Año.} Año de la transición.
+	\item \textbf{Educación.} Variable que describe el nivel educacional alcanzado por el líder. Toma valores de 1 a 8 de acuerdo a las siguientes categorías: (1) analfabeto, (2) alfabetizado sin educación formal, (3) educación primaria, (4) educación secundaria, (5) formación técnica o militar, (6) pregrado universitario, (7) magíster, (8) doctorado.
+\end{itemize} 
+
+Las tablas \ref{tab:extraversion}, \ref{tab:responsabilidad} y \ref{tab:amabilidad} presentan los resultados obtenidos al estimar la regresión (\ref{eq:reg_bf}) para los factores extraversión, responsabilidad y amabilidad respectivamente. En cada caso se presentan cuatro especificaciones diferentes. En la columna 1 solo se incluye el nivel de PIB como control. Teóricamente, esta variable debería ser relevante para el comercio internacional de los países. Luego en la columna 2 se controla por la tendencia política de los líderes. En \cite{Crichlow2002} se muestra que la ideología afecta de manera significativa el apoyo de legisladores hacia el libre mercado, por lo que también debería ser una variable relevante en este estudio. En la columna 3 se agregan otras dos características de los líderes: la edad y la duración del mandato. Además se incluye el año de término del mandato. Por último, en la columna 4 se agrega como control el nivel educacional de los líderes.
+
+En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversión es aproximadamente igual a -0.06  y significativo al nivel de confianza del 5\% en todas las especificaciones. Esto significa mientras más extravertido es un líder, mayor es la caída del crecimiento del comercio internacional luego de su salida. Estos resultados confirman la primera hipótesis planteada en la sección \ref{sec:hyp} de que los líderes más extravertidos se asocian a un mayor crecimiento del comercio internacional. Además,  estos resultados son económicamente significativos; una desviación estándar de diferencia en extraversión se traduce en una variación del 3\% en el crecimiento del comercio.  
 
 \begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
@@ -903,7 +897,7 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 	{
 		\begin{threeparttable}
 			\caption{Responsabilidad y comercio internacional}
-			\label{fig:responsabilidad}
+			\label{tab:responsabilidad}
 			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 			\begin{tabular}{llSlSlSlS}
 				\toprule\toprule
@@ -945,7 +939,7 @@ El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con 
 	{
 		\begin{threeparttable}
 			\caption{Amabilidad y comercio internacional}
-			\label{fig:amabilidad}
+			\label{tab:amabilidad}
 			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 			\begin{tabular}{llSlSlSlS}
 				\toprule\toprule
@@ -1139,9 +1133,109 @@ Hacemos un Análisis de Componentes Principales mediante el cual obtenemos tres d
 	\caption{Gráfico de las componentes principales para los factores extraversión, amabilidad y responsabilidad\label{fig:pca}}
 \end{figure}
 
-\section{Discusión}
-\section{Robustez de los resultados}
-\subsection{Variación de los Cinco Grandes}
+\section{Análisis de robustez}\label{sec:robust}
+
+\subsection{Robustez de los estimadores de personalidad}
+\subsubsection{Relación con otras características personales}
+Otra alternativa para comprobar el nivel de precisión de los estimadores de los Cinco Grandes es examinar cómo estos se relacionan con otras características personales de los líderes. 
+
+Por una parte, existe una extensa literatura que describe cómo los Cinco Grandes se  relacionan con otros factores y características personales de las personas. El rango de relaciones encontradas va desde aspectos tan diversos como problemas de alcoholismo \cite{Mezquita2010} o satisfacción en la vida en pareja \cite{Malouff2010}, hasta desempeño laboral \cite{Rothmann2003}. 
+
+Por otra parte, contamos con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de investigación paralelo al presente estudio. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, nivel educacional alcanzado, religión, tendencia política, profesión, etc.
+
+La Tabla \ref{fig:cinco_educ_pol} muestra los resultados al usar los Cinco Grandes para explicar otras características personales de los líderes en la muestra. 
+
+\begin{table}[h]
+	\resizebox{\textwidth}{!}{
+		{	
+			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+			\begin{threeparttable}
+				\caption{Los Cinco Grandes y otras características personales}
+				\label{fig:cinco_educ_pol}
+				\begin{tabular}{lSSSSS}
+					\hline \hline
+					&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+					&\multicolumn{1}{c}{Educación}&\multicolumn{1}{c}{Derecha}&\multicolumn{1}{c}{Izquierda}&\multicolumn{1}{c}{Casado}&\multicolumn{1}{c}{Demandas}\\
+					\midrule
+					Extraversión        &      -0.176         &      -0.591         &      -0.669         &       0.545         &       0.254         \\
+					&     (0.344)         &     (0.473)         &     (0.477)         &     (0.711)         &     (0.579)         \\
+					Inestabilidad emocional&       0.051         &      -0.490         &       0.320         &      -1.429\sym{***}&       1.461\sym{***}\\
+					&     (0.240)         &     (0.327)         &     (0.325)         &     (0.506)         &     (0.425)         \\
+					Amabilidad          &      -0.044         &       0.019         &      -0.159         &      -1.633         &      -0.187         \\
+					&     (0.591)         &     (0.811)         &     (0.762)         &     (1.246)         &     (0.905)         \\
+					Responsabilidad     &       1.125\sym{**} &       1.258\sym{*}  &      -0.078         &       1.052         &      -1.351         \\
+					&     (0.510)         &     (0.710)         &     (0.674)         &     (1.096)         &     (0.842)         \\
+					Apertura al cambio  &      -0.092         &      -0.958\sym{**} &      -0.115         &       0.244         &       0.454         \\
+					&     (0.351)         &     (0.470)         &     (0.454)         &     (0.719)         &     (0.562)         \\
+					%Constant            &       1.690         &       2.576         &       2.951         &       6.806         &      -3.291         \\
+					%&     (3.683)         &     (4.988)         &     (4.900)         &     (7.036)         &     (5.849)         \\
+					\midrule
+					R-squared           &       0.042         &                     &                     &                     &                     \\
+					N                   &         \multicolumn{1}{c}{176}         &         \multicolumn{1}{c}{184}         &         \multicolumn{1}{c}{184}         &         \multicolumn{1}{c}{178}         &         \multicolumn{1}{c}{175}         \\
+					\hline \hline
+				\end{tabular}
+				\begin{tablenotes}
+					\footnotesize{Notas: TO DO.}
+				\end{tablenotes}
+			\end{threeparttable}
+		}
+	}
+\end{table}
+
+La columna (1) muestra la relación entre los Cinco Grandes y el nivel educacional alcanzando por los líderes. Se observa que el único factor que tiene un efecto estadísticamente significativo es responsabilidad. Este resultado es consistente con lo que indica la literatura. En efecto, \citeA{o2007big} señalan que el factor responsabilidad en particular es el más fuerte y consistentemente asociado a éxito académico. Además, en múltiples estudios este factor ha sido usado para predecir logros académicos \cite{Noftle2007,de1996personality} y alcance educacional \cite{Shiner2002}.   
+
+Las columnas (2) y (3) muestran la relación entre los Cinco Grandes y la tendencia política del partido de los líderes. Los resultados de la columna (2) muestran que la pertenencia a un partido de derecha se relaciona positivamente con el factor responsabilidad y negativamente con el factor apertura al cambio. Para los otros factores de personalidad no se encontró un efecto estadísticamente significativo. Estos resultados van en la línea de otros trabajos que reportan una asociación entre conservadurismo y responsabilidad y entre liberalismo y apertura al cambio \cite{Carney2008,Gerber2010}. Por un lado, individuos con un alto grado de apertura al cambio tienen respuestas positivas ante nuevos estímulos, por lo que estos individuos responden más favorablemente a políticas sociales liberales. Por otro lado, individuos con alto grado de responsabilidad son más apegados al cumplimiento de las normas sociales, por lo que son más propensos a rechazar políticas sociales liberales \cite{Gerber2011}. Sin embargo, como se muestra en la columna (3), no se encontró una relación estadísticamente significativa entre los Cinco Grandes y el pertenecer a un partido de izquierda. 
+
+La columna (4) muestra la relación obtenida entre los Cinco Grandes y el estatus de estar casado. El factor inestabilidad emocional resulta ser el único con un efecto estadísticamente significativo. Este efecto negativo es consistente con estudios que analizan la relación entre los Cinco Grandes y la calidad de las relaciones en pareja \cite{Soldz1999,White2004,Donnellan2004}. Estos trabajos reportan que individuos más emocionalmente inestables llevan matrimonios menos satisfactorios y por lo tanto serían más propensos a divorciarse.
+
+Por último, la columna (5) reporta la relación entre los Cinco Grandes y la variable `demandas'. Esta variable indica si el individuo fue objeto de alguna acción legal en su contra. El factor inestabilidad emocional es altamente significativo, mientras que responsabilidad está muy cerca de serlo (valor $p=0.108$). 
+La probabilidad de haber sido objeto de alguna acción legal es mayor para aquellos individuos de la muestra que son más emocionalmente inestables y menos responsables. Ambos factores han sido reportados como influyentes en la propensión a tener conductas agresivas, irresponsables o delictuales tales como comportamiento poco ético entre estudiantes (plagio, falsificación, etc.) \cite{Karim2009}, conducción irresponsable \cite{Dahlen2006}, agresión de la pareja \cite{Hines2008} y acoso sexual y violación \cite{Voller2010}.
+
+Se observa en general que la relación entre los Cinco Grandes y otras características personales es consistente con lo que se reporta en la literatura. No solo se obtuvieron relaciones estadísticamente significativas, sino que además estas relaciones van en la dirección esperada. Estos resultados entregan mayor confiabilidad a los estimadores obtenidos.
+
+
+\subsubsection{Indicadores lingüísticos}
+
+En la Figura \ref{fig:extractos} se muestran dos extractos de discursos recolectados. 
+
+\begin{figure}[h]
+	\centering
+	
+	\fbox{\begin{minipage}{0.9\textwidth}
+			\textbf{Extrovertido y agradable}
+			
+			\textit{Mr Secretary; I am personally grateful, and I am sure I speak also for the other members of my United Front delegation, and for all sections of Sierra Leone whom we represent, for the encouraging words with which you have welcomed us and opened this Conference on further constitutional advance for Sierra Leone. We are proud of the tribute you have paid us.  I believe that I can safely say that we from Sierra Leone have come to this conference with a record of cordial and peaceful relations with Her Majesty's Government and with the People of the United Kingdom which can hardly be surpassed or even matched by any other Colonial or previously Colonial, territory.}\begin{flushright}
+				Sir Milton Margai, 1960
+			\end{flushright}
+			
+			\textbf{No abierto al cambio, pero agradable}
+			
+			\textit{The whole morning of that memorable day. Aug. 23, while coming here, I prayed much and read your first letter over and over again. The nearer the moment of our meeting, the greater the peace that reigned in my heart.
+				N. came in with a kind, brave smile, and asked simply when I would order him to go. I answered in the same manner that he could remain for two days; then we discussed the questions connected with military operations, some of the generals and so forth, and that was all.
+				The following day at lunch and dinner he was very talkative and in a very good mood, such as we have not seen him in for many months. Pet. too; but the expression on his adjutant's face was of the gloomiest - it was quite amusing
+				.}\begin{flushright}
+				Nichollas II, 1915
+			\end{flushright}
+		\end{minipage}}
+		\caption{Dos extractos de discursos}
+		\label{fig:extractos}
+	\end{figure}
+	
+	\section{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}
+	Para estimar el efecto de la personalidad del líder saliente en la variabe de interés, realizamos la siguiente regresión:
+	\begin{equation}
+	\label{eq:reg_2}
+	\Delta Y_z = \alpha \cdot \text{CG}_z^{\text{PRE}} +\beta \cdot C_z + \epsilon_z,
+	\end{equation}
+	donde $$\text{CG}_z^{\text{PRE}}=  [Extra_z^{\text{PRE}}, Apert_z^{\text{PRE}}, Amabi_z^{\text{PRE}},  Respo_z^{\text{PRE}}, Estab_z^{\text{PRE}} ]^T.$$
+	$Extra$ denota el factor extraversión, $Apert$ denota apertura al cambio, $Amabi$ denota amabilidad, $Respo$ denota responsabilidad y $Estab$ denota estabilidad emocional. El super-índice PRE indica el líder que sale del cargo. $C_z$ denota un vector de variables de control que será especificado en la siguiente sección. 
+	
+	\subsection{Nota sobre el signo de los coeficientes}
+	El signo de $\Delta Y_z$ indica una medida del desempeño del líder saliente con respecto a su sucesor. Si, por ejemplo, $\Delta Imports_z$ es negativo, entonces el crecimiento de las importaciones fue mayor durante el mandato del líder que dejó el cargo que durante el de su sucesor. Análogamente, si $\Delta Imports_z$ es positivo, entonces las importaciones tuvieron un menor crecimiento promedio durante el mandato del líder saliente que durante el mandato del sucesor. En consecuencia, los factores de personalidad asociados a coeficientes negativos en la regresión (\ref{eq:reg_2}) están relacionados positivamente con un mayor crecimiento de las importaciones. De igual manera, los coeficientes de personalidad con coeficientes de signo positivo están relacionados positivamente con un menor crecimiento de las importaciones. Esta observación también es válida para el crecimiento de las exportaciones y para FDI.
+
+
+\subsubsection{Variación de los Cinco Grandes}
+\subsection{Robustez de los resultados}
 \subsection{Usando los sucesores}
 \subsection{Robustez con respecto al plazo de observación}
 \chapter{CONCLUSIONES}

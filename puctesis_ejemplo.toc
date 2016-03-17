@@ -13,8 +13,8 @@
 \contentsline {subsection}{\tocsubsection {}{2.1.1}{Implementaci\'on del test de Wald}}{9}{subsection.2.1.1}
 \contentsline {section}{\tocsection {}{2.2}{Datos}}{10}{section.2.2}
 \contentsline {subsection}{\tocsubsection {}{2.2.1}{Crecimiento del comercio internacional}}{10}{subsection.2.2.1}
-\contentsline {section}{\tocsection {}{2.3}{L\IeC {\'\i }deres en la muestra}}{11}{section.2.3}
-\contentsline {section}{\tocsection {}{2.4}{Resultados}}{12}{section.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.2.2}{L\IeC {\'\i }deres en la muestra}}{11}{subsection.2.2.2}
+\contentsline {section}{\tocsection {}{2.3}{Resultados}}{12}{section.2.3}
 \contentsline {chapter}{\tocchapter {}{3}{COMERCIO INTERNACIONAL Y PERSONALIDAD}}{15}{chapter.3}
 \contentsline {section}{\tocsection {}{3.1}{Los Cinco Grandes}}{16}{section.3.1}
 \contentsline {subsection}{\tocsubsection {}{3.1.1}{Introducci\'on}}{16}{subsection.3.1.1}
@@ -26,20 +26,19 @@
 \contentsline {subsection}{\tocsubsection {}{3.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{21}{subsection.3.2.1}
 \contentsline {subsection}{\tocsubsection {}{3.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{22}{subsection.3.2.2}
 \contentsline {subsection}{\tocsubsection {}{3.2.3}{Una posible objeci\'on}}{23}{subsection.3.2.3}
-\contentsline {section}{\tocsection {}{3.3}{Estad\IeC {\'\i }sticas descriptivas y verificaciones}}{24}{section.3.3}
-\contentsline {subsection}{\tocsubsection {}{3.3.1}{Estad\IeC {\'\i }sticas descriptivas}}{24}{subsection.3.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.3.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{25}{subsection.3.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.3.3}{Robustez de los estimadores}}{27}{subsection.3.3.3}
-\contentsline {subsection}{\tocsubsection {}{3.3.4}{Indicadores ling\"u\IeC {\'\i }sticos}}{27}{subsection.3.3.4}
-\contentsline {section}{\tocsection {}{3.4}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{27}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Nota sobre el signo de los coeficientes}}{28}{subsection.3.4.1}
-\contentsline {section}{\tocsection {}{3.5}{Resultados}}{29}{section.3.5}
-\contentsline {subsection}{\tocsubsection {}{3.5.1}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{32}{subsection.3.5.1}
-\contentsline {section}{\tocsection {}{3.6}{Discusi\'on}}{34}{section.3.6}
-\contentsline {section}{\tocsection {}{3.7}{Robustez de los resultados}}{34}{section.3.7}
-\contentsline {subsection}{\tocsubsection {}{3.7.1}{Variaci\'on de los Cinco Grandes}}{34}{subsection.3.7.1}
-\contentsline {subsection}{\tocsubsection {}{3.7.2}{Usando los sucesores}}{34}{subsection.3.7.2}
-\contentsline {subsection}{\tocsubsection {}{3.7.3}{Robustez con respecto al plazo de observaci\'on}}{34}{subsection.3.7.3}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{36}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{37}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{54}{chapter.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{24}{subsection.3.2.4}
+\contentsline {section}{\tocsection {}{3.3}{Resultados}}{27}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{32}{subsection.3.3.1}
+\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{34}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{34}{subsection.3.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.1}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{34}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.2}{Indicadores ling\"u\IeC {\'\i }sticos}}{38}{subsubsection.3.4.1.2}
+\contentsline {section}{\tocsection {}{3.5}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{38}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.5.1}{Nota sobre el signo de los coeficientes}}{39}{subsection.3.5.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.1.1}{Variaci\'on de los Cinco Grandes}}{39}{subsubsection.3.5.1.1}
+\contentsline {subsection}{\tocsubsection {}{3.5.2}{Robustez de los resultados}}{39}{subsection.3.5.2}
+\contentsline {subsection}{\tocsubsection {}{3.5.3}{Usando los sucesores}}{39}{subsection.3.5.3}
+\contentsline {subsection}{\tocsubsection {}{3.5.4}{Robustez con respecto al plazo de observaci\'on}}{39}{subsection.3.5.4}
+\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{40}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{41}{chapter.4}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{58}{chapter.1}

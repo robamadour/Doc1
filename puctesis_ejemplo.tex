@@ -726,7 +726,7 @@ Se debe reconocer que la estrategia de usar discursos políticos para medir la pe
 Por otro lado, es razonable suponer que existen indicios lingüísticos relacionados con los rasgos de personalidad que son desconocidos a los líderes, pero que pueden ser capturados por un algoritmo de medición de la personalidad, tal como el que ha sido descrito en la sección previa. La aparición de estos indicios lingüísticos en los discursos debería presentar gran variabilidad a través de los líderes, precisamente pues los líderes no son conscientes de su relación con los tipos de personalidad.
 En consecuencia, aun si los políticos intentan sistemáticamente proyectar una personalidad adulterada a través de sus discursos, los estimadores de personalidad obtenidos presentarán una variación que refleja la variación inherente a los verdaderos rasgos de personalidad de los líderes \cite{Ramey2014}.
  
-\subsection{Estadísticas de resumen}
+\subsection{Estadísticas de resumen}\label{sec:sum_stat}
 En la tabla \ref{tab:resumen} se presentan estadísticas de resumen de las medidas de personalidad estimadas. En el panel (a) se muestran los resultados para los líderes en la muestra de este estudio. De las 193 observaciones disponibles, 96 corresponden a líderes que dejaron el cargo de forma inesperada y 97 corresponden a sucesores de líderes que salieron inesperadamente. Las estimaciones de personalidad de los sucesores serán empleados en un análisis de robustez de los resultados principales. 
 
 Los cuatro primeros factores de personalidad tienen una media cercana a 4.7, mientras que el factor inestabilidad emocional está centrado aproximadamente en 4.0. Por otro lado, todos los factores presentan un nivel de dispersión similar, con desviaciones estándar entre 0.3 y 0.5. 
@@ -827,9 +827,8 @@ En el panel (b) se presentan las correlaciones calculadas a partir del corpus de
 Estos resultados sugieren que las medidas de personalidad de los líderes están sobre-correlacionadas, posiblemente debido a que los textos usados provienen exclusivamente de discursos políticos. Esto pues, la herramienta empleada para estimar los Cinco Grandes a partir de textos se basa en correlaciones entre los rasgos de personalidad y ciertas categorías de palabras. Por ejemplo, tanto extraversión como amabilidad se relacionan positivamente con el uso de palabras de emociones positivas (e.g. alegría, afecto). Por lo tanto, si solo un número reducido de categorías de palabras aparece en los textos de discursos políticos, entonces es posible que las estimaciones de personalidad obtenidas estén sesgadas. 
         
 \section{Resultados} \label{sec:resultados}
-
+\subsection{Factores de personalidad y crecimiento del comercio internacional}
 En esta sección se presentan los resultados principales de este estudio. 
-
 Para estimar el efecto de la personalidad los líderes en el crecimiento se realiza la siguiente regresión:
 \begin{equation}
 \label{eq:reg_bf}
@@ -846,9 +845,7 @@ donde $\overline{PRE}_z$ y $\overline{PRE}_z$ son los coeficientes estimados en 
 	\item \textbf{Educación.} Variable que describe el nivel educacional alcanzado por el líder. Toma valores de 1 a 8 de acuerdo a las siguientes categorías: (1) analfabeto, (2) alfabetizado sin educación formal, (3) educación primaria, (4) educación secundaria, (5) formación técnica o militar, (6) pregrado universitario, (7) magíster, (8) doctorado.
 \end{itemize} 
 
-Las tablas \ref{tab:extraversion}, \ref{tab:responsabilidad} y \ref{tab:amabilidad} presentan los resultados obtenidos al estimar la regresión (\ref{eq:reg_bf}) para los factores extraversión, responsabilidad y amabilidad respectivamente. En cada caso se presentan cuatro especificaciones diferentes. En la columna 1 solo se incluye el nivel de PIB como control. Teóricamente, esta variable debería ser relevante para el comercio internacional de los países. Luego en la columna 2 se controla por la tendencia política de los líderes. En \cite{Crichlow2002} se muestra que la ideología afecta de manera significativa el apoyo de legisladores hacia el libre mercado, por lo que también debería ser una variable relevante en este estudio. En la columna 3 se agregan otras dos características de los líderes: la edad y la duración del mandato. Además se incluye el año de término del mandato. Por último, en la columna 4 se agrega como control el nivel educacional de los líderes.
-
-En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversión es aproximadamente igual a -0.06  y significativo al nivel de confianza del 5\% en todas las especificaciones. Esto significa mientras más extravertido es un líder, mayor es la caída del crecimiento del comercio internacional luego de su salida. Estos resultados confirman la primera hipótesis planteada en la sección \ref{sec:hyp} de que los líderes más extravertidos se asocian a un mayor crecimiento del comercio internacional. Además,  estos resultados son económicamente significativos; una desviación estándar de diferencia en extraversión se traduce en una variación del 3\% en el crecimiento del comercio.  
+Las tablas \ref{tab:extraversion}, \ref{tab:responsabilidad} y \ref{tab:amabilidad} presentan los resultados obtenidos al estimar la regresión (\ref{eq:reg_bf}) para los factores extraversión, responsabilidad y amabilidad respectivamente. En cada caso se presentan cuatro especificaciones diferentes. En la columna 1 solo se incluye el nivel de PIB como control. Teóricamente, esta variable debería ser relevante para el comercio internacional de los países. Luego en la columna 2 se controla por la tendencia política de los líderes. En \cite{Crichlow2002} se muestra que la ideología afecta de manera significativa el apoyo de legisladores hacia el libre mercado, por lo que también debería ser una variable relevante en este estudio. En la columna 3 se agregan otras dos características de los líderes: la edad y la duración del mandato. Además se incluye el año de término del mandato. Por último, en la columna 4 se agrega como control el nivel educacional de los líderes.               
 
 \begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
@@ -892,6 +889,8 @@ En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversió
 	}
 \end{table}
 
+En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversión es aproximadamente igual a --0.06  y significativo al nivel de confianza del 5\% en todas las especificaciones. Esto significa que mientras más extravertido es un líder, mayor es la caída del crecimiento del comercio internacional luego de su salida. Estos resultados confirman la primera hipótesis planteada en la sección \ref{sec:hyp} de que los líderes más extravertidos se asocian a un mayor crecimiento del comercio internacional. Además,  estos resultados son económicamente significativos; una desviación estándar de diferencia en extraversión se traduce en una variación del 3\% en el crecimiento del comercio. 
+
 \begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 	{
@@ -934,6 +933,8 @@ En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversió
 	}
 \end{table}
 
+La tabla \ref{tab:responsabilidad} presenta resultados similares para el factor responsabilidad. El coeficiente asociado es negativo y significativo en todas las especificaciones, lo cual indica que tras la salida de líderes más responsable la caída del crecimiento es mayor. El efecto económico también es relevante, aunque de menor magnitud que el caso del factor responsabilidad. Si se considera el coeficiente de la columna 4, igual a --0.07, entonces  una desviación estándar de diferencia en responsabilidad se traduce en una variación del 2,4\% en el crecimiento del comercio internacional. Estos resultados ofrecen en conjunto sólida evidencia a favor de la hipótesis 2 de que los líderes más responsables se asocian a un mayor crecimiento del comercio internacional
+
 \begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{
 	{
@@ -975,6 +976,10 @@ En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversió
 		%}
 	}
 \end{table}
+
+Por último, la tabla \ref{tab:amabilidad} muestra los resultados asociados a amabilidad. Se observa que la relación entre el factor de personalidad y el crecimiento del comercio internacional es más débil en comparación a los resultados obtenidos para extraversión y responsabilidad. Si bien en la columna 1 el coeficiente asociado a amabilidad es negativo y significativo al nivel de confianza del 5\%, al controlar por tendencia política en la columna 2 se pierde la significancia estadística. No obstante, los resultados de las columnas 3 y 4 son más fuertes. El coeficiente es igual --1.2 en la columna 4 y en ambos casos es significativo con un nivel de confianza del 10\%. Más aún, este coeficiente es significativo en términos económicos, pues el efecto de una desviación estándar de diferencia en amabilidad corresponde una variación de 3,2\% en el crecimiento del comercio internacional. De manera global, los resultados de la tabla \ref{tab:amabilidad} sugieren que el factor amabilidad tiene un efecto significativo (tanto estadística como económicamente), lo que constituye evidencia a favor de la hipótesis 3. Esta evidencia es, sin embargo, menos fuerte que la encontrada para los factores extraversión y responsabilidad.
+
+Cabe realizar algunas observaciones generales relativas a las tres tablas presentadas. En primer lugar, se observa transversalmente que las variables derecha e izquierda tienen efectos altamente significativos. Este resultado es coherente con \cite{Crichlow2002} donde se muestra que la ideología política incide en las posturas frente al libre comercio de autoridades políticas. Sin embargo, llama la atención que tanto para derecha como para izquierda el coeficiente es negativo y de similar magnitud.  Por otro lado, se observa que la variable duración también tiene un efecto significativo en todos los modelos estimados. El signo negativo asociado a esta variable indica que mientras más tiempo estuvo un líder en el poder mayor fue la caída del comercio internacional. Por último, podría llamar la atención en bajo número de observaciones. Este número resulta al cruzar los 52 coeficientes $\overline{PRE}_z$ y $\overline{POST}_z$ que resultaron del estudio en el capítulo \ref{ch:com_importan}, con las 96 observaciones de personalidad que fue posible estimar.
 
 \iffalse
 \begin{table}[htpb]
@@ -1028,21 +1033,23 @@ En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversió
 \end{table}
 \fi
 
-\clearpage
+%\clearpage
 \subsection{¿Cuál es el factor más importante?}
 
-Salvo pequeñas diferencias en magnitud, se observa un efecto bastante similar de cada uno de los tres factores analizados (extraversión, responsabilidad y amabilidad) sobre el crecimiento del comercio internacional. Sin embargo, este resultado no debería resultar sorprendente si se toma en consideración que los tres factores están altamente correlacionados. Los diagramas de dispersión en la figura \ref{fig:disper} muestran que líderes con un alto valor en una medida de personalidad tienden a tener valores altos también en las otras dos. 
+Salvo pequeñas diferencias en magnitud, se observa un efecto bastante similar de cada uno de los tres factores analizados sobre el crecimiento del comercio internacional. Se vio que el efecto de una desviación estándar de diferencia en el crecimiento es de 3\% para extraversión, 2,4\% para responsabilidad  y 3,2\% para amabilidad. Sin embargo, podría objetarse que esta similitud en los resultados es bastante esperable pues  los tres factores  tienen medias y niveles de dispersión similares, y están altamente correlacionados entre sí (véase la sección \ref{sec:sum_stat}). Surge entonces la inquietud sobre si es posible distinguir el efecto de estos factores y determinar un orden de importancia.
 
-\begin{figure}[htpb]
-	\includegraphics[width=\textwidth]{Figures/bf_corr3.pdf}
-	\caption{Diagramas de dispersión entre extraverión, responsabilidad y amabilidad\label{fig:disper}}
-\end{figure}
+La forma natural de distinguir el efecto de los tres factores sería incluirlos simultáneamente en la regresión (\ref{eq:reg_bf}). Sin embargo, el hecho de que los tres factores estén altamente correlacionados dificulta este análisis. Esto pues no existe suficiente variación independiente entre estos factores como para distinguir sus efectos sobre el crecimiento del comercio internacional. Esto se observa en los resultados para el modelo 1 en la tabla \ref{tab:pcs}; al estimar el efecto de los tres factores simultáneamente, se diluye el efecto significativo que se obtenía en los modelos donde solo un factor era incluido. 
 
-La tabla \ref{tab:corr_pcs} muestra  que, para los 97 líderes con salidas aleatorias para los cuales se disponen datos, la correlación es igual a 70\% entre extraversión y responsabilidad, 53\% entre extraversión y amabilidad, y 62\% entre responsabilidad y amabilidad. 
-Como referencia, las correlaciones entre estos factores en una muestra no sesgada son: 29\%  entre extraversión y responsabilidad, 26\% entre extraversión y amabilidad y 43\% entre responsabilidad y amabilidad \cite{van2010general}. 
-Las altas correlaciones observadas en nuestros resultados podrían ser explicadas en parte por el sesgo de la muestra. Posiblemente, y como lo sugiere la figura \ref{fig:disper}, quienes alcanzaron la posición de líder nacional tienden a ser más extravertidos que introvertidos, más responsables que negligentes y más amables que fríos o antipáticos. Estas características, al ser valoradas positivamente por la ciudadanía, aumentan las posibilidades de ser electo como mandatario.
+Con los datos disponibles no es posible analizar sistemáticamente qué ocurre, por ejemplo, cuando un líder tiene un alto valor en extraversión y uno bajo en responsabilidad, pues los más extravertidos son en general más responsables. No obstante, estos factores no están perfectamente correlacionados, es decir, no varían de la misma forma de un líder a otro. Esto abre la posibilidad de explotar estas diferencias y identificar factores predominantes en los líderes.
 
-Por otro lado, la herramienta empleada para estimar los Cinco Grandes a partir de textos se basa en correlaciones entre los rasgos de personalidad y ciertas categorías de palabras. Por ejemplo, tanto extraversión como amabilidad se relacionan positivamente con el uso de palabras de emociones positivas (e.g. alegría, afecto). Si solo un número reducido de categorías de palabras aparece en los textos de discursos políticos, entonces es posible que las estimaciones de personalidad obtenidas estén sesgadas. 
+Más concretamente, se busca expresar los tres factores usando tres nuevas dimensiones que permitan magnificar las diferencias entre los factores de personalidad. Estas tres nuevas dimensiones deben  cumplir dos requisitos fundamentales. Primero, deben ser altamente independientes entre sí para solucionar el problema que se tiene con los factores originales. Y segundo, deben estar dominadas por uno de los factores originales para que sea posible interpretar los resultados obtenidos. 
+
+Con estos objetivos se realiza un  Análisis de Componentes Principales. Este procedimiento entrega como resultado tres dimensiones o componentes independientes entre sí. Favorablemente, las componentes obtenidas también están altamente correlacionadas con uno, y solo uno, de los factores originales. Esto se observa en la tabla \ref{tab:corr_pcs} que presenta las correlaciones entre los tres factores originales y las componentes principales. Para facilitar la 
+
+En base a esta estructura de correlación, se asigna a cada componente un nombre que indica el factor con el cual está altamente correlacionada. 
+
+: PC1, PC2 y PC3. La tabla \ref{tab:corr_pcs} muestra que 
+
 
 \begin{table}[htpb]	
 	\centering 	
@@ -1063,14 +1070,11 @@ Por otro lado, la herramienta empleada para estimar los Cinco Grandes a partir d
 }
 \end{table}
 
-El hecho de que los tres factores estén altamente correlacionados dificulta el análisis de los resultados. Esto pues no existe suficiente variación independiente entre estos factores como para distinguir sus efectos sobre el crecimiento del comercio internacional. Esto se observa en los resultados para el modelo 1 en la tabla \ref{tab:pcs}; al estimar el efecto de los tres factores simultáneamente, se diluye la significancia estadística que se obtenía en los modelos donde solo un factor era incluido. 
 
-Con los datos disponibles no es posible analizar sistemáticamente qué ocurre, por ejemplo, cuando un líder tiene un alto valor en extraversión y bajo en responsabilidad. Sin embargo, la correlación entre los tres factores no es perfecta, por lo que es posible distinguir factores predominantes en cada líder. En otras palabras, si bien es cierto que líderes más extrovertidos son también más responsables, esto no quita la posibilidad de que para cada líder exista un factor más relevante que los otros. Esto nos otorga un grado de libertad para analizar el efecto de líderes cuya personalidad es predominantemente extravertida, responsable o amable.
-
-Para realizar este análisis buscamos expresar los tres factores de personalidad usando tres nuevas dimensiones que permitan magnificar las diferencias entre los factores originales. Estas tres nuevas dimensiones deben  cumplir dos requisitos fundamentales. Primero, deben ser altamente independientes entre sí para solucionar el problema que se tiene con los factores originales. Y segundo, deben estar dominadas por uno de los factores originales para que sea posible interpretar los resultados obtenidos. 
-
-Hacemos un Análisis de Componentes Principales mediante el cual obtenemos tres dimensiones independientes entre sí: PC1, PC2 y PC3. La tabla \ref{tab:corr_pcs} muestra que 
-
+\begin{figure}[htpb]
+	\includegraphics[width=\textwidth]{Figures/bf_corr3.pdf}
+	\caption{Diagramas de dispersión entre extraverión, responsabilidad y amabilidad\label{fig:disper}}
+\end{figure}
 
 \begin{table}[htpb]
 	%\resizebox{\textwidth}{!}{

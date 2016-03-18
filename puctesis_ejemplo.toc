@@ -28,11 +28,12 @@
 \contentsline {subsection}{\tocsubsection {}{3.2.3}{Una posible objeci\'on}}{23}{subsection.3.2.3}
 \contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{24}{subsection.3.2.4}
 \contentsline {section}{\tocsection {}{3.3}{Resultados}}{27}{section.3.3}
-\contentsline {subsection}{\tocsubsection {}{3.3.1}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{32}{subsection.3.3.1}
-\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{34}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{34}{subsection.3.4.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.1}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{34}{subsubsection.3.4.1.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.2}{Indicadores ling\"u\IeC {\'\i }sticos}}{38}{subsubsection.3.4.1.2}
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{27}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{31}{subsection.3.3.2}
+\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{35}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{35}{subsection.3.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.1}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{35}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.2}{Indicadores ling\"u\IeC {\'\i }sticos}}{37}{subsubsection.3.4.1.2}
 \contentsline {section}{\tocsection {}{3.5}{Segunda etapa: Importaciones, exportaciones, FDI y los Cinco Grandes}}{38}{section.3.5}
 \contentsline {subsection}{\tocsubsection {}{3.5.1}{Nota sobre el signo de los coeficientes}}{39}{subsection.3.5.1}
 \contentsline {subsubsection}{\tocsubsubsection {}{3.5.1.1}{Variaci\'on de los Cinco Grandes}}{39}{subsubsection.3.5.1.1}

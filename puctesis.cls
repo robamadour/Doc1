@@ -723,7 +723,8 @@
        \rule[0pt]{\auxdist}{.5pt}
        }%end centering
      } %end vtop
-  \vskip105\p@\@plus24\p@
+  %\vskip105\p@\@plus24\p@
+  \vskip85\p@\@plus24\p@
   %%
   %% Title
   %%
@@ -878,7 +879,8 @@
        \rule[0pt]{\auxdist}{.5pt}
        }%end centering
      } %end vtop
-  \vskip105\p@\@plus24\p@
+  %\vskip105\p@\@plus24\p@
+  \vskip75\p@\@plus24\p@
   %%
   %% Title
   %%

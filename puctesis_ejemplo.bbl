@@ -1874,6 +1874,32 @@ Hermann, M\BPBI G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hern{\'{a}}ndez-Lagos%
+, Reyes%
+\BCBL {}\ \BBA {} Z{\'{u}}{\~{n}}iga%
+}{%
+Hern{\'{a}}ndez-Lagos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+LeaderChar2016}
+\APACinsertmetastar {%
+LeaderChar2016}%
+\begin{APACrefauthors}%
+Hern{\'{a}}ndez-Lagos, P.%
+, Reyes, T.%
+\BCBL {}\ \BBA {} Z{\'{u}}{\~{n}}iga, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{How Chief Executives' Characteristics Influence Economic
+  Growth?}} {{How Chief Executives' Characteristics Influence Economic
+  Growth?}}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Heston%
 , Summers%
 \BCBL {}\ \BBA {} Aten%

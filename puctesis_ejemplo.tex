@@ -357,7 +357,30 @@ Un aspecto  clave en esta metodología consiste en enfocarse en líderes que dejar
 
 La organización del resto del capítulo es la siguiente. En la sección \ref{model&tests} se describe el modelo empleado para describir el crecimiento del comercio internacional. Además se describe el test econométrico que será usado para probar la hipótesis central de este capítulo. En la sección \ref{sec:datos} se describen los datos empleados en este estudio. Se discute un aspecto clave, que es la elección de los líderes que componen la muestra. Por último, en la sección \ref{sec:res_jo} se exponen los resultados del test econométrico que justifican por qué los líderes afectan el crecimiento del comercio internacional.
 
-\section{Descripción del Modelo}\label{model&tests}
+\section{Motivación}
+
+\begin{figure*}[htpb]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Nic_4.pdf}
+		\caption{Lorem ipsum}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Nic_5.pdf}
+		\caption{Lorem ipsum}
+	\end{subfigure}
+		~ 
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Figures/Nic_6.pdf}
+			\caption{Lorem ipsum}
+		\end{subfigure}
+\end{figure*}
+
+\section{Descripción del Modelo Econométrico}\label{model&tests}
 
 \citeA{jones2004leaders} desarrollaron un modelo y un test econométrico para medir el efecto de los líderes sobre el crecimiento del PIB. Adaptando la metodología de estos autores, en este estudio se modela el crecimiento del comercio internacional de un país mediante el siguiente proceso estocástico:
 \begin{equation}\label{eq:model}
@@ -1216,7 +1239,7 @@ Las columnas (2) y (3) muestran la relación entre los Cinco Grandes y la tendenc
 
 La columna (4) muestra la relación obtenida entre los Cinco Grandes y el estatus de estar casado. El factor inestabilidad emocional resulta ser el único con un efecto estadísticamente significativo. Este efecto negativo es consistente con estudios que analizan la relación entre los Cinco Grandes y la calidad de las relaciones en pareja \cite{Soldz1999,White2004,Donnellan2004}. Estos trabajos reportan que individuos más emocionalmente inestables llevan matrimonios menos satisfactorios y por lo tanto serían más propensos a divorciarse.
 
-Por último, la columna (5) reporta la relación entre los Cinco Grandes y la variable `demandas'. Esta variable indica si el individuo fue objeto de alguna acción legal en su contra. El factor inestabilidad emocional es altamente significativo, mientras que responsabilidad está muy cerca de serlo (valor $p=0.108$). 
+Por último, la columna (5) reporta la relación entre los Cinco Grandes y la variable demandas. Esta variable indica si el individuo fue objeto de alguna acción legal en su contra. El factor inestabilidad emocional es altamente significativo, mientras que responsabilidad está muy cerca de serlo (valor $p=0.108$). 
 La probabilidad de haber sido objeto de alguna acción legal es mayor para aquellos individuos de la muestra que son más emocionalmente inestables y menos responsables. Ambos factores han sido reportados como influyentes en la propensión a tener conductas agresivas, irresponsables o delictuales tales como comportamiento poco ético entre estudiantes (plagio, falsificación, etc.) \cite{Karim2009}, conducción irresponsable \cite{Dahlen2006}, agresión de la pareja \cite{Hines2008} y acoso sexual y violación \cite{Voller2010}.
 
 Se observa en general que la relación entre los Cinco Grandes y otras características personales es consistente con lo que se reporta en la literatura. No solo se obtuvieron relaciones estadísticamente significativas, sino que además estas relaciones van en la dirección esperada. Estos resultados entregan mayor confiabilidad a los estimadores obtenidos.
@@ -1256,7 +1279,7 @@ Para verificar la robustez de los resultados se realiza un test placebo del mode
 \label{eq:reg_bf_rob}
 \overline{POST}_z -\overline{PRE}_z = \alpha X_{z+1} +\beta C_z + \epsilon_z.
 \end{equation}
-Esta vez, en vez de intentar explicar el cambio en el crecimiento del comercio internacional usando medidas de personalidad del líder saliente ($X_z$), ahora se usan medidas de personalidad del líder sucesor $X_{z+1}$.
+Esta vez, en vez de intentar explicar el cambio en el crecimiento del comercio internacional usando medidas de personalidad del líder saliente ($X_z$), ahora se usan medidas de personalidad del líder entrante $X_{z+1}$.
 
 La tabla \ref{tab:suc} muestra los resultados obtenidos al estimar \ref{eq:reg_bf_rob} bajo 4 especificaciones diferentes. En las columnas (1) a (3) la variable $X_z$ corresponde a extraversión, responsabilidad y amabilidad respectivamente. En la columna (4) se incluyen las tres medidas de personalidad simultáneamente. Como cabe esperar, esta vez los resultados no son significativos pues las medidas de personalidad de los sucesores no ayudan a explicar el cambio en el comercio internacional debido a las salidas aleatorias. 
 

@@ -442,16 +442,24 @@ Para estimar el modelo de regresión (\ref{eq:regression}) se usan datos de expor
 
 En total se obtienen 6,711 observaciones de crecimiento correspondientes a 179 países y al período 1960--2014. En la tabla \ref{tab:stats_crecimiento} se muestran estadísticas descriptivas de esta variable. Al observar esta tabla pueden llamar la atención los valores -70\% y 182\% observados en el mínimo y en el máximo de la variable. No obstante, los percentiles muestran que estos valores son bastante inusuales y obedecen a circunstancias excepcionales. Por ejemplo, el 182\% se registró en Libia en el año 2012, cuando las compañías de producción petrolera volvieron al país luego de detener sus operaciones durante el conflicto de 2011. Por otro lado, la disminución del 70\% ocurrió en 1990 en Bulgaria, fuertemente influenciada por el colapso  del comunismo y la posterior transición a la democracia, que se extendió desde fines de 1989 hasta 1991. 
 
-\begin{table}[H]
-	\centering
-	\caption{Estadísticas descriptivas de los datos de crecimiento del comercio internacional}
-	\label{tab:stats_crecimiento}
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{lccccccc} \toprule\toprule
-			Variable & Observaciones & Media & \begin{tabular}[c]{@{}c@{}}Desviación\\estándar\end{tabular} & Mínimo & \begin{tabular}[c]{@{}c@{}}Percentil\\1\%\end{tabular} &\begin{tabular}[c]{@{}c@{}}Percentil\\99\%\end{tabular}& Máximo \\ \midrule
-			\begin{tabular}[c]{@{}l@{}}Crecimiento anual del\\ comercio internacional\end{tabular} & 6711 & 6.0\% & 11,6\% & -70.3\% & -23.5\%& 40.0\%& 182.0\% \\
-			\bottomrule\bottomrule
-		\end{tabular}%
+\begin{table}[htpb]
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} 
+	\resizebox{\textwidth}{!}{
+		{
+			\begin{threeparttable}
+				\caption{Líderes y crecimiento del comercio internacional}
+				\label{fig:wald_test}
+				\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+				\begin{tabular}{lccccccc} \toprule\toprule
+					Variable & Observaciones & Media & \begin{tabular}[c]{@{}c@{}}Desviación\\estándar\end{tabular} & Mínimo & \begin{tabular}[c]{@{}c@{}}Percentil\\1\%\end{tabular} &\begin{tabular}[c]{@{}c@{}}Percentil\\99\%\end{tabular}& Máximo \\ \midrule
+					\begin{tabular}[c]{@{}l@{}}Crecimiento anual del\\ comercio internacional\end{tabular} & 6711 & 6.0\% & 11,6\% & -70.3\% & -23.5\%& 40.0\%& 182.0\% \\
+					\bottomrule\bottomrule
+				\end{tabular}%
+				\begin{tablenotes}
+					\footnotesize{Notas: El crecimiento anual del comercio internacional se calcula  a partir de las series anuales de importaciones y exportaciones del Banco Mundial, las que se encuentran medidas en dólares de Estados Unidos del año 2005.}
+				\end{tablenotes}
+			\end{threeparttable}
+		}
 	}
 \end{table}
 
@@ -521,7 +529,7 @@ En esta tabla se presentan tres especificaciones para los años que constituyen l
 					observaciones (t) &  & 6710 &  &  &  & 6710 &  &  \\ \bottomrule\bottomrule
 				\end{tabular}%
 				\begin{tablenotes}
-					\footnotesize{Notas: TO DO.}
+					\footnotesize{Notas: Bajo la hipótesis nula, el crecimiento promedio del comercio internacional es igual antes y después de transiciones de líder ocurridas en tiempos aleatorios. El estadístico $J$, descrito en (\ref{eq:j-stat}), toma valores cercanos a 1 bajo la hipótesis nula y mayores valores indican una mayor probabilidad de que esta hipótesis es falsa.  Los valores $p$ indican la probabilidad de que la hipótesis nula es cierta y son obtenidos a partir de tests de Chi cuadrado sobre el estadístico $J$. Los efectos POST y PRE son estimados mediante el método de mínimos cuadrados generalizado (en inglés, GLS) }
 				\end{tablenotes}
 			\end{threeparttable}
 		}

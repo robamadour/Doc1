@@ -490,10 +490,10 @@ La muestra de transiciones aleatorias de este estudio se basa en la base de dato
 	%~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
 	\caption{Distribución de los lideres con transiciones aleatorias\label{fig:distrb}}
-	%\medskip % induce some separation between caption and explanatory material
-	%\begin{minipage}{\textwidth} % choose width suitably
-	%	{\footnotesize  Notas:  The map above shows the distribution of leaders with random transitions in our sample across countries. The timeline below shows how leaders with random transitions are distributed in time. The earliest random transition is in 1875, the latest in 2012.  \par}
-	%\end{minipage}
+	\medskip % induce some separation between caption and explanatory material
+	\begin{minipage}{\textwidth} % choose width suitably
+		{\footnotesize  Notas: El mapa en la parte superior muestra la distribución de países de los líderes con transiciones aleatorias en la muestra de este estudio. La línea de tiempo en la parte inferior muestra cómo las transiciones aleatorias se distribuyen en el tiempo. La transición aleatoria más temprana ocurre en 1875, mientras que la más tardía en 2012.\par}
+	\end{minipage}
 \end{figure}
 
 Cabe recordar que los datos de comercio internacional del Banco Mundial se encuentran disponibles para el período 1960--2014. Sin embargo, en la figura \ref{fig:distrb} se observa que solo un tercio de las transiciones aleatorias ocurrieron en este período. Esto, sumado a que la información es incompleta para algunos países, implica que solo es posible asociar observaciones de crecimiento del comercio internacional a 52 líderes de la muestra.
@@ -529,7 +529,7 @@ En esta tabla se presentan tres especificaciones para los años que constituyen l
 					observaciones (t) &  & 6710 &  &  &  & 6710 &  &  \\ \bottomrule\bottomrule
 				\end{tabular}%
 				\begin{tablenotes}
-					\footnotesize{Notas: Bajo la hipótesis nula, el crecimiento promedio del comercio internacional es igual antes y después de transiciones de líder ocurridas en tiempos aleatorios. El estadístico $J$, descrito en (\ref{eq:j-stat}), toma valores cercanos a 1 bajo la hipótesis nula y mayores valores indican una mayor probabilidad de que esta hipótesis es falsa.  Los valores $p$ indican la probabilidad de que la hipótesis nula es cierta y son obtenidos a partir de tests de Chi cuadrado sobre el estadístico $J$. Los efectos POST y PRE son estimados mediante el método de mínimos cuadrados generalizado (en inglés, GLS) }
+					\footnotesize{Notas: Bajo la hipótesis nula, el crecimiento promedio del comercio internacional es igual antes y después de transiciones de líder ocurridas en tiempos aleatorios. El estadístico $J$, descrito en (\ref{eq:j-stat}), toma valores en torno a 1 bajo la hipótesis nula y mayores valores indican una mayor probabilidad de que esta hipótesis es falsa.  Los valores $p$ indican la probabilidad de que la hipótesis nula es cierta y son obtenidos a partir de tests de Chi cuadrado sobre el estadístico $J$. Los efectos POST y PRE son estimados mediante el método de mínimos cuadrados generalizado (abreviado GLS en inglés) permitiendo un error con heterocedasticidad y estructura AR(1), específicos por país. Las regresiones reportadas en esta tabla comparan el crecimiento del comercio internacional 5 años antes y cinco años después de las transiciones de los líderes. La especificación ``$t$'' considera el crecimiento promedio en los cinco años antes de la salida con el crecimiento promedio en los cinco años después de la salida. Las especificaciones ``$t+1$'' y ``$t+2$'' mueven el periodo POST uno y dos años hacia adelante respectivamente. Los controles ``$t-5$'' y ``$t-6$'' mueven ambos periodos, PRE y POST, hacia atrás en el tiempo, en cinco y seis años respectivamente. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 				\end{tablenotes}
 			\end{threeparttable}
 		}
@@ -663,6 +663,10 @@ En base a los resultados experimentales expuestos, el uso de modelos de predicci
 	\includegraphics[width=\textwidth]{Figures/Figura_BF2.pdf}
 	\caption{Estimando los Cinco Grandes a partir de discursos políticos}
 	\label{fig:bf_discurso}
+		\medskip % induce some separation between caption and explanatory material
+		\begin{minipage}{\textwidth} % choose width suitably
+			{\footnotesize  Notas: Esquema del proceso empleado para estimar los Cinco Grandes de un líder a partir de sus discursos. La primera etapa consiste en buscar discursos de cada líder hasta tener al menos 10.000 palabras. En la segunda etapa se usan las categorías LIWC para clasificar las palabras. Luego, en la tercera etapa los puntajes de cada líder son normalizados para atenuar el efecto de categorías no presentes en discursos políticos. Por último, en la cuarta etapa se usa el modelo de predicción \textit{Support Vector Machines  for Regression} (SMOreg) para estimar los Cinco Grandes a partir de los puntajes en las categorías LIWC. En el ejemplo se muestra un extracto de un discurso del líder ruso Joseph Stalin y los puntajes estimados. Los puntajes en extraversión y amabilidad están considerablemente bajo la media de la muestra de líderes,  mientras que en estabilidad emocional se observa lo contrario. Estos resultados son consistentes con la imagen de Stalin como un líder frío, cruel y mal orador \cite[p. 45]{tarrant1992stalingrad}.\par}
+		\end{minipage}
 \end{figure}
 
 Para cada líder con salida aleatoria y su respectivo sucesor se recolectaron textos de discursos pronunciados durante sus vidas. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos.
@@ -711,7 +715,7 @@ Las medias de los Cinco Grandes que se reportan en el panel (b) son estadísticam
 				 \bottomrule \bottomrule
 			\end{tabular}%
 			\begin{tablenotes}
-				\footnotesize{Notas: To do}.
+				\footnotesize{Notas: En el panel (a) se muestran las estadísticas de resumen de los estimadores de los Cinco Grandes para los líderes en la muestra de este estudio. De los 191 líderes con salida aleatoria, se encontraron discursos solo para 96. Adicionalmente, se encontraron discursos para 97 de los 191 líderes que sucedieron en el cargo a los líderes salientes. En total, fue posible estimar la personalidad de 193 líderes con salida aleatoria o sucesores. En el panel (b)  se muestran las estadísticas de resumen de los estimadores de los Cinco Grandes para  la muestra de \citeA{Pennebaker1999}. Esta muestra es útil como punto de comparación pues contiene un mayor número de observaciones y fue utilizada para entrenar los modelos de predicción de \citeA{Mairesse2007} que se ocupan en este estudio}.
 			\end{tablenotes}
 		\end{threeparttable}
 	%}
@@ -744,7 +748,7 @@ En el panel (b) se presentan las correlaciones calculadas a partir del corpus de
 				\bottomrule\bottomrule
 			\end{tabular}
 			\begin{tablenotes}
-				\footnotesize{Notas: TO DO.}
+				\footnotesize{Notas: En el panel (a) se muestra la matriz de correlaciones de los Cinco Grandes para los líderes en la muestra de este estudio. En el panel (b) se muestra la matriz de correlaciones de los Cinco Grandes para la muestra de \cite{Pennebaker1999}.}
 			\end{tablenotes}
 		\end{threeparttable}
 	}
@@ -835,7 +839,7 @@ Las tablas \ref{tab:extraversion}, \ref{tab:responsabilidad} y \ref{tab:amabilid
 					\bottomrule\bottomrule
 				\end{tabular}
 				\begin{tablenotes}
-					\footnotesize{Notas: TO DO.}
+					\footnotesize{Notas: Resultados de la regresión (\ref{eq:reg_bf}) para estimar el efecto del factor extraversión sobre el comercio internacional. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 				\end{tablenotes}
 			\end{threeparttable}
 		%}
@@ -879,7 +883,7 @@ En la tabla \ref{tab:extraversion} se observa que  el coeficiente de extraversió
 				\bottomrule\bottomrule
 			\end{tabular}
 			\begin{tablenotes}
-				\footnotesize{Notas: TO DO.}
+				\footnotesize{Notas: Resultados de la regresión (\ref{eq:reg_bf}) para estimar el efecto del factor responsabilidad sobre el comercio internacional. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 			\end{tablenotes}
 		\end{threeparttable}
 		%}
@@ -923,7 +927,7 @@ La tabla \ref{tab:responsabilidad} presenta resultados similares para el factor 
 				\bottomrule\bottomrule
 			\end{tabular}
 			\begin{tablenotes}
-				\footnotesize{Notas: TO DO.}
+				\footnotesize{Notas: Resultados de la regresión (\ref{eq:reg_bf}) para estimar el efecto del factor amabilidad sobre el comercio internacional. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 			\end{tablenotes}
 		\end{threeparttable}
 		%}
@@ -967,7 +971,7 @@ Por último, la tabla \ref{tab:amabilidad} muestra los resultados asociados a ama
 				\bottomrule\bottomrule
 			\end{tabular}
 			\begin{tablenotes}
-				\footnotesize{Notas: TO DO.}
+				\footnotesize{Notas: Resultados de la regresión (\ref{eq:reg_bf}) para estimar el efecto del factor apertura al cambio sobre el comercio internacional. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 			\end{tablenotes}
 		\end{threeparttable}
 		%}
@@ -1044,8 +1048,9 @@ Con estos objetivos se realiza un  Análisis de Componentes Principales. Por defi
 
 \begin{table}[htpb]	
 	\centering 	
-	\caption{Correlaciones entre los  factores de personalidad y sus componentes principales\label{tab:corr_pcs}}
 	\resizebox{\textwidth}{!}{
+		\begin{threeparttable}
+			\caption{Correlaciones entre los  factores de personalidad y sus componentes principales\label{tab:corr_pcs}}
 	\begin{tabular}{l  c  c  c  c  c  c }\toprule\toprule
 		\multicolumn{1}{c}{Variables} &Extraversión&Responsabilidad&Amabilidad&\begin{tabular}[c]{@{}c@{}}CP-\\extraversión\end{tabular}&\begin{tabular}[c]{@{}c@{}}CP-\\amabilidad\end{tabular}&\begin{tabular}[c]{@{}c@{}}CP-\\responsabilidad\end{tabular}\\ \midrule
 		Extraversión&1.000\\
@@ -1058,6 +1063,10 @@ Con estos objetivos se realiza un  Análisis de Componentes Principales. Por defi
 		Observaciones: 97\\
 		\bottomrule\bottomrule
 	\end{tabular}
+	\begin{tablenotes}
+		\footnotesize{Notas: Matriz de correlaciones entre los factores extraversión, amabilidad y responsabilidad, y las tres componentes principales asociadas.}
+	\end{tablenotes}
+\end{threeparttable}
 }
 \end{table}
 
@@ -1085,7 +1094,7 @@ En la figura \ref{fig:twographs} se muestran dos representaciones de los datos d
 	\caption{Relación entre los factores de personalidad \label{fig:twographs}}
 		\medskip % induce some separation between caption and explanatory material
 		\begin{minipage}{\textwidth} % choose width suitably
-			{\footnotesize  Notas:  To do...  \par}
+			{\footnotesize  Notas: En la subfigura superior (A) se  \par}
 		\end{minipage}
 \end{figure*}
 

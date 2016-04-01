@@ -3029,6 +3029,28 @@ Soldz, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tarrant%
+}{%
+Tarrant%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+tarrant1992stalingrad}
+\APACinsertmetastar {%
+tarrant1992stalingrad}%
+\begin{APACrefauthors}%
+Tarrant, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {Stalingrad} {Stalingrad}.
+\newblock
+\APACaddressPublisher{}{Pen and Sword}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Tupes%
 \ \BBA {} Christal%
 }{%

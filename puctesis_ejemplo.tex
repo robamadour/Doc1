@@ -357,47 +357,65 @@ Un aspecto  clave en esta metodología consiste en enfocarse en líderes que dejar
 
 La organización del resto del capítulo es la siguiente. En la sección \ref{model&tests} se describe el modelo empleado para describir el crecimiento del comercio internacional. Además se describe el test econométrico que será usado para probar la hipótesis central de este capítulo. En la sección \ref{sec:datos} se describen los datos empleados en este estudio. Se discute un aspecto clave, que es la elección de los líderes que componen la muestra. Por último, en la sección \ref{sec:res_jo} se exponen los resultados del test econométrico que justifican por qué los líderes afectan el crecimiento del comercio internacional.
 
-\section{Motivación}
-
-\begin{figure*}[htpb]
-	\centering
-	\begin{subfigure}[b]{0.45\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{Figures/Nic_4.pdf}
-		\caption{Lorem ipsum}
-	\end{subfigure}%
-	~ 
-	\begin{subfigure}[b]{0.45\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{Figures/Nic_5.pdf}
-		\caption{Lorem ipsum}
-	\end{subfigure}
-		~ 
-		\begin{subfigure}[b]{0.45\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{Figures/Nic_6.pdf}
-			\caption{Lorem ipsum}
-		\end{subfigure}
-\end{figure*}
 
 \section{Descripción del Modelo Econométrico}\label{model&tests}
 
-\citeA{jones2004leaders} desarrollaron un modelo y un test econométrico para medir el efecto de los líderes sobre el crecimiento del PIB. Adaptando la metodología de estos autores, en este estudio se modela el crecimiento del comercio internacional de un país mediante el siguiente proceso estocástico:
+\citeA{jones2004leaders} desarrollaron un modelo y un test econométrico para medir el efecto de los líderes sobre el crecimiento del PIB. En esta sección se adapta la metodología de estos autores para obtener un modelo econométrico del comercio internacional, y posteriormente derivar un test estadístico que permita determinar si los líderes importan o no.
+
+Se denota por $c_{it}$ el comercio internacional de un país $i$ en el año $t$. El crecimiento del comercio internacional se define como $g_{it} = (c_{it}-c_{it-1})/c_{i{t-1}}$. Con el fin de testear la importancia de los líderes en el crecimiento del comercio internacional, se adopta el siguiente modelo:
 \begin{equation}\label{eq:model}
-g_{it}=\nu_i+\theta l_{it}+\varepsilon_{it},
+g_{it}=\nu_i+\theta l_{it}+\varepsilon_{it}.
 \end{equation}
-donde $g_{it}$ denota el crecimiento del comercio internacional en el país $i$ en el año $t$. $\nu_i$ es el efecto fijo del país  $i$ y $\varepsilon_{it}$ es un término de error con distribución normal $\mathcal{N}(0,\sigma_{\varepsilon i}^2 )$. El término $l_{it}$ representa la calidad del líder, la cual se asume fija para cada líder. Se asume que las transiciones de líderes ocurren según el siguiente modelo probabilístico:
+
+Este modelo expresa que el crecimiento del comercio internacional, $g_{it}$, depende de características propias del país, las que son representadas por el efecto fijo $\nu_i$, y eventualmente por las cualidades del líder al mando, representadas por el término $\theta l_{it}$. El término $l_{it}$ es una variable que mide la calidad del líder, la cual se asume fija para cada uno. Si el coeficiente asociado a la calidad del líder no es nulo, i.e. $\theta \neq 0$, entonces los líderes influyen de manera significativa en el comercio internacional. Si, por el contrario, $\theta =0$, entonces los líderes no importan. Por último, $\varepsilon_{it}$ es un término de error con distribución normal $\mathcal{N}(0,\sigma_{\varepsilon i}^2 )$.
+
+La estrategia de ahora en adelante consiste en elaborar un test que permita decidir si $\theta = 0$ o no. Para ello es necesario enfocarse en las transiciones de líderes en el poder. Intuitivamente, si los líderes ejercen un efecto sobre el crecimiento del comercio internacional, entonces debería ser posible observar un cambio en la tendencia del crecimiento luego de que un líder deje el cargo y sea reemplazado por otro. Si  esto no ocurre, entonces el comercio internacional evoluciona de manera independiente de quien esté al mando.
+
+Para ilustrar esta idea, en la figura \ref{fig:com_int} se muestra la evolución del comercio internacional en Nicaragua entre los años 1960 y 1980. Además se muestran tres líneas verticales. La línea central, ubicada en el año 1967, indica el año en que hubo una transición en el poder. Las otras dos líneas se ubican 5 años antes y cinco años después de la transición, es decir, en los años 1962 y 1972. Se observa una tendencia al alza durante los cinco años previos a la transición, mientras que en los cinco años posteriores se observa un estancamiento. 
+
+\begin{figure*}[htpb]
+	\centering
+	\begin{subfigure}[b]{0.59\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/Nic_7.pdf}
+		\caption{Evolución del comercio internacional\label{fig:com_int}}
+	\end{subfigure}%
+	\\
+	\begin{subfigure}[b]{\textwidth}
+		\centering
+		\includegraphics[width=0.58\textwidth]{Figures/Nic_8.pdf}
+		\caption{Crecimiento anual y crecimiento promedio (en 5 años) del comercio internacional\label{fig:growth}}
+	\end{subfigure}
+	\\
+	\begin{subfigure}[b]{\textwidth}
+		\centering
+		\includegraphics[width=0.56\textwidth]{Figures/Nic_9.pdf}
+		\caption{Cambio en el crecimiento promedio entre los periodos POST y PRE\label{fig:volJ}}
+	\end{subfigure}
+	\caption{Evolución del comercio internacional en Nicaragua entre 1960 y 1980}
+	\medskip % induce some separation between caption and explanatory material
+	\begin{minipage}{\textwidth} % choose width suitably
+		{\footnotesize  Nota: Las líneas punteadas indican el año de la salida del líder (1967), además del inicio del período PRE (1962) y el término del periodo POST (1972).\par}
+	\end{minipage}
+\end{figure*}
+
+De vuelta al modelo, se asume que las transiciones de líderes ocurren según el siguiente modelo probabilístico:
 \begin{equation}
 l_{it}=\begin{cases} l_{it-1} &\mbox{con probabilidad }\, p(g_{it},g_{it-1},\dots) \\ 
 l' & \mbox{con probabilidad }\, 1-p(g_{it},g_{it-1},\dots), \end{cases}
 \end{equation}
-donde $l'\sim\mathcal{N}(\mu,\sigma_l^2 )$ y $\text{corr}(l,l')=\rho$. 
+donde $l'\sim\mathcal{N}(\mu,\sigma_l^2 )$ y $\text{corr}(l,l')=\rho$. Este modelo indica que año a año un líder se mantiene en el poder con una determina probabilidad $p(g_{it},g_{it-1},\dots)$, que depende del crecimiento del comercio pues la salida de líderes podría estar condicionada por condiciones económicas. Con una probabilidad complementaria, un líder es reemplazado por otro líder, cuya calidad $l'$ es aleatoria y podría estar correlacionada con la calidad del líder saliente.
 
-Las transiciones de líderes son indexadas por el índice $z$. Se define $\overline{PRE}_z$  como el crecimiento de PIB promedio en el  país en un período de observación igual a $T$ años antes de la transición $z$. Análogamente, se define $\overline{POST}_z$  como el crecimiento promedio en los  $T$ años  posteriores a la transición $z$. Es decir,
+La variable de interés en el test econométrico no será directamente el crecimiento del comercio internacional, sino el crecimiento promedio durante un periodo de cinco años. Esta elección permite capturar efectos tendenciales en vez de efectos transitorios. Esto se ilustra en la figura \ref{fig:growth}, en la cual se muestra la evolución del crecimiento del comercio internacional. La línea continua muestra el crecimiento anual, mientras que la línea punteada muestra el crecimiento promedio durante los cinco años previos. Se observa que el crecimiento anual tiene un comportamiento volátil y no es claro si durante los cinco años previos a la transición el crecimiento es consistentemente mayor al de los cinco años posteriores. Por otro lado, el comportamiento del crecimiento promedio es más fácil de interpretar. El valor de la línea punteada en 1967 y en 1972 indica el crecimiento promedio durante los cinco años previos y posteriores a la transición, respectivamente. Estos valores muestran una caída significativa del crecimiento promedio luego de la transición.
+
+El objetivo es entonces comparar el crecimiento promedio del comercio internacional antes y después de transiciones de líderes. En el modelo, las transiciones de líderes son indexadas por el índice $z$. Se define $\overline{PRE}_z$  como el crecimiento promedio del comercio internacional	 en el  país en un período de observación igual a $T$ años\footnote{Aunque se usará $T=5$, el desarrollo de esta sección es más claro si mantiene $T$ en la notación.} antes de la transición $z$. Análogamente, se define $\overline{POST}_z$  como el crecimiento promedio en los  $T$ años  posteriores a la transición $z$. Es decir,
 \begin{equation}\label{eq:pre_post}
 \overline{PRE}_z = \dfrac{1}{T}\sum_{\tau=1}^{T}g_{z_iz_t-\tau},\quad\overline{POST}_z = \dfrac{1}{T}\sum_{\tau=1}^{T}g_{z_iz_t+\tau},
 \end{equation}
-donde los índices $z_i$ y $z_t$ indican respectivamente el país y el año en que ocurre la transición $z$. En consecuencia el cambio en el crecimiento promedio durante la transición $z$ sigue la siguiente distribución normal:
+donde los índices $z_i$ y $z_t$ indican respectivamente el país y el año en que ocurre la transición $z$. 
+
+Con estas definiciones, ya es posible elaborar un test de hipótesis sobre el parámetro asociado al efecto de los líderes, $\theta$. 
+De acuerdo a (\ref{eq:model}), el cambio en el crecimiento promedio durante la transición $z$ sigue la siguiente distribución normal:
 \begin{equation}\label{post_pre_dist}
 \overline{POST}_z- \overline{PRE}_z \sim \mathcal{N}\left( 0,\dfrac{2\sigma^2_{\varepsilon z_i}}{T} + 2\theta^2\sigma_l^2(1-\rho)\right) .
 \end{equation}
@@ -412,16 +430,18 @@ Elevando al cuadrado y normalizando se obtiene:
 \dfrac{\left(\overline{POST}_z- \overline{PRE}_z\right)^2}{2\sigma^2_{\varepsilon z_i}/T}\sim \chi^2(1).
 \end{equation}
 
-Sea $Z$ el número de transiciones de líderes. Sumando (\ref{eq:chi1}) para todas las transiciones se puede definir el siguiente estadístico:
+Sea $Z$ el número de observaciones de transiciones de líderes. Sumando (\ref{eq:chi1}) para todas las transiciones se puede definir el siguiente estadístico:
 \begin{equation}\label{eq:w-stat}
 W = \sum_{z=1}^{Z}\dfrac{\left(\overline{POST}_z- \overline{PRE}_z\right)^2}{2\sigma^2_{\varepsilon z_i}/T},
 \end{equation}
-el cual tiene una distribución chi cuadrado con $Z$ grados de libertad, $\chi^2 (Z)$. En (\ref{eq:w-stat}) es posible reemplazar $\sigma^2_{\varepsilon z_i}$ por su estimador $\widehat{\sigma^2_{\varepsilon z_i}}$ y dividir por $Z$ para obtener el estadístico $J$ usado en un test de Wald en \cite{jones2004leaders}:
+el cual tiene una distribución chi cuadrado con $Z$ grados de libertad, $\chi^2 (Z)$. En (\ref{eq:w-stat}) es posible reemplazar $\sigma^2_{\varepsilon z_i}$ por su estimador $\widehat{\sigma^2_{\varepsilon z_i}}$ y dividir por $Z$ para obtener el siguiente estadístico $J$, similar al usado en el test de Wald de \cite{jones2004leaders}:
 \begin{equation}\label{eq:j-stat}
 J=\dfrac{1}{Z}\sum_{z=1}^{Z}\dfrac{\left(\overline{POST}_z- \overline{PRE}_z\right)^2}{2\widehat{\sigma^2_{\varepsilon z_i}}/T}.
 \end{equation}
 
 Intuitivamente, la magnitud del estadístico $J$ indica la relación entre la variabilidad del cambio de crecimiento observada en las transiciones de líderes aleatorias versus la variabilidad esperada bajo la hipótesis nula. Por lo tanto, bajo la hipótesis nula $J$ debería tomar valores cercanos a 1, mientras que bajo la hipótesis alternativa $J$ debería ser significativamente mayor que 1, indicando que existe mayor variabilidad cuando ocurre una transición en el poder. 
+
+Dicho de otro modo, bajo la hipótesis alternativa la varianza de $\overline{POST}_t- \overline{PRE}_t$ debería ser significativamente mayor durante los años de transición de líderes, que durante el resto de los años. Esto se ilustra en la figura \ref{fig:volJ}, en la cual se muestra la evolución del cambio en el crecimiento promedio $\overline{POST}_t- \overline{PRE}_t$, durante el periodo 1960-1980. Se observa un \textit{peak} de esta variable en el año de la transición. 
 
 \subsection{Implementación del test de Wald}\label{sec:impl}
 El test de Wald desarrollado en la sección previa depende de los crecimientos promedio $\overline{PRE}_z$ y $\overline{POST}_z$, así como de la varianza del término de error correspondiente a cada país, $\sigma^2_{\varepsilon z_i}$. Al igual que en \cite{jones2004leaders}, para estimar los crecimientos promedio se estima el siguiente modelo de regresión:
@@ -1197,7 +1217,7 @@ La tabla \ref{tab:pcs} muestra la media y la desviación de los Cinco Grandes obt
 				Observaciones: 193 &  &  &  &  &  &  &  &  &  &  &  \\ \bottomrule\bottomrule
 			\end{tabular}%
 			\begin{tablenotes}
-				\footnotesize{Notas: En esta tabla se comparan estadísticas de .}
+				\footnotesize{Notas: En esta tabla se comparan estadísticas de los Cinco Grandes estimados a partir de tres muestras de textos diferentes. La muestra M está conformada por todos las palabras presentes en los discursos encontrados para cada líder. Para cada líder, la muestra M contiene al menos 800 palabras y para el 91\% de los líderes hay más de 1600 palabras. Ambas muestras A1 y A2 contienen 800 palabras por líder, tomadas de forma aleatoria de la muestra M. En las columnas 1 a 3 de esta tabla se muestran las medias de los Cinco Grandes obtenidos en cada muestra. En las columnas 4 a 6 se muestran las respectivas desviaciones estándar. Por último, en las columnas 7 a 9 se muestra la correlación de los factores de personalidad entre muestras. }
 			\end{tablenotes}
 		\end{threeparttable}
 	}
@@ -1213,7 +1233,25 @@ Por una parte, existe una extensa literatura que describe cómo los Cinco Grandes
 
 Por otra parte, se cuenta con una base de datos sobre un conjunto de características personales de los líderes en la muestra de este estudio. Esta base de datos ha sido construida para ser empleada en un trabajo de iqnvestigación paralelo al presente estudio \cite{LeaderChar2016}. Esta base reúne información de características personales, familiares y profesionales de los líderes tales como lugar de nacimiento (rural o urbano), ingreso familiar durante la infancia, nivel educacional alcanzado, religión, tendencia política, profesión, etc.
 
-La Tabla \ref{fig:cinco_educ_pol} muestra los resultados obtenidos al usar los Cinco Grandes para explicar otras características personales de los líderes en la muestra. 
+Para examinar como se relacionan los Cinco Grandes con otras características personales de los líderes en la muestra, se usan los siguientes modelos:
+\begin{enumerate}
+	\item Si la variable $Y$ corresponde a educación, entonces se usa un modelo de regresión lineal,
+\begin{eqnarray}
+\label{eq:other_chars}
+\begin{split}
+Y =& \alpha^TX + \beta+ \epsilon,
+\end{split}
+\end{eqnarray}
+donde el vector $X$ incluye los Cinco Grandes, es decir, $$X=[\text{Extaversión, Responsabilidad, Amabilidad, Apertura, Inestabilidad emocional}]^T.$$
+\item Si la variable $Y$ corresponde una de las siguientes variables binarias: derecha, izquierda, casado y demandas, entonces se usa un modelo probit,
+\begin{eqnarray}
+\label{eq:other_chars2}
+\begin{split}
+\mathds{P}(Y=1|X)= \mathds{P}(\alpha^TX+\beta + \epsilon>0),
+\end{split}
+\end{eqnarray}
+donde $X$ se define como en el caso anterior.
+\end{enumerate}
 
 \begin{table}[h]
 	\resizebox{\textwidth}{!}{
@@ -1221,7 +1259,7 @@ La Tabla \ref{fig:cinco_educ_pol} muestra los resultados obtenidos al usar los C
 			\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 			\begin{threeparttable}
 				\caption{Los Cinco Grandes y otras características personales}
-				\label{fig:cinco_educ_pol}
+				\label{tab:cinco_educ_pol}
 				\begin{tabular}{lSSSSS}
 					\hline \hline
 					&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
@@ -1245,14 +1283,15 @@ La Tabla \ref{fig:cinco_educ_pol} muestra los resultados obtenidos al usar los C
 					\hline \hline
 				\end{tabular}
 				\begin{tablenotes}
-					\footnotesize{Notas: TO DO.}
+					\footnotesize{Notas: La columna 1 muestra los resultados obtenidos al estimar (\ref{eq:other_chars}) usando educación como variable dependiente. En las columnas 2,3,4 y 5, se muestran los resultados obtenidos al estimar (\ref{eq:other_chars2}) usando  derecha, izquierda, casado y demandas como variable dependiente, respectivamente.
+						 Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 				\end{tablenotes}
 			\end{threeparttable}
 		}
 	}
 \end{table}
 
-La columna (1) muestra la relación entre los Cinco Grandes y el nivel educacional alcanzando por los líderes. Se observa que el único factor que tiene un efecto estadísticamente significativo es responsabilidad. Este resultado es consistente con lo que indica la literatura. En efecto, \citeA{o2007big} señalan que el factor responsabilidad en particular es el más fuerte y consistentemente asociado a éxito académico. Además, en múltiples estudios este factor ha sido usado para predecir logros académicos \cite{Noftle2007,de1996personality} y alcance educacional \cite{Shiner2002}.   
+Los resultados obtenidos al estimar estos modelos se muestran en la tabla \ref{tab:cinco_educ_pol}. La columna (1) muestra la relación entre los Cinco Grandes y el nivel educacional alcanzando por los líderes. Se observa que el único factor que tiene un efecto estadísticamente significativo es responsabilidad. Este resultado es consistente con lo que indica la literatura. En efecto, \citeA{o2007big} señalan que el factor responsabilidad en particular es el más fuerte y consistentemente asociado a éxito académico. Además, en múltiples estudios este factor ha sido usado para predecir logros académicos \cite{Noftle2007,de1996personality} y alcance educacional \cite{Shiner2002}.   
 
 Las columnas (2) y (3) muestran la relación entre los Cinco Grandes y la tendencia política del partido de los líderes. Los resultados de la columna (2) muestran que la pertenencia a un partido de derecha se relaciona positivamente con el factor responsabilidad y negativamente con el factor apertura al cambio. Para los otros factores de personalidad no se encontró un efecto estadísticamente significativo. Estos resultados van en la línea de otros trabajos que reportan una asociación entre conservadurismo y responsabilidad y entre liberalismo y apertura al cambio \cite{Carney2008,Gerber2010}. Por un lado, individuos con un alto grado de apertura al cambio tienen respuestas positivas ante nuevos estímulos, por lo que estos individuos responden más favorablemente a políticas sociales liberales. Por otro lado, individuos con alto grado de responsabilidad son más apegados al cumplimiento de las normas sociales, por lo que son más propensos a rechazar políticas sociales liberales \cite{Gerber2011}. Sin embargo, como se muestra en la columna (3), no se encontró una relación estadísticamente significativa entre los Cinco Grandes y el pertenecer a un partido de izquierda. 
 
@@ -1296,7 +1335,7 @@ En la Figura \ref{fig:extractos} se muestran dos extractos de discursos recolect
 Para verificar la robustez de los resultados se realiza un test placebo del modelo de regresión especificado en la sección \ref{sec:resultados}. Específicamente, se realiza la siguiente regresión:
 \begin{equation}
 \label{eq:reg_bf_rob}
-\overline{POST}_z -\overline{PRE}_z = \alpha X_{z+1} +\beta C_z + \epsilon_z.
+\overline{POST}_z -\overline{PRE}_z = \alpha X_{z+1} +\beta C_{z+1} + \epsilon_z.
 \end{equation}
 Esta vez, en vez de intentar explicar el cambio en el crecimiento del comercio internacional usando medidas de personalidad del líder saliente ($X_z$), ahora se usan medidas de personalidad del líder entrante $X_{z+1}$.
 
@@ -1314,35 +1353,37 @@ La tabla \ref{tab:suc} muestra los resultados obtenidos al estimar \ref{eq:reg_b
 				&\multicolumn{4}{c}{Crecimiento del comercio internacional}\\
 				&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
 				\midrule                                  
-				Extraversión  &       0.006         &                     &                     &       0.056         \\
-				&     (0.038)         &                     &                     &     (0.073)         \\
-				Responsabilidad&                     &      -0.013         &                     &      -0.049         \\
-				&                     &     (0.044)         &                     &     (0.091)         \\
-				Amabilidad &                     &                     &      -0.025         &      -0.036         \\
-				&                     &                     &     (0.057)         &     (0.084)         \\
-				PIB                 &       0.002         &       0.002         &       0.002         &       0.003         \\
+				Extraversión   &      -0.038         &                     &                     &      -0.024         \\
+				&     (0.048)         &                     &                     &     (0.072)         \\
+				Responsabilidad&                     &      -0.044         &                     &      -0.042         \\
+				&                     &     (0.053)         &                     &     (0.093)         \\
+				Amabilidad  &                     &                     &      -0.030         &       0.031         \\
+				&                     &                     &     (0.070)         &     (0.108)         \\
+				PIB                 &       0.002         &       0.002         &       0.002         &       0.002         \\
+				&     (0.004)         &     (0.004)         &     (0.004)         &     (0.004)         \\
+				Derecha             &      -0.003         &      -0.004         &       0.002         &      -0.007         \\
+				&     (0.045)         &     (0.045)         &     (0.046)         &     (0.049)         \\
+				Izquierda           &      -0.022         &      -0.019         &      -0.007         &      -0.026         \\
+				&     (0.054)         &     (0.052)         &     (0.050)         &     (0.057)         \\
+				Duración         &       0.001         &       0.000         &       0.000         &       0.001         \\
+				&     (0.002)         &     (0.002)         &     (0.002)         &     (0.002)         \\
+				Edad                &       0.000         &       0.000         &       0.000         &       0.001         \\
+				&     (0.002)         &     (0.001)         &     (0.001)         &     (0.002)         \\
+				Año                 &       0.000         &      -0.000         &      -0.000         &       0.000         \\
+				&     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
+				Educación           &      -0.006         &      -0.005         &      -0.007         &      -0.004         \\
+				&     (0.013)         &     (0.013)         &     (0.014)         &     (0.015)         \\
+				Polity Index       &       0.000         &       0.000         &      -0.000         &       0.001         \\
 				&     (0.003)         &     (0.003)         &     (0.003)         &     (0.003)         \\
-				Derecha             &      -0.098\sym{**} &      -0.093\sym{**} &      -0.094\sym{**} &      -0.095\sym{**} \\
-				&     (0.041)         &     (0.041)         &     (0.040)         &     (0.043)         \\
-				Izquierda           &      -0.021         &      -0.022         &      -0.021         &      -0.013         \\
-				&     (0.041)         &     (0.040)         &     (0.040)         &     (0.043)         \\
-				Edad                &       0.001         &       0.001         &       0.001         &       0.000         \\
-				&     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
-				Duración            &      -0.002         &      -0.002\sym{*}  &      -0.002         &      -0.002         \\
-				&     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
-				Año                &      -0.001         &      -0.001         &      -0.001         &      -0.001         \\
-				&     (0.001)         &     (0.001)         &     (0.001)         &     (0.001)         \\
-				Educación           &      -0.007         &      -0.008         &      -0.008         &      -0.008         \\
-				&     (0.012)         &     (0.012)         &     (0.012)         &     (0.012)         \\
-				Constante            &       1.357         &       1.214         &       1.264         &       2.065         \\
-				&     (1.961)         &     (1.855)         &     (1.844)         &     (2.175)         \\
+				Constante            &       0.067         &       0.558         &       0.843         &       0.053         \\
+				&     (2.483)         &     (2.324)         &     (2.337)         &     (2.744)         \\
 				\midrule
-				R-squared           &       0.318         &       0.320         &       0.323         &       0.342         \\
+				R-squared           &       0.072         &       0.074         &       0.053         &       0.081         \\
 				N                   &          32         &          32         &          32         &          32         \\
 				\bottomrule\bottomrule
 			\end{tabular}
 			\begin{tablenotes}
-				\footnotesize{Notas: TO DO.}
+				\footnotesize{Notas: Resultados de la regresión (\ref{eq:reg_bf_rob}) para estimar el efecto de los factores extraversión, responsabilidad y amabilidad de los líderes salientes sobre el comercio internacional. Significancia al 10\%, 5\% y 1\% es indicada por \sym{*}, \sym{**}, \sym{***} respectivamente.}
 			\end{tablenotes}
 		\end{threeparttable}
 		%}

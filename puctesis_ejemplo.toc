@@ -30,11 +30,11 @@
 \contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{28}{subsection.3.2.4}
 \contentsline {section}{\tocsection {}{3.3}{Resultados}}{32}{section.3.3}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{32}{subsection.3.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{36}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{37}{subsection.3.3.2}
 \contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{42}{section.3.4}
 \contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{42}{subsection.3.4.1}
-\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{43}{subsection.3.4.2}
-\contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{46}{subsection.3.4.3}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{48}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{49}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{66}{chapter.1}
+\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{44}{subsection.3.4.2}
+\contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{47}{subsection.3.4.3}
+\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{49}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{50}{chapter.4}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{67}{chapter.1}

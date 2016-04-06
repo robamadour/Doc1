@@ -974,6 +974,34 @@ Dahlen, E\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dahllof%
+}{%
+Dahllof%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Dahllf2012}
+\APACinsertmetastar {%
+Dahllf2012}%
+\begin{APACrefauthors}%
+Dahllof, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Automatic prediction of gender, political affiliation,
+  and age in Swedish politicians from the wording of their speeches-A
+  comparative study of classifiability}} {{Automatic prediction of gender,
+  political affiliation, and age in Swedish politicians from the wording of
+  their speeches-A comparative study of classifiability}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Literary and Linguistic Computing}{27}{2}{139--153}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/llc/fqs010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Daly%
 , Harmon%
 \BCBL {}\ \BBA {} Delaney%
@@ -1121,6 +1149,37 @@ DeYoung, C\BPBI G.%
 
 \bibitem [\protect \citeauthoryear {%
 Diermeier%
+, Godbout%
+, Yu%
+\BCBL {}\ \BBA {} Kaufmann%
+}{%
+Diermeier%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Diermeier2012}
+\APACinsertmetastar {%
+Diermeier2012}%
+\begin{APACrefauthors}%
+Diermeier, D.%
+, Godbout, J\BHBI F.%
+, Yu, B.%
+\BCBL {}\ \BBA {} Kaufmann, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Language and Ideology in Congress}} {{Language and
+  Ideology in Congress}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British Journal of Political Science}{42}{01}{31--55}.
+\newblock
+\begin{APACrefDOI} \doi{10.1017/S0007123411000160} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Diermeier%
 , KEANE%
 \BCBL {}\ \BBA {} MERLO%
 }{%
@@ -1144,6 +1203,41 @@ Diermeier, D.%
   political economy model of congressional careers}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The American economic review}{95}{1}{347--373}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dohmen%
+, Falk%
+, Huffman%
+\BCBL {}\ \BBA {} Sunde%
+}{%
+Dohmen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+DOHMEN2008}
+\APACinsertmetastar {%
+DOHMEN2008}%
+\begin{APACrefauthors}%
+Dohmen, T.%
+, Falk, A.%
+, Huffman, D.%
+\BCBL {}\ \BBA {} Sunde, U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Representative Trust and Reciprocity: Prevalence and
+  Determinants}} {{Representative Trust and Reciprocity: Prevalence and
+  Determinants}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Economic Inquiry}{46}{1}{84--90}.
+\newblock
+\begin{APACrefURL} \url{http://doi.wiley.com/10.1111/j.1465-7295.2007.00082.x}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1465-7295.2007.00082.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1404,6 +1498,54 @@ Easterly, W.%
   {Africa's growth tragedy: policies and ethnic divisions}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Quarterly Journal of Economics}{}{}{1203--1250}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Einhorn%
+}{%
+Einhorn%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+einhorn1982ghosts}
+\APACinsertmetastar {%
+einhorn1982ghosts}%
+\begin{APACrefauthors}%
+Einhorn, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The ghosts unmasked: A review of literature on
+  speechwriting} {The ghosts unmasked: A review of literature on
+  speechwriting}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Communication Quarterly}{30}{1}{41--47}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Einhorn%
+}{%
+Einhorn%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+einhorn1988ghosts}
+\APACinsertmetastar {%
+einhorn1988ghosts}%
+\begin{APACrefauthors}%
+Einhorn, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The ghosts talk: Personal interviews with three former
+  speechwriters} {The ghosts talk: Personal interviews with three former
+  speechwriters}.{\BBCQ}
+\newblock
+
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2179,6 +2321,39 @@ Keefer, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Laver%
+\ \protect \BOthers {.}}{%
+Laver%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Laver2016}
+\APACinsertmetastar {%
+Laver2016}%
+\begin{APACrefauthors}%
+Laver, M.%
+, Benoit, K.%
+, Garry, J.%
+, The, S.%
+, Political, A.%
+, Review, S.%
+\BDBL {}College, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Extracting Policy Positions from Political Texts Using
+  Words as Data Published by : American Political Science Association
+  Extracting Policy Positions from Political Texts Using Words as Data}}
+  {{Extracting Policy Positions from Political Texts Using Words as Data
+  Published by : American Political Science Association Extracting Policy
+  Positions from Political Texts Using Words as Data}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{97}{2}{311--331}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Li%
 \ \BBA {} Chignell%
 }{%
@@ -2789,6 +2964,38 @@ Saucier, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Schafer%
+\ \BBA {} Crichlow%
+}{%
+Schafer%
+\ \BBA {} Crichlow%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Schafer2000}
+\APACinsertmetastar {%
+Schafer2000}%
+\begin{APACrefauthors}%
+Schafer, M.%
+\BCBT {}\ \BBA {} Crichlow, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Bill Clinton's Operational Code: Assessing Source
+  Material Bias}} {{Bill Clinton's Operational Code: Assessing Source Material
+  Bias}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Political Psychology}{21}{3}{559--571}.
+\newblock
+\begin{APACrefURL} \url{http://doi.wiley.com/10.1111/0162-895X.00204}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1111/0162-895X.00204} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Schneider%
 \ \BBA {} Frey%
 }{%
@@ -3359,6 +3566,36 @@ Young, M\BPBI D.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.2307/254444} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+, Kaufmann%
+\BCBL {}\ \BBA {} Diermeier%
+}{%
+Yu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Yu2008}
+\APACinsertmetastar {%
+Yu2008}%
+\begin{APACrefauthors}%
+Yu, B.%
+, Kaufmann, S.%
+\BCBL {}\ \BBA {} Diermeier, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Classifying Party Affiliation from Political Speech}}
+  {{Classifying Party Affiliation from Political Speech}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Information Technology {\&}
+  Politics}{5}{1}{33--48}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/19331680802149608} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

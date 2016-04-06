@@ -22,18 +22,20 @@
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Extraversi\'on}}{23}{subsection.3.1.2}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Responsabilidad}}{24}{subsection.3.1.2}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{Amabilidad}}{25}{subsection.3.1.2}
+\contentsline {subsection}{\tocsubsection {}{}{Apertura al cambio}}{26}{subsection.3.1.2}
+\contentsline {subsection}{\tocsubsection {}{}{Inestabilidad emocional}}{26}{subsection.3.1.2}
 \contentsline {section}{\tocsection {}{3.2}{Midiendo los Cinco Grandes}}{26}{section.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{26}{subsection.3.2.1}
-\contentsline {subsection}{\tocsubsection {}{3.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{27}{subsection.3.2.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.3}{Una posible objeci\'on}}{29}{subsection.3.2.3}
-\contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{30}{subsection.3.2.4}
-\contentsline {section}{\tocsection {}{3.3}{Resultados}}{34}{section.3.3}
-\contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{34}{subsection.3.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{39}{subsection.3.3.2}
-\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{44}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{44}{subsection.3.4.1}
-\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{47}{subsection.3.4.2}
-\contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{50}{subsection.3.4.3}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{52}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{53}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{70}{chapter.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{27}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{28}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.3}{Dos posibles objeciones}}{30}{subsection.3.2.3}
+\contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{31}{subsection.3.2.4}
+\contentsline {section}{\tocsection {}{3.3}{Resultados}}{35}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{35}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{41}{subsection.3.3.2}
+\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{45}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{45}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{48}{subsection.3.4.2}
+\contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{51}{subsection.3.4.3}
+\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{53}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{54}{chapter.4}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{72}{chapter.1}

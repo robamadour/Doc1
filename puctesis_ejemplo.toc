@@ -28,7 +28,7 @@
 \contentsline {section}{\tocsection {}{3.2}{Midiendo los Cinco Grandes}}{26}{section.3.2}
 \contentsline {subsection}{\tocsubsection {}{3.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{27}{subsection.3.2.1}
 \contentsline {subsection}{\tocsubsection {}{3.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{28}{subsection.3.2.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.3}{Dos posibles objeciones}}{30}{subsection.3.2.3}
+\contentsline {subsection}{\tocsubsection {}{3.2.3}{Dos posibles objeciones}}{31}{subsection.3.2.3}
 \contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{32}{subsection.3.2.4}
 \contentsline {section}{\tocsection {}{3.3}{Resultados}}{36}{section.3.3}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{36}{subsection.3.3.1}
@@ -38,5 +38,5 @@
 \contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{49}{subsection.3.4.2}
 \contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{52}{subsection.3.4.3}
 \contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{55}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{56}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{73}{chapter.1}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{57}{chapter.4}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{74}{chapter.1}

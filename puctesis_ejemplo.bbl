@@ -30,10 +30,6 @@ Acemoglu, D.%
 \newblock
 \APACaddressPublisher{}{Elsevier}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/S1574068405010063}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/S1574-0684(05)01006-3}
   \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -179,10 +175,6 @@ Anderson, J.%
   economic behavior}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Working Paper}{2}{}{1--46}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.cogsci.umn.edu/colloquia/colloquia{\_}S11/Aldo
-  Rustichini.pdf} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -211,9 +203,6 @@ Azman-Saini, W\BPBI N\BPBI W.%
   financial markets}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Economics Letters}{107}{2}{211--213}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.econlet.2010.01.027}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.econlet.2010.01.027} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -273,9 +262,6 @@ Baier, S\BPBI L.%
   econometrics}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of International Economics}{77}{1}{63--76}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.jinteco.2008.09.006}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.jinteco.2008.09.006} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -406,8 +392,6 @@ Behling, O.%
 \newblock
 \APACjournalVolNumPages{The Academy of Management Executive
   (1993-2005)}{12}{1}{77--86}.
-\newblock
-\begin{APACrefURL} \url{http://www.jstor.org/stable/4165443} \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.5465/AME.1998.254980} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -877,10 +861,6 @@ Crichlow, S.%
 \newblock
 \APACjournalVolNumPages{Journal of Conflict Resolution}{46}{5}{693--711}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.voxeurop.eu/nl/content/article/4015361-vrijhandelszone-de-voors-en-tegens}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1177/002200202236170} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -906,10 +886,6 @@ Crichlow, S.%
   the Policy Choices of Secretaries of State and Foreign Ministers}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cooperation and Conflict}{40}{2}{179--205}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-30444454539{\&}partnerID=tZOtx3y1}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0010836705047583} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -1029,8 +1005,6 @@ Daly, M.%
 \APACjournalVolNumPages{Journal of the European Economic
   Association}{7}{2-3}{659--669}.
 \newblock
-\begin{APACrefURL} \url{<Go to ISI>://000265366000031} \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1162/JEEA.2009.7.2-3.659} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1057,10 +1031,32 @@ Dawson, J\BPBI W.%
 \newblock
 \APACjournalVolNumPages{Economic Inquiry}{36}{4}{603--619}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1111/j.1465-7295.1998.tb01739.x}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/j.1465-7295.1998.tb01739.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{De Raad}%
+}{%
+{De Raad}%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+DeRaad1998}
+\APACinsertmetastar {%
+DeRaad1998}%
+\begin{APACrefauthors}%
+{De Raad}, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Five Big, Big Five Issues}} {{Five Big, Big Five
+  Issues}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Psychologist}{3}{2}{113--124}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/1016-9040.3.2.113} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1140,9 +1136,6 @@ DeYoung, C\BPBI G.%
   neuroscience. Brain structure and the big five}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Psychol Sci}{21}{6}{820--828}.
-\newblock
-\begin{APACrefURL} \url{http://www.ncbi.nlm.nih.gov/pubmed/20435951}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0956797610370159} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -1234,9 +1227,6 @@ Dohmen, T.%
 \newblock
 \APACjournalVolNumPages{Economic Inquiry}{46}{1}{84--90}.
 \newblock
-\begin{APACrefURL} \url{http://doi.wiley.com/10.1111/j.1465-7295.2007.00082.x}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/j.1465-7295.2007.00082.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1264,10 +1254,6 @@ Dollar, D.%
   and growth}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Monetary Economics}{50}{1}{133 - 162}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/S0304393202002064}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/S0304-3932(02)00206-4}
   \end{APACrefDOI}
@@ -1359,10 +1345,6 @@ Dreher, A.%
 \newblock
 \APACjournalVolNumPages{Journal of Comparative Economics}{37}{1}{169 - 193}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/S0147596708000693}
-  \end{APACrefURL}
-\newblock
 \APACrefnote{Symposium: Labor Regulation In Developing CountriesSymposium:
   Labor Regulation In Developing Countries}
 \newblock
@@ -1432,9 +1414,6 @@ Dudley, N\BPBI M.%
 \newblock
 \APACjournalVolNumPages{The Journal of applied psychology}{91}{1}{40--57}.
 \newblock
-\begin{APACrefURL} \url{http://www.ncbi.nlm.nih.gov/pubmed/16435937}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1037/0021-9010.91.1.40} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1465,10 +1444,6 @@ Easterly, W.%
   luck?}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Monetary Economics}{32}{3}{459 - 483}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/030439329390026C}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/0304-3932(93)90026-C}
   \end{APACrefDOI}
@@ -1744,10 +1719,6 @@ Gerber, A\BPBI S.%
 \newblock
 \APACjournalVolNumPages{American Political Science Review}{104}{01}{111}.
 \newblock
-\begin{APACrefURL}
-  \url{http://journals.cambridge.org/action/displayFulltext?type=6{\&}fid=7449476{\&}jid=PSR{\&}volumeId=104{\&}issueId=01{\&}aid=7449472{\&}bodyId={\&}membershipNumber={\&}societyETOCSession={\&}fulltextType=RA{\&}fileId=S0003055410000031{\#}rfh1}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1017/S0003055410000031} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1870,10 +1841,6 @@ Golbeck, J.%
 \APACjournalVolNumPages{Proceedings of the 2011 annual conference extended
   abstracts on Human factors in computing systems - CHI EA '11}{}{}{253}.
 \newblock
-\begin{APACrefURL}
-  \url{http://portal.acm.org/citation.cfm?doid=1979742.1979614}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1145/1979742.1979614} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -1930,8 +1897,6 @@ Grossman, G\BPBI M.%
 \newblock
 \APACjournalVolNumPages{National Bureau of Economic Research Working Paper
   Series}{No. 3914}{3914}{1--57}.
-\newblock
-\begin{APACrefURL} \url{http://www.nber.org/papers/w3914} \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.3386/w3914} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2008,9 +1973,6 @@ Hermann, M\BPBI G.%
   Using the Personal Characteristics of Political Leaders}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Studies Quarterly}{24}{1}{7--46}.
-\newblock
-\begin{APACrefURL} \url{http://www.jstor.org/stable/2600126?origin=crossref}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.2307/2600126} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2263,9 +2225,6 @@ Karim, N\BPBI S\BPBI A.%
 \newblock
 \APACjournalVolNumPages{Computers and Education}{53}{1}{86--93}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.compedu.2009.01.001}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1016/j.compedu.2009.01.001} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2495,9 +2454,6 @@ Malouff, J\BPBI M.%
 \newblock
 \APACjournalVolNumPages{Journal of Research in Personality}{44}{1}{124--127}.
 \newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.jrp.2009.09.004}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1016/j.jrp.2009.09.004} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2577,10 +2533,6 @@ McDougall, W.%
   Character and Personality}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Personality}{1}{}{3--16}.
-\newblock
-\begin{APACrefURL}
-  \url{http://doi.wiley.com/10.1111/j.1467-6494.1932.tb02209.x}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1111/j.1467-6494.1932.tb02209.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2673,10 +2625,6 @@ Noftle, E\BPBI E.%
 \APACjournalVolNumPages{Journal of Personality and Social
   Psychology}{93}{1}{116--130}.
 \newblock
-\begin{APACrefURL}
-  \url{http://doi.apa.org/getdoi.cfm?doi=10.1037/0022-3514.93.1.116}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1037/0022-3514.93.1.116} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2761,10 +2709,6 @@ Pearce-McCall, D.%
 \APACjournalVolNumPages{Journal of Personality and Social
   Psychology}{50}{2}{439--446}.
 \newblock
-\begin{APACrefURL}
-  \url{10.1037/0022-3514.50.2.439$\backslash$nhttp://proxy.cityu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true{\&}db=psyh{\&}AN=1986-14512-001{\&}site=ehost-live}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1037/0022-3514.50.2.439} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2846,9 +2790,6 @@ Rodriguez, F.%
   Cross-National Evidence}} {{Trade Policy and Economic Growth: A Skeptic's
   Guide to the Cross-National Evidence}}\ (\BVOL~15)\ (\BNUM\ January).
 \newblock
-\begin{APACrefURL} \url{http://ideas.repec.org/h/nbr/nberch/11058.html}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{doi:10.1086/654419} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -2875,8 +2816,6 @@ Rodrik, D.%
 \newblock
 \APACjournalVolNumPages{Studies in Comparative International
   Development}{35}{3}{3--31}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/BF02699764} \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/BF02699764} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -2989,9 +2928,6 @@ Schafer, M.%
 \newblock
 \APACjournalVolNumPages{Political Psychology}{21}{3}{559--571}.
 \newblock
-\begin{APACrefURL} \url{http://doi.wiley.com/10.1111/0162-895X.00204}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1111/0162-895X.00204} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -3020,10 +2956,6 @@ Schneider, F.%
   investment}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{World Development}{13}{2}{161--175}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/0305750X85900026}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/0305-750X(85)90002-6} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3081,9 +3013,6 @@ Sharpe, J\BPBI P.%
 \newblock
 \APACjournalVolNumPages{Personality and Individual
   Differences}{51}{8}{946--951}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.paid.2011.07.033}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.paid.2011.07.033} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3228,10 +3157,6 @@ Soldz, S.%
 \newblock
 \APACjournalVolNumPages{Journal of Research in Personality}{33}{2}{208--232}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.sciencedirect.com/science/article/pii/S0092656699922432}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1006/jrpe.1999.2243} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -3281,10 +3206,6 @@ Tupes, E\BPBI C.%
   {{Recurrent Personality Factors Based on Trait Ratings}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Personality}{60}{2}{225--251}.
-\newblock
-\begin{APACrefURL}
-  \url{https://ejwl.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true{\&}db=sih{\&}AN=9208170745{\&}site=ehost-live}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1111/j.1467-6494.1992.tb00973.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3364,9 +3285,6 @@ Voller, E\BPBI K.%
   {{Sexual Assault and Rape Perpetration by College Men}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Interpersonal Violence}{25}{3}{457--480}.
-\newblock
-\begin{APACrefURL} \url{http://jiv.sagepub.com/content/25/3/457.abstract}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0886260509334390} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -3560,10 +3478,6 @@ Young, M\BPBI D.%
   of Assessing Cognition in International Relations}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Mershon International Studies Review}{42}{1}{63--96}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.jstor.org/stable/254444$\backslash$nhttp://www.jstor.org.ubproxy.ub.uni-frankfurt.de/stable/pdfplus/254444.pdf?acceptTC=true}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.2307/254444} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}

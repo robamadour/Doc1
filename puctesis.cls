@@ -927,7 +927,7 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{%
       \noindent
-      Memoria presentada a la Comisión integrada por los profesores:\\
+      Memoria presentada a la Comisi\'on integrada por los profesores:\\
       {\normalsize
       \ifx\@empty\@advisor {.........}\\\else{\uppercase\@advisor}\\\fi
       \ifx\@empty\@committeememberA {.........}\\\else{\uppercase\@committeememberA}\\\fi
@@ -948,7 +948,7 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
       \noindent
-      Para completar las exigencias del título de\\
+      Para completar las exigencias del t\'itulo de\\
       \ifx\@empty\@degree {.........}\else\@degree\fi}%end parbox
       }%end centering
     }

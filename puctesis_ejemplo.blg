@@ -2,17 +2,21 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: puctesis_ejemplo.aux
 The style file: apacite.bst
 Database file #1: abbrev.bib
 Database file #2: puctesis_refs.bib
-Repeated entry---line 570 of file puctesis_refs.bib
+Repeated entry---line 566 of file puctesis_refs.bib
  : @article{Gerber2011
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1278 of file puctesis_refs.bib
+Repeated entry---line 1250 of file puctesis_refs.bib
  : @book{berg2003trade
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1322 of file puctesis_refs.bib
+Repeated entry---line 1293 of file puctesis_refs.bib
  : @article{Johnston2013
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1548 of file puctesis_refs.bib
+ : @article{polity2012polity
+ :                          ,
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in alesina2015old
@@ -22,4 +26,4 @@ Warning--No journal in einhorn1988ghosts
 Warning--No journal in keefer2005database
 Warning--No journal in Laver2016
 Warning--No address in washington2006female
-(There were 3 error messages)
+(There were 4 error messages)

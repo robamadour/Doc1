@@ -669,7 +669,7 @@ El factor amabilidad ha sido asociado consistentemente con la disposición de líd
 
 \noindent\textbf{Hipótesis 4.}\label{hyp4} \textit{El comercio internacional crece más durante el mandato de líderes más amables.} 
 
-\subsection*{Apertura al cambio}
+\subsubsection*{Apertura al cambio}
 
 Las personas más abiertas al cambio se caracterizan predominantemente por la búsqueda de nuevas experiencias y por un nivel elevado de curiosidad intelectual \cite{John2008}. Si bien estas características no se relacionan directamente con preferencias sobre el comercio internacional,  resultados en la literatura sugieren que, al igual que los individuos más amables, los más abiertos al cambio son más proclives a confiar y cooperar con otros. \citeA{DOHMEN2008} muestran que existe una relación positiva entre el factor apertura al cambio y cuánto un individuo confía en otras personas. Para el factor amabilidad se encuentra una relación similar, pero de mayor magnitud. Similarmente, en \cite{Schoen2007} se muestra que personas con mayores niveles en los factores amabilidad y apertura al cambio apoyan en mayor medida la cooperación internacional. En consecuencia, cabe esperar una relación positiva entre la disposición a comerciar con otros países y el factor apertura al cambio, lo cual se enuncia en la siguiente hipótesis:  
 \vspace{.5cm}
@@ -677,7 +677,7 @@ Las personas más abiertas al cambio se caracterizan predominantemente por la bús
 \noindent\textbf{Hipótesis 5.}\label{hyp5} \textit{El comercio internacional crece más durante el mandato de líderes más abiertos al cambio.} 
 
 
-\subsection*{Inestabilidad emocional}
+\subsubsection*{Inestabilidad emocional}
 
 A diferencia de los casos anteriores, no se encontró evidencia suficiente para elaborar una hipótesis sobre la relación entre el factor inestabilidad emocional y el comercio emocional. Si bien \citeA{DOHMEN2008} reportan una relación negativa entre la inestabilidad emocional y la confianza en otras personas, lo cual sugiere que líderes más inestables son más aversos a promover la cooperación internacional, no se encontraron otros resultados que apoyen esta idea. 
 
@@ -712,7 +712,27 @@ En base a los resultados experimentales expuestos, el uso de modelos de predicci
 		\end{minipage}
 \end{figure}
 
-Para cada líder con salida aleatoria y su respectivo sucesor se recolectaron textos de discursos pronunciados durante sus vidas. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos.
+Para cada líder con salida aleatoria y su respectivo sucesor se recolectaron textos de discursos pronunciados durante sus vidas. Además se usaron cartas, extractos de libros y transcripciones de entrevistas cuando no había suficiente texto proveniente de discursos. Se buscaron textos en inglés o en español puesto que la herramienta de predicción de la personalidad permite analizar textos en solo estos dos idiomas\footnote{Más específicamente, esta herramienta utiliza diccionarios para clasificar las palabras presentes en los textos y solo los diccionarios español e inglés se encuentran disponibles.}. Para cada líder se buscaron discursos hasta recolectar 15, siempre que fuese posible, pues con este número de discursos se asegura que existe un número de palabras por líder más que suficiente para estimar su personalidad\footnote{Los modelos estadísticos de predicción de la personalidad desarrollados en \cite{Mairesse2007} fueron entrenados usando textos de 650 palabras en promedio.}. Se determinó mantener solo aquellos líderes en la muestra para los cuales se tiene un número de palabras mayor o igual a 800. La tabla \ref{tab:speeches} muestra un resumen del conjunto de textos encontrados. En total se encontraron 1888 discursos para 197 líderes (entre salientes y sucesores), lo que da un número promedio de palabras por líder cercano a 14 mil.
+
+ 
+\begin{table}[H]\centering \caption{Estadísticas de los discursos encontrados\label{tab:speeches}}
+	\resizebox{\textwidth}{!}{
+		\begin{threeparttable}
+			\begin{tabular}{lccccc}
+				\toprule\toprule
+				& Número de líderes & \begin{tabular}[c]{@{}c@{}}Número total\\ de discursos\end{tabular} & \begin{tabular}[c]{@{}c@{}}Discursos por líder\\ promedio\end{tabular} & \begin{tabular}[c]{@{}c@{}}Palabras por líder\\ promedio\end{tabular} & \% de discursos \\ \midrule
+				Inglés & 169 & 1658 & 9.81 & 14752 & 78\% \\
+				Español & 28 & 230 & 8.21 & 14793 & 77\% \\ \midrule
+				Total & 197 & 1888 & 9.58 & 14758 & 78\% \\ \bottomrule \bottomrule
+			\end{tabular}			
+			\begin{tablenotes}
+				\footnotesize{Notas: La última columna indica el porcentaje de los textos que corresponden efectivamente a discursos. El resto de los textos está conformado por extractos de entrevistas, extractos de libros y cartas.}
+			\end{tablenotes}
+		\end{threeparttable}
+	}
+\end{table}
+
+
 
 Luego, se evaluó el contenido de los discursos usando el inventario de palabras Linguistic Inquiry and Word Count (LIWC) \cite{Pennebaker1999}. Esta herramienta genera estadísticas sobre más de 70 categorías léxicas, que a su vez pueden ser  agrupadas en cinco grupos. Estos grupos incluyen Conteos Estándar (conteo de palabras, palabras por oración, palabras de más de 6 letras, etc.), Procesos Psicológicos (procesos afectivos, emociones positivas, emociones negativas, etc.), Relatividad (tiempo, verbos en pasado, espacio, movimiento, etc.), Asuntos Personales (ocupación, ocio, dinero, religión, etc.) y Otras Dimensiones (puntuación, signos de exclamación, palabras obscenas, etc.).
 

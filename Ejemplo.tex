@@ -1,0 +1,316 @@
+%
+% Ejemplo con el formato para un trabajo de título
+% de la Escuela de Ingeniería de la Universidad de Chile
+%
+% Fecha: 30 de Mayo de 2003
+%
+\documentclass[12pt,oneside,letterpaper]{report}
+\usepackage[spanish]{babel}
+\usepackage[ansinew]{inputenc}
+\usepackage[dvips]{graphicx}
+\usepackage[right=2cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry}
+
+%-------------------------------------------------------------------------
+%definición de comandos
+
+\newcommand{\dotrule}[1]{\parbox[t]{#1}{\dotfill}}
+
+%para código fuente
+\newenvironment{codigoenv}
+{\fontsize{10pt}{12pt} \linespread{1}} { \normalsize}
+
+%para las imagenes
+\newenvironment{figuraenv}
+{\begin{figure}[htb]\begin{center}} {\end{center}\end{figure}}
+
+
+\newcommand{\df}[2]{\textit{#1 (#2)}} %definicion de termino y sigla
+\newcommand{\cls}[1]{\mbox{\textit{#1}}} %nombre de clase o paquete o código
+\newcommand{\trm}[1]{\textit{#1}} %termino tecnico o en ingles
+\newcommand{\cod}[1]{\texttt{\footnotesize #1}} %codigo fuente
+
+%-------------------------------------------------------------------------
+
+
+\linespread{1}
+\setlength{\parskip}{1\baselineskip}
+\parindent 1cm
+\sloppy
+
+
+%-------------------------------------------------------------------------
+
+\begin{document}
+
+%-------------------------------------------------------------------------
+\thispagestyle{empty}
+\begin{center}
+
+UNIVERSIDAD DE CHILE\\
+FACULTAD DE CIENCIAS FÍSICAS Y MATEMÁTICAS\\
+DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN\\
+
+\vspace{5cm}
+
+INVESTIGACIÓN DE LA PLATAFORMA J2EE Y SU APLICACIÓN PRÁCTICA
+
+\vspace{5cm}
+
+JUAN MANUEL BARRIOS NÚÑEZ
+
+\vfill
+
+2003
+\end{center}
+
+%-------------------------------------------------------------------------
+\newpage
+\thispagestyle{empty}
+
+\begin{center}
+UNIVERSIDAD DE CHILE\\
+FACULTAD DE CIENCIAS FÍSICAS Y MATEMÁTICAS\\
+DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN
+
+\vskip 1cm
+
+INVESTIGACIÓN DE LA PLATAFORMA J2EE Y SU APLICACIÓN PRÁCTICA
+
+\vskip 1cm
+
+JUAN MANUEL BARRIOS NÚÑEZ
+
+\vskip 1.8cm
+
+\end{center}
+
+\begin{flushleft}
+\begin{tabular}{llccc}
+COMISIÓN EXAMINADORA & & \multicolumn{3}{l}{\hspace{1.8cm} CALIFICACIONES} \\
+& & \footnotesize{NOTA (n$^o$)} & \footnotesize{(Letras)} & \footnotesize{FIRMA} \\[.8cm]
+
+PROFESOR GUÍA \\
+SR. DIONISIO GONZÁLEZ & : & \dotrule{1.4cm} & \dotrule{2.8cm} & \dotrule{2.5cm} \\[.7cm]
+
+PROFESOR CO-GUÍA \\
+SR. PATRICIO INOSTROZA & : &  \dotrule{1.4cm} & \dotrule{2.8cm} & \dotrule{2.5cm} \\[.7cm]
+
+PROFESOR INTEGRANTE  \\
+SR. EDUARDO GODOY & : & \dotrule{1.4cm} & \dotrule{2.8cm} & \dotrule{2.5cm} \\[.7cm]
+
+\\
+NOTA FINAL EXAMEN DE TÍTULO & : &  \dotrule{1.4cm} & \dotrule{2.8cm} & \dotrule{2.5cm} \\
+
+\end{tabular}
+\end{flushleft}
+
+\vskip .5cm
+
+\begin{center}
+MEMORIA PARA OPTAR AL TÍTULO DE\\
+INGENIERO CIVIL EN COMPUTACIÓN
+
+\vfill
+
+SANTIAGO DE CHILE\\
+ENERO 2003
+
+\end{center}
+
+
+%-------------------------------------------------------------------------
+\newpage
+\thispagestyle{empty}
+
+\begin{flushright}
+\small
+\begin{tabular}{l}
+RESUMEN DE LA MEMORIA\\
+PARA OPTAR AL TÍTULO DE\\
+INGENIERO CIVIL EN COMPUTACIÓN\\
+POR: JUAN MANUEL BARRIOS NÚÑEZ\\
+FECHA: 30/05/2003\\
+PROF. GUÍA: SR. DIONISIO GONZÁLEZ\\
+\end{tabular}
+\end{flushright}
+
+\vskip .5cm
+
+\begin{center}
+INVESTIGACIÓN DE LA PLATAFORMA J2EE Y SU APLICACIÓN PRÁCTICA
+\end{center}
+
+\vskip 1cm
+
+%objetivos y justificación
+
+El presente trabajo tiene como objetivo adquirir conocimientos y
+experiencia teórica y práctica en el desarrollo de aplicaciones
+empresariales utilizando el modelo ``Java 2 Platform, Enterprise Edition''
+(J2EE). Este nuevo modelo ha tomado importancia por proponer una
+arquitectura para desarrollar e integrar sistemas de una empresa,
+definiendo un servidor de aplicaciones que consta de múltiples componentes
+y servicios. Efectuar un estudio concreto sobre sus capacidades y elaborar
+metodologías de utilización es un paso necesario que permite su aplicación
+correcta en proyectos reales.
+
+%metodología
+
+Para conseguir este objetivo, el trabajo fue dividido en una fase de
+investigación y en una fase de aplicación. En la fase de investigación se
+estudió la plataforma J2EE, sus tecnologías relacionadas y los patrones de
+diseño existentes para el desarrollo. En la fase de aplicación se
+utilizaron los conocimientos adquiridos para el desarrollo de un proyecto
+con el objetivo de encontrar una metodología de desarrollo para
+aplicaciones J2EE, obtener experiencia sobre las capacidades de esta
+plataforma y contar con un caso de estudio que permita apoyar el diseño y
+construcción de nuevos sistemas.
+
+%hipótesis, supuestos y resultados obtenidos
+
+El resultado final es un informe que reúne los conocimientos necesarios
+para el entendimiento de la plataforma J2EE, su servidor de aplicaciones y
+sus componentes, junto con la implementación de un sistema de registro de
+actividades como proyecto práctico. Con este proyecto se obtuvo una
+metodología para abordar el desarrollo de un sistema J2EE, cuatro patrones
+de diseño para solucionar problemas concretos en la implementación de un
+sistema, y un conjunto de evaluaciones y conclusiones sobre el uso y las
+capacidades de esta tecnología.
+
+%conclusiones y recomendaciones
+
+J2EE es una arquitectura que ha evolucionado rápidamente, para
+transformarse en una opción a ser considerada para efectuar el desarrollo
+de aplicaciones empresariales, sin embargo su utilización se ha visto
+retrasada por la falta de conocimientos reales en su desarrollo e
+implementación. Por esta razón se necesita generar conocimientos concretos
+que permitan apoyar su uso correcto en aplicaciones empresariales reales,
+crear nuevos casos de estudio y desarrollar nuevos patrones de diseño que
+aporten con experiencia práctica en su utilización.
+
+
+%-------------------------------------------------------------------------
+\newpage \pagenumbering{roman}
+\tableofcontents
+
+%-------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------
+\newpage
+\pagenumbering{arabic}
+\chapter{Presentación}
+
+\section{Introducción}
+
+Internet y sus servicios, particularmente la Web, tienen una gran
+importancia en el desarrollo de las empresas en la actualidad, siendo
+factores esenciales para la llamada \trm{Nueva Economía}.
+
+%-------------------------------------------------------------------------
+\newpage
+\chapter{Componentes de J2EE}
+
+
+%-------------------------------------------------------------------------
+\section{JavaServer Pages}
+
+\subsection{Sintaxis}
+
+\subsubsection{Programación}
+
+\begin{enumerate}
+\item
+Declaración. Su sintaxis es \mbox{\cod{<\%! ... \%>}}. Son utilizados para
+declarar variables y métodos para la página. El cuerpo de este elemento es
+traducido como instrucciones globales a la clase \cls{HttpJspPage}. Por
+ejemplo:
+
+\cod{<\%! int n; \%>}, declara una variable global a la página.
+
+\item
+Scriptlets. Su sintaxis es \cod{<\% ... \%>}. Pueden contener cualquier
+fragmento de código del lenguaje de programación de la página que haya
+sido declarado en la directiva \cls{page}. Los scriptlets se ejecutan en
+cada proceso de \trm{request} y pueden modificar objetos, declarar
+variables, llamar funciones o cualquier otra acción que proporcione el
+lenguaje. El cuerpo de este elemento es copiado al método
+\cls{\_jspService}.
+
+\item
+Expresiones. Su sintaxis es \cod{<\%= ... \%>}. Corresponde a una
+expresión del lenguaje de programación cuyo resultado es evaluado como un
+string y agregado a la respuesta. El cuerpo de este elemento es copiado al
+método \cls{\_jspService} dentro de una instrucción \cls{out.write()}. Por
+ejemplo:
+
+\cod{N es un número <\%=
+N>=0?\cod{"}positivo\cod{"}:\cod{"}negativo\cod{"}\%>}, escribe si N es
+positivo o negativo.
+
+\end{enumerate}
+
+%-------------------------------------------------------------------------
+\section{Enterprise JavaBeans}
+\label{sec:ejb}
+
+\subsection{Session Beans}
+
+\subsubsection{Implementación de session beans}
+
+La implementación de un session bean stateless o stateful está compuesta
+de al menos tres archivos diferentes: dos interfaces y una clase.
+
+\begin{codigoenv}
+\begin{verbatim}
+public interface Saludo extends javax.ejb.EJBObject {
+  public String hola() throws java.rmi.RemoteException;
+}
+\end{verbatim}
+\end{codigoenv}
+
+
+El diagrama de las clases e interfaces involucradas en el ejemplo se puede
+ver en la figura \ref{fig:simp}. Las clases e interfaces han sido
+divididas según quien las proporciona, en primer lugar se encuentran las
+interfaces de J2SE, luego las de J2EE y utilizando éstas se encuentran las
+creadas en el ejemplo. Las interfaces ahí definidas son implementadas por
+clases generadas automáticamente por el container que serán los objetos
+que obtendrá y ejecutará el cliente.
+
+\begin{figuraenv}
+%comentado para que compile sin la imagen
+%\includegraphics[scale=.7]{simp.eps}
+\caption{Diagrama de clases para session beans} \label{fig:simp}
+\end{figuraenv}
+
+
+
+%-------------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{ejemploBibtex}
+
+\nocite{ejb} \nocite{j2ee} \nocite{servlet} \nocite{jsp} \nocite{jndi}
+\nocite{connector} \nocite{jta} \nocite{jts} \nocite{jaxp}
+
+%\nocite{mastering} \nocite{ejbpatterns} \nocite{corepatterns}
+%\nocite{corejsp} \nocite{designing}
+
+%\nocite{jboss} \nocite{jbosscmp}
+
+%\nocite{tutorial}
+
+%\nocite{uml} \nocite{ensuring} \nocite{jdbc}
+
+
+%-------------------------------------------------------------------------
+\appendix
+\newpage
+\chapter{Códigos fuentes}
+
+En este apéndice se presentarán códigos fuentes mostrando la
+implementación de los patrones de diseño creados para la capa de EJB.
+
+
+%-------------------------------------------------------------------------
+\end{document}

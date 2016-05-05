@@ -5,38 +5,46 @@
 \contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{\es@scroman {ix}}{Doc-Start}
 \contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{\es@scroman {x}}{Doc-Start}
 \contentsline {chapter}{\tocchapter {}{1}{INTRODUCCI\'ON}}{1}{chapter.1}
-\contentsline {section}{\tocsection {}{1.1}{L\IeC {\'\i }deres y desarrollo}}{1}{section.1.1}
-\contentsline {section}{\tocsection {}{1.2}{L\IeC {\'\i }deres y comercio internacional}}{3}{section.1.2}
-\contentsline {section}{\tocsection {}{1.3}{\IeC {\textquestiondown }La personalidad importa?}}{4}{section.1.3}
-\contentsline {chapter}{\tocchapter {}{2}{COMERCIO INTERNACIONAL: \IeC {\textquestiondown }LOS L\'IDERES IMPORTAN?}}{7}{chapter.2}
-\contentsline {section}{\tocsection {}{2.1}{Descripci\'on del Modelo Econom\'etrico}}{8}{section.2.1}
-\contentsline {subsection}{\tocsubsection {}{2.1.1}{Implementaci\'on del test de Wald}}{12}{subsection.2.1.1}
-\contentsline {section}{\tocsection {}{2.2}{Datos}}{13}{section.2.2}
-\contentsline {subsection}{\tocsubsection {}{2.2.1}{Crecimiento del comercio internacional}}{13}{subsection.2.2.1}
-\contentsline {subsection}{\tocsubsection {}{2.2.2}{L\IeC {\'\i }deres en la muestra}}{14}{subsection.2.2.2}
-\contentsline {subsection}{\tocsubsection {}{2.2.3}{Caracter\IeC {\'\i }sticas personales de los l\IeC {\'\i }deres}}{17}{subsection.2.2.3}
-\contentsline {section}{\tocsection {}{2.3}{Resultados}}{17}{section.2.3}
-\contentsline {chapter}{\tocchapter {}{3}{COMERCIO INTERNACIONAL Y PERSONALIDAD}}{20}{chapter.3}
-\contentsline {section}{\tocsection {}{3.1}{Los Cinco Grandes}}{21}{section.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{Introducci\'on}}{21}{subsection.3.1.1}
-\contentsline {subsection}{\tocsubsection {}{3.1.2}{Los Cinco Grandes y el comercio internacional}}{22}{subsection.3.1.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{Extraversi\'on}}{23}{subsection.3.1.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{Responsabilidad}}{24}{subsection.3.1.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{Amabilidad}}{25}{subsection.3.1.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{Apertura al cambio}}{26}{subsection.3.1.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{Inestabilidad emocional}}{26}{subsection.3.1.2}
-\contentsline {section}{\tocsection {}{3.2}{Midiendo los Cinco Grandes}}{26}{section.3.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{27}{subsection.3.2.1}
-\contentsline {subsection}{\tocsubsection {}{3.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{28}{subsection.3.2.2}
-\contentsline {subsection}{\tocsubsection {}{3.2.3}{Dos posibles objeciones}}{31}{subsection.3.2.3}
-\contentsline {subsection}{\tocsubsection {}{3.2.4}{Estad\IeC {\'\i }sticas de resumen}}{32}{subsection.3.2.4}
-\contentsline {section}{\tocsection {}{3.3}{Resultados}}{36}{section.3.3}
-\contentsline {subsection}{\tocsubsection {}{3.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{36}{subsection.3.3.1}
-\contentsline {subsection}{\tocsubsection {}{3.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{42}{subsection.3.3.2}
-\contentsline {section}{\tocsection {}{3.4}{An\'alisis de robustez}}{47}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Robustez de los estimadores de personalidad}}{48}{subsection.3.4.1}
-\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{49}{subsection.3.4.2}
-\contentsline {subsection}{\tocsubsection {}{3.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{52}{subsection.3.4.3}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONES}}{55}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{57}{chapter.4}
-\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{74}{chapter.1}
+\contentsline {section}{\tocsection {}{1.1}{Antecedentes Generales}}{1}{section.1.1}
+\contentsline {section}{\tocsection {}{1.2}{Definici\'on del Problema}}{1}{section.1.2}
+\contentsline {section}{\tocsection {}{1.3}{Hip\'otesis}}{1}{section.1.3}
+\contentsline {section}{\tocsection {}{1.4}{Objetivos}}{1}{section.1.4}
+\contentsline {section}{\tocsection {}{1.5}{Alcances}}{1}{section.1.5}
+\contentsline {section}{\tocsection {}{1.6}{Metodolog\IeC {\'\i }a de Investigaci\'on}}{1}{section.1.6}
+\contentsline {section}{\tocsection {}{1.7}{Estructura de la Memoria}}{1}{section.1.7}
+\contentsline {chapter}{\tocchapter {}{2}{REVISI\'ON BIBLIOGR\'AFICA}}{2}{chapter.2}
+\contentsline {section}{\tocsection {}{2.1}{L\IeC {\'\i }deres y desarrollo}}{2}{section.2.1}
+\contentsline {section}{\tocsection {}{2.2}{L\IeC {\'\i }deres y comercio internacional}}{4}{section.2.2}
+\contentsline {section}{\tocsection {}{2.3}{\IeC {\textquestiondown }La personalidad importa?}}{5}{section.2.3}
+\contentsline {chapter}{\tocchapter {}{3}{COMERCIO INTERNACIONAL: \IeC {\textquestiondown }LOS L\'IDERES IMPORTAN?}}{8}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Descripci\'on del Modelo Econom\'etrico}}{9}{section.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Implementaci\'on del test de Wald}}{13}{subsection.3.1.1}
+\contentsline {section}{\tocsection {}{3.2}{Datos}}{14}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.1}{Crecimiento del comercio internacional}}{14}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{3.2.2}{L\IeC {\'\i }deres en la muestra}}{15}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{3.2.3}{Caracter\IeC {\'\i }sticas personales de los l\IeC {\'\i }deres}}{18}{subsection.3.2.3}
+\contentsline {section}{\tocsection {}{3.3}{Resultados}}{18}{section.3.3}
+\contentsline {chapter}{\tocchapter {}{4}{COMERCIO INTERNACIONAL Y PERSONALIDAD}}{21}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{Los Cinco Grandes}}{22}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Introducci\'on}}{22}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Los Cinco Grandes y el comercio internacional}}{23}{subsection.4.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Extraversi\'on}}{24}{subsection.4.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Responsabilidad}}{25}{subsection.4.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Amabilidad}}{26}{subsection.4.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Apertura al cambio}}{27}{subsection.4.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Inestabilidad emocional}}{27}{subsection.4.1.2}
+\contentsline {section}{\tocsection {}{4.2}{Midiendo los Cinco Grandes}}{27}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Mu\'estrame c\'omo escribes y te dir\'e qui\'en eres}}{28}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{4.2.2}{De discursos pol\IeC {\'\i }ticos a los Cincos Grandes}}{29}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.3}{Dos posibles objeciones}}{32}{subsection.4.2.3}
+\contentsline {subsection}{\tocsubsection {}{4.2.4}{Estad\IeC {\'\i }sticas de resumen}}{33}{subsection.4.2.4}
+\contentsline {section}{\tocsection {}{4.3}{Resultados}}{37}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Factores de personalidad y crecimiento del comercio internacional}}{37}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{\IeC {\textquestiondown }Cu\'al es el factor m\'as importante?}}{43}{subsection.4.3.2}
+\contentsline {section}{\tocsection {}{4.4}{An\'alisis de robustez}}{48}{section.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.4.1}{Robustez de los estimadores de personalidad}}{49}{subsection.4.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.4.2}{Relaci\'on con otras caracter\IeC {\'\i }sticas personales}}{50}{subsection.4.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.4.3}{Crecimiento del comercio internacional y personalidad de los sucesores}}{53}{subsection.4.4.3}
+\contentsline {chapter}{\tocchapter {}{5}{CONCLUSIONES}}{56}{chapter.5}
+\contentsline {chapter}{\tocchapter {}{}{BIBLIOGRAFIA}}{58}{chapter.5}
+\contentsline {chapter}{\tocchapter {ANEXO}{A}{LISTA DE L\'IDERES EN LA MUESTRA}}{72}{chapter.1}

@@ -1,8 +1,8 @@
-%% $Id: pucthesis.cls,v 1.1 2007/05/07 20:26:12 mtorrest Exp $
+%% $Id: pucthesis.cls,v 1.3 2009/01/21 02:08:55 mtorrest Exp $
 %%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{puctesis}[2007/05/07 v1.1 PUC Thesis class]
+\ProvidesClass{puctesis}[2009/01/21 v1.3 PUC Tesis class]
 \wlog{+-------------------------------------------------------------+}
 \wlog{| Miguel Torres-Torriti <Apr 2007>: Modified from UdeM thesis |}
 \wlog{+-------------------------------------------------------------+}
@@ -10,9 +10,10 @@
 \setcounter{errorcontextlines}{5} %% For debugging
 
 %------------------------------------------------------------------------------
-% Beginning of pucthesis.cls  25-June-2008  v. 1.2
-%                             07-May-2007   v. 1.1
-%                             04-April-2007 v. 1.0
+% Beginning of puctesis.cls  21-Jan-2009   v. 1.3
+%                            25-June-2008  v. 1.2
+%                            07-May-2007   v. 1.1
+%                            04-April-2007 v. 1.0
 %
 %
 % Modified version of the original:
@@ -27,10 +28,10 @@
 %
 % Instructions:
 %
-%   -- In a document file, use \documentclass{pucthesis}.
+%   -- In a document file, use \documentclass{puctesis}.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% pucthesis is based on the amsbook style.  Pass all the options to amsbook
+%% puctesis is based on the amsbook style.  Pass all the options to amsbook
 %% for processing.
 
 \PassOptionsToClass{oneside}{amsbook}
@@ -66,11 +67,11 @@
 %% leftmargin = 38mm - 1in = 38mm - 24.5mm = 12.6mm
 %% rightmargin = 1in - 1in = 0mm
 %%
-\if@twoside %\ClassWarning{pucthesis}{--- TWO SIDED ---}
+\if@twoside %\ClassWarning{puctesis}{--- TWO SIDED ---}
 \oddsidemargin 12.6mm
 \evensidemargin 0mm
-\else %\ClassWarning{pucthesis}{--- ONE SIDED ---}
-\oddsidemargin 12.6mm  % 38mm - 1in = 38mm  - 25.4mm = 12.6 mm
+\else %\ClassWarning{puctesis}{--- ONE SIDED ---}
+\oddsidemargin 12.6mm  % 40mm - 1in = 38mm  - 25.4mm = 12.6 mm
 \evensidemargin\oddsidemargin
 \fi
 
@@ -112,11 +113,11 @@
 %\RequirePackage[pdftex]{graphicx}
 %\psfig{file=graphs/liemotion/lieexa.ps,scale=0.74}
 
-% hyperref must be loaded before apacite! (MTT.2012.06.20)
-% otherwise you will get error. 
-%  ! Undefined control sequence.
-%  \hyper@@link ->\let \Hy@reserved@a
-%  ...
+%% hyperref must be loaded before apacite! (MTT.2012.06.20)
+%% otherwise you will get error. 
+%%  ! Undefined control sequence.
+%%  \hyper@@link ->\let \Hy@reserved@a
+%%  ...
 \RequirePackage{hyperref}
 \hypersetup{
 %    bookmarks=true,         % show bookmarks bar?
@@ -133,14 +134,13 @@
 %    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
     pdfnewwindow=true,      % links in new window
     colorlinks=true,       % false: boxed links; true: colored links
-    linkcolor=black,          % color of internal links
-    citecolor=black,        % color of links to bibliography
-    filecolor=vlack,      % color of file links
-    urlcolor=black           % color of external links
+    linkcolor=red,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
 }
 
 %% APA-style REFERENCES 2007.06.22
-\RequirePackage{hyperref}
 \RequirePackage{apacite}
 \renewcommand\newblock{\hspace{.7ex}}% Required because definition of
                                     % \bewblock in apacite.sty does not
@@ -173,12 +173,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
 %--add listoffigures and listoftables and use amsbook
-\def\contentsname{TABLE OF CONTENTS}    
-\def\listfigurename{LIST OF FIGURES}
-\def\listtablename{Índice de Tablas}
+\def\contentsname{INDICE GENERAL}
+\def\listfigurename{INDICE DE FIGURAS}
+\def\listtablename{INDICE DE TABLAS}
 
-\def\proofname{Proof}
-\def\chaptername{}%CHAPTER}
+\def\proofname{Demostraci\'on}
+\def\chaptername{}%CAPITULO}
 \def\thechapter{\@arabic\c@chapter} % Number chapters with arabic numerals.
 \def\appendix{\par%
   \c@chapter\z@ \c@section\z@%
@@ -237,7 +237,6 @@
 %%%
 %%% CHAPTER TITLES
 %%%
-
 \def\@chapter[#1]#2{\refstepcounter{chapter}%
   \ifnum\c@secnumdepth<\z@ \let\@secnumber\@empty
   \else \let\@secnumber\thechapter \fi
@@ -275,6 +274,20 @@
     \secdef\@chapter\@schapter}}
 
 %-----------------------
+%  add a switch to eliminate page numbers on first
+%  chapter page  by making \thispagestyle{empty}
+%  and get centered numbers 
+%       modif. 21.01.2009 MTT
+%
+\def\NoChapterPageNumberCentered{%
+%  \def\chapter{\cleardoublepage \thispagestyle{empty} \pagestyle{headings}
+  \def\chapter{\cleardoublepage \thispagestyle{onlycenteredpagenumber} \pagestyle{headingscentered}
+    \global\@topnum\z@
+    %\@afterindentfalse % modif. 26.06.07 MTT - Uncomment to remove indent
+                        % in the first after the beginning of each chapter.
+    \secdef\@chapter\@schapter}}
+
+%-----------------------
 %  modify \chapter to put page numbers on top RHS of all
 %  pages by changing  \thispagestyle{headings} 
 %       modification: 17-aug-93
@@ -306,9 +319,8 @@
 %   Back to square one... lowering standards as requested by the ORGS. :(
 %   Replaced \large for nothing (normalfont), since PUC Thesis Guidelines 
 %   require \normalfont size to be 12pt.  
-
 \def\@makechapterhead#1{\global\topskip 0pc\relax
-  \begingroup\large\normalfont\bfseries%\centering % originally \Large
+  \begingroup\normalfont\bfseries%\large%\centering % originally \Large
 %%                               % modif. 26.06.07 MTT
 %%    \ifnum\c@secnumdepth>\m@ne
 %%      \leavevmode \hskip-\leftskip
@@ -319,18 +331,18 @@
 %%  \uppercase\expandafter{\bfseries\LARGE\chaptername}\enspace \thechapter} %chapterfont
  %   \uppercase\expandafter{\bfseries\LARGE\thechapter. #1}\enspace}%
   \ifx \chaptername\empty%
-  \settowidth{\auxdist}{\bfseries\large % modif. 26.06.07 MTT
-                                  \thechapter. \enspace}%
+  \settowidth{\auxdist}{\bfseries%\large % modif. 26.06.07 MTT
+                                  \thechapter.\enspace}%
   \addtolength{\auxdist}{-\textwidth}%  
   \setlength{\auxdist}{-\auxdist}%
   {\noindent\bfseries%\large % modif. 26.06.07 MTT
   \thechapter.\enspace\parbox[t]{\auxdist}{\uppercase{#1}}}%
   \else%
-  \settowidth{\auxdist}{\bfseries\large % modif. 26.06.07 MTT
+  \settowidth{\auxdist}{\bfseries%\large % modif. 26.06.07 MTT
                                   \chaptername\space \thechapter.\enspace}%
-  \addtolength{\auxdist}{-\textwidth}% 
+  \addtolength{\auxdist}{-\textwidth}%  
   \setlength{\auxdist}{-\auxdist}%
-  {\noindent\bfseries\large % modif. 26.06.07 MTT
+  {\noindent\bfseries%\large % modif. 26.06.07 MTT
    \chaptername\space \thechapter.\enspace\parbox[t]{\auxdist}{\uppercase{#1}}}%
   \fi%
   \enspace}%
@@ -344,12 +356,11 @@
 %---------------
 \par
 \endgroup
-
-  \skip@16\p@ \advance\skip@-\normalbaselineskip   %%%¥was 55, then 36, now 16
-  \vskip\skip@  }
+  \skip@16\p@ \advance\skip@-\normalbaselineskip   %%%Â¥was 55, then 36, now 16
+  \vskip\skip@ }
 
 \def\@makeschapterhead#1{\global\topskip 0pc\relax
-  \begingroup\normalfont\bfseries\large% modif. 26.06.07 MTT
+  \begingroup\normalfont\bfseries%\large% modif. 26.06.07 MTT
   \centering\uppercase{#1}% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%   left justify chapter head the next 5 lines replaces
@@ -366,7 +377,7 @@
         \else
 \ifx#1\bibname\skip@36\p@
          \else
-                 \skip@36\p@ %%%¥was 55
+                 \skip@36\p@ %%%Â¥was 55
         \fi
   \fi
 \advance\skip@-\normalbaselineskip
@@ -491,18 +502,36 @@
 %% \pagestyle{onlypagenumber} MTT modif. 07.05.2007 for PUC Thesis
 %%
 \def\ps@onlypagenumber{\ps@empty
-  %\def\@oddfoot{\normalsize\hfil\llap{\thepage}}
-  %\def\@evenfoot{\normalsize\rlap{\thepage}{}{}\hfil}}%
-\def\@oddhead{\normalsize\hfil\llap{\lowercase{\thepage}}}
-\def\@evenhead{\normalsize\rlap{\lowercase{\thepage}}{}{}\hfil}}
+  \def\@oddfoot{\normalsize\hfil\llap{\thepage}}
+  \def\@evenfoot{\normalsize\rlap{\thepage}{}{}\hfil}}%
+%%
+%% \pagestyle{onlycenteredpagenumber} MTT modif. 21.01.2009 for PUC Thesis
+%%
+\def\ps@onlycenteredpagenumber{\ps@empty
+  \def\@oddfoot{\normalsize\hfil{\thepage}\hfil}
+  \def\@evenfoot{\normalsize\hfil{\thepage}\hfil}}%
 %%
 %% \pagestyle{headings}
 %%
 \def\ps@headings{\ps@empty
-  %\def\@oddfoot{\normalsize\hfil\llap{\thepage}}
-  %\def\@evenfoot{\normalsize\rlap{\thepage}{}{}\hfil}
-  \def\@oddhead{\normalsize\hfil\llap{\lowercase{\thepage}}}
-  \def\@evenhead{\normalsize\rlap{\lowercase{\thepage}}{}{}\hfil}
+  \def\@oddfoot{\normalsize\hfil\llap{\thepage}}
+  \def\@evenfoot{\normalsize\rlap{\thepage}{}{}\hfil}
+%% modif. 18.May.2007, by Miguel Torres-Torriti:
+%% Disabled even/odd, part, chapter, section head marks to
+%% to comply with PUC Thesis Guidelines.
+%%%  \def\@evenhead{\Small\rlap{\leftmark}\hfil}
+%%%  \def\@oddhead{\Small\hfil{\rightmark}}
+  \let\@mkboth\markboth
+%%%  \def\partmark{\@secmark\markboth\partrunhead\partname}%
+%%%  \def\chaptermark{\@secmark\markboth\chapterrunhead\chaptername}%
+%%%  \def\sectionmark{\@secmark\markright\sectionrunhead\sectionname}%
+  }%
+%%
+%% \pagestyle{headingscentered} MTT modif. 21.01.2009 for PUC Thesis
+%%
+\def\ps@headingscentered{\ps@empty
+  \def\@oddfoot{\normalsize\hfil{\thepage}\hfil}
+  \def\@evenfoot{\normalsize\hfil{\thepage}\hfil}
 %% modif. 18.May.2007, by Miguel Torres-Torriti:
 %% Disabled even/odd, part, chapter, section head marks to
 %% to comply with PUC Thesis Guidelines.
@@ -595,7 +624,7 @@
 %
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\def\refname{REFERENCES}
+\def\refname{BIBLIOGRAFIA}
 \def\bibname{}      
 %      Change the font of `References' head.
 \def\thebibliography#1{\vspace{1pc}
@@ -606,8 +635,7 @@
   \@tempa
   \normalfont\labelsep .5em\relax
   \list{[\@arabic\c@enumi]\quad}{\settowidth\labelwidth{[#1]\quad}%
-  %\itemsep \baselineskip %MTT 2008.06.25
-  \itemsep 0.5\baselineskip %MTT 2010.05.14
+  \itemsep \baselineskip %MTT 2008.06.25
   \leftmargin\labelwidth \advance\leftmargin\labelsep
   \usecounter{enumi}}%
   \sloppy 
@@ -695,7 +723,8 @@
        \rule[0pt]{\auxdist}{.5pt}
        }%end centering
      } %end vtop
-  \vskip65\p@\@plus10\p@
+  %\vskip105\p@\@plus24\p@
+  \vskip85\p@\@plus24\p@
   %%
   %% Title
   %%
@@ -743,9 +772,7 @@
       \parbox[t]{.75\textwidth}{
       \noindent
       Memoria para optar al t\'itulo de\\
-          Ingeniero Civil de Industrias,
-            \\ 
-      con Diploma en Ingenier\'ia Matem\'atica}%end parbox
+      \ifx\@empty\@degree {.........}\else\@degree\fi}%end parbox
       }%end centering
     }
   \vskip10\p@\@plus14\p@
@@ -760,7 +787,7 @@
       \noindent
       Profesor Supervisor:\\
       {%\large 
-      \bfseries\ifx\@empty\@advisor {.........}\else{\uppercase\@advisor}\fi}}%end parbox
+      \ifx\@empty\@advisor {.........}\else{\uppercase\@advisor}\fi}}%end parbox
       }%end centering
     }
   \vskip5\p@\@plus14\p@
@@ -772,7 +799,7 @@
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
   \noindent
-  \rm Santiago de Chile, 2014
+  \rm Santiago de Chile, \ifx\@empty\@date {\MoYr}\else\@date\fi
   }%end parbox
   \vskip5\p@\@plus14\p@
   %\vfill
@@ -787,7 +814,7 @@
 %% Repreat title page, but now include all committee members.
 %%
 %%
-\clearpage  \thispagestyle{empty}  
+\cleardoublepage  \thispagestyle{empty}  
 \begingroup
   \normalfont\normalsize
   \topskip0\p@  % 
@@ -852,7 +879,8 @@
        \rule[0pt]{\auxdist}{.5pt}
        }%end centering
      } %end vtop
-  \vskip45\p@\@plus5\p@
+  %\vskip105\p@\@plus24\p@
+  \vskip75\p@\@plus24\p@
   %%
   %% Title
   %%
@@ -870,7 +898,7 @@
      % \global\dimen@i\prevdepth
      }%end vtop
   \prevdepth\dimen@i
-  \vskip45\p@%
+  \vskip65\p@%
   %%
   %% Author(s)
   %%
@@ -889,7 +917,7 @@
    %}%end parbox
    \prevdepth\dimen@i
   \fi
-  \vskip5\p@\@plus5\p@
+  \vskip15\p@\@plus12\p@
   %%
   %% Members of the Committee
   %%
@@ -910,7 +938,7 @@
       }%end parbox
       }%end centering
     }
-  \vskip2\p@\@plus5\p@
+  \vskip5\p@\@plus14\p@
   %%
   %% Blah, Blah...
   %%
@@ -920,13 +948,11 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
       \noindent
-      Para completar las exigencias del t\'itulo de\\ 
-      Ingeniero Civil de Industrias,
-      \\ 
-      con Diploma en Ingenier\'ia Matem\'atica}%end parbox
+      Para completar las exigencias del t\'itulo de\\
+      \ifx\@empty\@degree {.........}\else\@degree\fi}%end parbox
       }%end centering
     }
-  \vskip5\p@\@plus10\p@
+  \vskip10\p@\@plus14\p@
   %%
   %% The date
   %%
@@ -934,15 +960,15 @@
   \vfill
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
-  	\noindent
-  	\rm Santiago de Chile, 2014
+  \noindent
+  \rm Santiago de Chile, \ifx\@empty\@date {\MoYr}\else\@date\fi
   }%end parbox
-  \vskip5\p@\@plus10\p@
+  \vskip5\p@\@plus14\p@
   %\vfill
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
-  	\noindent
-  	\copyrightline}%end parbox
+  \noindent
+  \copyrightline}%end parbox
 \endgroup
 \clearpage  \thispagestyle{empty}
 %% %
@@ -981,7 +1007,7 @@
 \school{ESCUELA DE INGENIERIA} % originally \large
 %
 \def\facultyto#1{\def\@facultyto{{\normalfont\rm#1}}}
-\facultyto{{\rm Escuela de Ingeniería}}
+\facultyto{{\rm Escuela de Ingenier\'ia}}
 %
 \def\department#1{\def\@department{{\normalfont\rm#1}}}
 \def\@department{}
@@ -1050,7 +1076,7 @@
   \@maketitle
   \endgroup
   \andify\shortauthors
-  \thispagestyle{headings}%             %¥modification 17-aug-93
+  \thispagestyle{headings}%             %Â¥modification 17-aug-93
   \c@footnote\z@
 %
 %  the following commands free up memory for small systems
@@ -1059,8 +1085,8 @@
 %
   \def\do##1{\let##1\relax}%
   \do\maketitle \do\@maketitle
-% \do\title \do\@xtitle \do\@title      %¥modification
-% \do\author \do\@xauthor \do\@authors  %¥modification
+% \do\title \do\@xtitle \do\@title      %Â¥modification
+% \do\author \do\@xauthor \do\@authors  %Â¥modification
   \do\address \do\@xaddress
   \do\email \do\@xemail \do\curraddr \do\@xcurraddr
 %
@@ -1078,7 +1104,7 @@
 % this is for hanging indent of turn lines in current address
 \newbox\checkbox
 \setbox\checkbox=\hbox{{\ignorespaces\footnotesize\it
-                \indent Current address}:\ }
+                \indent Direcci\'on actual}:\ }
 
 %% v1.0
 %%
@@ -1099,11 +1125,11 @@
     \@ifnotempty{##1}{(\ignorespaces##1\unskip) }%
     {\noindent \scshape\ignorespaces##2}\par\endgroup}%
   \def\curraddr##1##2{\begingroup
-    \@ifnotempty{##2}{\nobreak\indent{\itshape Current address}%
+    \@ifnotempty{##2}{\nobreak\indent{\itshape Direcci\'on actual}%
       \@ifnotempty{##1}{, \ignorespaces##1\unskip}\/:\space
       ##2\par\endgroup}}%
   \def\email##1##2{\begingroup
-    \@ifnotempty{##2}{\nobreak\indent{\itshape E-mail address}%
+    \@ifnotempty{##2}{\nobreak\indent{\itshape E-mail}%
       \@ifnotempty{##1}{, \ignorespaces##1\unskip}\/:\space
       \ttfamily##2\par\endgroup}}%
   \addresses
@@ -1128,23 +1154,23 @@
 %------------------------------- 
 \def\today{\number\day\space%           Day month and year
     \ifcase\month
-    \or January\or February\or March\or April\or May\or June%
-    \or July\or August\or September\or October\or November\or December%
+    \or Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio%
+    \or Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre%
     \fi%
     \space\number\year}%
 %------------------------------- 
 \def\Month{%
     \ifcase\month
-    \or January\or February\or March\or April\or May\or June%
-    \or July\or August\or September\or October\or November\or December%
+    \or Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio%
+    \or Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre%
     \fi}%
 %------------------------------- 
 \def\Year{\number\year}
 %===================================================FRENCH 
 \def\MoYr{%
     \ifcase\month
-    \or January\or February\or March\or April\or May\or June%
-    \or July\or August\or September\or October\or November\or December%
+    \or Enero\or Febrero\or Marzo\or Abril\or Mayo\or Junio%
+    \or Julio\or Agosto\or Septiembre\or Octubre\or Noviembre\or Diciembre%
     \fi%
     \space\number\year}%
 %------------------------------- 
@@ -1208,7 +1234,7 @@
 %%%%  Usage: 
 %%%%    \verbinput{myfile.tex}
 %------------------------------- 
-
+ 
 \def\verbinputx[#1]#2{%
 % Start a group to keep catcode changes localized.
   \begingroup
@@ -1232,7 +1258,6 @@
 %%%%  \tiny, \footnotesize, \scriptsize, \small, \normalsize, \large, etc.
 %------------------------------- 
 
- 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -1278,7 +1303,7 @@
 %============================================================
 % The following lines seem to have been inherited from amsart.sty 
 % ver. 1.1b", 31-JUL-1991.  The line \def\global does not have
-% any sense and produces clashes with apacite ver. 4 2007.
+% any sense and produces clashes with apa ver. 4 2007.
 % Thanks must go to Erik Meijer, author of apacite who figured
 % out were the problem was.
 % MTT 2008.12.12
@@ -1298,5 +1323,5 @@
 
 \endinput
 %------------------------------------------------------------------------------
-% End of pucthesis.cls
+% End of puctesis.cls
 %------------------------------------------------------------------------------

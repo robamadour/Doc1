@@ -84,7 +84,8 @@
 \footskip=30pt
 \headheight=7pt
 
-\normalparindent=21\p@
+%\normalparindent=21\p@
+\normalparindent=41\p@
 \parindent=\normalparindent
 \parskip=5pt
 
@@ -772,7 +773,7 @@
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
   \noindent
-  \rm Santiago de Chile, 2014
+  \rm Santiago de Chile, 2016
   }%end parbox
   \vskip5\p@\@plus14\p@
   %\vfill
@@ -935,7 +936,7 @@
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
   	\noindent
-  	\rm Santiago de Chile, 2014
+  	\rm Santiago de Chile, 2016
   }%end parbox
   \vskip5\p@\@plus10\p@
   %\vfill
